@@ -3,6 +3,12 @@
 import { Footer } from './components/Footer/Footer';
 import { Navigation } from './components/Navigation/Navigation';
 import { useState, useEffect } from 'react';
+import { PhotoLink } from './components/PhotoLink/PhotoLink';
+// import { PhotosLinkRow } from './components/PhotosLinkRow/PhotosLinkRow';
+import { PhotosLinkRow } from './components/PhotosLinkRow/PhotosLinkRow';
+import { OfficeSixIcons } from './components/OfficeSixIcons/OfficeSixIcons';
+import { OrtoBanner } from './components/OrtoBanner/OrtoBanner';
+import { OrtoServices } from './components/OrtoServices/OrtoServices';
 
 const Home = () => {
   const [deviceType, setDeviceType] = useState('desktop');
@@ -37,7 +43,10 @@ const Home = () => {
 
   return (
     <div>
-      <main></main>
+      <OrtoServices />
+      <OrtoBanner />
+      <OfficeSixIcons />
+      <PhotosLinkRow />
     </div>
   );
 };

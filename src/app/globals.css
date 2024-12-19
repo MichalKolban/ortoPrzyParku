@@ -14,8 +14,17 @@
   }
 }
 
+.montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.mainWrapper {
+  padding-top: 110px;
+}
+
 html,
 body {
+  height: 200vh;
   max-width: 100vw;
   overflow-x: hidden;
   font-family: Montserrat, serif;

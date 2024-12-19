@@ -43,6 +43,8 @@
 }
 
 .box {
+  cursor: default;
+
   @media screen and (width >= 375px) and (width <= 800px) {
     margin: 10px 0;
     max-width: 300px;
@@ -117,7 +119,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-width: 380px;
+    min-width: 360px;
     font-weight: 500;
   }
 
@@ -157,7 +159,8 @@
 .singleLink {
   @media screen and (width >= 375px) and (width <= 800px) {
     margin: 10px 0;
-    font-size: 17px;
+    font-size: 15px;
+    width: 100%;
     border: 2px solid var(--darkBlue);
     padding: 10px;
     border-radius: 13px;
@@ -169,7 +172,7 @@
 
 .ortoLink {
   @media screen and (width >= 375px) and (width <= 800px) {
-    width: 170px;
+    width: 160px;
     text-align: center;
   }
 }
