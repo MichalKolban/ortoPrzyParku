@@ -19,35 +19,35 @@ const Home = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const checkWindowSize = () => {
-    if (typeof window !== 'undefined') {
-      const windowWidth = window.innerWidth;
-      if (windowWidth >= 1024) {
-        setDeviceType('desktop');
-      } else if (windowWidth >= 768 && windowWidth < 1024) {
-        setDeviceType('tablet');
-      } else {
-        setDeviceType('mobile');
-      }
-    }
-  };
+  // const checkWindowSize = () => {
+  //   if (typeof window !== 'undefined') {
+  //     const windowWidth = window.innerWidth;
+  //     if (windowWidth >= 1024) {
+  //       setDeviceType('desktop');
+  //     } else if (windowWidth >= 768 && windowWidth < 1024) {
+  //       setDeviceType('tablet');
+  //     } else {
+  //       setDeviceType('mobile');
+  //     }
+  //   }
+  // };
 
-  useEffect(() => {
-    checkWindowSize(); // Pierwsze sprawdzenie po załadowaniu komponentu
-    // Nasłuchuj zmian rozmiaru okna
-    window.addEventListener('resize', checkWindowSize);
-    return () => {
-      window.removeEventListener('resize', checkWindowSize); // Usuń nasłuchiwacz przy unmount
-    };
-  }, []);
+  // useEffect(() => {
+  //   checkWindowSize(); // Pierwsze sprawdzenie po załadowaniu komponentu
+  //   // Nasłuchuj zmian rozmiaru okna
+  //   window.addEventListener('resize', checkWindowSize);
+  //   return () => {
+  //     window.removeEventListener('resize', checkWindowSize); // Usuń nasłuchiwacz przy unmount
+  //   };
+  // }, []);
 
   return (
-    <div>
+    <>
       <OrtoServices />
       <OrtoBanner />
       <OfficeSixIcons />
       <PhotosLinkRow />
-    </div>
+    </>
   );
 };
 
