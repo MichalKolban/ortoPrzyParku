@@ -1,0 +1,69 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  gap: 50px;
+  justify-content: center;
+
+  @media screen and (width >= 375px) and (width <= 800px) {
+    display: none;
+  }
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  height: 100px;
+  /* width: 400px; */
+  width: 380px;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #cecece;
+}
+
+.box {
+  margin-left: 10px;
+}
+
+.column {
+  width: 75px;
+}
+
+.title {
+  /* text-align: center; */
+  color: var(--darkBlue);
+  font-weight: 600;
+}
+
+.titleHours {
+  text-align: center;
+}
+
+.firstRow {
+  color: var(--darkBlue);
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.secondRow {
+  width: 140px;
+  font-size: 11px;
+  height: 26px;
+}
+
+.columnBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+
+.dayOfWeek {
+  font-size: 11px;
+}
+
+.hours {
+  font-size: 11px;
+}

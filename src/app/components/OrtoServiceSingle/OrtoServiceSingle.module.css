@@ -153,8 +153,10 @@
   }
 
   @media screen and (width >= 800px) and (width <= 1024px) {
+    font-size: 14px;
   }
 
   @media screen and (width >= 1025px) {
+    font-size: 14px;
   }
 }

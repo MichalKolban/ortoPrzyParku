@@ -7,6 +7,7 @@ import { useState, useEffect } from 'react';
 import { Footer } from './components/Footer/Footer';
 import { Navigation } from './components/Navigation/Navigation';
 import { Montserrat } from 'next/font/google';
+import { MySign } from './components/MySign/MySign';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
@@ -43,6 +44,7 @@ export default function RootLayout({ children }) {
         <Navigation />
         <main className={'mainWrapper'}>{children}</main>
         <Footer />
+        <MySign />
       </body>
     </html>
   );

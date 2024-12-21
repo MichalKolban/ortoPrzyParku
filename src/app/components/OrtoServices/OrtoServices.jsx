@@ -10,7 +10,9 @@ import endodoncjaIcon from '../../../../public/icons/endodoncja.png';
 import protetykaIcon from '../../../../public/icons/protetyka.png';
 import implantyIcon from '../../../../public/icons/implanty.png';
 import stomatologiaZachowawczaIcon from '../../../../public/icons/stomatologiaZachowawcza.png';
+import arroRightIcon from '../../../../public/icons/arrowRightIcon.png';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export const OrtoServices = () => {
   return (
@@ -75,7 +77,13 @@ export const OrtoServices = () => {
         </OrtoServiceSingle>
       </div>
       <Link href={'/'} className={styles.btn}>
-        Poznaj Pełną Ofertę
+        <div>Poznaj Pełną Ofertę</div>
+        <Image
+          className={styles.arrowRightIcon}
+          src={arroRightIcon}
+          width={12}
+          height={17}
+        ></Image>
       </Link>
     </div>
   );
