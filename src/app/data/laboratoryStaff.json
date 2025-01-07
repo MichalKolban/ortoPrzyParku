@@ -1,0 +1,20 @@
+{
+  "laboratory": [
+    {
+      "id": 1,
+      "name": "MONIKA PIERÓG",
+      "icon": "/photos/team/defaultPersonIcon.png",
+      "photo": "",
+      "title": "pracownik labolatorium",
+      "description": "Dyplomowany technik dentystyczny. Ma doświadczenie w pracach techniczno- protetycznych, polegających na projektowaniu i obróbce protez dentystycznych w pracowni protetycznej. W naszym laboratorium dzięki technologii 3D specjalizuje się w tworzeniu indywidualnych aparatów ortodontycznych. Dodatkowo zajmuje się wykonywaniem estetycznych szyn alignerów. W wolnym czasie lubi spacerować po lesie oraz uprawiać sport. Interesuje się również modą."
+    },
+    {
+      "id": 2,
+      "name": "MAKSYM SHCHERBAKOV",
+      "icon": "/photos/team/maksymShcherbakovIcon.png",
+      "photo": "",
+      "title": "pracownik labolatorium",
+      "description": "Jest absolwentem Warszawskiego Uniwersytetu Medycznego z dyplomem technika dentystycznego. Od początku pracy zawodowej skupia się na dokładności i precyzji w wykonaniu aparatów ortodontycznych w naszym laboratorium. Swoją wiedzę systematycznie poszerza biorąc udział w licznych szkoleniach. Zaradność i zmysł techniczny nieustannie towarzyszy mi w pracy badawczo- rozwojowej by wprowadzać do naszej pracy innowacyjne rozwiązania techniczne. Interesuje się rozwojem osobistym, nowymi technologiami, kryptowalutami, muzyką i kalisteniką."
+    }
+  ]
+}

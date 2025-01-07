@@ -45,7 +45,7 @@
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
-    justify-content: center;
+    justify-content: centerkultur;
     vertical-align: baseline;
     width: 100vw;
     max-width: 1680px;
@@ -54,7 +54,7 @@
 
 .insideWrapper {
   max-width: 1280px;
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -103,10 +103,10 @@
     text-align: center;
     gap: 25px;
     position: absolute;
-    top: 76px;
+    top: 74px;
     right: -100%;
     width: 100vw;
-    height: calc(100vh - 76px);
+    height: calc(100vh - 74px);
     background-color: #3493cc;
     transition: right 1.2s ease;
     overflow-y: auto;

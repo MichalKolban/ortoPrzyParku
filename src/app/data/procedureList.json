@@ -1,0 +1,689 @@
+{
+  "Ortodoncja": [
+    {
+      "id": 1,
+      "category": "Diagnostyka ortodontyczna",
+      "icon": "/icons/diagnostykaOrto.png",
+      "dimensions": [60, 50],
+      "items": [
+        { "id": 1, "name": "Wizyta kontrolna", "price": 220 },
+        { "id": 2, "name": "Wizyta kontrolna dr Zaleska", "price": 330 },
+        {
+          "id": 3,
+          "name": "Przygotowanie planu leczenia ortodontycznego (zebranie danych i omówienie planu leczenia)",
+          "price": 550
+        },
+        {
+          "id": 4,
+          "name": "Przygotowanie planu leczenia operacyjnego (zebranie danych i omówienie planu leczenia)",
+          "price": 1350
+        },
+        {
+          "id": 5,
+          "name": "Przygotowanie planu leczenia u pacjenta z dysfunkcjami stawów skroniowo-zuchwowych (zebranie danych i omówienie planu leczenia)",
+          "price": 1350
+        },
+        { "id": 6, "name": "Skan zębów", "price": 165 },
+        { "id": 7, "name": "Wydruk modeli zębowych", "price": 220 },
+        { "id": 8, "name": "Skan zębów + wydruk modeli", "price": 385 },
+        {
+          "id": 9,
+          "name": "Rejestracja zwarcia w artykulatorze",
+          "price": 550
+        },
+        { "id": 10, "name": "Wycisk do modeli zębowych", "price": 300 }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Aparaty stałe",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Aparat stały metalowy (jeden łuk zębowy)",
+          "price": 3000
+        },
+        { "id": 2, "name": "Aparat stały metalowy 2x4", "price": 1500 },
+        {
+          "id": 3,
+          "name": "Aparat stały ceramiczny (jeden łuk zębowy)",
+          "price": 4100
+        },
+        {
+          "id": 4,
+          "name": "Aparat stały ceramiczny bezligaturowy",
+          "price": 5100
+        },
+        {
+          "id": 5,
+          "name": "Aparat stały metalowy bezligaturowy",
+          "price": 3600
+        },
+        { "id": 6, "name": "Aparat stały tytanowy", "price": 4100 },
+        {
+          "id": 7,
+          "name": "Aparat do dystalizacji lub mezjalizacji zębów w szczęce oparty o 2 mikroimplanty podniebienne",
+          "price": 5500
+        },
+        {
+          "id": 8,
+          "name": "Aparat do poszerzenia szczęki MARPE oparty o 2 mikroimplanty",
+          "price": 4400
+        },
+        {
+          "id": 9,
+          "name": "Aparat do poszerzenia szczęki MARPE oparty o 2 mikroimplanty + konstrukcja do destalizacji/mezjalizacji/intruzji",
+          "price": 6600
+        },
+        {
+          "id": 10,
+          "name": "Aparat do poszerzenia szczęki MARPE oparty o 4 mikroimplanty",
+          "price": 5500
+        },
+        {
+          "id": 11,
+          "name": "Aparat do poszerzenia szczęki MARPE oparty o 4 mikroimplanty + konstrukcja do destalizacji/mezjalizacji/intruzji",
+          "price": 7700
+        },
+        {
+          "id": 12,
+          "name": "Wymiana śruby w aparacie MARPE na większą",
+          "price": 770
+        },
+        {
+          "id": 13,
+          "name": "Przerobienie aparatu podniebiennego opartego na mikroimplantach",
+          "price": 2200
+        },
+        { "id": 14, "name": "Expander", "price": 1650 },
+        { "id": 15, "name": "Konstrukcja do dystaliacji", "price": 2500 },
+        { "id": 16, "name": "Łuk Goshgarina", "price": 900 },
+        { "id": 17, "name": "Łuk jezykowy doginany", "price": 1200 },
+        { "id": 18, "name": "Łuk językowy drukowany", "price": 2200 },
+        { "id": 19, "name": "Mikroimplant", "price": 1100 },
+        {
+          "id": 20,
+          "name": "Aparat do szybkiego poszerzania szczęki RPE i Marco Rosa z pierścieniami prefabrykowaynmi",
+          "price": 1650
+        },
+        {
+          "id": 21,
+          "name": "Aparat do szybkiego poszerzania szczęki RPE i Marco Rosa z pierścieniami drukowanymi",
+          "price": 2000
+        },
+        {
+          "id": 22,
+          "name": "Aparat do szybkiego poszerzania szczęki RPE indywidualny konstrukcja z drukowanego metalu",
+          "price": 2750
+        },
+        { "id": 23, "name": "Lip bumper", "price": 900 },
+        { "id": 24, "name": "Quad-Helix", "price": 900 },
+        { "id": 25, "name": "Aparat Nance'a", "price": 1100 },
+        { "id": 26, "name": "Aparat Pendulum", "price": 1540 },
+        { "id": 27, "name": "Aparat Power Bar", "price": 1650 },
+        { "id": 28, "name": "Utrzymywacz przestrzeni spawany", "price": 770 },
+        {
+          "id": 29,
+          "name": "Utrzymywacz przestrzeni z drukowanego metalu",
+          "price": 1210
+        },
+        {
+          "id": 30,
+          "name": "Korona osłaniająca drukowana metalowa z zamkiem",
+          "price": 660
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Leczenie wizyta kontrolna",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Wizyta kontrola z aparatem stałym",
+          "price": 300
+        },
+        {
+          "id": 2,
+          "name": "Wizyta kontrola z aparatem zdejmowanym",
+          "price": 220
+        },
+        { "id": 3, "name": "Wymiana łuku w aparacie stałym", "price": 170 },
+        { "id": 4, "name": "Odsłonięcie zęba zatrzymanego", "price": 1100 },
+        { "id": 5, "name": "Mikropunkcje jedna okolica", "price": 200 },
+        {
+          "id": 6,
+          "name": "Mikropunkcje szwu podniebiennego",
+          "price": 1000
+        },
+        { "id": 7, "name": "Wizyta retencyjna", "price": 275 },
+        {
+          "id": 8,
+          "name": "Oczyszczanie zębów podczas wizyty ortodontycznej kontrolnej",
+          "price": 220
+        },
+        { "id": 9, "name": "Unieruchomienie zębów", "price": 110 }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Retencja",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Wizyta kontrolna", "price": 275 },
+        { "id": 2, "name": "Wymiana retainera na nowy", "price": 700 },
+        { "id": 3, "name": "Demontaz retainera", "price": 350 }
+      ]
+    },
+
+    {
+      "id": 5,
+      "category": "Materiały dodatkowe",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Gishygoo", "price": 60 },
+        { "id": 2, "name": "Wosk", "price": 15 },
+        { "id": 3, "name": "Pudełko ortodontyczne", "price": 35 },
+        { "id": 4, "name": "Wyciągi 1 op.", "price": 20 },
+        { "id": 5, "name": "Pasta edukacyjna", "price": 35 },
+        { "id": 6, "name": "Pasta usuwająca osad", "price": 40 },
+        {
+          "id": 7,
+          "name": "Pasta zmniejszająca odkładanie się płytki bakteryjnej",
+          "price": 35
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Badania rendgenowskie",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Tomografia CBCT z opisem (szczęka, zuchwa, stawy skoniowo-zuchwowe)",
+          "price": 330
+        },
+        { "id": 2, "name": "Tomografia CBCT (szczęka-zuchwa)", "price": 330 },
+        {
+          "id": 3,
+          "name": "Tomografia CBCT (stawów zuchowow-skroniowych",
+          "price": 330
+        },
+        { "id": 4, "name": "Zdjęcie pantomograficzne", "price": 110 },
+        { "id": 5, "name": "Zdjęcie cefalometryczne", "price": 110 },
+        { "id": 6, "name": "RTG zębów", "price": 70 }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "Higienizacja",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Instruktaz higieny przed rozpoczęciem leczenia ortodontycznego, oczyszczenie zębów, nauka szczotkowania zębów",
+          "price": "220-330"
+        },
+        {
+          "id": 2,
+          "name": "Wybarwianie biofilmu z oczyszczeniem zębów, instruktaz higieny",
+          "price": 220
+        },
+        { "id": 3, "name": "Skaling", "price": 220 },
+        { "id": 4, "name": "Piaskowanie", "price": 220 },
+        {
+          "id": 5,
+          "name": "Oczyszczanie zębów + skaling + piaskowanie",
+          "price": 440
+        },
+        { "id": 6, "name": "Fluoryzacja", "price": 275 }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "Aparaty zdejmowane",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Aparat Twin-Block", "price": 1800 },
+        { "id": 2, "name": "Aparat zdejmowany", "price": 1450 },
+        { "id": 3, "name": "Aparat zdejmowany czynnościowy", "price": 1800 },
+        { "id": 4, "name": "Płytoproteza", "price": 1550 },
+        { "id": 5, "name": "Headgear", "price": 1000 },
+        { "id": 6, "name": "Maska twarzowa", "price": 1000 },
+        { "id": 7, "name": "Przerobienie aparatu", "price": "od 500" },
+        { "id": 8, "name": "Naprawa aparatu", "price": 400 },
+        { "id": 9, "name": "Szyna deprogramacyja MAGO", "price": 2750 },
+        { "id": 10, "name": "Trainer", "price": 500 }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "demontaż",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Demontaż aparatu, oczyszanie zębów 1 łuk",
+          "price": 400
+        },
+        { "id": 2, "name": "Montaz rtainera 1 łuk", "price": 400 },
+        { "id": 3, "name": "Szyna retencyjna", "price": 400 },
+        {
+          "id": 4,
+          "name": "Szyna retencyjna z dostawionymi zębami",
+          "price": 550
+        },
+        { "id": 5, "name": "Aparat retencyjny zdejmowany", "price": 1100 },
+        {
+          "id": 6,
+          "name": "Aparat retencyjny z dostawionymi zębami",
+          "price": 1600
+        },
+        { "id": 7, "name": "Demontaż aparatu Hyrax", "price": 400 }
+      ]
+    },
+
+    {
+      "id": 10,
+      "category": "ALIGNERY - APARATY NAKŁADKOWE",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Invisalign", "price": 0 },
+        {
+          "id": 2,
+          "name": "Pakiet INVISALIGN FIRST (leczenie nakładkami w wieku dziecięcym)",
+          "price": 11000
+        },
+        {
+          "id": 3,
+          "name": "Pakier INVISALIGN COMPREHENSIVE - Aparat INVISALIGN pełne leczenie (nieograniczona ilość nakładek) z dostępem do Dental Monitoring przez cały okres leczenia",
+          "price": 26000
+        },
+        { "id": 4, "name": "ALIGNERY IN OFFICE", "price": 0 },
+        {
+          "id": 5,
+          "name": "(wykonywane przez Laboratorium Ortodontyczne Ortodoncji Przy Parku)",
+          "price": 0
+        },
+        {
+          "id": 6,
+          "name": "PAKIET IN OFFICE - keczenie aparatem nakładkowym In Office do Dental Monitoring przez cały okres leczenia i 2 lata retencji",
+          "price": 17600
+        },
+        {
+          "id": 7,
+          "name": "PAKIET IN OFFICE SMALL - Leczenie aparatem nakładkowym do 12 nakładek",
+          "price": 11000
+        },
+        {
+          "id": 8,
+          "name": "PAKIET FINISHING - Nakładki zastosowane podczas fazy finiszingu leczenia aparatami stałymi - jeden łuk zębowy",
+          "price": 1100
+        },
+        {
+          "id": 9,
+          "name": "PAKIET FINISHING - Nakładki zastosowane podczas fazy finiszingu leczenia aparatami stałymi - obydwa łuki zębowe",
+          "price": 2200
+        },
+        { "id": 10, "name": "Szyna z set-upem 1 szt.", "price": 500 },
+        {
+          "id": 11,
+          "name": "Wizyta kontrolna z aparatem nakładkowym",
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "Fizykoterapia",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Ozonowanie 1 zabieg", "price": 50 },
+        { "id": 2, "name": "Viofor 1 zabieg", "price": 50 }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "Awaria",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Połamany łuk", "price": 170 },
+        { "id": 2, "name": "Zagubiony zamek metalowy", "price": 220 },
+        { "id": 3, "name": "Zagubiony zamek ceramiczny", "price": 385 },
+        {
+          "id": 4,
+          "name": "Zagubiony zamek metalowy bezligaturowy",
+          "price": 330
+        },
+        {
+          "id": 5,
+          "name": "Zagubiony zamek ceramiczny bezligaturowy",
+          "price": 500
+        },
+        {
+          "id": 6,
+          "name": "Zagubiona śruba mocująca aparat podniebienny montowany na implantach",
+          "price": 275
+        },
+        {
+          "id": 7,
+          "name": "Zagubiony element konstrukcji aparatu podniebiennego montowanego na implantach",
+          "price": 275
+        },
+        { "id": 8, "name": "Awaria", "price": 100 }
+      ]
+    }
+  ],
+
+  "Stomatologia": [
+    {
+      "id": 13,
+      "category": "Porada lekarska",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Konsultacje, porady, przeglądy", "price": 220 },
+        { "id": 2, "name": "Wizyta adaptacyjna", "price": 220 }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "Stomatologia zachowawcza",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Wypełnienie zęba materiałem światłoutwardzalnym jednopowierzchniowe",
+          "price": 385
+        },
+        {
+          "id": 2,
+          "name": "Wypełnienie zęba materiałem światłoutwardzalnym dwupowierzchniowe",
+          "price": 495
+        },
+        {
+          "id": 3,
+          "name": "Wypełnienie zęba materiałem światłoutwardzalnym trzypowierzchniowe",
+          "price": 605
+        },
+        { "id": 4, "name": "Wypełnienie zęba mlecznego", "price": 330 },
+        { "id": 5, "name": "Impregnacja (kazda wizyta)", "price": 165 },
+        { "id": 6, "name": "Znieczulenie", "price": 110 },
+        { "id": 7, "name": "Ćwiek okołomiazgowy (Pins)", "price": 165 },
+        { "id": 8, "name": "Odbudowa zęba na wkładzie szklanym", "price": 660 },
+        { "id": 9, "name": "ICON 1 ząb", "price": 550 },
+        { "id": 10, "name": "ICON 6 zębów", "price": 1650 }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "Chirurgia stomatologiczna",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Ekstrakcja ze znieczuleniem", "price": 550 },
+        { "id": 2, "name": "Ekstrakcja z separacją", "price": 930 },
+        { "id": 3, "name": "Ekstrakcja zęba mlecznego", "price": 220 },
+        {
+          "id": 4,
+          "name": "Ekstrakcja zęba ósmego zatrzymanego w szczęce",
+          "price": 1320
+        },
+        {
+          "id": 5,
+          "name": "Ekstrakcja zęba ósmego zatrzymanego w zuchwie",
+          "price": 1650
+        },
+        { "id": 6, "name": "Szycie zębodołu", "price": 250 },
+        { "id": 7, "name": "Dłutowanie zęba", "price": 1100 },
+        { "id": 8, "name": "Resekcja wierzchołka korzenia", "price": 1100 },
+        { "id": 9, "name": "Podcięcie wędzidełka", "price": 660 },
+        { "id": 10, "name": "Nacięcie ropnia", "price": 275 },
+        { "id": 11, "name": "Opatrunek chirurgiczny", "price": 275 },
+        {
+          "id": 12,
+          "name": "Usunięcie torbieli + badanie histopatologiczne + ew. róznica za badanie - wycena indywidualna",
+          "price": 1100
+        },
+        {
+          "id": 13,
+          "name": "Usunięcie zmiany na policzku, wardze (torbiel, krwiak, polip,narośl) + badanie histopatopoligczne + ew. róznica za badanie - wycena indywidualna",
+          "price": 1100
+        },
+        { "id": 14, "name": "Odsłonięcie kła zatrzymanego", "price": 1100 }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "Implantologia",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Implantacja natychmiastwa Implant STRAUMANN - wycena indywidualna",
+          "price": 4400
+        },
+        { "id": 2, "name": "Implant STRAUMANN", "price": 3850 },
+        { "id": 3, "name": "Korona na implancie standard", "price": 3300 },
+        {
+          "id": 4,
+          "name": "Korona na implance pełnoceramiczna",
+          "price": 3850
+        },
+        { "id": 5, "name": "Odbudowa kości (augmentacja)", "price": 5500 },
+        {
+          "id": 6,
+          "name": "Podniesienie zatoki otwarte/zamknięte",
+          "price": "4900/2750"
+        },
+        { "id": 7, "name": "Śruba gojąca", "price": 275 },
+        { "id": 8, "name": "Łącznik indywidualny", "price": 1540 },
+        { "id": 9, "name": "Łącznik tymczasowy", "price": 550 },
+        { "id": 10, "name": "Korona tymczasowa", "price": 550 },
+        {
+          "id": 11,
+          "name": "Korona jedynka (praca indywidualna)",
+          "price": 4400
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "Periodontologia",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Root-planning 1 ćwiartka", "price": 550 },
+        {
+          "id": 2,
+          "name": "Curetage (kiretaz - skaling głęboki) - ćwiartka",
+          "price": 660
+        },
+        { "id": 3, "name": "Szyna Fiber-cor 3 punkty", "price": 1110 },
+        { "id": 4, "name": "Dostoswanie zęba w szynie", "price": 550 },
+        { "id": 5, "name": "Piaskowanie", "price": 220 },
+        { "id": 6, "name": "Opatrunek", "price": 275 },
+        {
+          "id": 7,
+          "name": "Przeszczep dziąsła FGG CTG - wycena indywidualna",
+          "price": 2200
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "Profilaktyka",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Lakowanie poszerzone", "price": 330 },
+        { "id": 2, "name": "Lakowanie 1 ząb", "price": 220 },
+        { "id": 3, "name": "Lakierowanie (2 łuki)", "price": 385 },
+        { "id": 4, "name": "Lakierowanie (1 ząb)", "price": 110 },
+        { "id": 5, "name": "Okłady z Tooth Mouse", "price": 275 },
+        { "id": 6, "name": "Okłady z Elmex zel", "price": 275 }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "Protetyka stomatologiczna",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Przygotowania planu leczenia protetycznego",
+          "price": 440
+        },
+        { "id": 2, "name": "Proteza akrylowa całkowita", "price": 3850 },
+        { "id": 3, "name": "Siatka", "price": 550 },
+        {
+          "id": 4,
+          "name": "Zęby specjanle IVOCLAR / MICHAŁ ANIOŁ",
+          "price": 1100
+        },
+        { "id": 5, "name": "Proteza częściowa (4-8 zębów)", "price": 3850 },
+        { "id": 6, "name": "Proteza szkieletowa", "price": 4400 },
+        { "id": 7, "name": "Proteza szkieletowa + zatrzaski", "price": 6050 },
+        { "id": 8, "name": "Podścielenie protezy", "price": 880 },
+        { "id": 9, "name": "Naprawa protezy", "price": 880 },
+        { "id": 10, "name": "Inlay/Onlay - porcelanowy złoty", "price": 3300 },
+        { "id": 11, "name": "Inlay/Onlay - kompozytowy", "price": 1100 },
+        { "id": 12, "name": "Licówka porcelanowa", "price": 2750 },
+        { "id": 13, "name": "Korona porcelanowa na metalu", "price": 1540 },
+        {
+          "id": 14,
+          "name": "Korona porcelanowa na metalu szlachetnym (stop złota 50%)",
+          "price": 3300
+        },
+        {
+          "id": 15,
+          "name": "Korona porcelanowa na metalu szlachetnym (stop złota 98%)",
+          "price": 3850
+        },
+        {
+          "id": 16,
+          "name": "Korona pełnoceramiczna EASY CROWN / ZIRRO",
+          "price": 3300
+        },
+        { "id": 17, "name": "Korona pełnoceramiczna CERCON", "price": 2750 },
+        {
+          "id": 18,
+          "name": "Preparacja korony (szlifowanie) / wyciski / skan",
+          "price": 330
+        },
+        { "id": 19, "name": "Korona tymczasowa (PROTEMP)", "price": 330 },
+        { "id": 20, "name": "Korona tymczasowa (AKRYL)", "price": 440 },
+        { "id": 21, "name": "Korona CAD-CAM", "price": 1100 },
+        { "id": 22, "name": "Wkład koronowo-korzeniowy", "price": 660 },
+        {
+          "id": 23,
+          "name": "Cementowanie korony (wykonana poza gabinetem)",
+          "price": 385
+        },
+        {
+          "id": 24,
+          "name": "Most na włóknie szklanym ADHEZYJNY",
+          "price": 3300
+        },
+        { "id": 25, "name": "Korona teleskopowa (komplet)", "price": 3300 }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "Endodoncja",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Wizyta z bólem, ekstyrpacja miazgi + RTG + znieczulenie",
+          "price": 550
+        },
+        {
+          "id": 2,
+          "name": "Leczenie kanałowe z wypełnieniem 1 kanału",
+          "price": 1100
+        },
+        {
+          "id": 3,
+          "name": "Leczenie kanałowe z wypełnieniem 2 kanałów",
+          "price": 2000
+        },
+        {
+          "id": 4,
+          "name": "Leczenie kanałowe z wypełnieniem 3 kanałów",
+          "price": 2750
+        },
+        {
+          "id": 5,
+          "name": "Leczenie kanałowe z wypełnieniem 4 kanałów",
+          "price": 3480
+        },
+        { "id": 6, "name": "Kazdy dodatkowy kanał", "price": 440 },
+        { "id": 7, "name": "Ponowne leczenie kanałowe", "price": "+50%" },
+        {
+          "id": 8,
+          "name": "Dodatkowa wizyta przy leczeniu re-endodontycznym",
+          "price": 385
+        },
+        {
+          "id": 9,
+          "name": "Usunięcie złamanego narzędzia z kanału - wycena indywidualna",
+          "price": 550
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "Estetyka",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        {
+          "id": 1,
+          "name": "Wybielanie zębów w gabinecie PREVDENT",
+          "price": 1320
+        },
+        {
+          "id": 2,
+          "name": "Wybielanie zębów w gabinecie BEYOND",
+          "price": 1320
+        },
+        { "id": 3, "name": "Wybielanie zębów nakładkowe 1 łuk", "price": 1320 },
+        {
+          "id": 4,
+          "name": "Wybielanie pojedynczego zęba (po leczeniu endodontycznym)",
+          "price": 550
+        },
+        {
+          "id": 5,
+          "name": "Wybielanie dwufazowe (gabinetowe + nakładkowe)",
+          "price": 2000
+        },
+        {
+          "id": 6,
+          "name": "Licówka kompozytowa GRADIA wykonana ręcznie",
+          "price": 770
+        },
+        {
+          "id": 7,
+          "name": "Licówka kompozytowa estetyczna ENAMEL wykonana ręcznie",
+          "price": 880
+        },
+        { "id": 8, "name": "Licówka porcelanowa", "price": 2750 },
+        {
+          "id": 9,
+          "name": "Licówka kompozytowa wykonana z szabkonem 1 ząb",
+          "price": 1100
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "Wspomaganie chirurgiczne leczenia ortodontycznego",
+      "icon": "/icons/diagnostykaOrto.png",
+      "items": [
+        { "id": 1, "name": "Kortykotomia 1 ząb", "price": 660 },
+        { "id": 2, "name": "Kortykotomia 2 zęby", "price": 1100 },
+        { "id": 3, "name": "Kortykotomia 1 łuk zębowy", "price": 2200 }
+      ]
+    }
+  ]
+}

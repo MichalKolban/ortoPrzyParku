@@ -1,0 +1,114 @@
+{
+  "braces": [
+    {
+      "id": 1,
+      "name": "nakładki graphy",
+      "photo": "/photos/braces/nakladkiGraphy.png"
+    },
+    {
+      "id": 2,
+      "name": "nakładki graphy",
+      "photo": "/photos/braces/nakladkiGraphy2.png"
+    },
+    {
+      "id": 3,
+      "name": "nakładki in-office",
+      "photo": "/photos/braces/nakladkiInoffice.png"
+    },
+    {
+      "id": 4,
+      "name": "nakładki in-office",
+      "photo": "/photos/braces/nakladkiInoffice2.png"
+    },
+    {
+      "id": 5,
+      "name": "aparat zdejmowany",
+      "photo": "/photos/braces/aparatZdejmowany.png"
+    },
+    {
+      "id": 6,
+      "name": "aparat zdejmowany",
+      "photo": "/photos/braces/aparatZdejmowany2.png"
+    },
+    {
+      "id": 7,
+      "name": "aparat zdejmowany",
+      "photo": "/photos/braces/aparatZdejmowany3.png"
+    },
+    {
+      "id": 8,
+      "name": "aparat zdejmowany",
+      "photo": "/photos/braces/aparatZdejmowany4.png"
+    },
+    {
+      "id": 9,
+      "name": "expander",
+      "photo": "/photos/braces/expander.png"
+    },
+    {
+      "id": 10,
+      "name": "hyrax drukowany",
+      "photo": "/photos/braces/hyraxDrukowany.png"
+    },
+    {
+      "id": 11,
+      "name": "hyrax drukowany",
+      "photo": "/photos/braces/hyraxDrukowany2.png"
+    },
+    {
+      "id": 12,
+      "name": "hyrax drukowany",
+      "photo": "/photos/braces/hyraxDrukowany3.png"
+    },
+    {
+      "id": 13,
+      "name": "łuk podniebienny",
+      "photo": "/photos/braces/lukPodniebienny.png"
+    },
+    {
+      "id": 14,
+      "name": "marco rosa",
+      "photo": "/photos/braces/marcoRosa.png"
+    },
+    {
+      "id": 15,
+      "name": "pendulum",
+      "photo": "/photos/braces/pendulum.png"
+    },
+    {
+      "id": 16,
+      "name": "płyta nancea",
+      "photo": "/photos/braces/plytaNancea.png"
+    },
+    {
+      "id": 17,
+      "name": "quad helix",
+      "photo": "/photos/braces/quadHelix.png"
+    },
+    {
+      "id": 18,
+      "name": "beneslider",
+      "photo": "/photos/braces/beneslider.png"
+    },
+    {
+      "id": 19,
+      "name": "lip bumper",
+      "photo": "/photos/braces/lipBumper.png"
+    },
+    {
+      "id": 20,
+      "name": "łuk językowy",
+      "photo": "/photos/braces/lukJezykowy.png"
+    },
+    {
+      "id": 21,
+      "name": "szyna deprogramowalna",
+      "photo": "/photos/braces/szynaDeprogramowalna.png"
+    },
+    {
+      "id": 22,
+      "name": "transfery",
+      "photo": "/photos/braces/transfery.png"
+    }
+  ]
+}

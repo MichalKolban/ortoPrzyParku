@@ -1,0 +1,67 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+*.next.js
+*.next.js.map
+
+# Environment variables
+.env
+.env.* 
+
+# Logi
+logs/
+*.log
+logs/**/*.log
+
+# Systemowe pliki macOS
+.DS_Store
+
+# Pliki tymczasowe systemu i edytorów
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.bak
+*.tmp
+*.orig
+*.seed
+*.pid
+*.pid.lock
+
+# IDE/Editor specyficzne pliki
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Testy i pokrycie kodu
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+tmp/
+temp/
+
+# Pliki cache
+.cache/
+
+# Specyficzne dla TypeScript (jeśli używasz TypeScript w Next.js)
+*.tsbuildinfo
+
+# Storybook
+.storybook/
+storybook-static/
+
+# Wykluczenia lokalnych plików Git
+.git/

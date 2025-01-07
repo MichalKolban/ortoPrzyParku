@@ -1,0 +1,68 @@
+{
+  "hygieneStaff": [
+    {
+      "id": 1,
+      "name": "Laura Afeltowicz",
+      "icon": "/photos/team/lauraAfeltowiczIcon.png",
+      "photo": "",
+      "title": "HIGIENISTKA STOMATOLOGICZNA",
+      "description": "brak danych"
+    },
+    {
+      "id": 2,
+      "name": "Maria Argasińska",
+      "icon": "/photos/team/mariaArgasinskaIcon.png",
+      "photo": "",
+      "title": "HIGIENISTKA STOMATOLOGICZNA",
+      "description": "Dyplomowana higienistka stomatologiczna. W 2010 roku uzyskała również tytuł technika dentystycznego. Zespół Ortodoncji Przy Parku zasila od 2021 roku, gdzie czynnie asystuje lekarzom przy zabiegach ortodontycznych, jak również tych z zakresu stomatologii zachowawczej oraz chirurgii. Jest Opiekunem Pacjentów leczonych aparatami nakładkowymi, poprzez aplikację Dental Monitoring. Dzięki swojej empatii, delikatności i precyzyjności, dba aby każdy z pacjentów podczas wizyty higienizacyjnej czy instruktażowej, poczuł się w pełni zadowolony i zaopiekowany. Stale poszerza swoje kompetencje poprzez udział w kursach, konferencjach i webinarach. Prywatnie pasjonatka podróży, dobrych kryminałów oraz szeroko pojętego rękodzieła. Wielka miłośniczka zwierząt."
+    },
+    {
+      "id": 3,
+      "name": "Marta Kot",
+      "icon": "/photos/team/martaKotIcon.png",
+      "photo": "",
+      "title": "HIGIENISTKA STOMATOLOGICZNA",
+      "description": "Dyplomowana higienistka stomatologiczna, obecnie kształci się na kierunku technik elektroradiologii. Kierując się zasadą „ najważniejszy jest pacjent” wykonuje zdjęcia rentgenowskie, w najwyższej jakości obrazie, który umożliwi państwu dalszą diagnostykę i leczenie. W pracowni rentgenowskiej przywita Was uśmiechem i krok po kroku wyjaśnię proces tworzenia zdjęć rentgenowskich. Wolny czas spędza z rodziną."
+    },
+    {
+      "id": 4,
+      "name": "Agnieszka Kryszak",
+      "icon": "/photos/team/agnieszkaKryszakIcon.png",
+      "photo": "",
+      "title": "HIGIENISTKA STOMATOLOGICZNA",
+      "description": "Dyplomowana higienistka stomatologiczna. Czynnie asystuje przy zabiegach stomatologicznych i ortodontycznych a także zabiegach implantologicznych i chirurgicznych. Łatwo nawiązuje relacje z pacjentami, jest osobą cierpliwą i życzliwą. Chętnie się rozwija i poszerza swoje kwalifikacje na szkoleniach i kursach. W czasie wolnym lubi czytać książki i spędzać czas na łonie natury."
+    },
+    {
+      "id": 5,
+      "name": "Natalia Olejniczak",
+      "icon": "/photos/team/nataliaOlejniczakIcon.png",
+      "photo": "",
+      "title": "HIGIENISTKA STOMATOLOGICZNA",
+      "description": "Dyplom higienistki stomatologicznej uzyskała w 2022 roku, obecnie kształci się na kierunku technik sterylizacji medycznej. Jest czynną asystentką chirurgiczną, głównie przy zabiegach implantologicznych. Nieustannie doskonali swoje umiejętności, biorąc udział w szkoleniach. Zawsze stara się, aby wizyta odbyła się w komfortowej i przyjaznej atmosferze. W wolnym czasie lubi czytać kryminały i jest aktywną fanką sportów motorowych - szczególnie żużla."
+    },
+    {
+      "id": 6,
+      "name": "Joanna Panufik",
+      "icon": "/photos/team/joannaPanufnikIcon.png",
+      "photo": "",
+      "title": "HIGIENISTKA STOMATOLOGICZNA",
+      "description": "Asystentka, higienistka oraz technik sterylizacji medycznej. Pracuje w zawodzie od 20 lat, sumienna, dokładna i zaangażowana w swoją pracę. Służy indywidualną poradą w zakresie domowej higieny jamy ustnej. Nieustannie się rozwija i podnosi swoje kompetencje na szkoleniach i konferencjach. Zawsze uśmiechnięta i gotowa do pracy z pacjentami. Interesuje się kinem, muzyką oraz meczami piłki nożnej w odsłonie Pogoni Szczecin. Jest Honorowym Dawcą Krwi od ponad 20 lat."
+    },
+    {
+      "id": 7,
+      "name": "Katarzyna Panufik",
+      "icon": "/photos/team/katarzynaPanufnikIcon.png",
+      "photo": "",
+      "title": "HIGIENISTKA STOMATOLOGICZNA",
+      "description": "Jest dyplomowana higienistką i asystentką stomatologiczną, oraz technikiem sterylizacji medycznej. Asytuje przy ortodoncji i leczeniu zachowawczym, oraz przy zabiegach chirurgicznych i implantologicznych. Wykonuje zabiegi profilaktyki jamy ustnej z zaangażowaniem i dokładnością. Swoją wiedzę systematycznie poszerza biorąc udział w licznych szkoleniach, webinarach i konferencjach stomatologicznych. Wolny czas spędza z książką lub jazdą na rowerze."
+    },
+    {
+      "id": 8,
+      "name": "Ruslan Viarshytski",
+      "icon": "/photos/team/ruslanViarhytskiIcon.png",
+      "photo": "",
+      "title": "HIGIENISTA STOMATOLOGICZNY",
+      "description": "Absolwent Białoruskiego Państwowego Uniwersytetu Medycznego – specjalizacja lekarz dentysta. W 2022r zakończył staż zdając egzamin z wyróżnieniem. Od tamtej pory uczestniczy w licznych kursach i szkoleniach umożliwiających poszerzanie wiedzy i praktyczne doskonalenie swoich umiejętności. Stomatologia to dla niego nie tylko praca, ale również największa pasja. Jego celem jest przełamanie stereotypu wizyt w gabinecie stomatologicznym, dlatego zawsze stara się uczynić zabieg jak najbardziej komfortowym i przyjemnym dla Pacjenta. Obecnie w trakcie nostryfikacji dyplomu. Wolne chwile poświęca na podróże."
+    }
+  ]
+}

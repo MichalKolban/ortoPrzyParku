@@ -1,0 +1,36 @@
+/* .box {
+  @media screen and (width >= 375px) and (width <= 800px) {
+  }
+
+  @media screen and (width >= 800px) and (width <= 1024px) {
+  }
+
+  @media screen and (width >= 1025px) {
+  }
+} */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* border: 1px solid red; */
+  max-width: 240px;
+  @media screen and (width >= 375px) and (width <= 800px) {
+    margin-bottom: 30px;
+  }
+}
+
+.sign {
+  font-family: Montserrat, serif;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid var(--lightBlue);
+  border-radius: 20px;
+  color: #fff;
+  background-color: var(--lightBlue);
+  margin-top: 5px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}

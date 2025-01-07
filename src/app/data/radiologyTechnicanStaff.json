@@ -1,0 +1,12 @@
+{
+  "radiology": [
+    {
+      "id": 1,
+      "name": "Ewa Kot",
+      "icon": "/photos/team/ewaKotIcon.png",
+      "photo": "",
+      "title": "TECHNIK RADIOLOGII",
+      "description": "Dyplomowana higienistka stomatologiczna, obecnie kształci się na kierunku technik elektroradiologii. Kierując się zasadą „ najważniejszy jest pacjent” wykonuje zdjęcia rentgenowskie, w najwyższej jakości obrazie, który umożliwi państwu dalszą diagnostykę i leczenie. W pracowni rentgenowskiej przywita Was uśmiechem i krok po kroku wyjaśnię proces tworzenia zdjęć rentgenowskich. Wolny czas spędza z rodziną."
+    }
+  ]
+}

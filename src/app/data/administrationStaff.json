@@ -1,0 +1,20 @@
+{
+  "administration": [
+    {
+      "id": 1,
+      "name": "Marta Kot",
+      "icon": "/photos/team/martaKotIcon.png",
+      "photo": "/photos/team/martaKot.jpg",
+      "title": "koordynator zespołu",
+      "description": "Absolwentka studiów II stopnia na kierunku kosmetologia na Pomorskim Uniwersytecie Medycznym. Dyplomowana higienistka stomatologiczna z doświadczeniem w zakresie higieny oraz pracy z lekarzem. Stale poszerza swoją wiedzę uczestnicząc w kursach i szkoleniach dotyczących higieny jamy ustnej i profilaktyki stomatologicznej oraz ortodoncji. Zdobyta tam wiedza oraz holistyczne spojrzenie na problemy zdrowotne są wykorzystywane w codziennej pracy. Prywatnie jest miłośniczką zwierząt. W wolnych chwilach uwielbia piec ciasta, oglądać filmy oraz spacerować. W gabinecie oprócz czynnej asysty i wykonywania zabiegów higienizacyjnych zajmuje się również koordynowaniem naszego personelu medycznego. Jej codzienna obecność pozwala usprawnić wewnętrzną pracę gabinetu i realizować codzienne plany. Ponadto odpowiedzialna jest za media społecznościowe Ortodoncji Przy Parku."
+    },
+    {
+      "id": 2,
+      "name": "Katarzyna Staszewska",
+      "icon": "/photos/team/katarzynaStaszewskaIcon.png",
+      "photo": "/photos/team/katarzynaStaszewska.jpg",
+      "title": "koordynator ds. administracyjno-biurowych",
+      "description": "Absolwentka Wyższej Szkoły Ekonomiczno Turystycznej na kierunku turystyka. Rejestratorka medyczna, która dodatkowo czuwa nad profesjonalnym funkcjonowaniem gabinetu w przestrzeni administracji oraz w kontakcie z pacjentami. Pasjonuje się fotografią i uwielbia podróże."
+    }
+  ]
+}
