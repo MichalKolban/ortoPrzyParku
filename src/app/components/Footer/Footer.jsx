@@ -25,79 +25,88 @@ export const Footer = () => {
         />
       </div>
       <div className={`${styles.box} ${styles.mainLinks}`}>
-        <p className={styles.singleLink}>
-          <Link href={"tel:501199124"}>
-            <span className={styles.iconSmall}>
-              <Image
-                className={styles.linkIcon}
-                src={iconPhone}
-                width={25}
-                height={25}
-                alt="Phone icon"
-              />
-            </span>
-            501 199 124
-          </Link>
-        </p>
-        <p className={styles.singleLink}>
-          <Link href={"mailto:kasiazal@ortodoncjaprzyparku.pl"}>
-            <span className={styles.iconSmall}>
-              <Image
-                className={styles.linkIcon}
-                src={iconMail}
-                width={25}
-                height={25}
-                alt="Email icon"
-              />
-            </span>
-            kasiazal@ortodoncjaprzyparku.pl
-          </Link>
-        </p>
-        <p className={styles.singleLink}>
-          <span></span>
-          <SocialLinks
-            socialHref={"https://www.facebook.com/OrtodoncjaPrzyParku"}
-          >
-            <span className={styles.iconSmall}>
-              <Image
-                className={styles.linkIcon}
-                src={iconFacebook}
-                width={25}
-                height={25}
-                alt="Phone icon"
-              />
-            </span>
-            Facebook
-          </SocialLinks>
-        </p>
-        <p className={styles.singleLink}>
-          <span></span>
-          <SocialLinks
-            socialHref={"https://www.instagram.com/ortodoncjaprzyparku/"}
-          >
-            <span className={styles.iconSmall}>
-              <Image
-                className={styles.linkIcon}
-                src={iconInstagram}
-                width={25}
-                height={25}
-                alt="Phone icon"
-              />
-            </span>
-            Instagram
-          </SocialLinks>
-        </p>
+        <Link
+          className={styles.singleLink}
+          href={"tel:501199124"}
+          target="_blank"
+        >
+          <span className={styles.iconSmall}>
+            <Image
+              className={styles.linkIcon}
+              src={iconPhone}
+              width={25}
+              height={25}
+              alt="Phone icon"
+            />
+          </span>
+          501 199 124
+        </Link>
+        <Link
+          className={styles.singleLink}
+          href={"mailto:kasiazal@ortodoncjaprzyparku.pl"}
+          target="_blank"
+        >
+          <span className={styles.iconSmall}>
+            <Image
+              className={styles.linkIcon}
+              src={iconMail}
+              width={25}
+              height={25}
+              alt="Email icon"
+            />
+          </span>
+          kasiazal@ortodoncjaprzyparku.pl
+        </Link>
+        <Link
+          className={styles.singleLink}
+          href={"https://www.facebook.com/OrtodoncjaPrzyParku"}
+          target="_blank"
+        >
+          <span className={styles.iconSmall}>
+            <Image
+              className={styles.linkIcon}
+              src={iconFacebook}
+              width={25}
+              height={25}
+              alt="Facebook icon"
+            />
+          </span>
+          Facebook
+        </Link>
+
+        <Link
+          className={styles.singleLink}
+          href={"https://www.instagram.com/ortodoncjaprzyparku/"}
+          target="_blank"
+        >
+          <span className={styles.iconSmall}>
+            <Image
+              className={styles.linkIcon}
+              src={iconInstagram}
+              width={25}
+              height={25}
+              alt="Instagram icon"
+            />
+          </span>
+          Instagram
+        </Link>
+
         <div className={styles.extraLinks}>
-          <p className={`${styles.singleLink} ${styles.ortoLink}`}>
-            <SocialLinks socialHref={"https://www.google.pl"}>
-              Polityka RODO
-            </SocialLinks>
-          </p>
-          <p className={`${styles.singleLink} ${styles.ortoLink}`}>
-            <SocialLinks socialHref={"https://www.google.pl"}>
-              Materiały do pobrania
-            </SocialLinks>
-          </p>
+          <Link
+            className={`${styles.singleLink} ${styles.ortoLink}`}
+            href={"https://www.google.pl"}
+            target="_blank"
+          >
+            Polityka RODO
+          </Link>
+
+          <Link
+            className={`${styles.singleLink} ${styles.ortoLink}`}
+            href={"https://www.google.pl"}
+            target="_blank"
+          >
+            Materiały do pobrania
+          </Link>
         </div>
       </div>
       <div className={styles.line}></div>
