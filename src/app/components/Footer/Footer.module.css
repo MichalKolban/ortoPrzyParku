@@ -75,14 +75,14 @@
 .box {
   cursor: default;
 
-  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
     margin: 10px 0;
     max-width: 300px;
     font-size: 16px;
     display: none;
   }
 
-  @media screen and (width >= 800px) and (width <= 1024px) {
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
     display: none;
   }
 
