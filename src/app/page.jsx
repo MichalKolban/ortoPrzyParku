@@ -17,6 +17,8 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import { NotificationSection } from "./components/NotificationSection/NotificationSection";
 
+import Head from "next/head";
+
 const Home = () => {
   const [deviceType, setDeviceType] = useState("desktop");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -50,6 +52,11 @@ const Home = () => {
 
   return (
     <>
+      <Head>
+        <title>$$$$$</title>
+        <meta name="description" content="To jest opis dla głównej strony." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       {/* <NotificationSection /> */}
       {/* <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
         <div>
