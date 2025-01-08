@@ -12,7 +12,6 @@ export const Navigation = ({ onBurgerClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log("page hello 1");
     setIsMenuOpen(!isMenuOpen);
   };
 
