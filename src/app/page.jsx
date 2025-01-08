@@ -50,7 +50,7 @@ const Home = () => {
 
   return (
     <>
-      <NotificationSection />
+      {/* <NotificationSection /> */}
       {/* <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
         <div>
           <h2 className={styles.title}>Ortodoncja Przy Parku</h2>
@@ -101,7 +101,7 @@ const Home = () => {
       </div>
       <OrtoBanner />
       <OfficeSixIcons /> */}
-      <PhotosLinkRow />
+      {/* <PhotosLinkRow /> */}
     </>
   );
 };
