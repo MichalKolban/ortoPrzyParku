@@ -36,7 +36,6 @@
   padding-top: 30px;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    border: 2px solid green;
     padding-top: 120px;
   }
 }
@@ -67,7 +66,6 @@ body {
 
 body {
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    border: 2px solid orange;
     width: 100vw;
   }
 

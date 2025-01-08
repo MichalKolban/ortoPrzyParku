@@ -77,7 +77,10 @@
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     margin: 10px 0;
-    max-width: 300px;
+    max-width: 90%;
+    /* max-width: 300px; */
+    /* width: 70%; */
+    /* border: 1px solid red; */
     font-size: 16px;
     display: none;
   }
@@ -149,7 +152,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    min-width: 360px;
+    width: 380px;
+    /* min-width: 360px; */
     font-weight: 500;
   }
 
@@ -202,7 +206,7 @@
 
 .ortoLink {
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    width: 160px;
+    width: 150px;
     text-align: center;
   }
 }
