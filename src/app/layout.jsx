@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
       <body className={montserrat.variable}>
         <Navigation />
         <main className={"mainWrapper"}>{children}</main>
-        {/* <Footer /> */}
+        <Footer />
         <MySign />
       </body>
     </html>

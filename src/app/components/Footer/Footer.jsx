@@ -1,18 +1,17 @@
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from "next/link";
+import Image from "next/image";
 
-import SocialLinks from '../SocialLink/SocialLink';
+import SocialLinks from "../SocialLink/SocialLink";
 
-// import iconMail from "../../../../public/icons/email-96.png";
-import iconMail from '../../../../public/icons/email-96.png';
-import iconPhone from '../../../../public/icons/phone-96.png';
-import iconFacebook from '../../../../public/icons/facebook-96.png';
-import iconInstagram from '../../../../public/icons/instagram-96.png';
-import mainLogo from '../../../../public/logo.png';
-import styles from './Footer.module.css';
+import iconMail from "../../../../public/icons/email-96.png";
+import iconPhone from "../../../../public/icons/phone-96.png";
+import iconFacebook from "../../../../public/icons/facebook-96.png";
+import iconInstagram from "../../../../public/icons/instagram-96.png";
+import mainLogo from "../../../../public/logo.png";
+import styles from "./Footer.module.css";
 
 export const Footer = () => {
-  const workHours = 'Godziny Pracy';
+  const workHours = "Godziny Pracy";
 
   return (
     <div className={`${styles.wrapper}`}>
@@ -27,7 +26,7 @@ export const Footer = () => {
       </div>
       <div className={`${styles.box} ${styles.mainLinks}`}>
         <p className={styles.singleLink}>
-          <Link href={'tel:501199124'}>
+          <Link href={"tel:501199124"}>
             <span className={styles.iconSmall}>
               <Image
                 className={styles.linkIcon}
@@ -41,7 +40,7 @@ export const Footer = () => {
           </Link>
         </p>
         <p className={styles.singleLink}>
-          <Link href={'mailto:kasiazal@ortodoncjaprzyparku.pl'}>
+          <Link href={"mailto:kasiazal@ortodoncjaprzyparku.pl"}>
             <span className={styles.iconSmall}>
               <Image
                 className={styles.linkIcon}
@@ -57,7 +56,7 @@ export const Footer = () => {
         <p className={styles.singleLink}>
           <span></span>
           <SocialLinks
-            socialHref={'https://www.facebook.com/OrtodoncjaPrzyParku'}
+            socialHref={"https://www.facebook.com/OrtodoncjaPrzyParku"}
           >
             <span className={styles.iconSmall}>
               <Image
@@ -74,7 +73,7 @@ export const Footer = () => {
         <p className={styles.singleLink}>
           <span></span>
           <SocialLinks
-            socialHref={'https://www.instagram.com/ortodoncjaprzyparku/'}
+            socialHref={"https://www.instagram.com/ortodoncjaprzyparku/"}
           >
             <span className={styles.iconSmall}>
               <Image
@@ -90,12 +89,12 @@ export const Footer = () => {
         </p>
         <div className={styles.extraLinks}>
           <p className={`${styles.singleLink} ${styles.ortoLink}`}>
-            <SocialLinks socialHref={'https://www.google.pl'}>
+            <SocialLinks socialHref={"https://www.google.pl"}>
               Polityka RODO
             </SocialLinks>
           </p>
           <p className={`${styles.singleLink} ${styles.ortoLink}`}>
-            <SocialLinks socialHref={'https://www.google.pl'}>
+            <SocialLinks socialHref={"https://www.google.pl"}>
               Materiały do pobrania
             </SocialLinks>
           </p>
