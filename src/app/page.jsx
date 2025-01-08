@@ -1,28 +1,28 @@
-'use client';
+"use client";
 
-import { Footer } from './components/Footer/Footer';
-import { Navigation } from './components/Navigation/Navigation';
-import { useState, useEffect } from 'react';
-import { PhotoLink } from './components/PhotoLink/PhotoLink';
+import { Footer } from "./components/Footer/Footer";
+import { Navigation } from "./components/Navigation/Navigation";
+import { useState, useEffect } from "react";
+import { PhotoLink } from "./components/PhotoLink/PhotoLink";
 // import { PhotosLinkRow } from './components/PhotosLinkRow/PhotosLinkRow';
-import { PhotosLinkRow } from './components/PhotosLinkRow/PhotosLinkRow';
-import { OfficeSixIcons } from './components/OfficeSixIcons/OfficeSixIcons';
-import { OrtoBanner } from './components/OrtoBanner/OrtoBanner';
-import { OrtoServices } from './components/OrtoServices/OrtoServices';
+import { PhotosLinkRow } from "./components/PhotosLinkRow/PhotosLinkRow";
+import { OfficeSixIcons } from "./components/OfficeSixIcons/OfficeSixIcons";
+import { OrtoBanner } from "./components/OrtoBanner/OrtoBanner";
+import { OrtoServices } from "./components/OrtoServices/OrtoServices";
 
-import choinkaImg from './../../public/photos/choinka.png';
-import gabinetImg from './../../public/photos/gabinet.png';
+import choinkaImg from "./../../public/photos/choinka.png";
+import gabinetImg from "./../../public/photos/gabinet.png";
 
-import styles from './page.module.css';
-import Image from 'next/image';
-import { NotificationSection } from './components/NotificationSection/NotificationSection';
+import styles from "./page.module.css";
+import Image from "next/image";
+import { NotificationSection } from "./components/NotificationSection/NotificationSection";
 
 const Home = () => {
-  const [deviceType, setDeviceType] = useState('desktop');
+  const [deviceType, setDeviceType] = useState("desktop");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log('page hello 1');
+    console.log("page hello 1");
     setIsMenuOpen(!isMenuOpen);
   };
 
@@ -51,7 +51,7 @@ const Home = () => {
   return (
     <>
       <NotificationSection />
-      <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
+      {/* <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
         <div>
           <h2 className={styles.title}>Ortodoncja Przy Parku</h2>
           <p className={styles.description}>
@@ -64,7 +64,6 @@ const Home = () => {
           </p>
         </div>
         <div className={styles.xmastree}>
-          {/* <Image src={choinkaImg} width={400} height={420} /> */}
           <Image src={choinkaImg} width={380} height={400} />
         </div>
       </div>
@@ -97,12 +96,11 @@ const Home = () => {
           </div>
           <div className={styles.xmastree}>
             <Image src={gabinetImg} width={380} height={260} />
-            {/* <Image src={gabinetImg} width={600} height={400} /> */}
           </div>
         </div>
       </div>
       <OrtoBanner />
-      <OfficeSixIcons />
+      <OfficeSixIcons /> */}
       <PhotosLinkRow />
     </>
   );
