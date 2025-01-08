@@ -1,20 +1,22 @@
-import Link from 'next/link';
-import Image from 'next/image';
-import mainLogo from '../../../../public/logo.png';
-import iconMenu from '../../../../public/icons/menu-96.png';
-import styles from './Navigation.module.css';
+"use client";
 
-import { useState } from 'react';
+import Link from "next/link";
+import Image from "next/image";
+import mainLogo from "../../../../public/logo.png";
+import iconMenu from "../../../../public/icons/menu-96.png";
+import styles from "./Navigation.module.css";
+
+import { useState } from "react";
 
 export const Navigation = ({ onBurgerClick }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log('page hello 1');
+    console.log("page hello 1");
     setIsMenuOpen(!isMenuOpen);
   };
 
-  console.log('isMenu open', isMenuOpen);
+  console.log("isMenu open", isMenuOpen);
 
   return (
     <div className={styles.wrapper}>
@@ -30,7 +32,7 @@ export const Navigation = ({ onBurgerClick }) => {
           />
         </Link>
         <div
-          className={`${styles.links} ${styles.menuOverlay} ${isMenuOpen ? styles.menuOverlayOpen : ''}`}
+          className={`${styles.links} ${styles.menuOverlay} ${isMenuOpen ? styles.menuOverlayOpen : ""}`}
         >
           <Link
             className={`${styles.menuLink} ${styles.menuLinkExpand}`}

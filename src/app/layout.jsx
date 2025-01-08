@@ -1,8 +1,6 @@
-"use client";
+// "use client";
 
 import "./globals.css";
-
-import Head from "next/head";
 
 import { Footer } from "./components/Footer/Footer";
 import { Navigation } from "./components/Navigation/Navigation";
@@ -15,14 +13,15 @@ const montserrat = Montserrat({
   variable: "--font-montserrat",
 });
 
+export const metadata = {
+  title: "My App",
+  description: "A fully responsive application",
+  viewport: "width=device-width, initial-scale=1",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="pl">
-      <Head>
-        <title>My App</title>
-        <meta name="description" content="This is my amazing app!" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
       <body className={montserrat.variable}>
         <Navigation />
         <main className={"mainWrapper"}>{children}</main>
