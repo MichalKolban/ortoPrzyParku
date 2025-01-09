@@ -39,6 +39,7 @@
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     flex-wrap: wrap;
+    display: flex;
     justify-content: space-around;
     align-self: center;
     gap: 5px 10px;
@@ -56,5 +57,18 @@
     justify-content: space-around;
     max-width: 1000px;
     gap: 25px;
+  }
+}
+
+.titlePhotoLinkRow {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    border-bottom: 1px solid var(--basicBlue);
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 35px;
+    padding-bottom: 5px;
+  }
+  @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
+    display: none;
   }
 }

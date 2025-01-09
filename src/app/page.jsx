@@ -106,8 +106,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <OrtoBanner />
-      <OfficeSixIcons /> */}
+      <OrtoBanner /> */}
+      <OfficeSixIcons />
       <PhotosLinkRow />
     </>
   );
