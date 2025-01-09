@@ -1,13 +1,31 @@
-/* .box {
-  @media screen and (width >= 375px) and (width <= 800px) {
-  }
+/* @media screen and (max-width: 600px) and (orientation: portrait) { */
+/* Styl dla urządzeń mobilnych w widoku wertykalnym */
+/* } */
 
-  @media screen and (width >= 800px) and (width <= 1024px) {
-  }
+/* @media screen and (max-width: 600px) and (orientation: landscape) { */
+/* Styl dla urządzeń mobilnych w widoku horyzontalnym */
+/* } */
 
-  @media screen and (width >= 1025px) {
-  }
-} */
+/* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait) { */
+/* Styl dla tabletów w widoku wertykalnym */
+/* } */
+
+/* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) { */
+/* Styl dla tabletów w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) { */
+/* Styl dla laptopów w widoku horyzontalnym */
+/* } */
+
+/*   to jest merge tych dwoch
+/* @media screen and (min-width: 901px) and (max-width: 1200px) and (orientation: landscape) { */
+/* Styl dla laptopów w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 1200px) and (max-width: 1600px) and (orientation: portrait) { */
+/* Styl dla komputerów stacjonarnych w widoku wertykalnym */
+/* } */
 
 .wrapper {
   display: flex;
@@ -28,9 +46,8 @@
 
 .textContent {
   width: 81%;
-  /* border: 1px solid green; */
 
-  @media screen and (width >= 375px) and (width <= 800px) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
     width: 72%;
   }
 }
@@ -41,18 +58,15 @@
   padding-right: 5px;
   font-size: 14px;
 
-  @media screen and (width >= 375px) and (width <= 800px) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
     padding-bottom: 2px;
     align-items: end;
   }
 }
 
 .removeDefault {
-  /* border: 2px solid orange; */
   border-bottom: none;
   font-size: 13px;
-  /* text-transform: uppercase; */
-  /* padding: 15px 0 5 0; */
 }
 
 .removePrice {
