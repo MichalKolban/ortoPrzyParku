@@ -45,9 +45,9 @@
 
     grid-template-columns: repeat(2, 1fr); /* 3 kolumny */
     grid-template-rows: repeat(2, 1fr); /* 2 rzędy */
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
