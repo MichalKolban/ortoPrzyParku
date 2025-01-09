@@ -127,7 +127,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 25px;
+    gap: 15px;
     position: absolute;
     top: 74px;
     right: -100%;
@@ -170,7 +170,7 @@
     font-weight: 400;
     /* padding: 15px 20px; */
     /* width: 300px; */
-    padding: 15px 0;
+    padding: 10px 0;
     width: 260px;
 
     margin: 0 auto;
