@@ -28,10 +28,14 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="pl">
-      {/* <head> */}
-      {/* <title>{title}</title> */}
-      {/* <meta name="description" content="hello leyout" /> */}
-      {/* </head> */}
+      <head>
+        <title>Strona główna</title>
+        <meta name="description" content="To jest opis dla głównej strony." />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+      </head>
       <body className={montserrat.variable}>
         <Navigation />
         <main className={"mainWrapper"}>{children}</main>

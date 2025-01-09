@@ -55,7 +55,10 @@ const Home = () => {
       <head>
         <title>Strona główna</title>
         <meta name="description" content="To jest opis dla głównej strony." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
       </head>
       <div className={styles.outerWrapper}>
         <NotificationSection />
