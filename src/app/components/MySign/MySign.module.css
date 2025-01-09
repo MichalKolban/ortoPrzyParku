@@ -34,7 +34,7 @@
   /* max-width: 1280px; */
   margin: 0 auto;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {

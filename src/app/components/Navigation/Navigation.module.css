@@ -144,7 +144,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 25px;
+    gap: 20px;
     position: absolute;
     top: 104px;
     right: -100%;
@@ -165,13 +165,16 @@
 
 .menuLink {
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    border: 2px solid white;
+    border: 1px solid white;
     font-size: 17px;
     font-weight: 400;
-    padding: 15px 20px;
-    width: 300px;
+    /* padding: 15px 20px; */
+    /* width: 300px; */
+    padding: 15px 0;
+    width: 260px;
+
     margin: 0 auto;
-    border-radius: 13px;
+    border-radius: 25px;
     color: white;
   }
 
@@ -179,8 +182,9 @@
     border: 2px solid white;
     font-size: 17px;
     font-weight: 400;
-    padding: 15px 20px;
+    padding: 15px 0;
     width: 300px;
+    width: fit-content;
     margin: 0 auto;
     border-radius: 13px;
     color: white;
@@ -203,21 +207,15 @@
   }
 }
 
-.menuLinkExpand {
-  /* background-ima ge: url('../../../../public/icons/expand-arrow-96.png'); */
-  /* width: 20px; */
-  /* height: ; */
-}
-
 .registrationLink {
   @media screen and (max-width: 600px) and (orientation: portrait) {
     /* margin-top: 100px; */
     row-gap: 100px;
     border: 2px solid white;
-    padding: 15px 20px;
-    width: 300px;
+    padding: 15px 0;
+    width: 260px;
     margin: 0 auto;
-    border-radius: 13px;
+    border-radius: 25px;
     color: white;
     /* font-size: 18px; */
   }
