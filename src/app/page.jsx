@@ -57,8 +57,9 @@ const Home = () => {
         <meta name="description" content="To jest opis dla głównej strony." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <NotificationSection />
-      {/* <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
+      <div className={styles.outerWrapper}>
+        <NotificationSection />
+        {/* <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
         <div>
           <h2 className={styles.title}>Ortodoncja Przy Parku</h2>
           <p className={styles.description}>
@@ -107,8 +108,9 @@ const Home = () => {
         </div>
       </div>
       <OrtoBanner /> */}
-      <OfficeSixIcons />
-      <PhotosLinkRow />
+        <OfficeSixIcons />
+        <PhotosLinkRow />
+      </div>
     </>
   );
 };
