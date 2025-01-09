@@ -1,13 +1,31 @@
-/* .box {
-  @media screen and (width >= 375px) and (width <= 800px) {
-  }
+/* @media screen and (max-width: 600px) and (orientation: portrait) { */
+/* Styl dla urządzeń mobilnych w widoku wertykalnym */
+/* } */
 
-  @media screen and (width >= 800px) and (width <= 1024px) {
-  }
+/* @media screen and (max-width: 600px) and (orientation: landscape) { */
+/* Styl dla urządzeń mobilnych w widoku horyzontalnym */
+/* } */
 
-  @media screen and (width >= 1025px) {
-  }
-} */
+/* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait) { */
+/* Styl dla tabletów w widoku wertykalnym */
+/* } */
+
+/* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) { */
+/* Styl dla tabletów w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) { */
+/* Styl dla laptopów w widoku horyzontalnym */
+/* } */
+
+/*   to jest merge tych dwoch
+/* @media screen and (min-width: 901px) and (max-width: 1200px) and (orientation: landscape) { */
+/* Styl dla laptopów w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 1200px) and (max-width: 1600px) and (orientation: portrait) { */
+/* Styl dla komputerów stacjonarnych w widoku wertykalnym */
+/* } */
 
 .wrapper {
   display: grid;
@@ -20,7 +38,7 @@
   font-family: Montserrat, serif;
   color: #333;
 
-  @media screen and (width >= 375px) and (width <= 800px) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
     grid-template-columns: repeat(2, 1fr); /* 3 kolumny */
     grid-template-rows: repeat(3, 1fr); /* 2 rzędy */
     gap: 5px;
@@ -37,7 +55,7 @@
   flex-direction: column;
   margin: 14px 0;
 
-  @media screen and (width >= 375px) and (width <= 800px) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
     margin: 15px;
   }
 }
@@ -58,7 +76,7 @@
   height: 60px;
   /* border: 1px solid orange; */
 
-  @media screen and (width >= 375px) and (width <= 800px) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
     width: 150px;
     height: 50px;
     line-height: 18px;
