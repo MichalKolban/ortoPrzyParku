@@ -148,11 +148,13 @@
 
 .mainLinks {
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    padding: 0 10px;
+    /* padding: 0 10px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 380px;
+    /* width: 380px;
+   */
+    width: fit-content;
     /* min-width: 360px; */
     font-weight: 500;
   }
@@ -193,8 +195,9 @@
 .singleLink {
   @media screen and (max-width: 600px) and (orientation: portrait) {
     margin: 10px 0;
-    font-size: 15px;
-    width: 100%;
+    font-size: 12px;
+    /* width: 100%; */
+    width: 280px;
     border: 2px solid var(--darkBlue);
     padding: 10px;
     border-radius: 25px;
@@ -206,7 +209,19 @@
 
 .ortoLink {
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    width: 150px;
+    width: 125px;
     text-align: center;
+  }
+}
+
+/* .hideIcon {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    display: none;
+  }
+} */
+
+.footerMail {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    height: 53px;
   }
 }

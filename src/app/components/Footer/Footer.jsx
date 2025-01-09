@@ -42,11 +42,11 @@ export const Footer = () => {
           501 199 124
         </Link>
         <Link
-          className={styles.singleLink}
+          className={`${styles.singleLink} ${styles.footerMail}`}
           href={"mailto:kasiazal@ortodoncjaprzyparku.pl"}
           target="_blank"
         >
-          <span className={styles.iconSmall}>
+          <span className={`${styles.iconSmall} ${styles.hideIcon}`}>
             <Image
               className={styles.linkIcon}
               src={iconMail}
