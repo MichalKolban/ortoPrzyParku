@@ -31,7 +31,6 @@
   display: grid;
   font-family: Montserrat, serif;
   color: #333;
-  border: 1px solid green;
   width: 100vw;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -73,7 +72,6 @@
 }
 
 .description {
-  border: 1px solid red;
   text-wrap: wrap;
   font-size: 12px;
   line-height: 20px;
