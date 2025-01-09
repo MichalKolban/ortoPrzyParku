@@ -54,37 +54,37 @@ const Home = () => {
     <>
       <div className={styles.outerWrapper}>
         <NotificationSection />
-        {/* <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
-        <div>
-          <h2 className={styles.title}>Ortodoncja Przy Parku</h2>
-          <p className={styles.description}>
-            Ortodoncja Przy Parku to gabinet ortodontyczno-stomatologiczny w
-            Szczecinie. Specjalizujemy się w oferowaniu kompleksowych usług,
-            łącząc profesjonalizm z indywidualnym podejściem do każdego
-            Pacjenta. Każdemu poświęcamy tyle czasu i uwagi ile jest potrzebne
-            aby zrozumieć jego potrzeby i pomóc wybrać odpowiedni plan
-            leczenia. 
-          </p>
+        <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
+          <div>
+            <h2 className={styles.title}>Ortodoncja Przy Parku</h2>
+            <p className={styles.description}>
+              Ortodoncja Przy Parku to gabinet ortodontyczno-stomatologiczny w
+              Szczecinie. Specjalizujemy się w oferowaniu kompleksowych usług,
+              łącząc profesjonalizm z indywidualnym podejściem do każdego
+              Pacjenta. Każdemu poświęcamy tyle czasu i uwagi ile jest potrzebne
+              aby zrozumieć jego potrzeby i pomóc wybrać odpowiedni plan
+              leczenia. 
+            </p>
+          </div>
+          <div className={styles.xmastree}>
+            <Image src={choinkaImg} width={380} height={400} />
+          </div>
         </div>
-        <div className={styles.xmastree}>
-          <Image src={choinkaImg} width={380} height={400} />
+        <div className={styles.sectionWrapper}>
+          <div>
+            <h2 className={styles.title}>O nas</h2>
+            <p className={styles.description}>
+              Wykorzystujemy najnowsze technologie i nowatorskie metody leczenia
+              do zapewnienia naszym Pacjentom zdrowego i pięknego uśmiechu.
+              Priorytetem jest zdrowie, świadomość oraz bezpieczeństwo naszego
+              Pacjenta. Skuteczność oraz kompleksowość usług stomatologicznych
+              osiągamy dzięki odpowiednim kwalifikacjom całego personelu. Mamy
+              wieloletnie doświadczenie w leczeniu najtrudniejszych wad zgryzu
+              oraz korygowanie ustawienia zębów.
+            </p>
+          </div>
+          <OrtoServices />
         </div>
-      </div>
-      <div className={styles.sectionWrapper}>
-        <div>
-          <h2 className={styles.title}>O nas</h2>
-          <p className={styles.description}>
-            Wykorzystujemy najnowsze technologie i nowatorskie metody leczenia
-            do zapewnienia naszym Pacjentom zdrowego i pięknego uśmiechu.
-            Priorytetem jest zdrowie, świadomość oraz bezpieczeństwo naszego
-            Pacjenta. Skuteczność oraz kompleksowość usług stomatologicznych
-            osiągamy dzięki odpowiednim kwalifikacjom całego personelu. Mamy
-            wieloletnie doświadczenie w leczeniu najtrudniejszych wad zgryzu
-            oraz korygowanie ustawienia zębów.
-          </p>
-        </div>
-        <OrtoServices />
-      </div> */}
         <div className={styles.grayWrapper}>
           <div className={styles.grayInnerWrapper}>
             <div>
