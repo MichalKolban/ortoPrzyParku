@@ -29,12 +29,7 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
-  grid-template-rows: repeat(2, 1fr); /* 2 rzędy */
-  gap: 10px; /* Odstępy między elementami */
-  width: 100%;
-  /* max-width: 860px; */
-  margin: auto;
+
   font-family: Montserrat, serif;
   color: #333;
 
@@ -43,7 +38,16 @@
     grid-template-rows: repeat(3, 1fr); /* 2 rzędy */
     gap: 5px;
     margin-bottom: 60px;
-    /* width: 90%; */
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
+    gap: 10px; /* Odstępy między elementami */
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
+    grid-template-rows: repeat(2, 1fr); /* 2 rzędy */
+    margin: auto;
   }
 }
 
