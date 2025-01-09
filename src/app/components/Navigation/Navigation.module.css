@@ -46,7 +46,8 @@
     background-color: #fff;
     position: fixed;
     /* padding: 20px; */
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
+    padding: 5px 10px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
@@ -127,12 +128,13 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 15px;
+    /* gap: 15px; */
+    gap: 10px;
     position: absolute;
-    top: 74px;
+    top: 66px;
     right: -100%;
     width: 100vw;
-    height: calc(100vh - 74px);
+    height: calc(100vh - 66px);
     background-color: #3493cc;
     transition: right 1.2s ease;
     overflow-y: auto;
