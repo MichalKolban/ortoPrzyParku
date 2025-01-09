@@ -31,7 +31,7 @@ export const Navigation = ({ onBurgerClick }) => {
           />
         </Link>
         <div
-          className={`${styles.links} ${styles.menuOverlay} ${isMenuOpen ? styles.menuOverlayOpen : ""}`}
+          className={`${styles.links} ${styles.menuOverlay} ${isMenuOpen ? styles.menuOverlayOpen : styles.manuOverlayClose}`}
         >
           <Link
             className={`${styles.menuLink} ${styles.menuLinkExpand}`}

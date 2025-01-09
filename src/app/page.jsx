@@ -63,7 +63,7 @@ const Home = () => {
               łącząc profesjonalizm z indywidualnym podejściem do każdego
               Pacjenta. Każdemu poświęcamy tyle czasu i uwagi ile jest potrzebne
               aby zrozumieć jego potrzeby i pomóc wybrać odpowiedni plan
-              leczenia. 
+              leczenia.
             </p>
           </div>
           <div className={styles.xmastree}>
