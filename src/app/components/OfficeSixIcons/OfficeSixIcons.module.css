@@ -29,16 +29,17 @@
 
 .wrapper {
   display: grid;
-
   font-family: Montserrat, serif;
   color: #333;
+  border: 1px solid green;
+  width: 100vw;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     grid-template-columns: repeat(2, 1fr); /* 3 kolumny */
     grid-template-rows: repeat(3, 1fr); /* 2 rzędy */
     gap: 5px;
     margin-bottom: 60px;
-    width: 90%;
+    /* width: 90%; */
     margin: 0 auto;
   }
 
@@ -47,7 +48,7 @@
     width: 100%;
     grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
     grid-template-rows: repeat(2, 1fr); /* 2 rzędy */
-    margin: auto;
+    margin: 0 auto;
   }
 }
 
