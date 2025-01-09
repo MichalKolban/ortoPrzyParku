@@ -52,12 +52,12 @@ const Home = () => {
 
   return (
     <>
-      <Head>
-        <title>$$$$$</title>
+      <head>
+        <title>Strona główna</title>
         <meta name="description" content="To jest opis dla głównej strony." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
-      {/* <NotificationSection /> */}
+      </head>
+      <NotificationSection />
       {/* <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
         <div>
           <h2 className={styles.title}>Ortodoncja Przy Parku</h2>
@@ -108,7 +108,7 @@ const Home = () => {
       </div>
       <OrtoBanner />
       <OfficeSixIcons /> */}
-      {/* <PhotosLinkRow /> */}
+      <PhotosLinkRow />
     </>
   );
 };

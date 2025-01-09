@@ -1,4 +1,4 @@
-// "use client";
+"use client";
 
 import "./globals.css";
 
@@ -7,21 +7,31 @@ import { Navigation } from "./components/Navigation/Navigation";
 import { Montserrat } from "next/font/google";
 import { MySign } from "./components/MySign/MySign";
 
+import { useState } from "react";
+
+import Head from "next/head";
+
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600"],
   variable: "--font-montserrat",
 });
 
-export const metadata = {
-  title: "My App",
-  description: "A fully responsive application",
-  viewport: "width=device-width, initial-scale=1",
-};
+// export const metadata = {
+//   title: "My App",
+//   description: "A fully responsive application",
+//   viewport: "width=device-width, initial-scale=1",
+// };
 
 export default function RootLayout({ children }) {
+  const [title, setTitle] = useState("Strona Główna");
+
   return (
     <html lang="pl">
+      <head>
+        <title>{title}</title>
+        <meta name="description" content="hello leyout" />
+      </head>
       <body className={montserrat.variable}>
         <Navigation />
         <main className={"mainWrapper"}>{children}</main>
