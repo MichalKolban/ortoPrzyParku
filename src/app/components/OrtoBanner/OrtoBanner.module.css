@@ -1,15 +1,42 @@
+/* @media screen and (max-width: 600px) and (orientation: portrait) { */
+/* Styl dla urządzeń mobilnych w widoku wertykalnym */
+/* } */
+
+/* @media screen and (max-width: 600px) and (orientation: landscape) { */
+/* Styl dla urządzeń mobilnych w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait) { */
+/* Styl dla tabletów w widoku wertykalnym */
+/* } */
+
+/* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) { */
+/* Styl dla tabletów w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) { */
+/* Styl dla laptopów w widoku horyzontalnym */
+/* } */
+
+/*   to jest merge tych dwoch
+/* @media screen and (min-width: 901px) and (max-width: 1200px) and (orientation: landscape) { */
+/* Styl dla laptopów w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 1200px) and (max-width: 1600px) and (orientation: portrait) { */
+/* Styl dla komputerów stacjonarnych w widoku wertykalnym */
+/* } */
+
 .wrapper {
   margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 0 100px; */
   height: 200px;
   border: 1px solid #01588d;
   border-radius: 20px;
   width: 100%;
   margin: 50px auto;
-  /* height: 300px; Możesz zmienić na dowolną wysokość */
   background: linear-gradient(
     120deg,
     #01588d 50%,
@@ -19,16 +46,14 @@
   );
   color: #fff;
 
-  @media screen and (width >= 375px) and (width <= 800px) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
     background: #01588d;
-    width: 95%;
+    width: 90%;
+    height: 250px;
+    border-radius: 25px;
   }
 
-  @media screen and (width >= 800px) and (width <= 1024px) {
-  }
-
-  @media screen and (width >= 1025px) {
-    /* max-width: 1280px; */
+  @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     max-width: 1000px;
   }
 }
@@ -43,7 +68,7 @@
 }
 
 .halfSide:nth-of-type(2) {
-  @media screen and (width >= 375px) and (width <= 800px) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
     display: none;
   }
 }
@@ -65,13 +90,7 @@
   width: 200px;
   text-align: center;
 
-  @media screen and (width >= 375px) and (width <= 800px) {
-  }
-
-  @media screen and (width >= 800px) and (width <= 1024px) {
-  }
-
-  @media screen and (width >= 1025px) {
+  @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     max-width: 1280px;
   }
 }
@@ -82,10 +101,8 @@
   font-size: 14px;
   line-height: 18px;
 
-  @media screen and (width >= 375px) and (width <= 800px) {
-  }
-
-  @media screen and (width >= 800px) and (width <= 1024px) {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    line-height: 23px;
   }
 
   @media screen and (width >= 1025px) {

@@ -52,14 +52,6 @@ const Home = () => {
 
   return (
     <>
-      <head>
-        <title>Strona główna</title>
-        <meta name="description" content="To jest opis dla głównej strony." />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-      </head>
       <div className={styles.outerWrapper}>
         <NotificationSection />
         {/* <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
@@ -92,25 +84,25 @@ const Home = () => {
           </p>
         </div>
         <OrtoServices />
-      </div>
-      <div className={styles.grayWrapper}>
-        <div className={styles.grayInnerWrapper}>
-          <div>
-            <h2 className={styles.title}>Gabinet</h2>
-            <p className={styles.description}>
-              Nasz gabinet charakteryzuje się indywidualnym podejściem do
-              każdego pacjenta. Każdy z naszych pacjentów otrzymuje fachową i
-              troskliwą opiekę, dostosowaną do jego potrzeb i oczekiwań. Naszym
-              celem jest zapewnienie najlepszego efektu leczenia i zdrowego,
-              pięknego uśmiechu.
-            </p>
-          </div>
-          <div className={styles.xmastree}>
-            <Image src={gabinetImg} width={380} height={260} />
+      </div> */}
+        <div className={styles.grayWrapper}>
+          <div className={styles.grayInnerWrapper}>
+            <div>
+              <h2 className={styles.title}>Gabinet</h2>
+              <p className={styles.description}>
+                Nasz gabinet charakteryzuje się indywidualnym podejściem do
+                każdego pacjenta. Każdy z naszych pacjentów otrzymuje fachową i
+                troskliwą opiekę, dostosowaną do jego potrzeb i oczekiwań.
+                Naszym celem jest zapewnienie najlepszego efektu leczenia i
+                zdrowego, pięknego uśmiechu.
+              </p>
+            </div>
+            <div className={styles.xmastree}>
+              <Image src={gabinetImg} width={380} height={260} />
+            </div>
           </div>
         </div>
-      </div>
-      <OrtoBanner /> */}
+        <OrtoBanner />
         <OfficeSixIcons />
         <PhotosLinkRow />
       </div>
