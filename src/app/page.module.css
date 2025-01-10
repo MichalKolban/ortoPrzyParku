@@ -57,6 +57,11 @@
     margin: 50px auto;
   }
 
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    flex-direction: column;
+    margin: 25px auto;
+  }
+
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     width: 1280px;
     margin: 100px 0;
@@ -92,6 +97,11 @@
   @media screen and (max-width: 600px) and (orientation: portrait) {
     flex-direction: column;
     padding: 25px;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    flex-direction: column;
+    margin: 25px auto;
   }
 }
 
