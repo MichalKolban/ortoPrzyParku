@@ -142,6 +142,7 @@
     flex-direction: column;
     text-align: center;
     gap: 20px;
+    opacity: 0;
     /* position: absolute; */
     position: fixed;
     top: 104px;
@@ -155,17 +156,17 @@
   }
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
-    /* display: none; */
+    opacity: 0;
+    border: 2px solid orange;
   }
 }
 
 .menuOverlayOpen {
   right: 0;
-  /* display: flex; */
+  opacity: 1;
 }
 
 .menuOverlayClose {
-  /* display: none; */
   opacity: 0;
 }
 
