@@ -166,6 +166,7 @@
     width: 340px;
     font-weight: 500;
     height: 180px;
+    padding: 0 20px;
   }
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
