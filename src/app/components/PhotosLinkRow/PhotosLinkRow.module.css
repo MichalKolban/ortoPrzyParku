@@ -51,6 +51,11 @@
     font-size: 12px;
   }
 
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    width: 85%;
+    gap: 20px;
+  }
+
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     display: flex;
     align-items: center;
@@ -68,6 +73,16 @@
     margin-bottom: 35px;
     padding-bottom: 5px;
   }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    border-bottom: 1px solid var(--basicBlue);
+    margin: 0 auto;
+    width: fit-content;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+  }
+
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     display: none;
   }

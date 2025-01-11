@@ -59,7 +59,7 @@
 
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
     flex-direction: column;
-    margin: 25px auto;
+    margin: 50px auto;
   }
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
@@ -100,8 +100,9 @@
   }
 
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
-    flex-direction: column;
-    margin: 25px auto;
+    /* flex-direction: column; */
+    /* margin: 25px auto; */
+    padding: 35px 25px;
   }
 }
 
@@ -149,5 +150,30 @@
     width: 550px;
     font-size: 15px;
     line-height: 26px;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    /* width: 50%; */
+    /* margin: 0 auto; */
+    font-size: 12px;
+  }
+}
+
+.officeDescription {
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    width: 90%;
+    font-size: 12px;
+  }
+}
+
+.descriptionBox {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    width: 70%;
+    margin: 0 auto;
   }
 }

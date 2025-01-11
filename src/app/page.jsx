@@ -55,7 +55,7 @@ const Home = () => {
       <div className={styles.outerWrapper}>
         <NotificationSection />
         <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
-          <div>
+          <div className={styles.descriptionBox}>
             <h2 className={styles.title}>Ortodoncja Przy Parku</h2>
             <p className={styles.description}>
               Ortodoncja Przy Parku to gabinet ortodontyczno-stomatologiczny w
@@ -71,7 +71,7 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.sectionWrapper}>
-          <div>
+          <div className={styles.descriptionBox}>
             <h2 className={styles.title}>O nas</h2>
             <p className={styles.description}>
               Wykorzystujemy najnowsze technologie i nowatorskie metody leczenia
@@ -89,7 +89,9 @@ const Home = () => {
           <div className={styles.grayInnerWrapper}>
             <div>
               <h2 className={styles.title}>Gabinet</h2>
-              <p className={styles.description}>
+              <p
+                className={`${styles.description} ${styles.officeDescription}`}
+              >
                 Nasz gabinet charakteryzuje się indywidualnym podejściem do
                 każdego pacjenta. Każdy z naszych pacjentów otrzymuje fachową i
                 troskliwą opiekę, dostosowaną do jego potrzeb i oczekiwań.
