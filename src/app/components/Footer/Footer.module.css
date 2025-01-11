@@ -87,6 +87,7 @@
 
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
     display: none;
+    font-size: 12px;
   }
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
@@ -163,7 +164,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 340px;
+    width: 360px;
     font-weight: 500;
     height: 180px;
     padding: 0 20px;
@@ -185,7 +186,8 @@
   justify-content: space-between;
 
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
-    font-size: 16px;
+    /* font-size: 16px; */
+    font-size: 13px;
   }
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
@@ -212,6 +214,10 @@
   @media screen and (max-width: 600px) and (orientation: portrait) {
     width: 125px;
     text-align: center;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    width: 340px;
   }
 }
 
