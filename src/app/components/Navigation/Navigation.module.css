@@ -34,8 +34,6 @@
   @media screen and (max-width: 600px) and (orientation: portrait) {
     background-color: #fff;
     position: fixed;
-    /* padding: 20px; */
-    /* padding: 10px 15px; */
     padding: 5px 10px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     display: flex;
@@ -49,25 +47,20 @@
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
     position: fixed;
     background-color: #fff;
-    border: 2px solid pink;
     padding: 5px 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* width: 100vw; */
     width: 100%;
   }
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     background-color: #fff;
-    /* padding: 20px; */
-    /* border-bottom: 2px solid red; */
+    padding: 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    border: 2px solid orange;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     justify-content: centerkultur;
     vertical-align: baseline;
     width: 100vw;
@@ -107,9 +100,6 @@
 }
 
 .menuIcon {
-  @media screen and (width >= 800px) and (width <= 1024px) {
-  }
-
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     display: none;
   }
@@ -150,7 +140,7 @@
     top: 62px;
     right: -200vw;
     width: 100vw;
-    height: calc(100vh - 62px);
+    height: calc(100vh - 82px);
     background-color: #3493cc;
     transition: right 1.2s ease;
   }
