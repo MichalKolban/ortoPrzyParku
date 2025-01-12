@@ -49,6 +49,7 @@
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
     position: fixed;
     background-color: #fff;
+    border: 2px solid pink;
     padding: 5px 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     display: flex;
@@ -62,6 +63,7 @@
     /* padding: 20px; */
     /* border-bottom: 2px solid red; */
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    border: 2px solid orange;
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
