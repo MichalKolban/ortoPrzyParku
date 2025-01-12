@@ -140,7 +140,7 @@
     top: 62px;
     right: -200vw;
     width: 100vw;
-    height: calc(100vh - 82px);
+    height: calc(100vh - 62px);
     background-color: #3493cc;
     transition: right 1.2s ease;
   }
