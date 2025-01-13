@@ -20,7 +20,7 @@ export const Navigation = ({ onBurgerClick }) => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.insideWrapper}>
-        <Link href="/" className={`${styles.box} ${styles.logo}`}>
+        <Link href="/">
           <Image
             className={styles.mainLogo}
             src={mainLogo}
