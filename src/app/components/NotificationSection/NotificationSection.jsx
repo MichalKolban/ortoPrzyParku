@@ -1,9 +1,9 @@
-import Image from 'next/image';
-import styles from './NotificationSection.module.css';
+import Image from "next/image";
+import styles from "./NotificationSection.module.css";
 
-import phoneIcon from '../../../../public/icons/phoneIcon.png';
-import calendarIcon from '../../../../public/icons/calendarIcon.png';
-import clockIcon from '../../../../public/icons/clockIcon.png';
+import phoneIcon from "../../../../public/icons/phoneIcon.png";
+import calendarIcon from "../../../../public/icons/calendarIcon.png";
+import clockIcon from "../../../../public/icons/clockIcon.png";
 
 export const NotificationSection = () => {
   return (
@@ -22,7 +22,7 @@ export const NotificationSection = () => {
         <Image src={calendarIcon} width={40} height={35} />
         <div className={styles.box}>
           <p className={styles.title}>E-mail</p>
-          <p className={styles.firstRow}>kasiazal@ortoconsjaprzyparku.pl</p>
+          <p className={styles.firstRow}>kasiazal@ortodoncjaprzyparku.pl</p>
           <p className={styles.secondRow}>Umów się na wizytę</p>
         </div>
       </div>
