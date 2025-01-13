@@ -414,7 +414,8 @@
         { "id": 7, "name": "Ćwiek okołomiazgowy (Pins)", "price": 165 },
         { "id": 8, "name": "Odbudowa zęba na wkładzie szklanym", "price": 660 },
         { "id": 9, "name": "ICON 1 ząb", "price": 550 },
-        { "id": 10, "name": "ICON 6 zębów", "price": 1650 }
+        { "id": 10, "name": "ICON 6 zębów", "price": 1650 },
+        { "id": 11, "name": "Montaz wkladu z włókna szklanego", "price": 300 }
       ]
     },
     {
@@ -451,7 +452,12 @@
           "name": "Usunięcie zmiany na policzku, wardze (torbiel, krwiak, polip,narośl) + badanie histopatopoligczne + ew. róznica za badanie - wycena indywidualna",
           "price": 1100
         },
-        { "id": 14, "name": "Odsłonięcie kła zatrzymanego", "price": 1100 }
+        { "id": 14, "name": "Odsłonięcie kła zatrzymanego", "price": 1100 },
+        {
+          "id": 15,
+          "name": "Wypełnienie zębodołu po ekstrakcji kości",
+          "price": 550
+        }
       ]
     },
     {
@@ -462,7 +468,7 @@
         {
           "id": 1,
           "name": "Implantacja natychmiastwa Implant STRAUMANN - wycena indywidualna",
-          "price": 4400
+          "price": 5500
         },
         { "id": 2, "name": "Implant STRAUMANN", "price": 3850 },
         { "id": 3, "name": "Korona na implancie standard", "price": 3300 },
@@ -506,7 +512,7 @@
         {
           "id": 7,
           "name": "Przeszczep dziąsła FGG CTG - wycena indywidualna",
-          "price": 2200
+          "price": 2500
         }
       ]
     },
@@ -627,7 +633,7 @@
         {
           "id": 9,
           "name": "Usunięcie złamanego narzędzia z kanału - wycena indywidualna",
-          "price": 550
+          "price": 600
         }
       ]
     },
