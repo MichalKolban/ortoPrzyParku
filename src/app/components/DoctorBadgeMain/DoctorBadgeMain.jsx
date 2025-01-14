@@ -1,12 +1,17 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
+import { useState } from "react";
 // import styles from './doctorBadgeMain.module.css';
-import styles from './DoctorBadgeMain.module.css';
 
-import dataJSON from '../../data/mainDoctor.json';
+import { Modal } from "../Modal/Modal";
+
+import styles from "./DoctorBadgeMain.module.css";
+
+import dataJSON from "../../data/mainDoctor.json";
 
 export const DoctorBedgeMain = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const doctor = dataJSON.doctors[0];
 
   return (
@@ -19,9 +24,19 @@ export const DoctorBedgeMain = () => {
           <h2 className={styles.mainTitle}>Lekarz stomatolog</h2>
           <h2 className={styles.mainTitle}>Specjalista ortodonta</h2>
           <h2 className={styles.mainTitle}>Zalozyciel gabinetu</h2>
-          <button className={styles.btn}>wiecej informacji</button>
+          <button onClick={() => setIsModalOpen(true)} className={styles.btn}>
+            wiecej informacji
+          </button>
         </div>
       </div>
+      <Modal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        photo={doctor.photo}
+        name={doctor.name}
+        title={doctor.title}
+        description={doctor.description}
+      />
     </>
   );
 };

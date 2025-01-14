@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import { DoctorBadge } from "../components/DoctorBadge/DoctorBadge";
 import { DoctorBedgeMain } from "../components/DoctorBadgeMain/DoctorBadgeMain";
+import { Modal } from "../components/Modal/Modal";
 // import { Popup } from '../components/Popup/Popup';
 
 import styles from "./zespol.module.css";
@@ -16,6 +17,8 @@ import radiologyJSON from "../data/radiologyTechnicanStaff.json";
 import laboratoryJSON from "../data/laboratoryStaff.json";
 
 const ZespolPage = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
+
   const doctors = doctorsJSON.doctors;
   const administration = administrationJSON.administration;
   const hygieneStaff = hygieneJSON.hygieneStaff;
