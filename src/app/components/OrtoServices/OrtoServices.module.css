@@ -57,7 +57,11 @@
     gap: 10px;
   }
 
-  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr); /* 3 kolumny */
+    grid-template-rows: repeat(4, 1fr); /* 2 rzędy */
+    margin-bottom: 50px;
     gap: 10px;
   }
 
