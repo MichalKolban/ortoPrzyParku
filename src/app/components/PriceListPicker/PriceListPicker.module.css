@@ -63,6 +63,7 @@
   transition: 0.5s;
   background-color: #fff;
   cursor: pointer;
+  width: max-content;
 }
 
 .btn:hover {
