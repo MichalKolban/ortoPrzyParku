@@ -118,11 +118,11 @@
     /* gap: 15px; */
     gap: 10px;
     /* position: absolute; */
-    top: 66px;
+    top: 64px;
     /* right: -100%; */
     right: -100vw;
     width: 100vw;
-    height: calc(100vh - 66px);
+    height: calc(100vh - 64px);
     background-color: #3493cc;
     transition: right 1.2s ease;
     overflow-y: auto;
