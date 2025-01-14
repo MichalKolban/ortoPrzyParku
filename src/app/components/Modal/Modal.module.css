@@ -37,9 +37,11 @@
   margin: 0 35px;
 }
 
-.imageWrapper > img {
-  width: auto;
-}
+/* .imageWrapper > img {
+  width: "100%";
+  height: "auto";
+  border: 2px solid orange;
+} */
 
 .contentBox {
   display: flex;

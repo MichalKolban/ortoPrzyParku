@@ -40,6 +40,11 @@
   }
 }
 
+.wrapper > img {
+  width: "100%";
+  height: "auto";
+}
+
 .mainName {
   font-size: 24px;
   margin-bottom: 10px;
