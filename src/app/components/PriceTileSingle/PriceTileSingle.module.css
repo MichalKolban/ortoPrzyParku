@@ -50,6 +50,10 @@
   @media screen and (max-width: 600px) and (orientation: portrait) {
     width: 72%;
   }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    width: 70%;
+  }
 }
 
 .price {

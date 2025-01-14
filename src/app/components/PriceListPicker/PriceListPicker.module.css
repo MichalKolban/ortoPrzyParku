@@ -47,7 +47,7 @@
     flex-direction: row;
     width: 90%;
     margin: 70px auto 0 auto;
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
   }
 }
 

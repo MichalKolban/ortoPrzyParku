@@ -1,29 +1,29 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
+import Image from "next/image";
 
-import { PriceTile } from '../PriceTile/PriceTile';
+import { PriceTile } from "../PriceTile/PriceTile";
 
-import styles from './PriceListDisplay.module.css';
+import styles from "./PriceListDisplay.module.css";
 
-import dataJSON from '../../data/procedureList.json';
-import triangleIcon from '../../../../public/icons/triangleIcon.png';
+import dataJSON from "../../data/procedureList.json";
+import triangleIcon from "../../../../public/icons/triangleIcon.png";
 
 export const PriceListDisplay = () => {
   const ortodocnjaFirstColumn = dataJSON.Ortodoncja.filter(
-    (item) => item.id <= 5,
+    (item) => item.id <= 5
   );
 
   const ortodoncjaSecondColumn = dataJSON.Ortodoncja.filter(
-    (item) => item.id >= 6,
+    (item) => item.id >= 6
   );
 
   const stomatologiaFirstColumn = dataJSON.Stomatologia.filter(
-    (item) => item.id > 12 && item.id <= 17,
+    (item) => item.id > 12 && item.id <= 17
   );
 
   const stomatologiaSecondColumn = dataJSON.Stomatologia.filter(
-    (item) => item.id > 17,
+    (item) => item.id > 17
   );
 
   return (
@@ -60,14 +60,16 @@ export const PriceListDisplay = () => {
         <h2 className={styles.titleSection}>Stomatologia</h2>
         <div className={styles.innerWrapper}>
           <div className={styles.column}>
-            {stomatologiaFirstColumn.map((element) => (
-              <PriceTile
-                key={element.id}
-                title={element.category}
-                iconImg={element.icon}
-                itemsArr={element.items}
-              />
-            ))}
+            {stomatologiaFirstColumn.map((element) => {
+              return (
+                <PriceTile
+                  key={element.id}
+                  title={element.category}
+                  iconImg={element.icon}
+                  itemsArr={element.items}
+                />
+              );
+            })}
 
             <a href="#" className={styles.backToStart}>
               <Image

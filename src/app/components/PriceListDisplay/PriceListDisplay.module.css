@@ -29,7 +29,9 @@
 
 .wrapper {
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
-    border: 3px solid purple;
+    /* border: 3px solid purple; */
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
@@ -63,6 +65,12 @@
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     display: none;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    /* gap: 20px; */
+    width: auto;
+    margin: 20px 0;
   }
 }
 
