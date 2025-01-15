@@ -127,7 +127,6 @@
   }
 
   @media screen and (min-width: 901px) and (max-width: 1300px) {
-    /* display: none; */
     gap: 10px;
   }
 
@@ -143,7 +142,7 @@
   display: none;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    display: auto;
+    display: block;
   }
 
   @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -151,7 +150,7 @@
   }
 
   @media screen and (min-width: 901px) and (max-width: 1300px) {
-    display: block;
+    display: none;
   }
 
   @media screen and (min-width: 901px) and (max-width: 1680px) {
@@ -313,6 +312,10 @@
 }
 
 .desktopRegistrationBox {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+
   @media screen and (max-width: 600px) and (orientation: portrait) {
     display: none;
   }
@@ -325,11 +328,8 @@
   /* display: none; */
   /* } */
 
-  @media screen and (min-width: 901px) and (max-width: 1680px) {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
+  /* @media screen and (min-width: 901px) and (max-width: 1680px) { */
+  /* } */
 }
 
 .desktopRegistrationName {
