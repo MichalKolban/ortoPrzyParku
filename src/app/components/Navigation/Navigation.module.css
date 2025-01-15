@@ -107,6 +107,14 @@
   max-width: 1680px;
   padding: 10px 20px;
 
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    padding: 0;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    /* padding: 5px 10px; */
+  }
+
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     /* min-width: 1280px; */
   }
