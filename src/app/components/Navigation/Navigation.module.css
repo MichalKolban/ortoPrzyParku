@@ -32,7 +32,7 @@
   z-index: 100;
   max-width: 1680px;
   margin: 0 auto;
-  border: 2px solid green;
+  /* border: 2px solid green;a */
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     background-color: #fff;
@@ -98,6 +98,7 @@
   vertical-align: baseline;
   width: 100vw;
   max-width: 1680px;
+  padding: 10px 20px;
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     /* min-width: 1280px; */
@@ -105,6 +106,11 @@
 }
 
 .links {
+  display: flex;
+  color: #333;
+  align-items: center;
+  gap: 25px;
+
   @media screen and (max-width: 600px) and (orientation: portrait) {
     display: none;
   }
@@ -117,12 +123,12 @@
     display: none;
   }
 
-  @media screen and (min-width: 901px) and (max-width: 1680px) {
-    display: flex;
-    color: #333;
-    align-items: center;
-    gap: 25px;
-  }
+  /* @media screen and (min-width: 901px) and (max-width: 1680px) { */
+  /* display: flex; */
+  /* color: #333; */
+  /* align-items: center; */
+  /* gap: 25px; */
+  /* } */
 }
 
 .menuIcon {
