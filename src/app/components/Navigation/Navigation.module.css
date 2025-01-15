@@ -97,6 +97,7 @@
   justify-content: space-between;
   vertical-align: baseline;
   width: 100vw;
+  max-width: 1680px;
 
   @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
     /* min-width: 1280px; */
