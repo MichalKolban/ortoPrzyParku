@@ -32,6 +32,18 @@
   z-index: 100;
   max-width: 1680px;
   margin: 0 auto;
+
+  position: fixed;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  vertical-align: baseline;
+  width: 100vw;
+  /* max-width: 1680px; */
+
   /* border: 2px solid green;a */
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -69,7 +81,7 @@
     width: 100vw;
   }
 
-  @media screen and (min-width: 901px) and (max-width: 1680px) {
+  /* @media screen and (min-width: 901px) and (max-width: 1680px) {
     position: fixed;
     background-color: #fff;
     padding: 20px;
@@ -80,7 +92,7 @@
     vertical-align: baseline;
     width: 100vw;
     max-width: 1680px;
-  }
+  } */
 
   /* @media screen and (min-width: 1681ox) {
     max-width: 1680px;
