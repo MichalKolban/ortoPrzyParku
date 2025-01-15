@@ -190,10 +190,10 @@
     text-align: center;
     gap: 15px;
     position: fixed;
-    top: 62px;
+    top: 85px;
     right: -200vw;
     width: 100vw;
-    height: calc(100vh - 62px);
+    height: calc(100vh - 85px);
     background-color: #3493cc;
     transition: right 1.2s ease;
   }
