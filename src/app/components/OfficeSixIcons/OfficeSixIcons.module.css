@@ -32,6 +32,8 @@
   font-family: Montserrat, serif;
   color: #333;
   width: 100vw;
+  max-width: 1000px;
+  margin: 0 auto;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     grid-template-columns: repeat(2, 1fr); /* 3 kolumny */
@@ -42,7 +44,7 @@
     /* margin: 0 auto; */
   }
 
-  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+  @media screen and (min-width: 601px) and (max-width: 900px) {
     grid-template-columns: repeat(3, 1fr); /* 3 kolumny */
     grid-template-rows: repeat(2, 1fr); /* 2 rzędy */
   }
@@ -62,7 +64,7 @@
   align-items: center;
   /* border: 2px solid green; */
   flex-direction: column;
-  margin: 14px 0;
+  margin: 14px 10px;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     margin: 15px 0;
