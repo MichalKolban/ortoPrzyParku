@@ -30,6 +30,9 @@
 .wrapper {
   font-family: Montserrat, serif;
   z-index: 100;
+  max-width: 1680px;
+  margin: 0 auto;
+  border: 2px solid green;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     background-color: #fff;
@@ -79,11 +82,11 @@
     max-width: 1680px;
   }
 
-  @media screen and (min-width: 1681ox) {
+  /* @media screen and (min-width: 1681ox) {
     max-width: 1680px;
     margin: 0 auto;
     border: 2px solid green;
-  }
+  } */
 }
 
 .insideWrapper {
