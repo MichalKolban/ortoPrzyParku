@@ -128,6 +128,7 @@
 
   @media screen and (min-width: 901px) and (max-width: 1300px) {
     /* display: none; */
+    gap: 10px;
   }
 
   /* @media screen and (min-width: 901px) and (max-width: 1680px) { */
@@ -199,20 +200,24 @@
   }
 
   @media screen and (min-width: 901px) and (max-width: 1300px) {
+    /* display: none; */
+  }
+
+  /* @media screen and (min-width: 901px) and (max-width: 1300px) {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     gap: 20px;
     /* opacity: 0; */
-    position: fixed;
-    top: 62px;
-    right: -200vw;
-    width: 100vw;
-    height: calc(100vh - 62px);
-    background-color: #3493cc;
-    transition: right 1.2s ease;
-  }
+  /* position: fixed; */
+  /* top: 62px; */
+  /* right: -200vw; */
+  /* width: 100vw; */
+  /* height: calc(100vh - 62px); */
+  /* background-color: #3493cc; */
+  /* transition: right 1.2s ease; */
+  /* } */
 }
 
 .menuOverlayOpen {
@@ -259,11 +264,13 @@
   }
 
   @media screen and (min-width: 901px) and (max-width: 1680px) {
-    display: flex;
+    /* border: 3px solid red; */
+    /* display: flex; */
     align-items: center;
     border-bottom: 1px solid #333;
     padding-bottom: 5px;
     height: 20px;
+    font-size: 14px;
     /* transition: 0.5s; */
   }
 }
