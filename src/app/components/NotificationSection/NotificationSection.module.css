@@ -29,9 +29,13 @@
 
 .wrapper {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   gap: 50px;
+  /* gap: 20px; */
   justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 40px;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     display: none;
@@ -39,6 +43,10 @@
 
   @media screen and (min-width: 601px) and (max-width: 900px) {
     display: none;
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1300px) {
+    gap: 20px;
   }
 }
 

@@ -17,9 +17,9 @@
 .mainWrapper {
   padding-top: 30px;
 
-  @media screen and (max-width: 600px) and (orientation: portrait) {
+  /* @media screen and (max-width: 600px) and (orientation: portrait) {
     padding-top: 120px;
-  }
+  } */
 }
 
 * {

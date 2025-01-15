@@ -87,7 +87,7 @@ const Home = () => {
         </div>
         <div className={styles.grayWrapper}>
           <div className={styles.grayInnerWrapper}>
-            <div>
+            <div className={styles.description}>
               <h2 className={styles.title}>Gabinet</h2>
               <p
                 className={`${styles.description} ${styles.officeDescription}`}

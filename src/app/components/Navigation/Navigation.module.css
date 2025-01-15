@@ -172,7 +172,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 10px;
+    gap: 15px;
     top: 64px;
     right: -100vw;
     width: 100vw;
@@ -188,7 +188,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    gap: 10px;
+    gap: 15px;
     position: fixed;
     top: 62px;
     right: -200vw;
@@ -235,7 +235,7 @@
   justify-content: center;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    border: 1px solid white;
+    border: 2px solid white;
     font-size: 17px;
     font-weight: 400;
     padding: 10px 0;
