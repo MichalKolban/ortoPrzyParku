@@ -1,0 +1,18 @@
+/* .equipmentList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+} */
+
+.equipmentList li {
+  font-family: Montserrat, serif;
+  color: #333;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.listIcon {
+  margin-right: 10px;
+}

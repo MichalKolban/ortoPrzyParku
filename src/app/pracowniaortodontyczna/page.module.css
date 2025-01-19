@@ -78,7 +78,7 @@
 }
 
 .title::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 20px;
   height: 2px; /* Wysokość linii */
@@ -147,4 +147,49 @@
     flex-direction: column;
     padding: 25px;
   }
+}
+
+.descriptionList {
+  font-family: Montserrat, serif;
+  color: #333;
+}
+
+.equipmentList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.equipmentList li {
+  font-family: Montserrat, serif;
+  color: #333;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.listIcon {
+  margin-right: 10px;
+}
+
+.logoBox {
+  /* border: 1px solid blue; */
+  width: 100%;
+  width: 800px;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logoSmallBox {
+  width: 280px;
+  height: 80px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
