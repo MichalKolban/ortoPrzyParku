@@ -1,8 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import SocialLinks from "../SocialLink/SocialLink";
-
 import iconMail from "../../../../public/icons/email-96.png";
 import iconPhone from "../../../../public/icons/phone-96.png";
 import iconFacebook from "../../../../public/icons/facebook-96.png";
@@ -89,6 +87,30 @@ export const Footer = () => {
             />
           </span>
           Instagram
+        </Link>
+
+        <Link
+          className={styles.singleLink}
+          href={"https://www.instagram.com/ortodoncjaprzyparku/"}
+          target="_blank"
+        >
+          Informacja o Prawach autorskich
+        </Link>
+
+        <Link
+          className={styles.singleLink}
+          href={"https://www.instagram.com/ortodoncjaprzyparku/"}
+          target="_blank"
+        >
+          Polityka wykorzystania plików cookies
+        </Link>
+
+        <Link
+          className={styles.singleLink}
+          href={"https://www.instagram.com/ortodoncjaprzyparku/"}
+          target="_blank"
+        >
+          Standardy ochrony dzieci / małoletnich
         </Link>
 
         <div className={styles.extraLinks}>
