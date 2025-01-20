@@ -198,7 +198,7 @@
     },
     {
       "id": 6,
-      "category": "Badania rendgenowskie",
+      "category": "Badania rentgenowskie",
       "icon": "/icons/diagnostykaOrto.png",
       "items": [
         {
@@ -269,7 +269,7 @@
           "name": "Demontaż aparatu, oczyszanie zębów 1 łuk",
           "price": 400
         },
-        { "id": 2, "name": "Montaz rtainera 1 łuk", "price": 400 },
+        { "id": 2, "name": "Montaz retainera 1 łuk", "price": 400 },
         { "id": 3, "name": "Szyna retencyjna", "price": 400 },
         {
           "id": 4,
