@@ -20,7 +20,7 @@
         },
         {
           "id": 5,
-          "name": "Przygotowanie planu leczenia u pacjenta z dysfunkcjami stawów skroniowo-zuchwowych (zebranie danych i omówienie planu leczenia)",
+          "name": "Przygotowanie planu leczenia u pacjenta z dysfunkcjami stawów skroniowo-żśuchwowych (zebranie danych i omówienie planu leczenia)",
           "price": 1350
         },
         { "id": 6, "name": "Skan zębów", "price": 165 },
@@ -137,7 +137,7 @@
     },
     {
       "id": 3,
-      "category": "Leczenie wizyta kontrolna",
+      "category": "wizyta kontrolna",
       "icon": "/icons/diagnostykaOrto.png",
       "items": [
         {
@@ -174,7 +174,7 @@
       "items": [
         { "id": 1, "name": "Wizyta kontrolna", "price": 275 },
         { "id": 2, "name": "Wymiana retainera na nowy", "price": 700 },
-        { "id": 3, "name": "Demontaz retainera", "price": 350 }
+        { "id": 3, "name": "Demontaż retainera", "price": 350 }
       ]
     },
 
@@ -203,13 +203,13 @@
       "items": [
         {
           "id": 1,
-          "name": "Tomografia CBCT z opisem (szczęka, zuchwa, stawy skoniowo-zuchwowe)",
+          "name": "Tomografia CBCT z opisem (szczęka, żuchwa, stawy skoniowo-zuchwowe)",
           "price": 330
         },
-        { "id": 2, "name": "Tomografia CBCT (szczęka-zuchwa)", "price": 330 },
+        { "id": 2, "name": "Tomografia CBCT (szczęka-żuchwa)", "price": 330 },
         {
           "id": 3,
-          "name": "Tomografia CBCT (stawów zuchowow-skroniowych",
+          "name": "Tomografia CBCT (stawów żuchowow-skroniowych)",
           "price": 330
         },
         { "id": 4, "name": "Zdjęcie pantomograficzne", "price": 110 },
@@ -224,7 +224,7 @@
       "items": [
         {
           "id": 1,
-          "name": "Instruktaz higieny przed rozpoczęciem leczenia ortodontycznego, oczyszczenie zębów, nauka szczotkowania zębów",
+          "name": "Instruktaż higieny przed rozpoczęciem leczenia ortodontycznego, oczyszczenie zębów, nauka szczotkowania zębów",
           "price": "220-330"
         },
         {
@@ -269,7 +269,7 @@
           "name": "Demontaż aparatu, oczyszanie zębów 1 łuk",
           "price": 400
         },
-        { "id": 2, "name": "Montaz retainera 1 łuk", "price": 400 },
+        { "id": 2, "name": "Montaż retainera 1 łuk", "price": 400 },
         { "id": 3, "name": "Szyna retencyjna", "price": 400 },
         {
           "id": 4,
@@ -415,7 +415,7 @@
         { "id": 8, "name": "Odbudowa zęba na wkładzie szklanym", "price": 660 },
         { "id": 9, "name": "ICON 1 ząb", "price": 550 },
         { "id": 10, "name": "ICON 6 zębów", "price": 1650 },
-        { "id": 11, "name": "Montaz wkladu z włókna szklanego", "price": 300 }
+        { "id": 11, "name": "Montaż wkladu z włókna szklanego", "price": 300 }
       ]
     },
     {

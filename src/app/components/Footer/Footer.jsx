@@ -97,17 +97,9 @@ export const Footer = () => {
         >
           Informacja o Prawach autorskich
         </Link>
-
-        <button
-          className={styles.singleLink}
-          onClick={() => window.open("documents/prawaAutorskie.pdf", "_blank")}
-        >
-          Informacja o Prawach autorskich2
-        </button>
-
         <Link
           className={styles.singleLink}
-          href={"https://www.instagram.com/ortodoncjaprzyparku/"}
+          href={"/documents/plikiCookie.pdf"}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -116,7 +108,7 @@ export const Footer = () => {
 
         <Link
           className={styles.singleLink}
-          href={"https://www.instagram.com/ortodoncjaprzyparku/"}
+          href={"/documents/standardyOchrony.pdf"}
           target="_blank"
           rel="noopener noreferrer"
         >

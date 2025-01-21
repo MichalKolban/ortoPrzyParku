@@ -1,4 +1,4 @@
-import styles from './PriceListPicker.module.css';
+import styles from "./PriceListPicker.module.css";
 
 export const PriceListPicker = () => {
   const scrollToSection = (id) => {
@@ -10,7 +10,7 @@ export const PriceListPicker = () => {
 
       window.scrollTo({
         top: yPosition,
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   };
@@ -22,73 +22,73 @@ export const PriceListPicker = () => {
         <div className={styles.innerWrapper}>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('diagnostykaOrtodontyczna')}
+            onClick={() => scrollToSection("diagnostykaOrtodontyczna")}
           >
             Diagnostyka Ortodontyczna
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('badaniaRendgenowskie')}
+            onClick={() => scrollToSection("badaniaRendgenowskie")}
           >
-            Badania Rendgenowskie
+            Badania Rentgenowskie
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('higienizacja')}
+            onClick={() => scrollToSection("higienizacja")}
           >
             Higienizacja
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('aparatyStałe')}
+            onClick={() => scrollToSection("aparatyStałe")}
           >
             Aparaty stałe
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('aparatyZdejmowane')}
+            onClick={() => scrollToSection("aparatyZdejmowane")}
           >
             Aparaty zdejmowane
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('leczenieWizytaKontrolna')}
+            onClick={() => scrollToSection("wizytaKontrolna")}
           >
-            Leczenie wizyta konrtolna
+            Wizyta konrtolna
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('demontaż')}
+            onClick={() => scrollToSection("demontaż")}
           >
             Demontaż
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('retencja')}
+            onClick={() => scrollToSection("retencja")}
           >
             Retencja
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('alignery-AparatyNakładkowe')}
+            onClick={() => scrollToSection("alignery-AparatyNakładkowe")}
           >
             Alignery - aparaty nakładkowe
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('materiałyDodatkowe')}
+            onClick={() => scrollToSection("materiałyDodatkowe")}
           >
             Materiały dodatkowe
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('fizykoterapia')}
+            onClick={() => scrollToSection("fizykoterapia")}
           >
             Fizykoterapia
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('awaria')}
+            onClick={() => scrollToSection("awaria")}
           >
             Awaria
           </button>
@@ -99,63 +99,63 @@ export const PriceListPicker = () => {
         <div className={styles.innerWrapper}>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('poradaLekarska')}
+            onClick={() => scrollToSection("poradaLekarska")}
           >
             Porada lekarska
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('profilaktyka')}
+            onClick={() => scrollToSection("profilaktyka")}
           >
             Profilaktyka
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('implantologia')}
+            onClick={() => scrollToSection("implantologia")}
           >
             Implantologia
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('protetykaStomatologiczna')}
+            onClick={() => scrollToSection("protetykaStomatologiczna")}
           >
             Protetyka Stomatologiczna
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('chirurgiaStomatologiczna')}
+            onClick={() => scrollToSection("chirurgiaStomatologiczna")}
           >
             Chirurgia stomatologiczna
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('stomatologiaZachowawcza')}
+            onClick={() => scrollToSection("stomatologiaZachowawcza")}
           >
             Stomatologia zachowawcza
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('periodontologia')}
+            onClick={() => scrollToSection("periodontologia")}
           >
             Periodontologia
           </button>
           <button
             className={styles.btn}
             onClick={() =>
-              scrollToSection('wspomaganieChirurgiczneLeczeniaOrtodontycznego')
+              scrollToSection("wspomaganieChirurgiczneLeczeniaOrtodontycznego")
             }
           >
             Wspomaganie chirurgiczne leczenia ortodontycznego
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('endodoncja')}
+            onClick={() => scrollToSection("endodoncja")}
           >
             Endodoncja
           </button>
           <button
             className={styles.btn}
-            onClick={() => scrollToSection('estetyka')}
+            onClick={() => scrollToSection("estetyka")}
           >
             Estetyka
           </button>
