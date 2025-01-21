@@ -42,7 +42,9 @@ const PracowniaOrtodontycznaPage = () => {
       </div>
 
       <div className={styles.grayWrapper}>
-        <div className={styles.grayInnerWrapper}>
+        <div
+          className={`${styles.grayInnerWrapper} ${styles.equipmentWrapper}`}
+        >
           <div className={styles.textBox}>
             <h2 className={styles.title}>Gabinet</h2>
             <p className={styles.description}>
@@ -177,7 +179,7 @@ const PracowniaOrtodontycznaPage = () => {
         </div>
       </div>
 
-      <BracesGallery />
+      {/* <BracesGallery /> */}
 
       <div className={styles.grayWrapper}>
         <div className={styles.grayInnerWrapper}>

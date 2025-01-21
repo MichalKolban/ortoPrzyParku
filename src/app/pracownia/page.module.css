@@ -46,6 +46,12 @@
     width: 100vw;
   }
 
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    flex-direction: column;
+    margin-top: 50px;
+    width: 100vw;
+  }
+
   @media screen and (width >= 1025px) {
     display: flex;
     justify-content: space-around;
@@ -67,21 +73,14 @@
   margin-left: -50vw;
   margin-right: -50vw;
 
-  /* @media screen and (width >= 375px) and (width <= 800px) {
-    margin-top: 50px;
-  } */
   @media screen and (max-width: 600px) and (orientation: portrait) {
     font-size: 12px;
     margin-top: 50px;
   }
 
-  /* @media screen and (width >= 375px) and (width <= 800px) { */
-  /* flex-direction: column; */
-  /* position: relative; */
-  /* left: 0; */
-  /* right: 0; */
-  /* margin: 0; */
-  /* } */
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    padding: 25px;
+  }
 }
 
 .grayInnerWrapper {
@@ -96,6 +95,10 @@
   @media screen and (max-width: 600px) and (orientation: portrait) {
     flex-direction: column;
     padding: 8px;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    padding: 25px;
   }
 }
 
@@ -163,11 +166,21 @@
     flex-direction: column;
     padding-bottom: 50px;
   }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    flex-direction: column;
+  }
 }
 
 .textBox {
   width: 90%;
   margin: 0 auto;
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    /* width: 50%; */
+    font-size: 13px;
+    padding: 0 10px;
+  }
 }
 
 /* .grayInnerWrapper {
@@ -244,6 +257,10 @@
     margin: 25px auto 0 auto;
     /* border: 1px solid orange; */
   }
+
+  /* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    width: 50%;
+  } */
 }
 
 .btn {
@@ -259,6 +276,10 @@
   transition: 0.4s;
   width: fit-content;
   margin: 30px auto 0px auto;
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    margin-bottom: 30px;
+  }
 }
 
 .btn:hover {
