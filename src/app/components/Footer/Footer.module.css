@@ -39,12 +39,12 @@
   margin: 50px auto;
   width: 95%;
   /* max-width: 1680px; */
-  max-width: 1280px;
+  max-width: 1600px;
   border: 2px solid var(--darkBlue);
 
   padding: 30px 45px 30px 25px;
   font-size: 14px;
-  max-width: 1280px;
+  /* max-width: 1280px; */
   font-family: Montserrat, serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -80,18 +80,6 @@
     justify-content: space-evenly;
     padding: 20px 0;
   }
-
-  @media screen and (min-width: 901px) and (max-width: 1600px) {
-    /* padding: 30px 45px 30px 25px;
-    font-size: 14px;
-    max-width: 1280px;
-    min-width: 1024px;
-    height: 300px;
-    font-family: Montserrat, serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal; */
-  }
 }
 
 .box {
@@ -99,7 +87,7 @@
   padding: 0 20px;
   /* max-width: 260px; */
   cursor: default;
-  max-width: 400px;
+  max-width: 240px;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     margin: 10px 0;
@@ -199,14 +187,15 @@
   min-width: 280px;
   font-weight: 500;
   font-size: 13px;
+  height: 150px;
+  margin: auto 0;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     /* padding: 0 10px; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    /* width: 380px;
-   */
+    height: 100%;
     width: fit-content;
     /* min-width: 360px; */
     font-weight: 500;
@@ -219,7 +208,7 @@
     width: 360px;
     font-weight: 500;
     /* height: 180px; */
-    padding: 0 20px;
+    /* padding: 0 20px; */
   }
 
   @media screen and (min-width: 901px) and (max-width: 1300px) {
@@ -246,17 +235,26 @@
 .extraLinks {
   display: flex;
   justify-content: space-between;
+  font-size: 12px;
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    width: 100%;
+    justify-content: space-around;
+  }
 
   @media screen and (min-width: 601px) and (max-width: 900px) {
     font-size: 13px;
   }
 
-  @media screen and (min-width: 901px) and (max-width: 1600px) {
+  /* @media screen and (min-width: 901px) and (max-width: 1600px) {
     font-size: 13px;
-  }
+  } */
 }
 
 .singleLink {
+  display: flex;
+  align-items: center;
+
   @media screen and (max-width: 600px) and (orientation: portrait) {
     margin: 8px 0;
     font-size: 12px;
@@ -288,6 +286,7 @@
     display: flex;
     align-items: center;
     /* margin: 6px 0; */
+    max-width: 280px;
   }
 }
 
@@ -302,14 +301,53 @@
   }
 }
 
-/* .hideIcon {
-  @media screen and (max-width: 600px) and (orientation: portrait) {
-    display: none;
-  }
-} */
-
 .footerMail {
   @media screen and (max-width: 600px) and (orientation: portrait) {
     height: 53px;
+  }
+}
+
+.legalInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  gap: 15px;
+  font-size: 12px;
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    gap: 0;
+    font-size: 13px;
+    padding: 0 10px;
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1300px) {
+    gap: 0;
+    font-size: 13px;
+    max-width: 274px;
+    padding: 0 20px;
+  }
+}
+
+.allLinksWrapper {
+  display: flex;
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 1300px) {
+    flex-direction: row;
   }
 }

@@ -22,117 +22,125 @@ export const Footer = () => {
           alt="Ortodoncja przy parku Logo"
         />
       </div>
-      <div className={`${styles.box} ${styles.mainLinks}`}>
-        <Link
-          className={styles.singleLink}
-          href={"tel:501199124"}
-          target="_blank"
-        >
-          <span className={styles.iconSmall}>
-            <Image
-              className={styles.linkIcon}
-              src={iconPhone}
-              width={25}
-              height={25}
-              alt="Phone icon"
-            />
-          </span>
-          501 199 124
-        </Link>
-        <Link
-          className={`${styles.singleLink} ${styles.footerMail}`}
-          href={"mailto:kasiazal@ortodoncjaprzyparku.pl"}
-          target="_blank"
-        >
-          <span className={`${styles.iconSmall} ${styles.hideIcon}`}>
-            <Image
-              className={styles.linkIcon}
-              src={iconMail}
-              width={25}
-              height={25}
-              alt="Email icon"
-            />
-          </span>
-          kasiazal@ortodoncjaprzyparku.pl
-        </Link>
-        <Link
-          className={styles.singleLink}
-          href={"https://www.facebook.com/OrtodoncjaPrzyParku"}
-          target="_blank"
-        >
-          <span className={styles.iconSmall}>
-            <Image
-              className={styles.linkIcon}
-              src={iconFacebook}
-              width={25}
-              height={25}
-              alt="Facebook icon"
-            />
-          </span>
-          Facebook
-        </Link>
 
-        <Link
-          className={styles.singleLink}
-          href={"https://www.instagram.com/ortodoncjaprzyparku/"}
-          target="_blank"
-        >
-          <span className={styles.iconSmall}>
-            <Image
-              className={styles.linkIcon}
-              src={iconInstagram}
-              width={25}
-              height={25}
-              alt="Instagram icon"
-            />
-          </span>
-          Instagram
-        </Link>
-
-        <Link
-          className={styles.singleLink}
-          href={"/documents/prawaAutorskie.pdf"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Informacja o Prawach autorskich
-        </Link>
-        <Link
-          className={styles.singleLink}
-          href={"/documents/plikiCookie.pdf"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Polityka wykorzystania plików cookies
-        </Link>
-
-        <Link
-          className={styles.singleLink}
-          href={"/documents/standardyOchrony.pdf"}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Standardy ochrony dzieci / małoletnich
-        </Link>
-
-        <div className={styles.extraLinks}>
+      <div className={styles.allLinksWrapper}>
+        <div className={`${styles.box} ${styles.mainLinks}`}>
           <Link
-            className={`${styles.singleLink} ${styles.ortoLink}`}
-            href={"https://www.google.pl"}
+            className={styles.singleLink}
+            href={"tel:501199124"}
             target="_blank"
           >
-            Polityka RODO
+            <span className={styles.iconSmall}>
+              <Image
+                className={styles.linkIcon}
+                src={iconPhone}
+                width={25}
+                height={25}
+                alt="Phone icon"
+              />
+            </span>
+            501 199 124
+          </Link>
+          <Link
+            className={`${styles.singleLink} ${styles.footerMail}`}
+            href={"mailto:kasiazal@ortodoncjaprzyparku.pl"}
+            target="_blank"
+          >
+            <span className={`${styles.iconSmall} ${styles.hideIcon}`}>
+              <Image
+                className={styles.linkIcon}
+                src={iconMail}
+                width={25}
+                height={25}
+                alt="Email icon"
+              />
+            </span>
+            kasiazal@ortodoncjaprzyparku.pl
+          </Link>
+          <Link
+            className={styles.singleLink}
+            href={"https://www.facebook.com/OrtodoncjaPrzyParku"}
+            target="_blank"
+          >
+            <span className={styles.iconSmall}>
+              <Image
+                className={styles.linkIcon}
+                src={iconFacebook}
+                width={25}
+                height={25}
+                alt="Facebook icon"
+              />
+            </span>
+            Facebook
           </Link>
 
           <Link
-            className={`${styles.singleLink} ${styles.ortoLink}`}
-            href={"https://www.google.pl"}
+            className={styles.singleLink}
+            href={"https://www.instagram.com/ortodoncjaprzyparku/"}
             target="_blank"
           >
-            Materiały do pobrania
+            <span className={styles.iconSmall}>
+              <Image
+                className={styles.linkIcon}
+                src={iconInstagram}
+                width={25}
+                height={25}
+                alt="Instagram icon"
+              />
+            </span>
+            Instagram
           </Link>
         </div>
+
+        <div className={styles.line}></div>
+
+        <div className={`${styles.box} ${styles.legalInformation}`}>
+          <Link
+            className={styles.singleLink}
+            href={"/documents/prawaAutorskie.pdf"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Informacja o Prawach autorskich
+          </Link>
+          <Link
+            className={styles.singleLink}
+            href={"/documents/plikiCookie.pdf"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Polityka wykorzystania plików cookies
+          </Link>
+
+          <Link
+            className={styles.singleLink}
+            href={"/documents/standardyOchrony.pdf"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Standardy ochrony dzieci / małoletnich
+          </Link>
+
+          <div className={styles.extraLinks}>
+            <Link
+              className={`${styles.singleLink} ${styles.ortoLink}`}
+              href={"https://www.google.pl"}
+              target="_blank"
+            >
+              Polityka RODO
+            </Link>
+
+            <Link
+              className={`${styles.singleLink} ${styles.ortoLink}`}
+              href={"https://www.google.pl"}
+              target="_blank"
+            >
+              Materiały do pobrania
+            </Link>
+          </div>
+        </div>
       </div>
+
       <div className={styles.line}></div>
       <div className={styles.box}>
         <div>
