@@ -1,9 +1,14 @@
 import Image from "next/image";
 
+import Link from "next/link";
+
 import { BracesGallery } from "../components/BracesGallery/BracesGallery";
 import { LogoListElement } from "../components/LogoListElement/LogoListElement";
 
 import ortoMainPhoto from "../../../public/photos/pracowaniaOrtodontyczna.png";
+import pracowniaOrtoPhoto from "../../../public/photos/pracowniaOrtoPhoto.png";
+import uslugiOrtoPhoto from "../../../public/photos/pracowaniaUslugiPhoto.png";
+import wspolpracaOrtoPhoto from "../../../public/photos/wspolpracaPracowania.png";
 // import companyLogoIcon from "../../../public/icons/logoSmallIcon.png";
 
 import shapeLogo from "../../../public/icons/3shapeLogo.png";
@@ -22,7 +27,7 @@ const PracowniaOrtodontycznaPage = () => {
   return (
     <div>
       <div className={styles.sectionWrapper}>
-        <div>
+        <div className={styles.textBox}>
           <h2 className={styles.title}>Pracowania ortodontyczna</h2>
           <p className={styles.description}>
             W Ortodoncji Przy Parku znajduje się profesjonalne i nowoczesne
@@ -32,13 +37,13 @@ const PracowniaOrtodontycznaPage = () => {
           </p>
         </div>
         <div className={styles.ortoMainPhotoWrapper}>
-          <Image src={ortoMainPhoto} width={420} height={280} />
+          <Image src={ortoMainPhoto} width={420} height={280} alt="pracownia" />
         </div>
       </div>
 
       <div className={styles.grayWrapper}>
         <div className={styles.grayInnerWrapper}>
-          <div>
+          <div className={styles.textBox}>
             <h2 className={styles.title}>Gabinet</h2>
             <p className={styles.description}>
               W Ortodoncji Przy Parku znajduje się profesjonalne i nowoczesne
@@ -101,7 +106,102 @@ const PracowniaOrtodontycznaPage = () => {
         </div>
       </div>
 
+      <div className={styles.sectionWrapper}>
+        <div className={styles.textBox}>
+          <p className={styles.description}>
+            Wykonujemy pełen zakres prac ortodontycznych z akrylu, doginanych
+            oraz projektowanych cyfrowo i wykonywanych w technice SLM
+            (selektywne topienie laserowe). Produkujemy alignery stosowane do
+            leczenia nakładkowego. Stosujemy dwie metody produkcji:
+          </p>
+          <ul className={styles.equipmentList}>
+            <LogoListElement>Alignery metodą tłoczenia</LogoListElement>
+            <LogoListElement>
+              Alignery drukowane z pamięcią kształtu
+            </LogoListElement>
+          </ul>
+          <p className={styles.description}>
+            Na bieżąco śledzimy postęp w dziedzinie ortodoncji oraz
+            uczestniczymy w szkoleniach organizowanych przez wiodące firmy z
+            branży. Pozwala to nam wykonywać nasze prace stosując najnowsze
+            technologie i najlepsze materiały.Naszym głównym celem jest tworzyć
+            aparaty ortodontyczne, które są zgodne z planem leczenia i oferujemy
+            pełne wsparcie techniczne dla lekarza.
+          </p>
+
+          <ul className={styles.equipmentList}>
+            <LogoListElement>
+              Zawsze służymy naszym doświadczeniem.
+            </LogoListElement>
+            <LogoListElement>
+              Przyjmujemy zlecenia od indywidualnych lekarzy.
+            </LogoListElement>
+          </ul>
+        </div>
+        <Link href={"/"} className={styles.btn}>
+          <div>Kontakt</div>
+        </Link>
+        <div className={styles.ortoMainPhotoWrapper}>
+          <Image src={pracowniaOrtoPhoto} width={340} height={400} />
+        </div>
+      </div>
+
+      <div className={styles.grayWrapper}>
+        <div className={styles.grayInnerWrapper}>
+          <div className={styles.textBox}>
+            <h2 className={styles.title}>Usługi</h2>
+            <p className={styles.description}>
+              Świadczymy kompleksowe usługi techniki dentystycznej w zakresie
+              ortodoncji.
+            </p>
+            <ol className={styles.orderedList}>
+              Nasze usługi:
+              <li className={styles.orderedListElement}>Diagnostyka</li>
+              <li>Aparaty ortodontyczne</li>
+              <li>Szyny</li>
+              <ul className={styles.equipmentList}>
+                <LogoListElement>szyna do wybielania</LogoListElement>
+                <LogoListElement>szyna z set-upem</LogoListElement>
+                <LogoListElement>szyna relaksacyjna</LogoListElement>
+                <LogoListElement>szyna retencyjna</LogoListElement>
+                <LogoListElement>szyna do deprogramacji</LogoListElement>
+              </ul>
+              <li>ALIGNERY IN-OFFICE lub GRAPHY</li>
+              <li>PRACE DRUKOWANE Z ŻYWICY</li>
+              <li>PRACE DRUKOWANE Z METALU</li>
+            </ol>
+          </div>
+        </div>
+        <div className={styles.ortoMainPhotoWrapper}>
+          <Image src={uslugiOrtoPhoto} width={340} height={400} alt="usługi" />
+        </div>
+      </div>
+
       <BracesGallery />
+
+      <div className={styles.grayWrapper}>
+        <div className={styles.grayInnerWrapper}>
+          <div className={styles.textBox}>
+            <h2 className={styles.title}>Współpraca</h2>
+            <p className={styles.description}>
+              Zapraszamy do współpracy gabinety ortodontyczne a także
+              indywidualnych lekarzy.Aby dowiedzieć się więcej zachęcamy do
+              kontaktu
+            </p>
+            <Link href={"/"} className={styles.btn}>
+              <div>Kontakt</div>
+            </Link>
+          </div>
+        </div>
+        <div className={styles.ortoMainPhotoWrapper}>
+          <Image
+            src={wspolpracaOrtoPhoto}
+            width={350}
+            height={200}
+            alt="współpraca"
+          />
+        </div>
+      </div>
     </div>
   );
 };

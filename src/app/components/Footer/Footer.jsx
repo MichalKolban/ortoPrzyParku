@@ -91,8 +91,9 @@ export const Footer = () => {
 
         <Link
           className={styles.singleLink}
-          href={"https://www.instagram.com/ortodoncjaprzyparku/"}
+          href={"/documents/prawaAutorskie.pdf"}
           target="_blank"
+          rel="noopener noreferrer"
         >
           Informacja o Prawach autorskich
         </Link>
@@ -101,6 +102,7 @@ export const Footer = () => {
           className={styles.singleLink}
           href={"https://www.instagram.com/ortodoncjaprzyparku/"}
           target="_blank"
+          rel="noopener noreferrer"
         >
           Polityka wykorzystania plików cookies
         </Link>
@@ -109,6 +111,7 @@ export const Footer = () => {
           className={styles.singleLink}
           href={"https://www.instagram.com/ortodoncjaprzyparku/"}
           target="_blank"
+          rel="noopener noreferrer"
         >
           Standardy ochrony dzieci / małoletnich
         </Link>
