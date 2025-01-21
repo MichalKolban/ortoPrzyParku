@@ -121,23 +121,23 @@ export const Footer = () => {
             Standardy ochrony dzieci / małoletnich
           </Link>
 
-          <div className={styles.extraLinks}>
-            <Link
+          {/* <div className={styles.extraLinks}> */}
+          {/* <Link
               className={`${styles.singleLink} ${styles.ortoLink}`}
               href={"https://www.google.pl"}
               target="_blank"
             >
               Polityka RODO
-            </Link>
+            </Link> */}
 
-            <Link
-              className={`${styles.singleLink} ${styles.ortoLink}`}
-              href={"https://www.google.pl"}
-              target="_blank"
-            >
-              Materiały do pobrania
-            </Link>
-          </div>
+          <Link
+            className={`${styles.singleLink} ${styles.ortoLink}`}
+            href={"https://www.google.pl"}
+            target="_blank"
+          >
+            Materiały do pobrania
+          </Link>
+          {/* </div> */}
         </div>
       </div>
 

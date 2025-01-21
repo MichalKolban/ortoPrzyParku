@@ -292,7 +292,7 @@
 
 .ortoLink {
   @media screen and (max-width: 600px) and (orientation: portrait) {
-    width: 125px;
+    /* width: 125px; */
     text-align: center;
   }
 

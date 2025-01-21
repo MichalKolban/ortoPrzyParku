@@ -24,6 +24,67 @@ const RodoPage = () => {
   return (
     <>
       <div className={styles.wrapper}>
+        <div className={styles.rodoStatement}>
+          <p className={styles.rodoText}>
+            Administratorem Danych Osobowych jest Katarzyna Zaleska,  prowadząca
+            działalność pod firmą: Ortodoncja Przy Parku dr n. med. Katarzyna
+            Zaleska,
+          </p>
+          <ul className={styles.orderedList}>
+            <li>
+              stałe miejsce wykonywania działalności gospodarczej: 71-620
+              Szczecin, ul. Jana Kazimierza 21, lok. U1,
+            </li>
+            <li>
+              dodatkowe stałe miejsca wykonywania działalności gospodarczej:
+              Myślibórz, ul 1-go Maja 8/2.
+            </li>
+          </ul>
+          <p className={styles.rodoText}>
+            Inne dane identyfikacyjne: NIP: 5991966627, Regon: 811961364
+          </p>
+          <p className={styles.rodoText}>
+            Podstawa wykonywania działalności leczniczej – wpis do Rejestru
+            Podmiotów Wykonujących Działalność Leczniczą, nr księgi:
+            000000235236, oznaczenie organu: W-32
+          </p>
+          <p className={styles.rodoText}>
+            Administrator Danych Osobowych nie powołał Inspektora Danych
+            Osobowych.
+          </p>
+          <p className={styles.rodoText}>
+            Kontakt z Administratorem jest możliwy pod adresem
+            korespondencyjnym: Ortodoncja Przy Parku dr n. med. Katarzyna
+            Zaleska, 71-620 Szczecin, ul. Jana Kazimierza 21, lok. U1, za pomocą
+            adresu e- mail: kasiazal@ortodoncjaprzyparku.pl, telefonicznie: 790
+            760 666, albo osobiście po wcześniejszym ustaleniu terminu.
+          </p>
+          <p className={styles.rodoText}>
+            Do Administratora Danych Osobowych można się zwracać we wszystkich
+            sprawach związanych z ochroną danych osobowych, w szczególności w
+            przypadkach naruszenia przysługujących Państwu praw oraz naruszenia
+            lub podejrzenia naruszenia bezpieczeństwa danych osobowych.
+          </p>
+          <p className={styles.rodoText}>
+            Organem nadzorczym właściwym w sprawie ochrony danych osobowych jest
+            Prezes Urzędu Ochrony Danych Osobowych z siedzibą: ul. Stawki 2,
+            00-193 Warszawa.
+          </p>
+          <p className={styles.rodoText}>
+            Administrator Danych Osobowych przetwarza dane osobowe na podstawie
+            przepisów prawa, tj. Rozporządzenia Parlamentu Europejskiego i Rady
+            (UE) 2016/679 z dnia 27 kwietnia 2016r. w sprawie ochrony osób
+            fizycznych w związku z przetwarzaniem danych osobowych i w sprawie
+            swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE
+            (Ogólne rozporządzenie o ochronie danych).
+          </p>
+          <p className={styles.rodoText}>
+            Administrator Danych Osobowych, realizując obowiązek informacyjny
+            określony przepisami powołanego Rozporządzenia, poniżej przedstawia
+            informacje dotyczące przetwarzania danych:
+          </p>
+        </div>
+
         <div className={styles.rodoBox}>
           <button
             className={styles.btn}
@@ -67,6 +128,19 @@ const RodoPage = () => {
           >
             Informacja dotycząca przetwarzanych danych kandydata do pracy (w
             procesie rekrutacji)
+          </button>
+          <button
+            className={styles.btn}
+            onClick={() => scrollToSection("dlaPracownika")}
+          >
+            Informacja dotycząca przetwarzania danych pracowników
+          </button>
+          <button
+            className={styles.btn}
+            onClick={() => scrollToSection("staz")}
+          >
+            Informacja dotycząca przetwarzania danych lekarza dentysty
+            odbywającego staż podyplomowy
           </button>
         </div>
 
@@ -993,6 +1067,297 @@ const RodoPage = () => {
               nadzorczego - Prezesa Urzędu Ochrony Danych Osobowych, w przypadku
               gdy przetwarzanie Pani/Pana danych osobowych narusza przepisy
               dotyczące ochrony danych osobowych.
+            </li>
+          </ol>
+        </div>
+
+        <div id="dlaPracownika" className={styles.documentWrapper}>
+          <h3 className={styles.documentTitle}>
+            INFORMACJA DOTYCZĄCA PRZETWARZANIA DANYCH PRACOWNIKÓW
+          </h3>
+          <div className={styles.documentHeading}>
+            Zgodnie z art. 13 ust. 1 i 2 rozporządzenia Parlamentu Europejskiego
+            i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony
+            osób fizycznych w związku z przetwarzaniem danych osobowych i w
+            sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy
+            95/46/WE (ogólne rozporządzenie o ochronie danych) – Dz.Urz. UE.L Nr
+            119, str. 1 z późn. zm. [RODO] informujemy, że:
+          </div>
+          <ol className={styles.orderedList}>
+            <li className={styles.listItem}>
+              Administratorem Pani/Pana danych osobowych jest Katarzyna Zaleska
+              prowadząca działalność pod firmą: Ortodoncja Przy Parku dr n. med.
+              Katarzyna Zaleska, stałe miejsce wykonywania działalności: 71-620
+              Szczecin, ul. Jana Kazimierza 21, lok. U1, NIP: 5991966627, Regon:
+              811961364,
+            </li>
+            <li className={styles.listItem}>
+              Administrator Danych Osobowych [dalej: Administrator] nie powołał
+              Inspektora Ochrony Danych. Kontakt z Administratorem jest możliwy
+              pod adresem korespondencyjnym: Ortodoncja Przy Parku dr n. med.
+              Katarzyna Zaleska, stałe miejsce wykonywania działalności: 71-620
+              Szczecin, ul. Jana Kazimierza 21, lok. U1, bądź za pomocą adresu
+              e-mail: kasiazal@ortodoncjaprzyparku.pl Osoby zainteresowane
+              przyjmowane są po wcześniejszym ustaleniu terminu.
+            </li>
+
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe przetwarzane będą w wykonaniu ciążącego na
+              administratorze obowiązku prawnego:
+              <ol className={styles.insideList}>
+                <li className={styles.listItem}>
+                  wynikającego z obowiązujących przepisów prawa, w szczególności
+                  z przepisów ustawy Kodeks pracy, oraz przepisów wykonawczych
+                  do ww. ustawy, w celu zawarcia umowy o pracę i prowadzenia
+                  dokumentacji pracownicze (przetwarzanie Pani/Pana danych
+                  osobowych w celach i zakresie wykraczającym poza dane osobowe
+                  niezbędne dla potrzeb zawarcia umowy o pracę i prowadzenia
+                  dokumentacji pracowniczej następuje na podstawie Pani/Pana
+                  dobrowolnej zgody),
+                </li>
+                <li className={styles.listItem}>
+                  wynikającego z obowiązujących przepisów prawa, dla potrzeb
+                  rozliczeń finansowych, w tym podatkowych,
+                </li>
+                <li className={styles.listItem}>
+                  wynikające w szczególności z ustawy o działalności leczniczej,
+                  ustawy o zawodzie lekarza i lekarza, ustawy o niektórych
+                  zawodach medycznych, ustawy o prawach pacjenta i Rzeczniku
+                  Praw Pacjenta i innych ustaw z sektora ochrony zdrowia i
+                  wydanych na ich podstawie aktów wykonawczych, oraz przyjętych
+                  aktów wewnętrznych
+                </li>
+                <li className={styles.listItem}>
+                  w związku z korzystaniem przez Panią/Pana ze świadczeń ze
+                  świadczeń socjalnych, ze względu na możliwość odniesienia
+                  korzyści (obejmuje to dane wrażliwe (dane szczególnej
+                  kategorii))
+                </li>
+                <li className={styles.listItem}>
+                  w zakresie danych dotyczących Pani/Pana zdrowia ze względu na
+                  potrzebę wykonania ciążących na nas obowiązków oraz praw
+                  wynikających z prawa pracy, tj. dokumentacja zwolnień
+                  lekarskich, dokumentacja bhp itp., jak i również z
+                  zabezpieczenia społecznego i ochrony socjalnej,
+                </li>
+              </ol>
+            </li>
+            <li className={styles.listItem}>
+              Na podstawie Pani/Pana dobrowolnej zgody dane mogą być
+              przetwarzane dla celów nie wynikających ze stosunku pracy, jednak
+              wówczas zapytamy Panią/Pana każdorazowo o zgodę, wskazując każdy
+              odrębny cel przetwarzania danych w sytuacji, gdy przepis prawny
+              nie daje podstaw do ich przetwarzania.
+            </li>
+            <li className={styles.listItem}>
+              Dane mogą być również przetwarzane w związku z dochodzeniem/obroną
+              roszczeń w ramach uzasadnionego interesu Administratora (art. 6
+              ust. 1 lit. f RODO, art. 9 ust. 2 lit. f RODO).
+            </li>
+            <li className={styles.listItem}>
+              Podanie danych w zakresie celu określonego w pkt. 3 jest warunkiem
+              zawarcia umowy o pracę i prowadzenie dokumentacji pracowniczej.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe zawarte w dokumentacji pracowniczej będą
+              przechowywane przez okres zatrudnienia oraz przez okres 10 lat,
+              licząc od dnia ustania zatrudnienia.
+            </li>
+            <li className={styles.listItem}>
+              Wobec Pani/Pana danych osobowych nie będą podejmowane
+              zautomatyzowane decyzje (decyzje bez istotnego udziału człowieka),
+              w tym Pana/Pani dane osobowe nie będą podlegały profilowaniu.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe nie będą przekazywane do państw trzecich.
+            </li>
+            <li className={styles.listItem}>
+              Odbiorcami Pani/Pana danych osobowych mogą być: (i) osoby
+              zatrudnione lub współpracujące z Administratorem, związane z
+              prowadzeniem dokumentacji pracowniczej i innych obowiązków z tego
+              wynikających, (ii) podmioty, którym zostały powierzone przez
+              Administratora dane osobowe w ramach umowy powierzenia
+              przetwarzania danych, uczestniczące w obsłudze procesów związanych
+              lub wynikających z zatrudnienia, (iii) organy państwa i inne
+              podmioty uprawnione na podstawie przepisów prawa do uzyskania tych
+              danych
+            </li>
+            <li className={styles.listItem}>
+              Ma Pani/Pan:
+              <ol className={styles.insideList}>
+                <li className={styles.listItem}>
+                  prawo dostępu do swoich danych osobowych oraz otrzymania ich
+                  kopii,
+                </li>
+                <li className={styles.listItem}>
+                  prawo do sprostowania (poprawiania) swoich danych osobowych,
+                </li>
+                <li className={styles.listItem}>
+                  prawo ograniczenia przetwarzania danych (z zastrzeżeniem
+                  sytuacji, gdy przetwarzanie danych nie wynika z przepisów
+                  prawa),
+                </li>
+                <li className={styles.listItem}>
+                  prawo do przenoszenia danych osobowych (w zakresie w jakim są
+                  one przetwarzane w sposób zautomatyzowany oraz w celu
+                  wykonania umowy lub na podstawie wyrażonej zgody).
+                </li>
+              </ol>
+            </li>
+
+            <li className={styles.listItem}>
+              W przypadku przetwarzania danych na podstawie udzielonej przez
+              Panią/Pana zgody (art. 6 ust. 1 lit. a RODO) przysługuje Pani/Panu
+              prawo do jej cofnięcia w dowolnym momencie i w każdej formie
+              (pisemnie, ustnie, wyraźne działanie), jednak nie ma to wpływu na
+              zgodność z prawem przetwarzania, którego dokonano na podstawie
+              zgody przed jej cofnięciem.
+            </li>
+            <li className={styles.listItem}>
+              Ma Pani/Pan prawo do wniesienia sprzeciwu wobec przetwarzania
+              Pani/Pana danych opartego na art. 6 ust. 1 lit f) RODO z przyczyn
+              związanych z Pani/Pana szczególną sytuacją, tj. gdy wobec
+              interesów Administratora nadrzędny charakter mają Pani/Pana
+              interesy lub podstawowe prawa i wolności, wymagające ochrony
+              danych osobowych.
+            </li>
+            <li className={styles.listItem}>
+              Przysługuje Pani/Panu prawo wniesienia skargi do organu
+              nadzorczego - Prezesa Urzędu Ochrony Danych Osobowych, w przypadku
+              gdy przetwarzanie Pani/Pana danych osobowych narusza przepisy
+              dotyczące ochrony danych osobowych
+            </li>
+          </ol>
+        </div>
+
+        <div id="staz" className={styles.documentWrapper}>
+          <h3 className={styles.documentTitle}>
+            INFORMACJA DOTYCZĄCA PRZETWARZANIA DANYCH LEKARZA DENTYSTY
+            ODBYWAJĄCEGO STAŻ PODYPLOMOWY
+          </h3>
+          <div className={styles.documentHeading}>
+            Zgodnie z art. 13 ust. 1 i 2 rozporządzenia Parlamentu Europejskiego
+            i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony
+            osób fizycznych w związku z przetwarzaniem danych osobowych i w
+            sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy
+            95/46/WE (ogólne rozporządzenie o ochronie danych) – Dz.Urz. UE.L Nr
+            119, str. 1 z późn. zm. [RODO] informujemy, że:
+          </div>
+          <ol className={styles.orderedList}>
+            <li className={styles.listItem}>
+              Administratorem Pani/Pana danych osobowych jest Katarzyna Zaleska
+              prowadząca działalność pod firmą: Ortodoncja Przy Parku dr n. med.
+              Katarzyna Zaleska, stałe miejsce wykonywania działalności: 71-620
+              Szczecin, ul. Jana Kazimierza 21, lok. U1, NIP: 5991966627, Regon:
+              811961364,
+            </li>
+            <li className={styles.listItem}>
+              Administrator Danych Osobowych [dalej: Administrator] nie powołał
+              Inspektora Ochrony Danych. Kontakt z Administratorem jest możliwy
+              pod adresem korespondencyjnym: Ortodoncja Przy Parku dr n. med.
+              Katarzyna Zaleska, stałe miejsce wykonywania działalności: 71-620
+              Szczecin, ul. Jana Kazimierza 21, lok. U1, bądź za pomocą adresu
+              e-mail: kasiazal@ortodoncjaprzyparku.pl Osoby zainteresowane
+              przyjmowane są po wcześniejszym ustaleniu terminu.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe przetwarzane będą w celu realizacji stażu.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe przetwarzane będą w celu wypełnienia
+              obowiązku prawnego ciążącego na Administratorze (art. 6 ust. 1
+              lit. c RODO) oraz do wykonania umowy, której stroną jest osoba,
+              której dane dotyczą, lub do podjęcia działań na żądanie osoby,
+              której dane dotyczą, przed zawarciem umowy (art. 6 ust. 1 lit. b
+              RODO) zgodnie z ustawą z dnia 15 kwietnia 2011 r. o działalności
+              leczniczej, ustawą z dnia 5 grudnia 1996 r. o zawodzie lekarza i
+              lekarza dentysty, rozporządzeniem Ministra Zdrowia z dnia 26
+              września 2001 r. w sprawie stażu podyplomowego lekarza i lekarza
+              dentysty oraz innych aktów prawnych w zakresie realizacji staży.
+            </li>
+            <li className={styles.listItem}>
+              Na podstawie Pani/Pana dobrowolnej zgody dane mogą być
+              przetwarzane dla celów innych niż określone w pkt. 3 jednak
+              wówczas zapytamy Panią/Pana każdorazowo o zgodę, wskazując każdy
+              odrębny cel przetwarzania danych w sytuacji, gdy przepis prawny
+              nie daje podstaw do ich przetwarzania.
+            </li>
+            <li className={styles.listItem}>
+              Dane mogą być również przetwarzane w związku z dochodzeniem/obroną
+              roszczeń w ramach uzasadnionego interesu Administratora (art. 6
+              ust. 1 lit. f RODO, art. 9 ust. 2 lit. f RODO).
+            </li>
+            <li className={styles.listItem}>
+              Podanie danych w zakresie celu określonego w pkt. 3 jest
+              obowiązkowe – brak ich podania uniemożliwi realizację stażu.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe zawarte w dokumentacji pracowniczej będą
+              przechowywane przez okres zatrudnienia oraz przez okres 10 lat,
+              licząc od dnia ustania zatrudnienia.
+            </li>
+            <li className={styles.listItem}>
+              Wobec Pani/Pana danych osobowych nie będą podejmowane
+              zautomatyzowane decyzje (decyzje bez istotnego udziału człowieka),
+              w tym Pana/Pani dane osobowe nie będą podlegały profilowaniu.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe nie będą przekazywane do państw trzecich.
+            </li>
+            <li className={styles.listItem}>
+              Odbiorcami Pani/Pana danych osobowych mogą być: (i) osoby
+              zatrudnione lub współpracujące z Administratorem, związane z
+              prowadzeniem dokumentacji pracowniczej i innych obowiązków z tego
+              wynikających, (ii) podmioty, którym zostały powierzone przez
+              Administratora dane osobowe w ramach umowy powierzenia
+              przetwarzania danych, uczestniczące w obsłudze procesów związanych
+              lub wynikających z zatrudnienia, (iii) organy państwa i inne
+              podmioty uprawnione na podstawie przepisów prawa do uzyskania tych
+              danych
+            </li>
+            <li className={styles.listItem}>
+              Ma Pani/Pan:
+              <ol className={styles.insideList}>
+                <li className={styles.listItem}>
+                  prawo dostępu do swoich danych osobowych oraz otrzymania ich
+                  kopii,
+                </li>
+                <li className={styles.listItem}>
+                  prawo do sprostowania (poprawiania) swoich danych osobowych,
+                </li>
+                <li className={styles.listItem}>
+                  prawo ograniczenia przetwarzania danych (z zastrzeżeniem
+                  sytuacji, gdy przetwarzanie danych nie wynika z przepisów
+                  prawa),
+                </li>
+                <li className={styles.listItem}>
+                  prawo do przenoszenia danych osobowych (w zakresie w jakim są
+                  one przetwarzane w sposób zautomatyzowany oraz w celu
+                  wykonania umowy lub na podstawie wyrażonej zgody).
+                </li>
+              </ol>
+            </li>
+            <li className={styles.listItem}>
+              W przypadku przetwarzania danych na podstawie udzielonej przez
+              Panią/Pana zgody (art. 6 ust. 1 lit. a RODO) przysługuje Pani/Panu
+              prawo do jej cofnięcia w dowolnym momencie i w każdej formie
+              (pisemnie, ustnie, wyraźne działanie), jednak nie ma to wpływu na
+              zgodność z prawem przetwarzania, którego dokonano na podstawie
+              zgody przed jej cofnięciem.
+            </li>
+            <li className={styles.listItem}>
+              Ma Pani/Pan prawo do wniesienia sprzeciwu wobec przetwarzania
+              Pani/Pana danych opartego na art. 6 ust. 1 lit f) RODO z przyczyn
+              związanych z Pani/Pana szczególną sytuacją, tj. gdy wobec
+              interesów Administratora nadrzędny charakter mają Pani/Pana
+              interesy lub podstawowe prawa i wolności, wymagające ochrony
+              danych osobowych.
+            </li>
+            <li className={styles.listItem}>
+              Przysługuje Pani/Panu prawo wniesienia skargi do organu
+              nadzorczego - Prezesa Urzędu Ochrony Danych Osobowych, w przypadku
+              gdy przetwarzanie Pani/Pana danych osobowych narusza przepisy
+              dotyczące ochrony danych osobowych
             </li>
           </ol>
         </div>
