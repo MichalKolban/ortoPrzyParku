@@ -109,40 +109,42 @@ const PracowniaOrtodontycznaPage = () => {
       </div>
 
       <div className={styles.sectionWrapper}>
-        <div className={styles.textBox}>
-          <p className={styles.description}>
-            Wykonujemy pełen zakres prac ortodontycznych z akrylu, doginanych
-            oraz projektowanych cyfrowo i wykonywanych w technice SLM
-            (selektywne topienie laserowe). Produkujemy alignery stosowane do
-            leczenia nakładkowego. Stosujemy dwie metody produkcji:
-          </p>
-          <ul className={styles.equipmentList}>
-            <LogoListElement>Alignery metodą tłoczenia</LogoListElement>
-            <LogoListElement>
-              Alignery drukowane z pamięcią kształtu
-            </LogoListElement>
-          </ul>
-          <p className={styles.description}>
-            Na bieżąco śledzimy postęp w dziedzinie ortodoncji oraz
-            uczestniczymy w szkoleniach organizowanych przez wiodące firmy z
-            branży. Pozwala to nam wykonywać nasze prace stosując najnowsze
-            technologie i najlepsze materiały.Naszym głównym celem jest tworzyć
-            aparaty ortodontyczne, które są zgodne z planem leczenia i oferujemy
-            pełne wsparcie techniczne dla lekarza.
-          </p>
+        <div className={styles.btnTextBox}>
+          <div className={styles.textBox}>
+            <p className={styles.description}>
+              Wykonujemy pełen zakres prac ortodontycznych z akrylu, doginanych
+              oraz projektowanych cyfrowo i wykonywanych w technice SLM
+              (selektywne topienie laserowe). Produkujemy alignery stosowane do
+              leczenia nakładkowego. Stosujemy dwie metody produkcji:
+            </p>
+            <ul className={styles.equipmentList}>
+              <LogoListElement>Alignery metodą tłoczenia</LogoListElement>
+              <LogoListElement>
+                Alignery drukowane z pamięcią kształtu
+              </LogoListElement>
+            </ul>
+            <p className={styles.description}>
+              Na bieżąco śledzimy postęp w dziedzinie ortodoncji oraz
+              uczestniczymy w szkoleniach organizowanych przez wiodące firmy z
+              branży. Pozwala to nam wykonywać nasze prace stosując najnowsze
+              technologie i najlepsze materiały.Naszym głównym celem jest
+              tworzyć aparaty ortodontyczne, które są zgodne z planem leczenia i
+              oferujemy pełne wsparcie techniczne dla lekarza.
+            </p>
 
-          <ul className={styles.equipmentList}>
-            <LogoListElement>
-              Zawsze służymy naszym doświadczeniem.
-            </LogoListElement>
-            <LogoListElement>
-              Przyjmujemy zlecenia od indywidualnych lekarzy.
-            </LogoListElement>
-          </ul>
+            <ul className={styles.equipmentList}>
+              <LogoListElement>
+                Zawsze służymy naszym doświadczeniem.
+              </LogoListElement>
+              <LogoListElement>
+                Przyjmujemy zlecenia od indywidualnych lekarzy.
+              </LogoListElement>
+            </ul>
+          </div>
+          <Link href={"/"} className={styles.btn}>
+            <div>Kontakt</div>
+          </Link>
         </div>
-        <Link href={"/"} className={styles.btn}>
-          <div>Kontakt</div>
-        </Link>
         <div className={styles.ortoMainPhotoWrapper}>
           <Image src={pracowniaOrtoPhoto} width={340} height={400} />
         </div>
@@ -173,9 +175,14 @@ const PracowniaOrtodontycznaPage = () => {
               <li>PRACE DRUKOWANE Z METALU</li>
             </ol>
           </div>
-        </div>
-        <div className={styles.ortoMainPhotoWrapper}>
-          <Image src={uslugiOrtoPhoto} width={340} height={400} alt="usługi" />
+          <div className={styles.ortoMainPhotoWrapper}>
+            <Image
+              src={uslugiOrtoPhoto}
+              width={340}
+              height={400}
+              alt="usługi"
+            />
+          </div>
         </div>
       </div>
 
@@ -183,25 +190,29 @@ const PracowniaOrtodontycznaPage = () => {
 
       <div className={styles.grayWrapper}>
         <div className={styles.grayInnerWrapper}>
-          <div className={styles.textBox}>
+          <div className={`${styles.textBox} ${styles.workWithUs}`}>
             <h2 className={styles.title}>Współpraca</h2>
             <p className={styles.description}>
               Zapraszamy do współpracy gabinety ortodontyczne a także
               indywidualnych lekarzy.Aby dowiedzieć się więcej zachęcamy do
               kontaktu
             </p>
-            <Link href={"/"} className={styles.btn}>
+            <Link
+              href={"/"}
+              className={`${styles.btn} ${styles.descriptionBtn}`}
+            >
               <div>Kontakt</div>
             </Link>
           </div>
-        </div>
-        <div className={styles.ortoMainPhotoWrapper}>
-          <Image
-            src={wspolpracaOrtoPhoto}
-            width={350}
-            height={200}
-            alt="współpraca"
-          />
+
+          <div className={styles.ortoMainPhotoWrapper}>
+            <Image
+              src={wspolpracaOrtoPhoto}
+              width={350}
+              height={200}
+              alt="współpraca"
+            />
+          </div>
         </div>
       </div>
 
