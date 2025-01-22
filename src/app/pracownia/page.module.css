@@ -337,6 +337,10 @@
 .btnTextBox {
   display: flex;
   flex-direction: column;
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    width: 90%;
+  }
 }
 
 .descriptionBtn {
