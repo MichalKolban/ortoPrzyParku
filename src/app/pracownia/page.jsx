@@ -81,28 +81,53 @@ const PracowniaOrtodontycznaPage = () => {
           </div>
           <div className={styles.logoBox}>
             <div className={styles.logoSmallBox}>
-              <Image src={shapeLogo} width={280} height={60} />
+              <Image src={shapeLogo} width={280} height={60} alt="3shape" />
             </div>
             <div className={styles.logoSmallBox}>
-              <Image src={onyxCephLogo} width={280} height={60} />
+              <Image
+                src={onyxCephLogo}
+                width={280}
+                height={60}
+                alt="onyxCeph"
+              />
             </div>
             <div className={styles.logoSmallBox}>
-              <Image src={meshmixerLogo} width={200} height={60} />
+              <Image
+                src={meshmixerLogo}
+                width={200}
+                height={60}
+                alt="meshmixer"
+              />
             </div>
             <div className={styles.logoSmallBox}>
-              <Image src={blenderLogo} width={260} height={80} />
+              <Image src={blenderLogo} width={260} height={80} alt="blender" />
             </div>
             <div className={styles.logoSmallBox}>
-              <Image src={oneTwoThreeDesignLogo} width={80} height={80} />
+              <Image
+                src={oneTwoThreeDesignLogo}
+                width={80}
+                height={80}
+                alt="123Design"
+              />
             </div>
             <div className={styles.logoSmallBox}>
-              <Image src={threeDBuilderLogo} width={80} height={80} />
+              <Image
+                src={threeDBuilderLogo}
+                width={80}
+                height={80}
+                alt="threeBuilder"
+              />
             </div>
             <div className={styles.logoSmallBox}>
-              <Image src={meshLabLogo} width={200} height={80} />
+              <Image src={meshLabLogo} width={200} height={80} alt="meshLab" />
             </div>
             <div className={styles.logoSmallBox}>
-              <Image src={threeDToolLogo} width={220} height={60} />
+              <Image
+                src={threeDToolLogo}
+                width={220}
+                height={60}
+                alt="3D-Tool"
+              />
             </div>
           </div>
         </div>
@@ -146,7 +171,12 @@ const PracowniaOrtodontycznaPage = () => {
           </Link>
         </div>
         <div className={styles.ortoMainPhotoWrapper}>
-          <Image src={pracowniaOrtoPhoto} width={340} height={400} />
+          <Image
+            src={pracowniaOrtoPhoto}
+            width={340}
+            height={400}
+            alt="pracownia"
+          />
         </div>
       </div>
 
