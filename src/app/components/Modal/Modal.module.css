@@ -120,13 +120,14 @@
   line-height: 18px;
   text-align: justify;
   margin: 15px auto;
+  position: relative;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     /* Styl dla urządzeń mobilnych w widoku wertykalnym */
     /* border: 1px solid green; */
     /* height: 40%; */
     padding: 0 10px;
-    height: 164px;
+    height: 155px;
     overflow: overlay;
   }
 }
