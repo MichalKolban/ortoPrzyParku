@@ -28,6 +28,10 @@
   margin: 10px 0;
   width: 100%;
   line-height: 25px;
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    padding: 12px;
+  }
 }
 
 .btn:hover {
