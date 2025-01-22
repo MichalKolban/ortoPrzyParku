@@ -10,7 +10,7 @@ export const Modal = ({ isOpen, onClose, photo, name, title, description }) => {
         <div className={styles.imageWrapper}>
           {/* {photo && <Image src={photo} width={350} height={480} alt={name} />} */}
 
-          {photo && <Image src={photo} width={300} height={350} alt={name} />}
+          {photo && <Image src={photo} width={140} height={180} alt={name} />}
         </div>
         <div className={styles.contentBox}>
           <h3 className={styles.name}>{name}</h3>
