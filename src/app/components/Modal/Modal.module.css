@@ -130,6 +130,11 @@
     height: 155px;
     overflow: overlay;
   }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    overflow: overlay;
+    padding: 0 15px;
+  }
 }
 
 .btn {
