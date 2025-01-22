@@ -26,7 +26,7 @@ import styles from "./page.module.css";
 const PracowniaOrtodontycznaPage = () => {
   return (
     <div>
-      <div className={styles.sectionWrapper}>
+      <div className={`${styles.sectionWrapper} ${styles.firstSection}`}>
         <div className={styles.textBox}>
           <h2 className={styles.title}>Pracowania ortodontyczna</h2>
           <p className={styles.description}>
@@ -46,13 +46,13 @@ const PracowniaOrtodontycznaPage = () => {
           className={`${styles.grayInnerWrapper} ${styles.equipmentWrapper}`}
         >
           <div className={styles.textBox}>
-            <h2 className={styles.title}>Gabinet</h2>
-            <p className={styles.description}>
+            <h2 className={styles.title}>Labolatorium</h2>
+            {/* <p className={styles.description}>
               W Ortodoncji Przy Parku znajduje się profesjonalne i nowoczesne
               laboratorium. Takie rozwiązanie daje nam możliwość bezpośredniego
               kontaktu z lekarzami prowadzącymi leczenie ortodontyczne oraz
               szybszą realizacje prac.
-            </p>
+            </p> */}
             <p className={styles.descriptionList}>
               Nasze Laboratorium wyposażone jest między innymi w:
             </p>
@@ -127,7 +127,7 @@ const PracowniaOrtodontycznaPage = () => {
               Na bieżąco śledzimy postęp w dziedzinie ortodoncji oraz
               uczestniczymy w szkoleniach organizowanych przez wiodące firmy z
               branży. Pozwala to nam wykonywać nasze prace stosując najnowsze
-              technologie i najlepsze materiały.Naszym głównym celem jest
+              technologie i najlepsze materiały. Naszym głównym celem jest
               tworzyć aparaty ortodontyczne, które są zgodne z planem leczenia i
               oferujemy pełne wsparcie techniczne dla lekarza.
             </p>
@@ -170,9 +170,9 @@ const PracowniaOrtodontycznaPage = () => {
                 <LogoListElement>szyna retencyjna</LogoListElement>
                 <LogoListElement>szyna do deprogramacji</LogoListElement>
               </ul>
-              <li>ALIGNERY IN-OFFICE lub GRAPHY</li>
-              <li>PRACE DRUKOWANE Z ŻYWICY</li>
-              <li>PRACE DRUKOWANE Z METALU</li>
+              <li>Alignery In-Office lub GRAPHY</li>
+              <li>Prace drukowane z żywicy</li>
+              <li>Prace drukowane z metalu</li>
             </ol>
           </div>
           <div className={styles.ortoMainPhotoWrapper}>
@@ -194,7 +194,7 @@ const PracowniaOrtodontycznaPage = () => {
             <h2 className={styles.title}>Współpraca</h2>
             <p className={styles.description}>
               Zapraszamy do współpracy gabinety ortodontyczne a także
-              indywidualnych lekarzy.Aby dowiedzieć się więcej zachęcamy do
+              indywidualnych lekarzy. Aby dowiedzieć się więcej zachęcamy do
               kontaktu
             </p>
             <Link
