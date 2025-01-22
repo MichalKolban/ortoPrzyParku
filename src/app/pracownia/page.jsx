@@ -204,6 +204,16 @@ const PracowniaOrtodontycznaPage = () => {
           />
         </div>
       </div>
+
+      <div>
+        <Link
+          id="kartaPracy"
+          href={"/documents/pracowniaKartaPracy.pdf"}
+          className={styles.btn}
+        >
+          <div>Pobierz kartę pracowni</div>
+        </Link>
+      </div>
     </div>
   );
 };

@@ -132,7 +132,7 @@ export const Footer = () => {
 
           <Link
             className={`${styles.singleLink} ${styles.ortoLink}`}
-            href={"https://www.google.pl"}
+            href={"/pracownia#kartaPracy"}
             target="_blank"
           >
             Materiały do pobrania
