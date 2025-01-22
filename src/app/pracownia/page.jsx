@@ -179,7 +179,7 @@ const PracowniaOrtodontycznaPage = () => {
         </div>
       </div>
 
-      {/* <BracesGallery /> */}
+      <BracesGallery />
 
       <div className={styles.grayWrapper}>
         <div className={styles.grayInnerWrapper}>
