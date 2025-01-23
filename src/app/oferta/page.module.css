@@ -1,0 +1,74 @@
+.logo {
+  margin: 0 auto;
+  /* width: 100%; */
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+/* .title {
+  font-size: 22px;
+  font-family: Montserrat, serif;
+  font-weight: 500;
+  text-align: center;
+  margin: 30px auto;
+  color: var(--darkBlue);
+}
+ */
+
+.title {
+  font-family: Montserrat, serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: var(--darkBlue);
+  font-size: 22px;
+  font-weight: 400;
+  margin: 10px 0;
+
+  @media screen and (max-width: 600px) {
+    /* Styl dla urządzeń mobilnych w widoku wertykalnym */
+    /* width: 90%; */
+    font-size: 22px;
+  }
+}
+
+.title::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background-color: var(--darkBlue);
+  margin-right: 5px;
+}
+
+.textContent {
+  text-align: justify;
+  line-height: 23px;
+  font-size: 13px;
+  margin: 10px auto;
+}
+
+.equipmentList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.equipmentList li {
+  font-family: Montserrat, serif;
+  color: #333;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+  margin-top: 10px;
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    font-size: 12px;
+    padding-left: 10px;
+  }
+}

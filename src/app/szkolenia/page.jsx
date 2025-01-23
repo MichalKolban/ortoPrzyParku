@@ -1,9 +1,5 @@
 const SzkoleniaPage = () => {
-  return (
-    <div>
-      <main></main>
-    </div>
-  );
+  return <>szkolenia</>;
 };
 
 export default SzkoleniaPage;
