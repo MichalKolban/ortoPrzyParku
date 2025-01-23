@@ -72,7 +72,7 @@ const Home = () => {
             </p>
           </div>
           <div className={styles.xmastree}>
-            <Image src={mainPhotoImg} width={480} height={320} />
+            <Image src={mainPhotoImg} width={420} height={260} />
           </div>
         </div>
         <div className={styles.sectionWrapper}>

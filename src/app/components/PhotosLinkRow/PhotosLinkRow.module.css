@@ -72,9 +72,10 @@
   @media screen and (max-width: 600px) and (orientation: portrait) {
     display: block;
     border-bottom: 1px solid var(--basicBlue);
-    margin: 0 auto;
+    /* margin: 0 auto; */
     width: fit-content;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
+    margin: 35px auto;
     padding-bottom: 5px;
   }
 
