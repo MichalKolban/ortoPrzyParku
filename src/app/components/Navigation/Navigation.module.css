@@ -353,6 +353,10 @@
 .desktopRegistrationName {
   color: #1180c3;
   cursor: default;
+
+  @media screen and (min-width: 901px) and (max-width: 1300px) {
+    display: none;
+  }
 }
 
 .desktopRegistrationPhone {
