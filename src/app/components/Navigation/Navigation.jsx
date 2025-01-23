@@ -54,6 +54,15 @@ export const Navigation = ({ onBurgerClick }) => {
           >
             Pracownia ortodontyczna
           </Link>
+
+          <Link
+            className={styles.menuLink}
+            href="/szkolenia"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Szkolenia
+          </Link>
+
           <Link
             className={styles.menuLink}
             href="/zespol"
