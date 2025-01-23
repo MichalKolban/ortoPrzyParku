@@ -24,11 +24,15 @@ const Home = () => {
   const [deviceType, setDeviceType] = useState("desktop");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // const today = getDayInPolish();
+
   const toggleMenu = () => {
     console.log("page hello 1");
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // console.log("get day", today);
+  //
   // const checkWindowSize = () => {
   //   if (typeof window !== 'undefined') {
   //     const windowWidth = window.innerWidth;

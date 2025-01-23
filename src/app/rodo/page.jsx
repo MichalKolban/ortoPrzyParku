@@ -7,8 +7,6 @@ const RodoPage = () => {
     console.log("id", id);
     const element = document.getElementById(id);
 
-    console.log("element", element);
-
     if (element) {
       const yOffset = -100;
       const yPosition =

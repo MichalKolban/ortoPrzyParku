@@ -5,7 +5,11 @@ import phoneIcon from "../../../../public/icons/phoneIcon.png";
 import calendarIcon from "../../../../public/icons/calendarIcon.png";
 import clockIcon from "../../../../public/icons/clockIcon.png";
 
+import { getDayDetails } from "@/app/helpers/getDayAndHours";
+
 export const NotificationSection = () => {
+  const { day, home, away } = getDayDetails();
+
   return (
     <div className={styles.wrapper}>
       <div className={styles.banner}>
@@ -35,15 +39,15 @@ export const NotificationSection = () => {
           <div className={styles.columnBox}>
             <div className={styles.column}>
               <div className={styles.firstRow}>Dzisiaj</div>
-              <div className={styles.dayOfWeek}>poniedziałek</div>
+              <div className={styles.dayOfWeek}>{day}</div>
             </div>
             <div className={styles.column}>
               <div className={styles.firstRow}>Szczecin</div>
-              <div className={styles.hours}>8:00 - 18:00</div>
+              <div className={styles.hours}>{home}</div>
             </div>
             <div className={styles.column}>
               <div className={styles.firstRow}>Myślibórz</div>
-              <div className={styles.hours}>10:00 - 20:00</div>
+              <div className={styles.hours}>{away}</div>
             </div>
           </div>
         </div>
