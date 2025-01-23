@@ -56,8 +56,8 @@ const RodoPage = () => {
             Kontakt z Administratorem jest możliwy pod adresem
             korespondencyjnym: Ortodoncja Przy Parku dr n. med. Katarzyna
             Zaleska, 71-620 Szczecin, ul. Jana Kazimierza 21, lok. U1, za pomocą
-            adresu e- mail: kasiazal@ortodoncjaprzyparku.pl, telefonicznie: 790
-            760 666, albo osobiście po wcześniejszym ustaleniu terminu.
+            adresu e- mail: kasiazal@ortodoncjaprzyparku.pl, telefonicznie: 501
+            199 124, albo osobiście po wcześniejszym ustaleniu terminu.
           </p>
           <p className={styles.rodoText}>
             Do Administratora Danych Osobowych można się zwracać we wszystkich
