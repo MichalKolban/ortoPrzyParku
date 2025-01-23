@@ -11,6 +11,7 @@ import { OrtoBanner } from "./components/OrtoBanner/OrtoBanner";
 import { OrtoServices } from "./components/OrtoServices/OrtoServices";
 
 import choinkaImg from "./../../public/photos/choinka.png";
+import mainPhotoImg from "../../public/photos/mainPhoto.jpg";
 import gabinetImg from "./../../public/photos/gabinet.png";
 
 import styles from "./page.module.css";
@@ -67,7 +68,7 @@ const Home = () => {
             </p>
           </div>
           <div className={styles.xmastree}>
-            <Image src={choinkaImg} width={380} height={400} />
+            <Image src={mainPhotoImg} width={480} height={320} />
           </div>
         </div>
         <div className={styles.sectionWrapper}>

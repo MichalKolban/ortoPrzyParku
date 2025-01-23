@@ -34,6 +34,7 @@
   grid-template-rows: repeat(1, 1fr); /* 2 rzędy */
   gap: 10px; /* Odstępy między elementami */
   width: 100%;
+  max-width: 1000px;
 
   font-family: Montserrat, serif;
 
@@ -66,7 +67,10 @@
 }
 
 .titlePhotoLinkRow {
+  display: none;
+
   @media screen and (max-width: 600px) and (orientation: portrait) {
+    display: block;
     border-bottom: 1px solid var(--basicBlue);
     margin: 0 auto;
     width: fit-content;
@@ -74,16 +78,13 @@
     padding-bottom: 5px;
   }
 
-  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    display: block;
     border-bottom: 1px solid var(--basicBlue);
     margin: 0 auto;
     width: fit-content;
     margin-top: 35px;
     margin-bottom: 15px;
     padding-bottom: 5px;
-  }
-
-  @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) {
-    display: none;
   }
 }
