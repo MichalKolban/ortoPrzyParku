@@ -35,6 +35,10 @@
     /* width: 90%; */
     font-size: 22px;
   }
+
+  @media screen and (min-width: 901px) {
+    padding: 0 25px;
+  }
 }
 
 .title::before {
@@ -53,7 +57,9 @@
   margin: 10px auto;
 
   @media screen and (min-width: 901px) {
-    max-width: 450px;
+    max-width: 500px;
+    padding: 0 25px;
+    /* border: 1px solid red; */
   }
 }
 
