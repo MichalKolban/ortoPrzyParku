@@ -1,0 +1,44 @@
+/* @media screen and (max-width: 600px) and (orientation: portrait) { */
+/* Styl dla urządzeń mobilnych w widoku wertykalnym */
+/* } */
+
+/* @media screen and (max-width: 600px) and (orientation: landscape) { */
+/* Styl dla urządzeń mobilnych w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: portrait) { */
+/* Styl dla tabletów w widoku wertykalnym */
+/* } */
+
+/* @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) { */
+/* Styl dla tabletów w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 901px) and (max-width: 1600px) and (orientation: landscape) { */
+/* Styl dla laptopów w widoku horyzontalnym */
+/* } */
+
+/*   to jest merge tych dwoch
+/* @media screen and (min-width: 901px) and (max-width: 1200px) and (orientation: landscape) { */
+/* Styl dla laptopów w widoku horyzontalnym */
+/* } */
+
+/* @media screen and (min-width: 1200px) and (max-width: 1600px) and (orientation: portrait) { */
+/* Styl dla komputerów stacjonarnych w widoku wertykalnym */
+/* } */
+
+.mapWrapper {
+  margin: 20px auto;
+
+  /* max-width: 420px;  dla tabletow i desktopow*/
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    width: 100vw;
+    height: 400px;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
+    width: 80vw;
+    height: 400px;
+  }
+}
