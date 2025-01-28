@@ -286,12 +286,12 @@
   }
 }
 
-.menuLink:hover {
+/* .menuLink:hover {
   @media screen and (width >= 1025px) {
     border-bottom: 2px solid #333;
     transition: 0.1s ease;
   }
-}
+} */
 
 .registrationLink {
   display: none;
@@ -374,5 +374,73 @@
 .menuLinkExpand {
   @media screen and (min-width: 901px) {
     display: none;
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    display: none;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    display: none;
+  }
+}
+
+/* Ukryty dropdown, widoczny tylko na hover */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+/* Linki w dropdownie */
+.dropdownLink {
+  color: #333;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.dropdownLink:hover {
+  background-color: #f0f0f0;
+}
+
+/* Wyświetlanie dropdowna na hover */
+.dropdown:hover .dropdownContent {
+  display: block;
+}
+
+/* Styl dla linku "Oferta" */
+.menuLink {
+  /* padding: 10px 20px; */
+  text-decoration: none;
+  color: #333;
+}
+
+/* Stylowanie dla widoków desktopowych */
+@media (min-width: 901px) {
+  .links {
+    display: flex;
+    gap: 20px;
+  }
+}
+
+.mobileMenuLink {
+  display: none;
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    display: flex;
+  }
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    display: flex;
   }
 }

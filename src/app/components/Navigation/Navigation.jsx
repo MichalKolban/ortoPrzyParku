@@ -33,22 +33,29 @@ export const Navigation = ({ onBurgerClick }) => {
         <div
           className={`${styles.links} ${styles.menuOverlay} ${isMenuOpen ? styles.menuOverlayOpen : styles.manuOverlayClose}`}
         >
+          {/* Link "Oferta" z dropdownem */}
+          <div className={styles.dropdown}>
+            <Link className={styles.menuLink} href="/ortodoncja">
+              Oferta
+            </Link>
+            <div className={styles.dropdownContent}>
+              <Link className={styles.dropdownLink} href="/ortodoncja">
+                Ortodoncja
+              </Link>
+              <Link className={styles.dropdownLink} href="/stomatologia">
+                Stomatologia
+              </Link>
+            </div>
+          </div>
           <Link
-            className={`${styles.menuLink} `}
-            href="/ortodoncja"
-            onClick={() => setIsMenuOpen(false)}
-          >
-            Oferta
-          </Link>
-          <Link
-            className={`${styles.menuLink} ${styles.menuLinkExpand}`}
+            className={`${styles.menuLink} ${styles.mobileMenuLink}`}
             href="/ortodoncja"
             onClick={() => setIsMenuOpen(false)}
           >
             Ortodoncja
           </Link>
           <Link
-            className={`${styles.menuLink} ${styles.menuLinkExpand}`}
+            className={`${styles.menuLink} ${styles.mobileMenuLink}`}
             href="/stomatologia"
             onClick={() => setIsMenuOpen(false)}
           >
