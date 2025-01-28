@@ -18,7 +18,7 @@ import szczekaImg from "../../../public/photos/szczeka.png";
 
 import higienaImg from "../../../public/photos/higiena.png";
 
-const OfertaPage = () => {
+const OrtodoncjaPage = () => {
   return (
     <>
       <EmptySpaceUnderNavigation />
@@ -253,4 +253,4 @@ const OfertaPage = () => {
   );
 };
 
-export default OfertaPage;
+export default OrtodoncjaPage;

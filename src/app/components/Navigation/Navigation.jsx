@@ -35,10 +35,24 @@ export const Navigation = ({ onBurgerClick }) => {
         >
           <Link
             className={`${styles.menuLink} ${styles.menuLinkExpand}`}
-            href="/oferta"
+            href="/ortodoncja"
             onClick={() => setIsMenuOpen(false)}
           >
             Oferta
+          </Link>
+          <Link
+            className={`${styles.menuLink} ${styles.menuLinkExpand}`}
+            href="/ortodoncja"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Ortodoncja
+          </Link>
+          <Link
+            className={`${styles.menuLink} ${styles.menuLinkExpand}`}
+            href="/stomatologia"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Stomatologia
           </Link>
           <Link
             className={styles.menuLink}

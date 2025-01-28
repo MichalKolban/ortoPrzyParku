@@ -32,7 +32,6 @@
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     width: 100vw;
-    /* border: 3px solid red; */
   }
 }
 
@@ -44,13 +43,21 @@
   border-bottom: 1px solid #333;
   width: fit-content;
   padding-bottom: 2px;
-  /* text-align: center; */
   margin: 0 auto;
+  @media screen and (min-width: 901px) {
+    margin: 0 auto;
+    width: auto;
+    max-width: 1000px;
+  }
 }
 
 .mainInfo {
   margin: 20px auto;
   padding: 20px auto;
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    width: 70vw;
+  }
 }
 
 .label {
@@ -75,20 +82,62 @@
   border: 1px solid #333;
   border-radius: 8px;
   margin: 0 auto;
+  cursor: pointer;
+
+  @media screen and (min-width: 901px) {
+    margin: 0;
+  }
 }
 
 .socialBtn {
   margin-top: 30px;
+  @media screen and (min-width: 901px) {
+    border: none;
+    width: 420px;
+    justify-content: flex-start;
+    padding: 8px 0;
+  }
 }
 
 .contactBox {
   margin: 20px 0;
-  /* border: 1px solid pink; */
   padding: 20px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    padding: 10px;
+  }
+
+  @media screen and (min-width: 901px) {
+    width: 420px;
+    align-items: baseline;
+    padding: 20px 0 0 0;
+    margin: 20px 0 0 0;
+  }
+}
+
+.data {
+  @media screen and (min-width: 901px) {
+    width: 420px;
+    align-items: baseline;
+    padding: 10px 0;
+  }
+}
+
+.contactBoxWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  @media screen and (min-width: 901px) {
+    max-width: 1000px;
+    margin: 0 auto 50px auto;
+    justify-content: space-between;
+    flex-direction: row;
+  }
 }
 
 .iconBtn {
@@ -104,46 +153,94 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* margin: 0 auto; */
   padding-bottom: 20px;
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    flex-direction: row;
+  }
+
+  @media screen and (min-width: 901px) {
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 
 .cityMapBox {
   margin-bottom: 50px;
 
-  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
-    margin-bottom: 100px;
+  @media screen and (min-width: 901px) {
+    max-width: 420px;
+    width: 100%;
   }
 }
 
 .cityTitle {
-  /* width: 80%; */
   font-size: 22px;
-  margin: 10px auto;
   text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    padding-left: 20px;
+    font-size: 26px;
+    margin: auto 0;
+    font-weight: 500;
+  }
+
+  @media screen and (min-width: 901px) {
+    text-align: start;
+  }
 }
 
 .address {
   text-align: center;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 901px) {
+    text-align: start;
+  }
+}
+
+.addressWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .addressInfo {
   text-align: center;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 901px) {
+    text-align: start;
+  }
 }
 
 .zipcode {
   text-align: center;
   margin-bottom: 10px;
+
+  @media screen and (min-width: 901px) {
+    text-align: start;
+  }
 }
 
 .workingHours {
   width: 80%;
   margin: 20px auto;
 
-  @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
-    max-width: 350px;
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    width: 70vw;
+    padding: 20px 20px 12px 20px;
+    border: 1px solid #333;
+    border-radius: 10px;
+  }
+
+  @media screen and (min-width: 901px) {
+    width: 100%;
   }
 }
 
@@ -151,4 +248,33 @@
   display: flex;
   justify-content: space-between;
   padding-bottom: 8px;
+}
+
+.cityWrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    justify-content: space-around;
+  }
+
+  @media screen and (min-width: 901px) {
+    max-width: 420px;
+    display: block;
+    width: 100%;
+  }
+}
+
+.columnWrapper {
+  display: flex;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  flex-direction: column;
+  @media screen and (min-width: 901px) {
+    flex-direction: row;
+  }
 }

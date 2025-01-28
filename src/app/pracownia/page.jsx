@@ -250,6 +250,7 @@ const PracowniaOrtodontycznaPage = () => {
         <Link
           id="kartaPracy"
           href={"/documents/pracowniaKartaPracy.pdf"}
+          target="_blank"
           className={styles.btn}
         >
           <div>Pobierz kartę pracowni</div>
