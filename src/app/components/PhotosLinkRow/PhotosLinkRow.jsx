@@ -20,7 +20,7 @@ export const PhotosLinkRow = () => {
           Aparaty Nakładkowe
         </PhotoLink>
         <PhotoLink
-          href={"/"}
+          href={"/pracownia#bracesGallery"}
           mainPhoto={praceKtoreWykonujemyImg}
           altName={"abc"}
         >
