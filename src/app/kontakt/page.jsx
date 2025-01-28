@@ -28,30 +28,41 @@ const KontaktPage = () => {
             <div className={styles.contactBox}>
               <p className={styles.label}>Telefon:</p>
               <p className={styles.data}>+48 501 199 124</p>
-              <button className={styles.btn}>
-                <Image
-                  className={styles.iconBtn}
-                  src={phoneIcon}
-                  width={18}
-                  height={16}
-                  alt="telefon"
-                />
-                Zadzwon do nas
-              </button>
+              <a
+                className={styles.singleLink}
+                href={"tel:501199124"}
+                target="_blank"
+              >
+                <button className={styles.btn}>
+                  <Image
+                    className={styles.iconBtn}
+                    src={phoneIcon}
+                    width={18}
+                    height={16}
+                    alt="telefon"
+                  />
+                  Zadzwon do nas
+                </button>
+              </a>
             </div>
             <div className={styles.contactBox}>
               <p className={styles.label}>Email:</p>
               <p className={styles.data}>kasiazal@ortodoncjaprzyparku.pl</p>
-              <button className={styles.btn}>
-                <Image
-                  className={styles.iconBtn}
-                  src={mailIcon}
-                  width={20}
-                  height={18}
-                  alt="email"
-                />
-                Skontaktuj się z nami
-              </button>
+              <a
+                href={"mailto:kasiazal@ortodoncjaprzyparku.pl"}
+                target="_blank"
+              >
+                <button className={styles.btn}>
+                  <Image
+                    className={styles.iconBtn}
+                    src={mailIcon}
+                    width={20}
+                    height={18}
+                    alt="email"
+                  />
+                  Skontaktuj się z nami
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -146,26 +157,36 @@ const KontaktPage = () => {
         <div className={styles.mainInfo}>
           <h3 className={styles.mainTitle}>Social media</h3>
           <div className={styles.socialBox}>
-            <button className={`${styles.btn} ${styles.socialBtn}`}>
-              <Image
-                className={styles.iconBtn}
-                src={facebookIcon}
-                width={20}
-                height={20}
-                alt="facebook"
-              />
-              Facebook
-            </button>
-            <button className={`${styles.btn} ${styles.socialBtn}`}>
-              <Image
-                className={styles.iconBtn}
-                src={instagramIcon}
-                width={26}
-                height={24}
-                alt="instagram"
-              />
-              Instagram
-            </button>
+            <a
+              href={"https://www.facebook.com/OrtodoncjaPrzyParku"}
+              target="_blank"
+            >
+              <button className={`${styles.btn} ${styles.socialBtn}`}>
+                <Image
+                  className={styles.iconBtn}
+                  src={facebookIcon}
+                  width={20}
+                  height={20}
+                  alt="facebook"
+                />
+                Facebook
+              </button>
+            </a>
+            <a
+              href={"https://www.instagram.com/ortodoncjaprzyparku/"}
+              target="_blank"
+            >
+              <button className={`${styles.btn} ${styles.socialBtn}`}>
+                <Image
+                  className={styles.iconBtn}
+                  src={instagramIcon}
+                  width={26}
+                  height={24}
+                  alt="instagram"
+                />
+                Instagram
+              </button>
+            </a>
           </div>
         </div>
       </div>
