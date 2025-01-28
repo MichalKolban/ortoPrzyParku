@@ -34,7 +34,7 @@ export const Navigation = ({ onBurgerClick }) => {
           className={`${styles.links} ${styles.menuOverlay} ${isMenuOpen ? styles.menuOverlayOpen : styles.manuOverlayClose}`}
         >
           <Link
-            className={`${styles.menuLink} ${styles.menuLinkExpand}`}
+            className={`${styles.menuLink} `}
             href="/ortodoncja"
             onClick={() => setIsMenuOpen(false)}
           >

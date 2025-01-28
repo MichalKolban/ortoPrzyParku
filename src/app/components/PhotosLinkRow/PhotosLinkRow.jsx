@@ -15,21 +15,25 @@ export const PhotosLinkRow = () => {
         <PhotoLink
           href={"/ortodoncja"}
           mainPhoto={aparatNakladkowyImg}
-          altName={"abc"}
+          altName={"ortodoncja"}
         >
           Aparaty Nakładkowe
         </PhotoLink>
         <PhotoLink
           href={"/pracownia#bracesGallery"}
           mainPhoto={praceKtoreWykonujemyImg}
-          altName={"abc"}
+          altName={"pracownia"}
         >
           <div>Prace które wykonujemy</div>
         </PhotoLink>
-        <PhotoLink href={"/zespol"} mainPhoto={zespolImg} altName={"abc"}>
+        <PhotoLink
+          href={"/zespol"}
+          mainPhoto={zespolImg}
+          altName={"prace ktore wykonujemy"}
+        >
           Zespół
         </PhotoLink>
-        <PhotoLink href={"/kontakt"} mainPhoto={kontaktImg} altName={"abc"}>
+        <PhotoLink href={"/kontakt"} mainPhoto={kontaktImg} altName={"kontakt"}>
           Kontakt
         </PhotoLink>
       </div>
