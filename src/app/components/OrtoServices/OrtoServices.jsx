@@ -1,18 +1,18 @@
-import { PhotoLink } from '../PhotoLink/PhotoLink';
-import { OrtoServiceSingle } from '../OrtoServiceSingle/OrtoServiceSingle';
-import styles from './OrtoServices.module.css';
+import { PhotoLink } from "../PhotoLink/PhotoLink";
+import { OrtoServiceSingle } from "../OrtoServiceSingle/OrtoServiceSingle";
+import styles from "./OrtoServices.module.css";
 
-import ortodoncjaIcon from '../../../../public/icons/ortodoncja.png';
-import invisalignIcon from '../../../../public/icons/invisalign.png';
-import skan3dIcon from '../../../../public/icons/skan3d.png';
-import higienaJamyUstnejIcon from '../../../../public/icons/higienaJamyUstnej.png';
-import endodoncjaIcon from '../../../../public/icons/endodoncja.png';
-import protetykaIcon from '../../../../public/icons/protetyka.png';
-import implantyIcon from '../../../../public/icons/implanty.png';
-import stomatologiaZachowawczaIcon from '../../../../public/icons/stomatologiaZachowawcza.png';
-import arroRightIcon from '../../../../public/icons/arrowRightIcon.png';
-import Link from 'next/link';
-import Image from 'next/image';
+import ortodoncjaIcon from "../../../../public/icons/ortodoncja.png";
+import invisalignIcon from "../../../../public/icons/invisalign.png";
+import skan3dIcon from "../../../../public/icons/skan3d.png";
+import higienaJamyUstnejIcon from "../../../../public/icons/higienaJamyUstnej.png";
+import endodoncjaIcon from "../../../../public/icons/endodoncja.png";
+import protetykaIcon from "../../../../public/icons/protetyka.png";
+import implantyIcon from "../../../../public/icons/implanty.png";
+import stomatologiaZachowawczaIcon from "../../../../public/icons/stomatologiaZachowawcza.png";
+import arroRightIcon from "../../../../public/icons/arrowRightIcon.png";
+import Link from "next/link";
+import Image from "next/image";
 
 export const OrtoServices = () => {
   return (
@@ -20,63 +20,63 @@ export const OrtoServices = () => {
       <div className={styles.title}>Zakres usług</div>
       <div className={styles.insideWrapper}>
         <OrtoServiceSingle
-          href={'/ortodoncja'}
+          href={"/ortodoncja"}
           mainPhoto={ortodoncjaIcon}
-          altName={'ortodoncja'}
+          altName={"ortodoncja"}
         >
           Ortodoncja
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={'/'}
+          href={"/"}
           mainPhoto={invisalignIcon}
-          altName={'ivisalign'}
+          altName={"ivisalign"}
         >
           Invisalign
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={'/'}
+          href={"/"}
           mainPhoto={skan3dIcon}
-          altName={'skany 3d'}
+          altName={"skany 3d"}
         >
           Skany 3D
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={'/'}
+          href={"/"}
           mainPhoto={higienaJamyUstnejIcon}
-          altName={'higiena jamy ustnej'}
+          altName={"higiena jamy ustnej"}
         >
           Higiena Jamy Ustnej
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={'/'}
+          href={"/"}
           mainPhoto={endodoncjaIcon}
-          altName={'endodoncja'}
+          altName={"endodoncja"}
         >
           Endodoncja
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={'/'}
+          href={"/"}
           mainPhoto={protetykaIcon}
-          altName={'protetyka'}
+          altName={"protetyka"}
         >
           Protetyka
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={'/'}
+          href={"/"}
           mainPhoto={implantyIcon}
-          altName={'implanty'}
+          altName={"implanty"}
         >
           Implanty
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={'/'}
+          href={"/"}
           mainPhoto={stomatologiaZachowawczaIcon}
-          altName={'stomatologia zachowawcza'}
+          altName={"stomatologia zachowawcza"}
         >
           Stomatologia Zachowawcza
         </OrtoServiceSingle>
       </div>
-      <Link href={'/'} className={styles.btn}>
+      <Link href={"/ortodoncja"} className={styles.btn}>
         <div>Poznaj Pełną Ofertę</div>
         <Image
           className={styles.arrowRightIcon}

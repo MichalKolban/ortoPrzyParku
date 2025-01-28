@@ -17,6 +17,7 @@ import usmiechImg from "../../../public/photos/usmiech.png";
 import szczekaImg from "../../../public/photos/szczeka.png";
 
 import higienaImg from "../../../public/photos/higiena.png";
+import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
 
 const OrtodoncjaPage = () => {
   return (
@@ -161,6 +162,7 @@ const OrtodoncjaPage = () => {
           />
         </div>
       </Section>
+      <OrtoBanner />
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textColumn}>
@@ -248,6 +250,7 @@ const OrtodoncjaPage = () => {
           </div>
         </Section>
       </div>
+
       <PhotosLinkRow />
     </>
   );
