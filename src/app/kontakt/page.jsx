@@ -91,7 +91,12 @@ const KontaktPage = () => {
             <div className={styles.mapWrapper}>
               <Map location={"Szczecin"} zoom={"15"} />
             </div>
-            <button className={styles.btn}>Zobacz na mapie</button>
+            <a
+              href="https://www.google.pl/maps/dir//Ortodoncja+Przy+Parku,+Jana+Kazimierza+21%2F1U,+71-620+Szczecin/@53.4362709,14.5618151,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47aa0c75a7f191e3:0x7379a0ebe69bc9b9!2m2!1d14.56439!2d53.4362677!3e0?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+            >
+              <button className={styles.btn}>Zobacz na mapie</button>
+            </a>
           </div>
 
           <div className={styles.cityMapBox}>
@@ -130,9 +135,7 @@ const KontaktPage = () => {
               <Map location={"Mysliborz"} zoom={"14"} />
             </div>
             <a
-              href={
-                "https://www.google.pl/maps/dir//Ortodoncja+Przy+Parku,+Jana+Kazimierza+21%2F1U,+71-620+Szczecin/@53.4362709,14.5618151,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47aa0c75a7f191e3:0x7379a0ebe69bc9b9!2m2!1d14.56439!2d53.4362677!3e0?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
-              }
+              href="https://www.google.com/maps/dir//Indywidualna+praktyka+stomatologiczna,+Ortodoncja+przy+parku,+1-go+Maja+8,+74-300+My%C5%9Blib%C3%B3rz,+Polska/@52.919731,14.860387,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47074758f8224eaf:0x523b5e78964a111f!2m2!1d14.8606349!2d52.9197523!3e0?hl=pl-PL&entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
             >
               <button className={styles.btn}>Zobacz na mapie</button>
