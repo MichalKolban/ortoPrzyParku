@@ -20,7 +20,7 @@ export const DoctorBedgeMain = () => {
         {/* <Image src={doctor.icon} width={350} height={300} alt={doctor.name} /> */}
 
         <Image
-          src={doctor.icon}
+          src={doctor.photo2}
           width={300} // Maksymalna szerokość obrazu
           height={200} // Dopasowanie proporcji (jeśli obraz jest 300x200)
           sizes="
@@ -30,9 +30,10 @@ export const DoctorBedgeMain = () => {
           300px
         " // Maksymalna szerokość obrazu na dużych ekranach to 300px
           style={{
-            width: "100%",
-            maxWidth: "300px", // Zapewnia maksymalną szerokość obrazu na wszystkich ekranach
+            // width: "100%",
+            // maxWidth: "100%", // Zapewnia maksymalną szerokość obrazu na wszystkich ekranach
             height: "auto",
+            margin: "0 auto",
           }}
         />
 
@@ -49,7 +50,7 @@ export const DoctorBedgeMain = () => {
       <Modal
         isOpen={isModalOpen}
         onClose={() => setIsModalOpen(false)}
-        photo={doctor.photo}
+        photo={doctor.photo2}
         name={doctor.name}
         title={doctor.title}
         description={doctor.description}
