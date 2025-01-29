@@ -8,6 +8,10 @@
   justify-content: center;
   align-items: center;
   /* margin: 30px auto;  dopuki nie ma zdjec  */
+
+  @media screen and (min-width: 901px) {
+    margin: 10px auto;
+  }
 }
 
 /* .title {
