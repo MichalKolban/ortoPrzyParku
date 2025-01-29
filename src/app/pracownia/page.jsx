@@ -191,7 +191,7 @@ const PracowniaOrtodontycznaPage = () => {
                 </LogoListElement>
               </ul>
             </div>
-            <Link href={"/"} className={styles.btn}>
+            <Link href={"/kontakt"} className={styles.btn}>
               <div>Kontakt</div>
             </Link>
           </div>
