@@ -20,6 +20,20 @@ import higienaImg from "../../../public/photos/higiena.png";
 import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
 
 const OrtodoncjaPage = () => {
+  // const scrollToSection = (id) => {
+  //   const element = document.getElementById(id);
+  //   if (element) {
+  //     const yOffset = -100;
+  //     const yPosition =
+  //       element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+  //     window.scrollTo({
+  //       top: yPosition,
+  //       behavior: "smooth",
+  //     });
+  //   }
+  // };
+
   return (
     <>
       <EmptySpaceUnderNavigation />

@@ -80,23 +80,23 @@ const KontaktPage = () => {
             <div className={styles.workingHours}>
               <div className={styles.singleDay}>
                 <p>Poniedziałek</p>
-                <p>8:00 - 20:00</p>
+                <p>8:00 - 19:00</p>
               </div>
               <div className={styles.singleDay}>
                 <p>Wtorek</p>
-                <p>8:00 - 20:00</p>
+                <p>8:00 - 19:00</p>
               </div>
               <div className={styles.singleDay}>
                 <p>Środa</p>
-                <p>8:00 - 20:00</p>
+                <p>8:00 - 19:00</p>
               </div>
               <div className={styles.singleDay}>
                 <p>Czwartek</p>
-                <p>8:00 - 20:00</p>
+                <p>8:00 - 19:00</p>
               </div>
               <div className={styles.singleDay}>
                 <p>Piątek</p>
-                <p>8:00 - 20:00</p>
+                <p>8:00 - 17:00</p>
               </div>
             </div>
             <div className={styles.mapWrapper}>

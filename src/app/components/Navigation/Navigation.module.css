@@ -289,7 +289,18 @@
     color: white;
   }
 
-  @media screen and (min-width: 901px) and (max-width: 1680px) {
+  @media screen and (min-width: 901px) and (max-width: 1000px) {
+    align-items: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    height: 20px;
+    /* font-size: 14px; */
+    font-size: 13px;
+    font-weight: 400;
+    /* width: 340px; */
+  }
+
+  @media screen and (min-width: 1001px) and (max-width: 1680px) {
     align-items: center;
     border-bottom: 1px solid #333;
     padding-bottom: 5px;
