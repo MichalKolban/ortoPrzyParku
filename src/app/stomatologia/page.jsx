@@ -1,9 +1,35 @@
+"use client";
+
 import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
 import { Section } from "../components/Section/Section";
+
+import { useEffect } from "react";
 
 import styles from "./stomatologia.module.css";
 
 const StomatologiaPage = () => {
+  const scrollToSection = () => {
+    if (!window.location.hash) {
+      return;
+    }
+    const element = document.getElementById(window.location.hash.substring(1));
+
+    if (element) {
+      const yOffset = -200;
+      const yPosition =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({
+        top: yPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  useEffect(() => {
+    scrollToSection();
+  }, []);
+
   return (
     <>
       <head>
@@ -21,7 +47,9 @@ const StomatologiaPage = () => {
         <div className={styles.background}>
           <Section backgroundClass={"gray"}>
             <div className={styles.textBox}>
-              <h3 className={styles.title}>Stomatologia zachowawcza</h3>
+              <h3 id="zachowawcza" className={styles.title}>
+                Stomatologia zachowawcza
+              </h3>
               <div className={styles.textContent}>
                 Zabiegi w ramach stomatologii zachowawczej związane są z
                 profilaktyką i leczeniem próchnicy. Zabiegi w naszym gabinecie
@@ -37,7 +65,9 @@ const StomatologiaPage = () => {
         <Section backgroundClass={"white"}>
           <div className={styles.imageWrapper}></div>
           <div>
-            <div className={styles.title}>Endodoncja</div>
+            <div id="endodoncja" className={styles.title}>
+              Endodoncja
+            </div>
             <div className={styles.textContent}>
               Leczenie endodontyczne polega na eliminacji stanu zapalnego i
               zakażenia z wnętrza zęba. Polega na oczyszczeniu wnętrza komory,
@@ -71,7 +101,9 @@ const StomatologiaPage = () => {
         <Section backgroundClass={"white"}>
           <div className={styles.imageWrapper}></div>
           <div>
-            <div className={styles.title}>Implantologia</div>
+            <div id="implantologia" className={styles.title}>
+              Implantologia
+            </div>
             <div className={styles.textContent}>
               Za pomocą implantów można odbudować: pojedyncze braki zębowe,
               kilka zębów lub braki w całych łukach zębowych, można też wzmocnić
@@ -89,7 +121,9 @@ const StomatologiaPage = () => {
         <div className={styles.background}>
           <Section backgroundClass={"gray"}>
             <div className={styles.textBox}>
-              <h3 className={styles.title}>Protetyka</h3>
+              <h3 id="protetyka" className={styles.title}>
+                Protetyka
+              </h3>
               <div className={styles.textContent}>
                 Zabiegi z zakresu protetyki i implantoprotetyki umożliwiają
                 odtworzenie prawidłowej funkcji żucia i estetyki uśmiechu.
@@ -138,7 +172,9 @@ const StomatologiaPage = () => {
         <Section backgroundClass={"white"}>
           <div className={styles.imageWrapper}></div>
           <div>
-            <div className={styles.title}>Higienizacja i profilaktyka</div>
+            <div id="higienizacja" className={styles.title}>
+              Higienizacja i profilaktyka
+            </div>
             <div className={styles.textContent}>
               Regularne badania kontrolne oraz zabiegi higienizacji mają wpływ
               na ogólny stan zdrowia organizmu i estetykę uśmiechu. Chcąc

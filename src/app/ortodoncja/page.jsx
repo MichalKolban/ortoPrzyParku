@@ -6,6 +6,8 @@ import { Section } from "../components/Section/Section";
 import { LogoListElement } from "../components/LogoListElement/LogoListElement";
 import { PhotosLinkRow } from "../components/PhotosLinkRow/PhotosLinkRow";
 
+import { useEffect } from "react";
+
 import styles from "./page.module.css";
 
 import logoImg from "../../../public/logo.png";
@@ -20,19 +22,27 @@ import higienaImg from "../../../public/photos/higiena.png";
 import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
 
 const OrtodoncjaPage = () => {
-  // const scrollToSection = (id) => {
-  //   const element = document.getElementById(id);
-  //   if (element) {
-  //     const yOffset = -100;
-  //     const yPosition =
-  //       element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  const scrollToSection = () => {
+    if (!window.location.hash) {
+      return;
+    }
+    const element = document.getElementById(window.location.hash.substring(1));
 
-  //     window.scrollTo({
-  //       top: yPosition,
-  //       behavior: "smooth",
-  //     });
-  //   }
-  // };
+    if (element) {
+      const yOffset = -200;
+      const yPosition =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({
+        top: yPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  useEffect(() => {
+    scrollToSection();
+  }, []);
 
   return (
     <>
@@ -101,7 +111,9 @@ const OrtodoncjaPage = () => {
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
-            <h3 className={styles.title}>Współczesne technologie</h3>
+            <h3 id="skany3d" className={styles.title}>
+              Współczesne technologie
+            </h3>
             <div className={styles.textContent}>
               Prowadzimy leczenie ortodontyczne przy użyciu najnowszych metod:
               <ul className={styles.equipmentList}>
@@ -188,7 +200,7 @@ const OrtodoncjaPage = () => {
       <OrtoBanner />
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
-          <div className={styles.textColumn}>
+          <div id="invasilign" className={styles.textColumn}>
             <h3 className={styles.bigTitle}>Zakres Usług Ortodontycznych</h3>
             <div className={`${styles.title} ${styles.ortoTitle}`}>
               Aparat Nakładkowy

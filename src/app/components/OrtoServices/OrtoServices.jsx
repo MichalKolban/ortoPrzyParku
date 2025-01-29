@@ -27,49 +27,49 @@ export const OrtoServices = () => {
           Ortodoncja
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={"/"}
+          href={"/ortodoncja#invasilign"}
           mainPhoto={invisalignIcon}
           altName={"ivisalign"}
         >
           Invisalign
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={"/"}
+          href={"/ortodoncja#skany3d"}
           mainPhoto={skan3dIcon}
           altName={"skany 3d"}
         >
           Skany 3D
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={"/"}
+          href={"/stomatologia#higienizacja"}
           mainPhoto={higienaJamyUstnejIcon}
           altName={"higiena jamy ustnej"}
         >
           Higiena Jamy Ustnej
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={"/"}
+          href={"/stomatologia#endodoncja"}
           mainPhoto={endodoncjaIcon}
           altName={"endodoncja"}
         >
           Endodoncja
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={"/"}
+          href={"/stomatologia#protetyka"}
           mainPhoto={protetykaIcon}
           altName={"protetyka"}
         >
           Protetyka
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={"/"}
+          href={"/stomatologia#implanty"}
           mainPhoto={implantyIcon}
           altName={"implanty"}
         >
           Implanty
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={"/"}
+          href={"/stomatologia#zachowawcza"}
           mainPhoto={stomatologiaZachowawczaIcon}
           altName={"stomatologia zachowawcza"}
         >

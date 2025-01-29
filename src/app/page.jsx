@@ -18,42 +18,14 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import { NotificationSection } from "./components/NotificationSection/NotificationSection";
 
-import Head from "next/head";
-
 const Home = () => {
   const [deviceType, setDeviceType] = useState("desktop");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  // const today = getDayInPolish();
 
   const toggleMenu = () => {
     console.log("page hello 1");
     setIsMenuOpen(!isMenuOpen);
   };
-
-  // console.log("get day", today);
-  //
-  // const checkWindowSize = () => {
-  //   if (typeof window !== 'undefined') {
-  //     const windowWidth = window.innerWidth;
-  //     if (windowWidth >= 1024) {
-  //       setDeviceType('desktop');
-  //     } else if (windowWidth >= 768 && windowWidth < 1024) {
-  //       setDeviceType('tablet');
-  //     } else {
-  //       setDeviceType('mobile');
-  //     }
-  //   }
-  // };
-
-  // useEffect(() => {
-  //   checkWindowSize(); // Pierwsze sprawdzenie po załadowaniu komponentu
-  //   // Nasłuchuj zmian rozmiaru okna
-  //   window.addEventListener('resize', checkWindowSize);
-  //   return () => {
-  //     window.removeEventListener('resize', checkWindowSize); // Usuń nasłuchiwacz przy unmount
-  //   };
-  // }, []);
 
   return (
     <>
@@ -80,7 +52,12 @@ const Home = () => {
             </p>
           </div>
           <div className={styles.xmastree}>
-            <Image src={mainPhotoImg} width={420} height={260} />
+            <Image
+              src={mainPhotoImg}
+              width={420}
+              height={260}
+              alt="ortodoncja"
+            />
           </div>
         </div>
         <div className={styles.sectionWrapper}>
@@ -113,7 +90,7 @@ const Home = () => {
               </p>
             </div>
             <div className={styles.xmastree}>
-              <Image src={gabinetImg} width={380} height={260} />
+              <Image src={gabinetImg} width={380} height={260} alt="gabinet" />
             </div>
           </div>
         </div>
