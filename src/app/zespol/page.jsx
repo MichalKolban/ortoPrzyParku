@@ -1,14 +1,10 @@
 "use client";
 
 import { useState } from "react";
-
 import { DoctorBadge } from "../components/DoctorBadge/DoctorBadge";
 import { DoctorBedgeMain } from "../components/DoctorBadgeMain/DoctorBadgeMain";
-import { Modal } from "../components/Modal/Modal";
-// import { Popup } from '../components/Popup/Popup';
 
 import styles from "./zespol.module.css";
-
 import doctorsJSON from "../data/doctorsList.json";
 import administrationJSON from "../data/administrationStaff.json";
 import hygieneJSON from "../data/hygieneStaff.json";
@@ -29,8 +25,11 @@ const ZespolPage = () => {
   return (
     <>
       <head>
-        <title>zespol</title>
-        <meta name="description" content="To jest opis dla głównej strony." />
+        <title>Zespół</title>
+        <meta
+          name="description"
+          content="Ortodoncja Przy Parku w Szczecinie – nowoczesna klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <div>

@@ -21,6 +21,14 @@ const RodoPage = () => {
 
   return (
     <>
+      <head>
+        <title>Rodo</title>
+        <meta
+          name="description"
+          content="Ortodoncja Przy Parku w Szczecinie – nowoczesna klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <div className={styles.wrapper}>
         <div className={styles.rodoStatement}>
           <p className={styles.rodoText}>

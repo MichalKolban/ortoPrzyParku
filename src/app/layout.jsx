@@ -9,8 +9,6 @@ import { MySign } from "./components/MySign/MySign";
 
 import { useState } from "react";
 
-import Head from "next/head";
-
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600"],
@@ -28,14 +26,6 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="pl">
-      <head>
-        <title>Strona główna</title>
-        <meta name="description" content="To jest opis dla głównej strony." />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-        />
-      </head>
       <body className={montserrat.variable}>
         <Navigation />
         <main className={"mainWrapper"}>{children}</main>
