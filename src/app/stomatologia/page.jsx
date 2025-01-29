@@ -11,7 +11,7 @@ const StomatologiaPage = () => {
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
-            <h3 className={styles.title}>STOMATOLOGIA ZACHOWAWCZA </h3>
+            <h3 className={styles.title}>Stomatologia zachowawcza</h3>
             <div className={styles.textContent}>
               Zabiegi w ramach stomatologii zachowawczej związane są z
               profilaktyką i leczeniem próchnicy. Zabiegi w naszym gabinecie
@@ -25,8 +25,9 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
+        <div className={styles.imageWrapper}></div>
         <div>
-          <div className={styles.title}>ENDODONCJA</div>
+          <div className={styles.title}>Endodoncja</div>
           <div className={styles.textContent}>
             Leczenie endodontyczne polega na eliminacji stanu zapalnego i
             zakażenia z wnętrza zęba. Polega na oczyszczeniu wnętrza komory,
@@ -37,13 +38,12 @@ const StomatologiaPage = () => {
             rentgenowskie.
           </div>
         </div>
-        <div className={styles.imageWrapper}></div>
       </Section>
 
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
-            <h3 className={styles.title}>CHIRURGIA STOMATOLOGICZNA</h3>
+            <h3 className={styles.title}>Chirurgia stomatologiczna</h3>
             <div className={styles.textContent}>
               Zabiegi chirurgiczne wykonywane przy użyciu nowoczesnych sprzętów
               i materiałów, dzięki czemu Pacjent może czuć się bezpiecznie i
@@ -59,8 +59,9 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
+        <div className={styles.imageWrapper}></div>
         <div>
-          <div className={styles.title}>IMPLANTOLOGIA</div>
+          <div className={styles.title}>Implantologia</div>
           <div className={styles.textContent}>
             Za pomocą implantów można odbudować: pojedyncze braki zębowe, kilka
             zębów lub braki w całych łukach zębowych, można też wzmocnić
@@ -73,13 +74,12 @@ const StomatologiaPage = () => {
             leczenia i szczegóły dotyczące jego etapów.
           </div>
         </div>
-        <div className={styles.imageWrapper}></div>
       </Section>
 
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
-            <h3 className={styles.title}>PROTETYKA</h3>
+            <h3 className={styles.title}>Protetyka</h3>
             <div className={styles.textContent}>
               Zabiegi z zakresu protetyki i implantoprotetyki umożliwiają
               odtworzenie prawidłowej funkcji żucia i estetyki uśmiechu. Podczas
@@ -93,8 +93,9 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
+        <div className={styles.imageWrapper}></div>
         <div>
-          <div className={styles.title}>PERIODONTOLOGIA</div>
+          <div className={styles.title}>Periodontologia</div>
           <div className={styles.textContent}>
             Dziedzina stomatologii, która zajmuje się leczeniem chorób dziąseł
             oraz tkanek przyzębia. Kondycja dziąseł i przyzębia ma istotny wpływ
@@ -105,13 +106,12 @@ const StomatologiaPage = () => {
             jak i zabiegi regeneracyjne, czyli przeszczepy tkanek.
           </div>
         </div>
-        <div className={styles.imageWrapper}></div>
       </Section>
 
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
-            <h3 className={styles.title}>STOMATOLOGIA ESTETYCZNA</h3>
+            <h3 className={styles.title}>Stomatologia estetyczna</h3>
             <div className={styles.textContent}>
               Nowoczesne metody stomatologii estetycznej dzięki minimalnej
               ingerencji w tkanki zęba pozwalają uzyskać wymarzony uśmiech. W
@@ -125,8 +125,9 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
+        <div className={styles.imageWrapper}></div>
         <div>
-          <div className={styles.title}>HIGIENIZACJA I PROFILAKTYKA</div>
+          <div className={styles.title}>Higienizacja i profilaktyka</div>
           <div className={styles.textContent}>
             Regularne badania kontrolne oraz zabiegi higienizacji mają wpływ na
             ogólny stan zdrowia organizmu i estetykę uśmiechu. Chcąc zachować
@@ -153,13 +154,12 @@ const StomatologiaPage = () => {
             idealną higienę jamy ustnej.
           </div>
         </div>
-        <div className={styles.imageWrapper}></div>
       </Section>
 
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
-            <h3 className={styles.title}>PRACOWNIA RADIOLOGICZA</h3>
+            <h3 className={styles.title}>Prcownia radiologiczna</h3>
             <div className={styles.textContent}>
               Posiadamy pracownie radiologiczną wyposażoną w aparat rentgenowski
               wykonujący m.in. zdjęcie pantomograficzne, cefalometryczne oraz
@@ -175,8 +175,9 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
+        <div className={styles.imageWrapper}></div>
         <div>
-          <div className={styles.title}>SKANER WEWNĄTRZUSTNY</div>
+          <div className={styles.title}>Skaner wewnątrzustny</div>
           <div className={styles.textContent}>
             Skaner wewnątrzustny jest urządzeniem cyfrowym używanym w
             stomatologii. Pozwala na szybkie i trójwymiarowe zwizualizowanie
@@ -184,13 +185,12 @@ const StomatologiaPage = () => {
             konieczność pobierania wycisków.
           </div>
         </div>
-        <div className={styles.imageWrapper}></div>
       </Section>
 
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
-            <h3 className={styles.title}>MODJAW I AXIOPRISA</h3>
+            <h3 className={styles.title}>Modjaw i Axioprisa</h3>
             <div className={styles.textContent}>
               Badanie MODJAW to zaawansowane badanie diagnostyczne stawów
               skroniowo-żuchwowych, które wykorzystuje technologię
