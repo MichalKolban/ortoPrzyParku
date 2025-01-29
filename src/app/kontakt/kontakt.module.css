@@ -209,6 +209,10 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    margin-left: 20px;
+  }
 }
 
 .addressInfo {
