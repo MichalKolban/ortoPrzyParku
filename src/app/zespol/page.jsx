@@ -119,7 +119,7 @@ const ZespolPage = () => {
         </div>
 
         <div className={styles.outerWrapper}>
-          <div className={styles.sectionTitle}>Labolatorium Ortodontyczne</div>
+          <div className={styles.sectionTitle}>Laboratorium Ortodontyczne</div>
           <div className={styles.innerWrapper}>
             {laboratoryStaff.map((person) => {
               return (

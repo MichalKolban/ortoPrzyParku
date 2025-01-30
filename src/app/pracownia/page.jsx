@@ -60,7 +60,7 @@ const PracowniaOrtodontycznaPage = () => {
             className={`${styles.grayInnerWrapper} ${styles.equipmentWrapper}`}
           >
             <div className={styles.textBox}>
-              <h2 className={styles.title}>Labolatorium</h2>
+              <h2 className={styles.title}>Laboratorium</h2>
               {/* <p className={styles.description}>
               W Ortodoncji Przy Parku znajduje się profesjonalne i nowoczesne
               laboratorium. Takie rozwiązanie daje nam możliwość bezpośredniego
