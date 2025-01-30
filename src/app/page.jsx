@@ -19,24 +19,23 @@ import Image from "next/image";
 import { NotificationSection } from "./components/NotificationSection/NotificationSection";
 
 const Home = () => {
-  const [deviceType, setDeviceType] = useState("desktop");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log("page hello 1");
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
     <>
-      <head>
+      {/* <head>
         <title>Ortodoncja Przy Parku w Szczecinie</title>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta
           name="description"
           content="Ortodoncja Przy Parku w Szczecinie – nowoczesna klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head>
+      </head> */}
       <div className={styles.outerWrapper}>
         <NotificationSection />
         <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>

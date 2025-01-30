@@ -26,6 +26,15 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="pl">
+      <head>
+        <title>Ortodoncja Przy Parku w Szczecinie</title>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <meta
+          name="description"
+          content="Ortodoncja Przy Parku w Szczecinie – nowoczesna klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </head>
       <body className={montserrat.variable}>
         <Navigation />
         <main className={"mainWrapper"}>{children}</main>

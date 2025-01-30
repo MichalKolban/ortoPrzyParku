@@ -1,0 +1,15 @@
+.moreInfoSoon {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  font-family: Montserrat, serif;
+  letter-spacing: 1px;
+}
+
+.moreInfoSoon > img {
+  margin-bottom: 50px;
+}
