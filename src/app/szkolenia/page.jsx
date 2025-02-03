@@ -1,9 +1,9 @@
 import Image from "next/image";
 import style from "./szkolenia.module.css";
-
-// import katarzynaZaleskaSzkolenieImg from "../../../public/photos/team/katarzynaZaleskaSzkolenie.jpg";
+// import meshmixerLogo from "../../../public/icons/meshmixerLogo.png";
+// import katarzynaZaleskaSzkolenieImg from "../../../photos/team/katarzynaZaleskaSzkolenie.jpg";
 import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
-// import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingle";
+import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingle";
 
 import march2025 from "../data/courseMarch2025.json";
 import april2025 from "../data/courseApril2025.json";
@@ -45,22 +45,22 @@ const SzkoleniaPage = () => {
               leczenia. Jestem członkiem prestiżowych towarzystw
               ortodontycznych: PTO, EOS, PAA i FACE Poland.
             </div>
-            {/* <div className={style.imageWrapper}>
-              <Image
+            <div className={style.imageWrapper}>
+              {/* <Image
                 src={katarzynaZaleskaSzkolenieImg}
                 width={320}
                 height={460}
-              />
-            </div> */}
+              /> */}
+            </div>
           </div>
         </div>
 
         <div className={style.schoolingSection}>
           <div className={style.schoolingTitle}>Szkolenia stacjonarne</div>
           <div className={style.courseBox}>
-            {/* <CourseTileSingle data={march2025} /> */}
+            <CourseTileSingle data={march2025} />
             <br></br>
-            {/* <CourseTileSingle data={april2025} /> */}
+            <CourseTileSingle data={april2025} />
           </div>
         </div>
         <></>
