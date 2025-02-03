@@ -45,13 +45,13 @@ const SzkoleniaPage = () => {
               leczenia. Jestem członkiem prestiżowych towarzystw
               ortodontycznych: PTO, EOS, PAA i FACE Poland.
             </div>
-            <div className={style.imageWrapper}>
+            {/* <div className={style.imageWrapper}>
               <Image
                 src={katarzynaZaleskaSzkolenieImg}
                 width={320}
                 height={460}
               />
-            </div>
+            </div> */}
           </div>
         </div>
 
