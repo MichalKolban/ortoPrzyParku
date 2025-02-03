@@ -52,7 +52,6 @@ const SzkoleniaPage = () => {
             </div>
           </div>
         </div>
-        <div>TEST TEST TESR</div>
         <div className={style.schoolingSection}>
           <div className={style.schoolingTitle}>Szkolenia stacjonarne</div>
           <div className={style.courseBox}>
