@@ -5,7 +5,9 @@ import style from "./szkolenia.module.css";
 import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
 import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingle";
 
-import katarzynaSzkolenia from "../../../public/photos/team/katarzynaZaleska.png";
+// import katarzynaSzkolenia from "../../../public/photos/team/katarzynaZaleska.png";
+
+import mainPhotoImg from "../../../public/photos/mainPhoto.jpg";
 
 import march2025 from "../data/courseMarch2025.json";
 import april2025 from "../data/courseApril2025.json";
@@ -48,7 +50,7 @@ const SzkoleniaPage = () => {
               ortodontycznych: PTO, EOS, PAA i FACE Poland.
             </div>
             <div className={style.imageWrapper}>
-              <Image src={katarzynaSzkolenia} width={320} height={460} />
+              <Image src={mainPhotoImg} width={320} height={460} />
             </div>
           </div>
         </div>
