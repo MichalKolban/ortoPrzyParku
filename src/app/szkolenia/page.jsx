@@ -63,6 +63,7 @@ const SzkoleniaPage = () => {
             <CourseTileSingle data={april2025} />
           </div>
         </div>
+        <></>
       </div>
     </>
   );
