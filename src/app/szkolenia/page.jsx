@@ -3,7 +3,7 @@ import style from "./szkolenia.module.css";
 
 import katarzynaZaleskaSzkolenieImg from "../../../public/photos/team/katarzynaZaleskaSzkolenie.jpg";
 import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
-import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingle";
+// import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingle";
 
 import march2025 from "../data/courseMarch2025.json";
 import april2025 from "../data/courseApril2025.json";
@@ -58,9 +58,9 @@ const SzkoleniaPage = () => {
         <div className={style.schoolingSection}>
           <div className={style.schoolingTitle}>Szkolenia stacjonarne</div>
           <div className={style.courseBox}>
-            <CourseTileSingle data={march2025} />
+            {/* <CourseTileSingle data={march2025} /> */}
             <br></br>
-            <CourseTileSingle data={april2025} />
+            {/* <CourseTileSingle data={april2025} /> */}
           </div>
         </div>
         <></>
