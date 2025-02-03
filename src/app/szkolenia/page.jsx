@@ -5,7 +5,7 @@ import style from "./szkolenia.module.css";
 import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
 import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingle";
 
-import katarzynaSzkolenia from "../../../public/photos/team/KatarzynaZaleskaSzkolenie.jpg";
+import katarzynaSzkolenia from "../../../public/photos/team/katarzynaZaleska.png";
 
 import march2025 from "../data/courseMarch2025.json";
 import april2025 from "../data/courseApril2025.json";
