@@ -1,6 +1,6 @@
 "use client";
 
-import styles from "./courseTileSingle.module.css";
+import styles from "./CourseTileSingle.module.css";
 import { useState } from "react";
 
 export const CourseTileSingle = ({ data }) => {
