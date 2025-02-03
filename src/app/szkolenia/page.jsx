@@ -1,7 +1,7 @@
 import Image from "next/image";
 import style from "./szkolenia.module.css";
 
-import katarzynaZaleskaSzkolenieImg from "../../../public/photos/team/katarzynaZaleskaSzkolenie.jpg";
+// import katarzynaZaleskaSzkolenieImg from "../../../public/photos/team/katarzynaZaleskaSzkolenie.jpg";
 import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
 // import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingle";
 
