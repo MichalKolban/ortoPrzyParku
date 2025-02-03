@@ -7,6 +7,8 @@ import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingl
 
 // import katarzynaSzkolenia from "../../../public/photos/team/katarzynaZaleska.png";
 
+import szkolenieImg from "../../../public/photos/team/szkolenie.png";
+
 import mainPhotoImg from "../../../public/photos/mainPhoto.jpg";
 
 import march2025 from "../data/courseMarch2025.json";
@@ -50,7 +52,7 @@ const SzkoleniaPage = () => {
               ortodontycznych: PTO, EOS, PAA i FACE Poland.
             </div>
             <div className={style.imageWrapper}>
-              <Image src={mainPhotoImg} width={320} height={460} />
+              <Image src={szkolenieImg} width={320} height={460} />
             </div>
           </div>
         </div>
