@@ -84,6 +84,10 @@
     margin: 0 auto;
     text-align: justify;
   }
+
+  @media screen and (min-width: 901px) {
+    padding: 60px 40px 40px 40px;
+  }
 }
 
 .mainTitle {
@@ -118,6 +122,9 @@
     text-align: justify;
     padding-bottom: 20px;
   }
+
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .courseBox {
