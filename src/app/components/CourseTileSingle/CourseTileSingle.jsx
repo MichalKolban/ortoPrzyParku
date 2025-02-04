@@ -10,17 +10,26 @@ export const CourseTileSingle = ({ data }) => {
     <div className={styles.box}>
       <div className={styles.shortInfo}>
         <h4 className={styles.title}>{data.title}</h4>
-        <p className={styles.courseType}>Typ kursu : {data.courseType}</p>
-        <p className={styles.host}>Prowadzący : {data.host}</p>
-        <p className={styles.date}>Termin : {data.date}</p>
-        <p className={styles.courseDuration}>Inwestycja : {data.price}</p>
+        <p className={styles.mainElement}>
+          Typ kursu :
+          <span className={styles.courseType}>{data.courseType}</span>
+        </p>
+        <p className={styles.mainElement}>
+          Prowadzący : <span className={styles.host}>{data.host}</span>
+        </p>
+        <p className={styles.mainElement}>
+          Termin : <span className={styles.date}>{data.date}</span>
+        </p>
+        <p className={styles.mainElement}>
+          Inwestycja : <span className={styles.date}>{data.price}</span>
+        </p>
       </div>
 
       {showInfo && (
         <div className={styles.longInfo}>
           {data.description.map((section, index) => (
             <div key={index} className="">
-              <h2 className="">{section.title}</h2>
+              <h2 className={styles.sectionTitle}>{section.title}</h2>
               <ul className={styles.uorderedList}>
                 {section.description.map((item, idx) => (
                   <li key={idx} className={styles.listElement}>

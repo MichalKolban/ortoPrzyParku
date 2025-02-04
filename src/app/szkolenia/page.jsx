@@ -31,6 +31,12 @@ const SzkoleniaPage = () => {
         <div className={style.grayWrapper}>
           <h2 className={style.title}>Szkolenia</h2>
           <div className={style.doctorWrapper}>
+            <h2 className={style.mainTitle}>
+              Lekarz Stomatolog, Specjalista ortodona
+            </h2>
+            <div className={style.imageWrapper}>
+              <Image src={szkolenieImg} width={320} height={460} />
+            </div>
             <div className={style.textContent}>
               Nazywam się Katarzyna Zaleska, jestem absolwentką Wydziału
               Lekarsko- Stomatologicznego PUM w Szczecinie. Od 2001 roku, jako
@@ -50,9 +56,6 @@ const SzkoleniaPage = () => {
               wykładowca PUM) z pasją do innowacyjnych cyfrowych technik
               leczenia. Jestem członkiem prestiżowych towarzystw
               ortodontycznych: PTO, EOS, PAA i FACE Poland.
-            </div>
-            <div className={style.imageWrapper}>
-              <Image src={szkolenieImg} width={320} height={460} />
             </div>
           </div>
         </div>
