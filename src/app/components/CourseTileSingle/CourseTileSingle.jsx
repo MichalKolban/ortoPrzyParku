@@ -42,7 +42,12 @@ export const CourseTileSingle = ({ data }) => {
         </div>
       )}
       <div className={styles.btnBox}>
-        <button className={styles.btn}>Zapisz się na kurs</button>
+        <a
+          href={`mailto:majkeleight@gmail.com?subject=Szkolenie%20${data.title}&body=Proszę o podanie swoich danych oraz numeru telefonu.`}
+          target="_blank"
+        >
+          <button className={styles.btn}>Zapisz się na kurs</button>
+        </a>
         <button className={styles.btn} onClick={() => setShowInfo(!showInfo)}>
           {showInfo == true ? "Zwiń" : "Zobacz więcej"}
         </button>
