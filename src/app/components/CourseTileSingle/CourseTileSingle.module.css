@@ -14,6 +14,7 @@
   /* background-color: green; */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   font-family: Montserrat;
+  max-width: 400px;
 }
 
 .title {
@@ -25,6 +26,7 @@
   font-weight: 500;
   line-height: 30px;
   text-transform: uppercase;
+  height: 60px;
 }
 
 .listElement {
@@ -59,6 +61,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
 }
 
 .mainElement {
@@ -78,6 +81,8 @@
 
 .date {
   font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .price {
