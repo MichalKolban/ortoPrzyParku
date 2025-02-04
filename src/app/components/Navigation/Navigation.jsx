@@ -76,13 +76,13 @@ export const Navigation = ({ onBurgerClick }) => {
             Pracownia ortodontyczna
           </Link>
 
-          {/* <Link
+          <Link
             className={styles.menuLink}
             href="/szkolenia"
             onClick={() => setIsMenuOpen(false)}
           >
             Szkolenia
-          </Link> */}
+          </Link>
 
           <Link
             className={styles.menuLink}

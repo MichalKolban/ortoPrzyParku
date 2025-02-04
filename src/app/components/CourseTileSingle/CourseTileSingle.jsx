@@ -3,6 +3,8 @@
 import styles from "./CourseTileSingle.module.css";
 import { useState } from "react";
 
+import Link from "next/link";
+
 export const CourseTileSingle = ({ data }) => {
   const [showInfo, setShowInfo] = useState(false);
 
@@ -44,7 +46,7 @@ export const CourseTileSingle = ({ data }) => {
       <div className={styles.btnBox}>
         <a
           className={styles.aBtn}
-          href={`mailto:mza@int.pl?subject=Szkolenie%20${data.title}%20${data.date}&body=Proszę o podanie swoich danych oraz numeru telefonu.`}
+          href={`mailto:kasiazal@ortodoncjaprzyparku.pl?subject=Szkolenie%20${data.title}%20${data.date}&body=Proszę o podanie swoich danych oraz numeru telefonu.`}
           target="_blank"
         >
           <button className={styles.btn}>Zapisz się na kurs</button>
@@ -52,6 +54,14 @@ export const CourseTileSingle = ({ data }) => {
         <button className={styles.btn} onClick={() => setShowInfo(!showInfo)}>
           {showInfo == true ? "Zwiń" : "Zobacz więcej"}
         </button>
+        <Link
+          className={styles.btn}
+          href={data.pdfSource}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Pobierz PDF
+        </Link>
       </div>
     </div>
   );
