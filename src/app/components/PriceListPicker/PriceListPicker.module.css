@@ -76,7 +76,7 @@
   font-size: 12px;
   font-family: Montserrat, sans-serif;
   padding: 8px 15px;
-  border: 2px solid var(--darkBlue);
+  border: 1px solid var(--darkBlue);
   border-radius: 20px;
   color: var(--darkBlue);
   font-weight: 600;
