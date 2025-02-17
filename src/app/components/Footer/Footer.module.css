@@ -165,7 +165,7 @@
 }
 
 .line {
-  border: 1px solid var(--lightBlue);
+  border: 1px solid var(--basicBlue);
   @media screen and (max-width: 600px) and (orientation: portrait) {
     display: none;
   }
