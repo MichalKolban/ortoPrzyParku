@@ -27,7 +27,6 @@
 /* Styl dla komputerów stacjonarnych w widoku wertykalnym */
 /* } */
 
-
 .wrapper {
   width: 280px;
   height: 400px;
@@ -47,6 +46,7 @@
 .mainName {
   font-size: 17px;
   text-align: center;
+  font-weight: 500;
 }
 
 .title {
