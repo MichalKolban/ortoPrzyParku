@@ -196,12 +196,12 @@
 }
 
 .address {
-  /* text-align: center; */
   margin-bottom: 10px;
   text-align: start;
 
   @media screen and (min-width: 901px) {
     text-align: start;
+    margin-top: 10px;
   }
 }
 
@@ -226,7 +226,6 @@
 }
 
 .zipcode {
-  /* text-align: center; */
   margin-bottom: 10px;
   text-align: start;
 

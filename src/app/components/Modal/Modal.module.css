@@ -54,18 +54,23 @@
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  max-width: 90%;
-  min-width: 90%;
+  /* width: 90%; */
+  min-width: 80%;
   max-height: 85%;
   /* height: 540px; */
   text-align: center;
   margin-top: 20px;
   overflow: hidden;
+  max-width: 1000px;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     flex-direction: column;
     height: 90vh;
-    /* border: 2px solid red; */
+    max-width: 90%;
+  }
+
+  @media screen and (min-width: 901px) {
+    max-width: 100px;
   }
 }
 
@@ -89,12 +94,6 @@
 .name {
   padding: 20px auto;
 }
-
-/* .imageWrapper > img {
-  width: "100%";
-  height: "auto";
-  border: 2px solid orange;
-} */
 
 .contentBox {
   display: flex;
