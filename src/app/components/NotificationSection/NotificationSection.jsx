@@ -6,13 +6,15 @@ import calendarIcon from "../../../../public/icons/calendarIcon.png";
 import clockIcon from "../../../../public/icons/clockIcon.png";
 
 import { getDayDetails } from "@/app/helpers/getDayAndHours";
+import Link from "next/link";
 
 export const NotificationSection = () => {
   const { day, home, away } = getDayDetails();
 
   return (
     <div className={styles.wrapper}>
-      <div className={styles.banner}>
+      <Link className={styles.banner} href={"tel:501199124"} target="_blank">
+        {/* <div className={styles.banner}> */}
         <Image src={phoneIcon} width={35} height={35} />
         <div className={styles.box}>
           <p className={styles.title}>Rejestracja</p>
@@ -21,15 +23,22 @@ export const NotificationSection = () => {
             ul. Jana Kazimierza 21/1u. 71-001 Szczecin
           </p>
         </div>
-      </div>
-      <div className={styles.banner}>
+        {/* </div> */}
+      </Link>
+      <Link
+        className={styles.banner}
+        href={"mailto:kasiazal@ortodoncjaprzyparku.pl"}
+        target="_blank"
+      >
+        {/* <div className={styles.banner}> */}
         <Image src={calendarIcon} width={40} height={35} />
         <div className={styles.box}>
           <p className={styles.title}>E-mail</p>
           <p className={styles.firstRow}>kasiazal@ortodoncjaprzyparku.pl</p>
           <p className={styles.secondRow}>Umów się na wizytę</p>
         </div>
-      </div>
+        {/* </div> */}
+      </Link>
       <div className={styles.banner}>
         <Image src={clockIcon} width={45} height={38} />
         <div className={styles.box}>
