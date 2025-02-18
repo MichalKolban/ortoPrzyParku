@@ -28,9 +28,9 @@
 /* } */
 
 .wrapper {
-  width: 280px;
-  height: 400px;
-  border: 2px solid var(--lightBlue);
+  width: 260px;
+  height: 370px;
+  border: 2px solid var(--basicBlue);
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -44,9 +44,10 @@
 }
 
 .mainName {
-  font-size: 17px;
+  font-size: 15px;
   text-align: center;
   font-weight: 500;
+  width: 90%;
 }
 
 .title {
@@ -54,10 +55,11 @@
   justify-content: center;
   align-items: center;
   text-transform: lowercase;
-  font-size: 14px;
+  font-size: 13px;
   text-align: center;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  /* margin-bottom: 20px; */
+  /* margin-top: 10px; */
+  margin: 10px auto;
   height: 58px;
 }
 

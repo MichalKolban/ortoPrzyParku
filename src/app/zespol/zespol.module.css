@@ -30,7 +30,7 @@
 .innerWrapper {
   display: flex;
   flex-wrap: wrap;
-  max-width: 900px;
+  max-width: 840px;
   /* width: 100%; */
   /* border: 2px solid red;? */
   justify-content: flex-start;
