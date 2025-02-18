@@ -142,22 +142,30 @@
 }
 
 .city {
-  font-size: 18px;
+  /* font-size: 18px; */
+  font-size: 15px;
   margin-bottom: 10px;
   font-weight: 500;
   color: var(--darkBlue);
+}
+
+.address {
+  margin-top: 5px;
+  font-size: 13px;
 }
 
 .hours {
   margin: 20px 0;
   font-weight: 500;
   color: var(--darkBlue);
+  font-size: 13px;
 }
 
 .singleDay {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  font-size: 12px;
 
   /* border: 1px solid orange; */
   margin: 4px 0;
