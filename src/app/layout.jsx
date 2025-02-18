@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta
           name="description"
-          content="Ortodoncja Przy Parku w Szczecinie – klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"
+          content="Ortodoncja Przy Parku w Szczecinie – klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome"
         />
         <meta
           name="keywords"
