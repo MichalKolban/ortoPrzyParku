@@ -33,7 +33,10 @@ const StomatologiaPage = () => {
   return (
     <>
       <head>
-        <title>Stomatologia</title>
+        <title>
+          Stomatologia | Ortodoncja Przy Parku w Szczecinie - Ortodoncja
+          Szczecin | Stomatologia Szczecin
+        </title>
         <meta
           name="description"
           content="Ortodoncja Przy Parku w Szczecinie – nowoczesna klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"

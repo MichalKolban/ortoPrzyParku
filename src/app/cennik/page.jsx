@@ -9,7 +9,10 @@ const CennikPage = () => {
   return (
     <>
       <head>
-        <title>Cennik</title>
+        <title>
+          Cennik | Ortodoncja Przy Parku w Szczecinie - Ortodoncja Szczecin |
+          Stomatologia Szczecin
+        </title>
         <meta
           name="description"
           content="Ortodoncja Przy Parku w Szczecinie – nowoczesna klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"
