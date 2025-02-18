@@ -40,7 +40,7 @@ const Home = () => {
         <NotificationSection />
         <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
           <div className={styles.descriptionBox}>
-            <h2 className={styles.title}>Ortodoncja Przy Parku</h2>
+            <h1 className={styles.title}>Ortodoncja Przy Parku</h1>
             <p className={styles.description}>
               Ortodoncja Przy Parku to gabinet ortodontyczno-stomatologiczny w
               Szczecinie. Specjalizujemy się w oferowaniu kompleksowych usług,
