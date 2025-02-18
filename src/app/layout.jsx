@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
           content="ortodonta, szczecin, ortodoncja, stomatologia, bonding, bez usuwania, ortodonta dzieciecy, invisalig, dentysta, stomatolog, klinika stomatologiczna, stomatologia, metamorfozy uśmiechu, protezy na implantach"
         ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://ortodoncjaprzyparku.pl" />
+        <link rel="canonical" href="https://www.ortodoncjaprzyparku.pl" />
       </head>
       <body className={montserrat.variable}>
         <Navigation />
