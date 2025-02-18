@@ -27,7 +27,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pl">
       <head>
-        <title>Ortodoncja Przy Parku w Szczecinie</title>
+        <title>
+          Ortodoncja Przy Parku w Szczecinie - Ortodoncja Szczecin |
+          Stomatologia Szczecin
+        </title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <meta
           name="description"
