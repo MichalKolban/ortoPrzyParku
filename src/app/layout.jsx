@@ -33,6 +33,10 @@ export default function RootLayout({ children }) {
           name="description"
           content="Ortodoncja Przy Parku w Szczecinie – nowoczesna klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"
         />
+        <meta
+          name="keywords"
+          content="ortodonta, szczecin, ortodoncja, stomatologia, bonding, bez usuwania, ortodonta dzieciecy, invisalig, dentysta, stomatolog, klinika stomatologiczna, stomatologia, metamorfozy uśmiechu, protezy na implantach"
+        ></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://ortodoncjaprzyparku.pl" />
       </head>
