@@ -2,7 +2,7 @@
   "laboratory": [
     {
       "id": 1,
-      "name": "MONIKA PIERÓG",
+      "name": "Monika Pieróg",
       "icon": "/photos/team/defaultPersonIcon.png",
       "photo": "",
       "title": "pracownik laboratorium",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "name": "MAKSYM SHCHERBAKOV",
+      "name": "Maksym Shcherbakov",
       "icon": "/photos/team/maksymShcherbakovIcon.png",
       "photo": "/photos/team/maksymShcherbakov.jpg",
       "title": "pracownik laboratorium",

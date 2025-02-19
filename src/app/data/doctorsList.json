@@ -2,7 +2,7 @@
   "doctors": [
     {
       "id": 1,
-      "name": "PIOTR BOBROWSKI",
+      "name": "Piotr Bobrowski",
       "icon": "/photos/team/piotrBobrowskiIcon.png",
       "photo": "/photos/team/piotrBobrowski.jpg",
       "title": "lekarz stomatolog",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "name": "MARIUSZ TOMASIAK",
+      "name": "Mariusz Tomasiak",
       "icon": "/photos/team/mariuszTomasiakIcon.png",
       "photo": "/photos/team/mariuszTomasiak.jpg",
       "title": "lekarz stomatolog",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "name": "MARTA GAŁĘSKA",
+      "name": "Marta Gałęska",
       "icon": "/photos/team/martaGaleskaIcon.png",
       "photo": "/photos/team/martaGaleska.jpg",
       "title": "lekarz stomatolog",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "name": "dr n. med. ANNA KOBERSKA",
+      "name": "dr n. med. Anna Koberska",
       "icon": "/photos/team/annaKoberskaIcon.png",
       "photo": "/photos/team/annaKoberska.jpg",
       "title": "lekarz stomatolog specjalista stomatologii zachowawczej z endodoncją",
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "name": "JUSTYNA KONOPKA",
+      "name": "Justyna Konopka",
       "icon": "/photos/team/justynaKonopkaIcon.png",
       "photo": "/photos/team/justynaKonopka.jpg",
       "title": "lekarz stomatolog ",
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "name": "MICHAŁ LEWANDOWSKI",
+      "name": "Michał Lewandowski",
       "icon": "/photos/team/michalLewandowskiIcon.png",
       "photo": "/photos/team/michalLewandowski.jpg",
       "title": "lekarz stomatolog ",
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "name": "dr n. med. MAGDALENA MITROWSKA-GUŹMIŃSKA",
+      "name": "dr n. med. Magdalena Mitrowska-Guźmińska",
       "icon": "/photos/team/magdalenaMitrowskaGuzminskaIcon.png",
       "photo": "/photos/team/magdalenaMitrowskaGuzminska.jpg",
       "title": "lekarz stomatolog ",
@@ -58,7 +58,7 @@
     },
     {
       "id": 8,
-      "name": "dr n. med. KATARZYNA NOWICKA",
+      "name": "dr n. med. Katarzyna Nowicka",
       "icon": "/photos/team/katarzynaNowickaIcon.png",
       "photo": "/photos/team/katarzynaNowicka.jpg",
       "title": "lekarz stomatolog ",
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "name": "KAROLINA OGRODZIŃSKA-KOŁBAN",
+      "name": "Karolina Ogrodzińska-Kołban",
       "icon": "/photos/team/karolinaOgrodzinskaKolbanIcon.png",
       "photo": "/photos/team/karolinaOgrodzinskaKolban.jpg",
       "title": "lekarz stomatolog ",
