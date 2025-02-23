@@ -7,6 +7,7 @@ import { Navigation } from "./components/Navigation/Navigation";
 import { Montserrat } from "next/font/google";
 import { MySign } from "./components/MySign/MySign";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 import { useState } from "react";
 
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pl">
       <Analytics />
+      <SpeedInsights />
       <head>
         <title>
           Ortodoncja Przy Parku w Szczecinie - Ortodoncja Szczecin |
