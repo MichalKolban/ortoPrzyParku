@@ -7,10 +7,23 @@ export const Modal = ({ isOpen, onClose, photo, name, title, description }) => {
   return (
     <div className={styles.overlay} onClick={onClose}>
       <div className={styles.wrapper} onClick={(e) => e.stopPropagation()}>
-        <div className={styles.imageWrapper}>
-          {/* {photo && <Image src={photo} width={350} height={480} alt={name} />} */}
+        {/* <div className={styles.imageWrapper}> */}
+        {/* {photo && <Image src={photo} width={140} height={180} alt={name} />} */}
+        {/* {photo && (
+            <Image src={photo} layout="fill" objectFit="cover" alt={name} />
+          )} */}
+        {/* </div> */}
 
-          {photo && <Image src={photo} width={140} height={180} alt={name} />}
+        <div className={styles.photoBox}>
+          {photo && (
+            <Image
+              src={photo}
+              layout="fill"
+              objectFit="cover"
+              objectPosition="top"
+              alt={name}
+            />
+          )}
         </div>
         <div className={styles.contentBox}>
           <h3 className={styles.name}>{name}</h3>
