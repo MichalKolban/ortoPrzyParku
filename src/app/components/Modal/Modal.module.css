@@ -64,6 +64,7 @@
   overflow: hidden;
   max-width: 1000px;
   /* height: 500px; */
+  width: 92%;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     flex-direction: column;
