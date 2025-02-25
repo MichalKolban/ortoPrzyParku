@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { Modal } from "../Modal/Modal";
 
@@ -12,6 +12,20 @@ import dataJSON from "../../data/mainDoctor.json";
 export const DoctorBedgeMain = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const doctor = dataJSON.doctors[0];
+
+  // useEffect(() => {
+  //   if (isOpen) {
+  //     console.log("=========  dodaje klase");
+  //     document.body.classList.add("no-scroll"); // Dodaj klasę do body
+  //   } else {
+  //     console.log("=========  USUWAM klase");
+  //     document.body.classList.remove("no-scroll"); // Usuń klasę z body
+  //   }
+
+  //   return () => {
+  //     document.body.classList.remove("no-scroll"); // Na wszelki wypadek usuń klasę przy odmontowaniu
+  //   };
+  // }, [isOpen]);
 
   return (
     <>

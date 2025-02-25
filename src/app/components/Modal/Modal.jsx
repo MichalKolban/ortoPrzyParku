@@ -2,6 +2,8 @@ import styles from "./Modal.module.css";
 import Image from "next/image";
 
 export const Modal = ({ isOpen, onClose, photo, name, title, description }) => {
+  // console.log("is OPEN ", isOpen);
+
   if (!isOpen) return null;
 
   return (

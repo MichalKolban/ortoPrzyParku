@@ -176,7 +176,13 @@
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     /* padding-top: 70px; */
-    width: 70%;
+    width: 80%;
+    /* height: 90%; */
     margin: 0 auto;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* border: 2px solid red; */
+    /* align-self: center; */
   }
 }
