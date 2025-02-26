@@ -502,11 +502,11 @@
         { "id": 1, "name": "Root-planning 1 ćwiartka", "price": 550 },
         {
           "id": 2,
-          "name": "Curetage (kiretaz - skaling głęboki) - ćwiartka",
+          "name": "Curetage (kiretaż - skaling głęboki) - ćwiartka",
           "price": 660
         },
         { "id": 3, "name": "Szyna Fiber-cor 3 punkty", "price": 1110 },
-        { "id": 4, "name": "Dostoswanie zęba w szynie", "price": 550 },
+        { "id": 4, "name": "Dostosowanie zęba w szynie", "price": 550 },
         { "id": 5, "name": "Piaskowanie", "price": 220 },
         { "id": 6, "name": "Opatrunek", "price": 275 },
         {

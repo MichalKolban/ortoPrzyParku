@@ -51,7 +51,8 @@
   justify-content: center;
   /* flex-direction: column; */
   background: white;
-  padding: 1rem;
+  /* padding: 1rem; */
+  padding: 20px;
   /* padding: 2rem; */
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -109,7 +110,8 @@
   /* width: 58%; */
   /* border: 2px solid red; */
 
-  width: 55%;
+  /* width: 55%; */
+  width: 60%;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     /* padding-top: 70px; */
@@ -176,6 +178,7 @@
   width: 35%;
   height: 400px;
   margin-right: 50px;
+  border-radius: 8px;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     /* padding-top: 70px; */
@@ -192,7 +195,10 @@
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
     /* overflow: overlay; */
     /* padding: 0 15px; */
-    width: 25%;
-    height: 220px;
+    /* width: 25%; */
+    /* height: 220px; */
+
+    width: 30%;
+    height: auto;
   }
 }
