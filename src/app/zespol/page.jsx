@@ -110,7 +110,7 @@ const ZespolPage = () => {
             </div>
           </div>
           <div className={styles.specialInnerWrapper}>
-            <div className={styles.sectionTitle}>Technik Radiologii</div>
+            <div className={styles.sectionTitle}>Elektroradiolog</div>
             <DoctorBadge
               name={radiologyStaff[0].name}
               icon={radiologyStaff[0].icon}

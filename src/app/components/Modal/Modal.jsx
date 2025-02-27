@@ -1,10 +1,17 @@
+import { useState, useEffect } from "react";
 import styles from "./Modal.module.css";
 import Image from "next/image";
 
 export const Modal = ({ isOpen, onClose, photo, name, title, description }) => {
-  // console.log("is OPEN ", isOpen);
-
   if (!isOpen) return null;
+
+  // useEffect(() => {
+  //   if (onClose) {
+  //     document.body.classList.add("no-scroll");
+  //   } else {
+  //     document.body.classList.remove("no-scroll");
+  //   }
+  // }, [onClose]);
 
   return (
     <div className={styles.overlay} onClick={onClose}>
