@@ -79,7 +79,7 @@ const SzkoleniaPage = () => {
         </div>
         <></>
       </div>
-      <FormABC />
+      {/* <FormABC /> */}
     </>
   );
 };
