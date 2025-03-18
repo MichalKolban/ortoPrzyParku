@@ -16,6 +16,7 @@ import mainPhotoImg from "../../../public/photos/mainPhoto.jpg";
 
 import march2025 from "../data/courseMarch2025.json";
 import april2025 from "../data/courseApril2025.json";
+import june2025 from "../data/courseJune2025.json";
 
 import { FormABC } from "../components/FormABC/FormABC";
 
@@ -75,6 +76,8 @@ const SzkoleniaPage = () => {
             <CourseTileSingle data={march2025} />
             <br></br>
             <CourseTileSingle data={april2025} />
+            <br></br>
+            <CourseTileSingle data={june2025} />
           </div>
         </div>
         <></>

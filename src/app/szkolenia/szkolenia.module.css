@@ -155,7 +155,7 @@
     /* padding: 25px; */
     flex-direction: row;
     padding-bottom: 100px;
-    align-items: baseline;
+    align-items: normal;
   }
 
   max-width: 1000px;
