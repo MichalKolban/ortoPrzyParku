@@ -200,7 +200,7 @@ const KontaktPage = () => {
                   <Image
                     className={styles.iconBtn}
                     src={instagramIcon}
-                    width={26}
+                    width={30}
                     height={24}
                     alt="instagram"
                   />
