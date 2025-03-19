@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import Link from "next/link";
 
-import { BracesGallery } from "../components/BracesGallery/BracesGallery";
-import { LogoListElement } from "../components/LogoListElement/LogoListElement";
+import { BracesGallery } from "../../components/BracesGallery/BracesGallery";
+import { LogoListElement } from "../../components/LogoListElement/LogoListElement";
 
 import ortoMainPhoto from "../../../public/photos/pracowaniaOrtodontyczna.png";
 import pracowniaOrtoPhoto from "../../../public/photos/pracowniaOrtoPhoto.png";

@@ -5,8 +5,8 @@ import Image from "next/image";
 import style from "./szkolenia.module.css";
 // import meshmixerLogo from "../../../public/icons/meshmixerLogo.png";
 // import katarzynaZaleskaSzkolenieImg from "../../../photos/team/katarzynaZaleskaSzkolenie.jpg";
-import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
-import { CourseTileSingle } from "../components/CourseTileSingle/CourseTileSingle";
+import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
+import { CourseTileSingle } from "../../components/CourseTileSingle/CourseTileSingle";
 
 // import katarzynaSzkolenia from "../../../public/photos/team/katarzynaZaleska.png";
 
@@ -14,11 +14,11 @@ import szkolenieImg from "../../../public/photos/team/szkolenie.png";
 
 import mainPhotoImg from "../../../public/photos/mainPhoto.jpg";
 
-import march2025 from "../data/courseMarch2025.json";
-import april2025 from "../data/courseApril2025.json";
-import june2025 from "../data/courseJune2025.json";
+import march2025 from "../../data/courseMarch2025.json";
+import april2025 from "../../data/courseApril2025.json";
+import june2025 from "../../data/courseJune2025.json";
 
-import { FormABC } from "../components/FormABC/FormABC";
+import { FormABC } from "../../components/FormABC/FormABC";
 
 const SzkoleniaPage = () => {
   return (

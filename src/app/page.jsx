@@ -1,25 +1,29 @@
 "use client";
 
-import { Footer } from "./components/Footer/Footer";
-import { Navigation } from "./components/Navigation/Navigation";
+// import { Footer } from "../components/Footer/Footer";
+// import { Navigation } from "../components/Navigation/Navigation";
 import { useState, useEffect } from "react";
-import { PhotoLink } from "./components/PhotoLink/PhotoLink";
+// import { PhotoLink } from "../components/PhotoLink/PhotoLink";
 // import { PhotosLinkRow } from './components/PhotosLinkRow/PhotosLinkRow';
-import { PhotosLinkRow } from "./components/PhotosLinkRow/PhotosLinkRow";
-import { OfficeSixIcons } from "./components/OfficeSixIcons/OfficeSixIcons";
-import { OrtoBanner } from "./components/OrtoBanner/OrtoBanner";
-import { OrtoServices } from "./components/OrtoServices/OrtoServices";
+import { PhotosLinkRow } from "../components/PhotosLinkRow/PhotosLinkRow";
+import { OfficeSixIcons } from "../components/OfficeSixIcons/OfficeSixIcons";
+import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
+import { OrtoServices } from "../components/OrtoServices/OrtoServices";
 
-import choinkaImg from "./../../public/photos/choinka.png";
-import mainPhotoImg from "../../public/photos/mainPhoto.jpg";
-import gabinetImg from "./../../public/photos/gabinet.png";
+// import choinkaImg from "./../../public/photos/choinka.png";
+// import mainPhotoImg from "../../public/photos/mainPhoto.jpg";
+// import gabinetImg from "./../../public/photos/gabinet.png";
 
 import styles from "./page.module.css";
 import Image from "next/image";
-import { NotificationSection } from "./components/NotificationSection/NotificationSection";
+import { NotificationSection } from "../components/NotificationSection/NotificationSection";
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // const choinkaImg = "/photos/choinka.png";
+  const mainPhotoImg = "/photos/mainPhoto.jpg";
+  const gabinetImg = "/photos/gabinet.png";
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -27,15 +31,6 @@ const Home = () => {
 
   return (
     <>
-      {/* <head>
-        <title>Ortodoncja Przy Parku w Szczecinie</title>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <meta
-          name="description"
-          content="Ortodoncja Przy Parku w Szczecinie – nowoczesna klinika ortodontyczna dla dzieci i dorosłych. Profesjonalne leczenie wad zgryzu, aparaty stałe i ruchome. Umów się na konsultację!"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </head> */}
       <div className={styles.outerWrapper}>
         <NotificationSection />
         <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
@@ -52,7 +47,7 @@ const Home = () => {
           </div>
           <div className={styles.xmastree}>
             <Image
-              src={mainPhotoImg}
+              src="/photos/mainPhoto.jpg"
               width={420}
               height={260}
               alt="ortodoncja"

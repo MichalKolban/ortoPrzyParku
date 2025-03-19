@@ -1,22 +1,27 @@
 import Image from "next/image";
-import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
-import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
+import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
+import { OrtoBanner } from "../../components/OrtoBanner/OrtoBanner";
 
 import Head from "next/head";
 
-import Map from "../components/GoogleMap/Map";
+import Map from "../../components/GoogleMap/Map";
 
 // const Map = dynamic(() => import("../components/Map/Map"));
 
-import phoneIcon from "../../../public/icons/socialPhone.png";
-import mailIcon from "../../../public/icons/socialMail.png";
-import facebookIcon from "../../../public/icons/socialFacebook.png";
-import instagramIcon from "../../../public/icons/socialInstagram.png";
+// import phoneIcon from "../../../public/icons/socialPhone.png";
+// import mailIcon from "../../../public/icons/socialMail.png";
+// import facebookIcon from "../../../public/icons/socialFacebook.png";
+// import instagramIcon from "../../../public/icons/socialInstagram.png";
 
 import styles from "./kontakt.module.css";
 import Link from "next/link";
 
 const KontaktPage = () => {
+  const phoneIcon = "/icons/socialPhone.png";
+  const mailIcon = "/icons/socialMail.png";
+  const facebookIcon = "/icons/socialFacebook.png";
+  const instagramIcon = "/icons/socialInstagram.png";
+
   return (
     <>
       <head>

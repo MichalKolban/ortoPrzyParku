@@ -1,7 +1,7 @@
 "use client";
 
-import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
-import { Section } from "../components/Section/Section";
+import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
+import { Section } from "../../components/Section/Section";
 
 import { useEffect } from "react";
 

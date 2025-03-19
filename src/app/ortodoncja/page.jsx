@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import { EmptySpaceUnderNavigation } from "../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
-import { Section } from "../components/Section/Section";
-import { LogoListElement } from "../components/LogoListElement/LogoListElement";
-import { PhotosLinkRow } from "../components/PhotosLinkRow/PhotosLinkRow";
+import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
+import { Section } from "../../components/Section/Section";
+import { LogoListElement } from "../../components/LogoListElement/LogoListElement";
+import { PhotosLinkRow } from "../../components/PhotosLinkRow/PhotosLinkRow";
 
 import { useEffect } from "react";
 
@@ -19,7 +19,7 @@ import usmiechImg from "../../../public/photos/usmiech.png";
 import szczekaImg from "../../../public/photos/szczeka.png";
 
 import higienaImg from "../../../public/photos/higiena.png";
-import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
+import { OrtoBanner } from "../../components/OrtoBanner/OrtoBanner";
 
 const OrtodoncjaPage = () => {
   const scrollToSection = () => {
