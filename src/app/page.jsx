@@ -1,18 +1,10 @@
 "use client";
 
-// import { Footer } from "../components/Footer/Footer";
-// import { Navigation } from "../components/Navigation/Navigation";
 import { useState, useEffect } from "react";
-// import { PhotoLink } from "../components/PhotoLink/PhotoLink";
-// import { PhotosLinkRow } from './components/PhotosLinkRow/PhotosLinkRow';
 import { PhotosLinkRow } from "../components/PhotosLinkRow/PhotosLinkRow";
 import { OfficeSixIcons } from "../components/OfficeSixIcons/OfficeSixIcons";
 import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
 import { OrtoServices } from "../components/OrtoServices/OrtoServices";
-
-// import choinkaImg from "./../../public/photos/choinka.png";
-// import mainPhotoImg from "../../public/photos/mainPhoto.jpg";
-// import gabinetImg from "./../../public/photos/gabinet.png";
 
 import styles from "./page.module.css";
 import Image from "next/image";
@@ -21,7 +13,6 @@ import { NotificationSection } from "../components/NotificationSection/Notificat
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // const choinkaImg = "/photos/choinka.png";
   const mainPhotoImg = "/photos/mainPhoto.jpg";
   const gabinetImg = "/photos/gabinet.png";
 

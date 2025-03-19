@@ -3,12 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import style from "./szkolenia.module.css";
-// import meshmixerLogo from "../../../public/icons/meshmixerLogo.png";
-// import katarzynaZaleskaSzkolenieImg from "../../../photos/team/katarzynaZaleskaSzkolenie.jpg";
 import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
 import { CourseTileSingle } from "../../components/CourseTileSingle/CourseTileSingle";
-
-// import katarzynaSzkolenia from "../../../public/photos/team/katarzynaZaleska.png";
 
 import szkolenieImg from "../../../public/photos/team/szkolenie.png";
 
@@ -33,7 +29,12 @@ const SzkoleniaPage = () => {
             </h2>
             <div className={style.doctorBox}>
               <div className={style.imageWrapper}>
-                <Image src={szkolenieImg} width={320} height={460} />
+                <Image
+                  src={szkolenieImg}
+                  width={320}
+                  height={460}
+                  alt="Katarzyna Zaleska"
+                />
               </div>
               <div className={style.textContent}>
                 Nazywam się Katarzyna Zaleska, jestem absolwentką Wydziału
