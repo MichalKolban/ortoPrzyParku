@@ -1,5 +1,6 @@
 "use client";
 
+import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
 import styles from "./rodo.module.css";
 
 const RodoPage = () => {
@@ -20,7 +21,7 @@ const RodoPage = () => {
   };
 
   return (
-    <>
+    <CustomLayout>
       <div className={styles.wrapper}>
         <div className={styles.rodoStatement}>
           <p className={styles.rodoText}>
@@ -1360,7 +1361,7 @@ const RodoPage = () => {
           </ol>
         </div>
       </div>
-    </>
+    </CustomLayout>
   );
 };
 

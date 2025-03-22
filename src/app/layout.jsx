@@ -1,7 +1,6 @@
 import "./globals.css";
 import { Footer } from "@/components/Footer/Footer";
-import { Navigation } from "@/components/Navigation/Navigation";
-import { NavigationSchooling } from "@/components/NavigationSchooling/NavigationSchooling";
+import { Navigation } from "@/components/Navigation/MainNavigation/MainNavigation";
 import { Montserrat } from "next/font/google";
 import { MySign } from "@/components/MySign/MySign";
 import { Analytics } from "@vercel/analytics/react";
@@ -14,16 +13,12 @@ const montserrat = Montserrat({
 });
 
 export default function RootLayout({ children }) {
-  console.log("🏠 Renderuje się RootLayout!");
   return (
     <html lang="pl" className={montserrat.variable}>
       <body>
         <Analytics />
         <SpeedInsights />
-        <Navigation />
         <main className="mainWrapper">{children}</main>
-        <Footer />
-        <MySign />
       </body>
     </html>
   );

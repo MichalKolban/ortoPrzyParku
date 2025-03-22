@@ -22,10 +22,11 @@ import meshLabLogo from "../../../public/icons/meshLabLogo.png";
 import threeDToolLogo from "../../../public/icons/threeDToolLogo.png";
 
 import styles from "./page.module.css";
+import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
 
 const PracowniaOrtodontycznaPage = () => {
   return (
-    <>
+    <CustomLayout>
       <div>
         <div className={`${styles.sectionWrapper} ${styles.firstSection}`}>
           <div className={styles.textBox}>
@@ -274,7 +275,7 @@ const PracowniaOrtodontycznaPage = () => {
           </Link>
         </div>
       </div>
-    </>
+    </CustomLayout>
   );
 };
 

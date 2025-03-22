@@ -20,6 +20,7 @@ import szczekaImg from "../../../public/photos/szczeka.png";
 
 import higienaImg from "../../../public/photos/higiena.png";
 import { OrtoBanner } from "../../components/OrtoBanner/OrtoBanner";
+import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
 
 const OrtodoncjaPage = () => {
   const scrollToSection = () => {
@@ -45,7 +46,7 @@ const OrtodoncjaPage = () => {
   }, []);
 
   return (
-    <>
+    <CustomLayout>
       <EmptySpaceUnderNavigation />
       <div className={styles.background}>
         <Section backgroundClass={"gray"}>
@@ -278,7 +279,7 @@ const OrtodoncjaPage = () => {
       </div>
 
       <PhotosLinkRow />
-    </>
+    </CustomLayout>
   );
 };
 

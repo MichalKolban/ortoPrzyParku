@@ -14,13 +14,13 @@
   font-family: var(--font-montserrat);
 }
 
-.mainWrapper {
-  padding-top: 30px;
+/* .mainWrapper { */
+/* padding-top: 30px; */
 
-  /* @media screen and (max-width: 600px) and (orientation: portrait) {
+/* @media screen and (max-width: 600px) and (orientation: portrait) {
     padding-top: 120px;
   } */
-}
+/* } */
 
 * {
   margin: 0;

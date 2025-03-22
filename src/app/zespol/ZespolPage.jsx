@@ -13,6 +13,7 @@ import hygieneJSON from "../../data/hygieneStaff.json";
 import registrationJSON from "../../data/registrationStaff.json";
 import radiologyJSON from "../../data/radiologyTechnicanStaff.json";
 import laboratoryJSON from "../../data/laboratoryStaff.json";
+import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
 
 const ZespolPage = () => {
   const [isModalOpen, setModalOpen] = useState(false);
@@ -25,7 +26,7 @@ const ZespolPage = () => {
   const laboratoryStaff = laboratoryJSON.laboratory;
 
   return (
-    <div>
+    <CustomLayout>
       <DoctorBedgeMain />
       <div className={styles.outerWrapper}>
         <div className={styles.sectionTitle}>Zespół Lekarski</div>
@@ -42,7 +43,7 @@ const ZespolPage = () => {
           ))}
         </div>
       </div>
-    </div>
+    </CustomLayout>
   );
 };
 

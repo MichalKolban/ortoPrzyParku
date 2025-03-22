@@ -14,10 +14,11 @@ import april2025 from "../../data/courseApril2025.json";
 import june2025 from "../../data/courseJune2025.json";
 
 import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
+import SchoolingLayout from "@/components/Layouts/SchoolingLayout/SchoolingLayout";
 
 const SzkoleniaPage = () => {
   return (
-    <CustomLayout>
+    <SchoolingLayout>
       <div className={style.pageWrapper}>
         <EmptySpaceUnderNavigation />
         <div className={style.grayWrapper}>
@@ -70,7 +71,7 @@ const SzkoleniaPage = () => {
         </div>
         <></>
       </div>
-    </CustomLayout>
+    </SchoolingLayout>
   );
 };
 

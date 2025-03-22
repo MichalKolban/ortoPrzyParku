@@ -1,14 +1,20 @@
 "use client";
 
+// import { CustomLayout } from "../customLayout/CustomLayout";
+
+import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
+
 import { useState, useEffect } from "react";
 import { PhotosLinkRow } from "../components/PhotosLinkRow/PhotosLinkRow";
 import { OfficeSixIcons } from "../components/OfficeSixIcons/OfficeSixIcons";
 import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
 import { OrtoServices } from "../components/OrtoServices/OrtoServices";
 
+import { NotificationSection } from "@/components/NotificationSection/NotificationSection";
+
 import styles from "./page.module.css";
 import Image from "next/image";
-import { NotificationSection } from "../components/NotificationSection/NotificationSection";
+// import { NotificationSection } from "../components/NotificationSection/NotificationSection";
 
 const Home = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +27,7 @@ const Home = () => {
   };
 
   return (
-    <>
+    <CustomLayout>
       <div className={styles.outerWrapper}>
         <NotificationSection />
         <div className={`${styles.sectionWrapper} ${styles.mainSection}`}>
@@ -83,7 +89,7 @@ const Home = () => {
         <OfficeSixIcons />
         <PhotosLinkRow />
       </div>
-    </>
+    </CustomLayout>
   );
 };
 
