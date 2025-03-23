@@ -51,7 +51,7 @@
 }
 
 .textContent {
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 23px;
   font-size: 13px;
   margin: 10px auto;

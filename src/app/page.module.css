@@ -165,7 +165,7 @@
 }
 
 .description {
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 23px;
   width: 550px;
   color: #333;

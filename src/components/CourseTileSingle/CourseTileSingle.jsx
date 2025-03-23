@@ -5,13 +5,15 @@ import { useState } from "react";
 
 import Link from "next/link";
 
-export const CourseTileSingle = ({ data }) => {
+export const CourseTileSingle = ({ data, soldout, ended }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
     <div className={styles.box}>
+      {ended && <div className={styles.ended}>Zakończony kurs</div>}
       <div className={styles.shortInfo}>
         <h4 className={styles.title}>{data.title}</h4>
+        {soldout && <div className={styles.soldout}>Brak wolnnych miejsc</div>}
         <p className={styles.mainElement}>
           Typ kursu :
           <span className={styles.courseType}>{data.courseType}</span>

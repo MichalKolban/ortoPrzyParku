@@ -1,6 +1,4 @@
-// Plik: src/app/zespol/ZespolPage.jsx
-
-"use client"; // ← Tylko tutaj dajemy "use client"
+"use client";
 
 import { useState } from "react";
 import { DoctorBadge } from "../../components/DoctorBadge/DoctorBadge";
@@ -31,18 +29,113 @@ const ZespolPage = () => {
       <div className={styles.outerWrapper}>
         <div className={styles.sectionTitle}>Zespół Lekarski</div>
         <div className={styles.innerWrapper}>
-          {doctors.map((doctor) => (
-            <DoctorBadge
-              key={doctor.id}
-              name={doctor.name}
-              icon={doctor.icon}
-              photo={doctor.photo}
-              title={doctor.title}
-              description={doctor.description}
-            />
-          ))}
+          {doctors.map((doctor) => {
+            return (
+              <DoctorBadge
+                key={doctor.id}
+                name={doctor.name}
+                icon={doctor.icon}
+                photo={doctor.photo}
+                title={doctor.title}
+                description={doctor.description}
+              />
+            );
+          })}
         </div>
       </div>
+
+      <div className={styles.outerWrapper}>
+        <div className={styles.sectionTitle}>Administracja</div>
+        <div className={styles.innerWrapper}>
+          {administration.map((administration) => {
+            return (
+              <DoctorBadge
+                key={administration.id}
+                name={administration.name}
+                icon={administration.icon}
+                photo={administration.photo}
+                title={administration.title}
+                description={administration.description}
+              />
+            );
+          })}
+        </div>
+      </div>
+
+      <div className={styles.outerWrapper}>
+        <div className={styles.sectionTitle}>Higienistki</div>
+        <div className={styles.innerWrapper}>
+          {hygieneStaff.map((person) => {
+            return (
+              <DoctorBadge
+                key={person.id}
+                name={person.name}
+                icon={person.icon}
+                photo={person.photo}
+                title={person.title}
+                description={person.description}
+              />
+            );
+          })}
+        </div>
+      </div>
+
+      <div className={styles.specialWrapper}>
+        <div className={styles.specialInnerWrapper}>
+          <div
+            className={`${styles.sectionTitle} ${styles.sectionTitleSpecial}`}
+          >
+            Rejestracja
+          </div>
+          <div className={styles.innerWrapper}>
+            {registrationStaff.map((person) => {
+              return (
+                <DoctorBadge
+                  key={person.id}
+                  name={person.name}
+                  icon={person.icon}
+                  photo={person.photo}
+                  title={person.title}
+                  description={person.description}
+                />
+              );
+            })}
+          </div>
+        </div>
+        <div className={styles.specialInnerWrapper}>
+          <div
+            className={`${styles.sectionTitle} ${styles.sectionTitleSpecial}`}
+          >
+            Elektroradiolog
+          </div>
+          <DoctorBadge
+            name={radiologyStaff[0].name}
+            icon={radiologyStaff[0].icon}
+            photo={radiologyStaff[0].photo}
+            title={radiologyStaff[0].title}
+            description={radiologyStaff[0].description}
+          />
+        </div>
+      </div>
+
+      <div className={styles.outerWrapper}>
+        <div className={styles.sectionTitle}>Laboratorium Ortodontyczne</div>
+        <div className={styles.innerWrapper}>
+          {laboratoryStaff.map((person) => {
+            return (
+              <DoctorBadge
+                key={person.id}
+                name={person.name}
+                icon={person.icon}
+                photo={person.photo}
+                title={person.title}
+                description={person.description}
+              />
+            );
+          })}
+        </div>
+      </div>
+      {/* </div> */}
     </CustomLayout>
   );
 };

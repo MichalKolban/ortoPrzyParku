@@ -7,8 +7,6 @@ import { CourseTileSingle } from "../../components/CourseTileSingle/CourseTileSi
 
 import szkolenieImg from "../../../public/photos/team/szkolenie.png";
 
-import mainPhotoImg from "../../../public/photos/mainPhoto.jpg";
-
 import march2025 from "../../data/courseMarch2025.json";
 import april2025 from "../../data/courseApril2025.json";
 import june2025 from "../../data/courseJune2025.json";
@@ -61,11 +59,11 @@ const SzkoleniaPage = () => {
         <div className={style.schoolingSection}>
           <div className={style.schoolingTitle}>Szkolenia stacjonarne</div>
           <div className={style.courseBox}>
-            <CourseTileSingle data={march2025} />
-            <br></br>
-            <CourseTileSingle data={april2025} />
+            <CourseTileSingle data={april2025} soldout={true} />
             <br></br>
             <CourseTileSingle data={june2025} />
+            <br></br>
+            <CourseTileSingle data={march2025} ended={true} />
           </div>
         </div>
         <></>

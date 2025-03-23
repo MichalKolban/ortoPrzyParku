@@ -156,7 +156,7 @@
 
 .description {
   margin-bottom: 40px;
-  text-align: justify;
+  /* text-align: justify; */
   line-height: 23px;
   color: #333;
   max-width: 450px;

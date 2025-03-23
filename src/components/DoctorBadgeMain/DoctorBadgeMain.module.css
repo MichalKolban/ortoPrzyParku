@@ -27,7 +27,8 @@
 /* Styl dla komputerów stacjonarnych w widoku wertykalnym */
 /* } */
 .wrapper {
-  max-width: 1280px;
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
   border-radius: 20px;
   overflow: hidden;

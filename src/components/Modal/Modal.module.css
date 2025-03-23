@@ -133,9 +133,10 @@
 .description {
   font-size: 12px;
   line-height: 18px;
-  text-align: justify;
+  /* text-align: justify; */
   margin: 15px auto;
   position: relative;
+  text-align: left;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     /* Styl dla urządzeń mobilnych w widoku wertykalnym */

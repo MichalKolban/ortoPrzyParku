@@ -1,0 +1,21 @@
+.courseTileWrapper {
+  width: 95%;
+  border: 2px solid orange;
+  margin: 0 auto;
+}
+
+.courseTileImageWrapper {
+  /* max-width: 100vw; */
+  /* height: 200px; */
+
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Zachowanie proporcji */
+  height: 200px;
+  overflow: hidden;
+}
+
+.shortInfo {
+  margin: 20px;
+  border: 2px solid green;
+}

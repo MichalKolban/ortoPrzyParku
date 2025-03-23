@@ -1,5 +1,5 @@
 {
-  "title": "Mikroimplanty - jak zacząć",
+  "title": "Mikroimplanty - jak zacząć  (I Edycja)",
   "courseType": "Szkolenie praktyczne",
   "host": "dr n. med. Katarzyna Zaleska",
   "date": "4-5.04.2025",
@@ -9,30 +9,21 @@
   "pdfSource": "/documents/agenda_kursu_mikroimplanty_04.05.2025.pdf",
   "description": [
     {
-      "title": "co zyskasz ?",
+      "title": "Część teoretyczna",
       "description": [
-        "Samodzielne wprowadzanie mikroimplantów w 6 kluczowych lokalizacjach (strefa policzkowa, podniebienna, okolica międzykorzeniowa)",
-        "Precyzyjny dobór parametrów zabiegu - odpowiedni tork i siła przy różnych typach kości",
-        "Zaawansowane techniki biomechaniczne - doginanie power arm, lever arm i elementów kotwiących",
-        "Praktyczne zastosowanie różnych systemów biomechanicznych (sprężyny, wyciągi elastyczne, wiązania ligaturowe)"
+        "- Podstawy biologicznego utrzymania mikroimplantów w kości",
+        "- Budowa mikroimplantów",
+        "- Czynniki wpływające na sukces podczas wprowadzania i stosowania mikroimplantów",
+        "- Procedura wprowadzania i usuwania mikroimplantu- w okolicę międzykorzeniową po stronie policzkowej, podniebiennej, kresę skośną, okolicę zatrzonowcową, IZC ",
+        "- Omówienie najczęstszych powikłań jakie zdarzają się podczas stosowania i użytkowania mikroimplantów"
       ]
     },
     {
-      "title": "Wiedza kliniczna:",
+      "title": "Część praktyczna",
       "description": [
-        "Kompleksowe zrozumienie biologii gojenia kości i stabilizacji implantu",
-        "Umiejętność oceny jakości kości i wyboru optymalnej lokalizacji mikroimplantu",
-        "Szczegółowe protokoły wprowadzania i usuwania dla każdej strefy anatomicznej",
-        "Praktyczne wskazówki zapobiegania powikłaniom i ich skutecznego leczenia"
-      ]
-    },
-    {
-      "title": "Praktyka na typodontach:",
-      "description": [
-        "Wprowadzenie 6 mikroimplantów o różnych rozmiarach (od 1.4 do 2.0 mm średnicy)",
-        "Praca z kompletnym instrumentarium ortodontycznym",
-        "Ćwiczenia na specjalnie przygotowanych modelach z zamkami MBT slot 0.22",
-        "Każdy uczestnik otrzymuje implanty i materiały szkoleniowe do natychmiastowego wykorzystania w praktyce klinicznej."
+        "- Wprowadzanie mikroimplantów w przestrzenie międzykorzeniowe po stronie policzkowej i podniebiennej oraz pozakorzeniowo w kresę skośną, trójkąt zatrzonowcowy, IZC- praktyczne ćwiczenia montażu mikroimplantów na modelach 3D oraz świńskich głowach",
+        "- Nauka wprowadzania różnych systemów międzykorzeniowo, pozakorzeniowo, podniebiennie",
+        "- Obserwacja na żywo zabiegu montażu mikroimplantu u pacjenta"
       ]
     }
   ]
