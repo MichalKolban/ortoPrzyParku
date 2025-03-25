@@ -16,6 +16,8 @@
   font-family: Montserrat;
   max-width: 300px;
   position: relative;
+  height: 100%;
+  min-height: 510px;
 }
 
 .title {
@@ -135,4 +137,9 @@
   font-size: 16px;
   cursor: default;
   text-transform: uppercase;
+}
+
+.emptyBox {
+  height: 40px;
+  width: 100%;
 }

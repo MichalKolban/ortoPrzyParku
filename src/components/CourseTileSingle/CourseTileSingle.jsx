@@ -13,7 +13,11 @@ export const CourseTileSingle = ({ data, soldout, ended }) => {
       {ended && <div className={styles.ended}>Zakończony kurs</div>}
       <div className={styles.shortInfo}>
         <h4 className={styles.title}>{data.title}</h4>
-        {soldout && <div className={styles.soldout}>Brak wolnnych miejsc</div>}
+        <div className={styles.emptyBox}>
+          {soldout && (
+            <div className={styles.soldout}>Brak wolnnych miejsc</div>
+          )}
+        </div>
         <p className={styles.mainElement}>
           Typ kursu :
           <span className={styles.courseType}>{data.courseType}</span>

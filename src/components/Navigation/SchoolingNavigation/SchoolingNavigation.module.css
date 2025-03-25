@@ -43,6 +43,7 @@
   /* justify-content: center; */
   vertical-align: baseline;
   width: 100vw;
+  background-color: #f5f5f7;
   /* border: 2px solid orange; */
 
   @media screen and (max-width: 600px) and (orientation: portrait) {

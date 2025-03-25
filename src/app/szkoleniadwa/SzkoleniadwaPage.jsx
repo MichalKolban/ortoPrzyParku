@@ -85,7 +85,14 @@ const SzkoleniaPage = () => {
           </div>
 
           <div className={styles.courseWrapper}>
+            <div className={styles.courseHeaderWrapper}>
+              <h3 className={styles.courseHeader}>Szkolenia stacjonarne</h3>
+              <div className={styles.redLine3}></div>
+            </div>
+
             <CourseTile data={march2025} />
+            <CourseTile data={april2025} />
+            <CourseTile data={june2025} />
           </div>
         </div>
       </div>

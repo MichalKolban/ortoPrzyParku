@@ -7,25 +7,25 @@
   "place": "Ortodoncja Przy Parku, Szczecin",
   "price": "2 500 zł",
   "pdfSource": "/documents/agenda_kursu_mikroimplanty_04.05.2025.pdf",
+  "image": "/photos/course/courseThree.jpg",
   "description": [
     {
-      "title": "co zyskasz ?",
+      "title": "Część teoretyczna",
       "description": [
-        "Praktyczną wiedzę o technologii alignerów termoformowalnych i drukowanych",
-        "Doświadczenie w procesie od skanu do gotowego produktu",
-        "Własnoręcznie wykonany aligner (drukowany z TC-85DAC + termoformowalny)",
-        "Komplet materiałów szkoleniowych",
-        "Umiejętność unikania typowych błędów w procesie skanowania"
+        "- Podstawy biologicznego utrzymania mikroimplantów w kości",
+        "- Budowa mikroimplantów",
+        "- Czynniki wpływające na sukces podczas wprowadzania i stosowania mikroimplantów",
+        "- Procedura wprowadzania i usuwania mikroimplantu- w okolicę międzykorzeniową po stronie policzkowej, podniebiennej, kresę skośną, okolicę zatrzonowcową, IZC ",
+        "- Omówienie najczęstszych powikłań jakie zdarzają się podczas stosowania i użytkowania mikroimplantów"
       ]
     },
     {
-      "title": "Program szkolenia:",
+      "title": "Część praktyczna",
       "description": [
-        "Właściwości tworzyw sztucznych i kluczowe różnice między technologiami",
-        "Kompleksowy proces produkcyjny - od skanu do montażu",
-        "Praktyczne zajęcia ze skanowania i montażu alignerów",
-        "Sekwencjonowanie makro i mikro",
-        "Planowanie ataczmentów"
+        "- Wprowadzanie mikroimplantów w przestrzenie międzykorzeniowe po stronie policzkowej i podniebiennej oraz pozakorzeniowo w kresę skośną, trójkąt zatrzonowcowy, IZC",
+        "- praktyczne ćwiczenia montażu mikroimplantów na modelach 3D oraz świńskich głowach",
+        "- Nauka wprowadzania różnych systemów międzykorzeniowo, pozakorzeniowo, podniebiennie",
+        "- Obserwacja na żywo zabiegu montażu mikroimplantu u pacjenta"
       ]
     }
   ]

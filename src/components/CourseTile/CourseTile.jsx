@@ -20,7 +20,7 @@ export const CourseTile = ({ data }) => {
           Termin : <span className={styles.date}>{data.date}</span>
         </p>
         <p className={styles.mainElement}>
-          Inwestycja : <span className={styles.date}>{data.price}</span>
+          <span className={styles.date}>{data.price}</span>
         </p>
 
         {showInfo && (
@@ -41,24 +41,19 @@ export const CourseTile = ({ data }) => {
         )}
         <div className={styles.btnBox}>
           <a
-            className={styles.aBtn}
+            className={styles.btn}
             href={`mailto:kasiazal@ortodoncjaprzyparku.pl?subject=Szkolenie%20${data.title}%20${data.date}&body=Proszę o podanie swoich danych oraz numeru telefonu.`}
             target="_blank"
           >
             <button className={styles.btn}>Zapisz się na kurs</button>
           </a>
-          <button className={styles.btn} onClick={() => setShowInfo(!showInfo)}>
+          <button
+            className={`${styles.btn} ${styles.btnShowMore}`}
+            onClick={() => setShowInfo(!showInfo)}
+          >
             {showInfo == true ? "Zwiń" : "Zobacz więcej"}
           </button>
         </div>
-        {/* <Link
-          className={styles.btn}
-          href={data.pdfSource}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Pobierz PDF
-        </Link> */}
       </div>
     </div>
   );

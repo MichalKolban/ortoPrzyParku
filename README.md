@@ -12,7 +12,7 @@ npm run dev
 
 ### ver 0.2.19 - Fix zespol page, changes for course tile
 
-    Przywrócenie widoku dla zespołu, poprawki dla kafelek z kursami
+    Przywrócenie widoku dla zespołu, poprawki dla kafelek z kursami, tekst dla calej strony wyrownany do lewej
 
 ### ver 0.2.18 - Massive cleanup vol 2
 
