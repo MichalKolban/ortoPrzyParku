@@ -16,6 +16,7 @@ export const BracesGallery = () => {
               key={element.id}
               imgSrc={element.photo}
               name={element.name}
+              keyId={element.id}
             />
           );
         })}
