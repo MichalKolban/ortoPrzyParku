@@ -5,7 +5,7 @@ import styles from "./szkolenia.module.css";
 import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
 import { CourseTileSingle } from "../../components/CourseTileSingle/CourseTileSingle";
 
-import szkolenieImg from "../../../public/photos/team/szkolenie.png";
+import szkolenieImg from "../../../public/photos/team/KatarzynaZaleskaSzkolenie.png";
 
 import mainPhotoImg from "../../../public/photos/mainPhoto.jpg";
 
@@ -20,7 +20,7 @@ import { FormBuyCourse } from "@/components/FormBuyCourse/FormBuyCourse";
 
 const SzkoleniaPage = () => {
   const heroImg = "/photos/schoolingHero.jpg";
-  const doctorImg = "/photos/team/katarzynaZaleskaSzkolenie.jpg";
+  const doctorImg = "/photos/team/KatarzynaZaleskaSzkolenie.png";
 
   return (
     <SchoolingLayout>
