@@ -63,6 +63,17 @@
   height: 350px;
 }
 
+.imageWrapperDoctorAnimation {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Zachowanie proporcji */
+  /* height: 400px; */
+  overflow: hidden;
+  /* height: 100vh; */
+  /* height: 100%; */
+  height: 300px;
+}
+
 .doctorImage {
   object-fit: cover;
 }
