@@ -77,7 +77,8 @@ export const FormBuyCourse = () => {
     <div className={styles.wrapper}>
       <div className={styles.insideWrapper}>
         <h2 className="text-xl font-bold mb-4">Spotkajmy się na szkoleniu</h2>
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className={styles.formWrapper}>
+          <label>Imię i Nazwisko</label>
           <input
             type="text"
             name="firstNameLastName"
@@ -87,7 +88,7 @@ export const FormBuyCourse = () => {
             value={formData.firstNameLastName}
             onChange={handleChange}
           />
-
+          <label>E-mail</label>
           <input
             type="email"
             name="email"
@@ -97,7 +98,7 @@ export const FormBuyCourse = () => {
             value={formData.email}
             onChange={handleChange}
           />
-
+          <label>Wybierz kurs</label>
           <select
             name="category"
             className="form-input"
@@ -111,7 +112,7 @@ export const FormBuyCourse = () => {
               4-5.04.2025 - Mikroimplanty jak zacząć
             </option>
           </select>
-
+          <label>Numer wykonywania zawodu</label>
           <input
             type="number"
             name="doctorId"
@@ -133,7 +134,8 @@ export const FormBuyCourse = () => {
           </div>
 
           {formData.needInvoice && (
-            <div className="space-y-2">
+            <div className={styles.invoiceWrapper}>
+              <label>Nazwa Firmy</label>
               <input
                 type="text"
                 name="companyName"
@@ -143,6 +145,7 @@ export const FormBuyCourse = () => {
                 value={formData.companyName}
                 onChange={handleChange}
               />
+              <label>NIP</label>
               <input
                 type="text"
                 name="taxId"
@@ -152,6 +155,7 @@ export const FormBuyCourse = () => {
                 value={formData.taxId}
                 onChange={handleChange}
               />
+              <label>Adres Firmy</label>
               <input
                 type="text"
                 name="address"
@@ -159,6 +163,27 @@ export const FormBuyCourse = () => {
                 required={formData.needInvoice}
                 className="form-input"
                 value={formData.address}
+                onChange={handleChange}
+              />
+
+              <label>Kod pocztowy</label>
+              <input
+                type="numer"
+                name="zipcode"
+                placeholder="Kod pocztowy"
+                required={formData.needInvoice}
+                className="form-input"
+                value={formData.zipcode}
+                onChange={handleChange}
+              />
+              <label>Miejscowość</label>
+              <input
+                type="text"
+                name="city"
+                placeholder="Miejscowość"
+                required={formData.needInvoice}
+                className="form-input"
+                value={formData.city}
                 onChange={handleChange}
               />
             </div>
@@ -182,7 +207,7 @@ export const FormBuyCourse = () => {
             onChange={handleChange}
           />
 
-          <button type="submit" className="form-input">
+          <button type="submit" className={styles.formBtn}>
             Wyślij
           </button>
         </form>
