@@ -21,16 +21,29 @@
   }
 }
 
+.imageWrapper {
+  border-radius: 25px;
+  /* border: 2px solid orange; */
+  overflow: hidden;
+  aspect-ratio: 3/2;
+  /* height: 200px; */
+}
+
 .sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Montserrat, serif;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 400;
   border: 1px solid var(--lightBlue);
   border-radius: 20px;
+  height: 51px;
+  /* border-radius: 5px; */
   color: #fff;
   background-color: var(--lightBlue);
   margin: 10px 0;
   padding: 10px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }

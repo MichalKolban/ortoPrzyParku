@@ -1,0 +1,22 @@
+.wrapper {
+  /* width: 600px; */
+  /* height: 600px; */
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #ededed;
+  width: 90%;
+  border: 2px solid #c5c5c5;
+  border-radius: 10px;
+}
+
+.insideWrapper {
+  padding: 60px 20px;
+}
+
+.formInput {
+  width: 100%;
+  margin: 20px auto;
+  /* padding: 10px auto; */
+  height: 30px;
+}

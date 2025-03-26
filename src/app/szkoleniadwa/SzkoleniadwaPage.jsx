@@ -16,6 +16,7 @@ import june2025 from "../../data/courseJune2025.json";
 import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
 import SchoolingLayout from "@/components/Layouts/SchoolingLayout/SchoolingLayout";
 import { CourseTile } from "@/components/CourseTile/CourseTile";
+import { FormBuyCourse } from "@/components/FormBuyCourse/FormBuyCourse";
 
 const SzkoleniaPage = () => {
   const heroImg = "/photos/schoolingHero.jpg";
@@ -26,7 +27,12 @@ const SzkoleniaPage = () => {
       <div className={styles.pageWrapper}>
         <div className={styles.heroSection}>
           <div className={styles.imageWrapper}>
-            <Image src={heroImg} fill className={styles.heroImage} />
+            <Image
+              src={heroImg}
+              fill
+              className={styles.heroImage}
+              alt="zdjęcie główne"
+            />
           </div>
           <div className={styles.heroText}>
             <h1 className={styles.heroTextMain}>
@@ -51,7 +57,12 @@ const SzkoleniaPage = () => {
             <h2 className={styles.doctorTextDescription}>Wykładowca</h2>
           </div>
           <div className={styles.imageWrapperDoctor}>
-            <Image src={doctorImg} fill className={styles.heroImage} />
+            <Image
+              src={doctorImg}
+              fill
+              className={styles.heroImage}
+              alt="Katarzyna Zaleska"
+            />
           </div>
         </div>
 
@@ -83,17 +94,23 @@ const SzkoleniaPage = () => {
             cyfrowych technik leczenia. Jestem członkiem prestiżowych towarzystw
             ortodontycznych: PTO, EOS, PAA i FACE Poland.
           </div>
+        </div>
 
-          <div className={styles.courseWrapper}>
-            <div className={styles.courseHeaderWrapper}>
-              <h3 className={styles.courseHeader}>Szkolenia stacjonarne</h3>
-              <div className={styles.redLine3}></div>
-            </div>
-
-            <CourseTile data={march2025} />
-            <CourseTile data={april2025} />
-            <CourseTile data={june2025} />
+        <div className={styles.courseWrapper}>
+          <div className={styles.courseHeaderWrapper}>
+            <h3 className={styles.courseHeader}>Szkolenia stacjonarne</h3>
+            <div className={styles.redLine3}></div>
           </div>
+
+          <CourseTile data={march2025} />
+          <CourseTile data={april2025} />
+          <CourseTile data={june2025} />
+        </div>
+
+        <div className={styles.formSectionWrapper}>
+          <FormBuyCourse />
+
+          <div className={styles.sectionTop}></div>
         </div>
       </div>
     </SchoolingLayout>

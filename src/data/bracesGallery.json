@@ -48,65 +48,87 @@
     {
       "id": 10,
       "name": "hyrax drukowany",
-      "photo": "/photos/braces/hyraxDrukowany.png"
-    },
-    {
-      "id": 11,
-      "name": "hyrax drukowany",
       "photo": "/photos/braces/hyraxDrukowany2.png"
     },
     {
-      "id": 12,
-      "name": "hyrax drukowany",
-      "photo": "/photos/braces/hyraxDrukowany3.png"
-    },
-    {
-      "id": 13,
+      "id": 11,
       "name": "łuk podniebienny",
       "photo": "/photos/braces/lukPodniebienny.png"
     },
     {
-      "id": 14,
+      "id": 12,
       "name": "marco rosa",
       "photo": "/photos/braces/marcoRosa.png"
     },
     {
-      "id": 15,
+      "id": 13,
       "name": "pendulum",
       "photo": "/photos/braces/pendulum.png"
     },
     {
-      "id": 16,
+      "id": 14,
       "name": "płyta nancea",
       "photo": "/photos/braces/plytaNancea.png"
     },
     {
-      "id": 17,
+      "id": 15,
       "name": "quad helix",
       "photo": "/photos/braces/quadHelix.png"
     },
     {
-      "id": 18,
+      "id": 16,
       "name": "beneslider",
       "photo": "/photos/braces/beneslider.png"
     },
+
+    {
+      "id": 17,
+      "name": "beneslider",
+      "photo": "/photos/braces/beneslider2.png"
+    },
+    {
+      "id": 18,
+      "name": "beneslider do mezjalizacji po prawej stronie i dystalizacji po lewej stronie",
+      "photo": "/photos/braces/beneslider_do_mezjalizacji_po_prawej_stronie_i_dystalizacji_po_lewej_stronie.JPG"
+    },
     {
       "id": 19,
+      "name": "beneslider do mezjalizacji",
+      "photo": "/photos/braces/beneslider_do_mezjalizacji.JPG"
+    },
+    {
+      "id": 20,
+      "name": "hybryd hyrax",
+      "photo": "/photos/braces/hybryd_hyrax.jpg"
+    },
+    {
+      "id": 21,
+      "name": "marpe na 2 mikropimplantach",
+      "photo": "/photos/braces/marpe_na_2_mikropimplantach.jpg"
+    },
+    {
+      "id": 22,
+      "name": "marpe na 4 mikropimplantach",
+      "photo": "/photos/braces/marpe_na_4_mikroimplantach.jpg"
+    },
+
+    {
+      "id": 23,
       "name": "lip bumper",
       "photo": "/photos/braces/lipBumper.png"
     },
     {
-      "id": 20,
+      "id": 24,
       "name": "łuk językowy",
       "photo": "/photos/braces/lukJezykowy.png"
     },
     {
-      "id": 21,
+      "id": 25,
       "name": "szyna deprogramowalna",
       "photo": "/photos/braces/szynaDeprogramowalna.png"
     },
     {
-      "id": 22,
+      "id": 26,
       "name": "transfery",
       "photo": "/photos/braces/transfery.png"
     }

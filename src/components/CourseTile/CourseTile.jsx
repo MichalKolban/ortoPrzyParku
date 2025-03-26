@@ -12,7 +12,12 @@ export const CourseTile = ({ data }) => {
   return (
     <div className={styles.courseTileWrapper}>
       <div className={styles.courseTileImageWrapper}>
-        <Image src={data.image} fill className={styles.courseTileImage} />
+        <Image
+          src={data.image}
+          fill
+          className={styles.courseTileImage}
+          alt={data.title}
+        />
       </div>
       <div className={styles.shortInfo}>
         <h4 className={styles.title}>{data.title}</h4>
