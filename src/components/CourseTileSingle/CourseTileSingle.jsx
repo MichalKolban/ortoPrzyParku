@@ -14,9 +14,7 @@ export const CourseTileSingle = ({ data, soldout, ended }) => {
       <div className={styles.shortInfo}>
         <h4 className={styles.title}>{data.title}</h4>
         <div className={styles.emptyBox}>
-          {soldout && (
-            <div className={styles.soldout}>Brak wolnnych miejsc</div>
-          )}
+          {soldout && <div className={styles.soldout}>Brak wolnych miejsc</div>}
         </div>
         <p className={styles.mainElement}>
           Typ kursu :
