@@ -143,6 +143,7 @@ import SchoolingLayout from "@/components/Layouts/SchoolingLayout/SchoolingLayou
 import { CourseTile } from "@/components/CourseTile/CourseTile";
 import { FormBuyCourse } from "@/components/FormBuyCourse/FormBuyCourse";
 import AnimatedImage from "@/components/AnimatedImage/AnimatedImage";
+import Link from "next/link";
 
 const SzkoleniaPage = () => {
   const heroImg = "/photos/schoolingHero.jpg";
@@ -224,6 +225,31 @@ const SzkoleniaPage = () => {
           <CourseTile data={march2025} />
           <CourseTile data={april2025} />
           <CourseTile data={june2025} />
+        </div>
+
+        {/* <Link href={"https://buy.stripe.com/test_28o02W6uC03g5MceUU"}>
+          Zaplac za kurs
+        </Link> */}
+
+        <div className={styles.paymentWrapper}>
+          {/* <stripe-buy-button
+          buy-button-id="buy_btn_1R6zin1ReqgBq2QMPCEjY2ze"
+          publishable-key="pk_test_51R6zWU1ReqgBq2QM8fVwa85yB7ZQoAKbsNFLTThQ9GxQ3ouMhqvEbPwJlsZM89Ypcvjq1rKebAwDbw5jMC42vSA6009JgcGlkE"
+        ></stripe-buy-button> */}
+
+          <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+          {/* 
+          <stripe-buy-button
+            buy-button-id="buy_btn_1R6zpP1ReqgBq2QMhXePGefC"
+            publishable-key="pk_test_51R6zWU1ReqgBq2QM8fVwa85yB7ZQoAKbsNFLTThQ9GxQ3ouMhqvEbPwJlsZM89Ypcvjq1rKebAwDbw5jMC42vSA6009JgcGlkE"
+          ></stripe-buy-button> */}
+
+          <Link
+            href={"https://buy.stripe.com/test_28ocPI3iq3fscaA6op"}
+            className={styles.buyBtn}
+          >
+            Zapłać za Kurs
+          </Link>
         </div>
 
         <div className={styles.formSectionWrapper}>

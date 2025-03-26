@@ -178,3 +178,28 @@
 .courseHeaderWrapper {
   margin-bottom: 30px;
 }
+
+.paymentWrapper {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.buyBtn {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  height: 40px;
+  background-color: #1d1d1f;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Montserrat, serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
