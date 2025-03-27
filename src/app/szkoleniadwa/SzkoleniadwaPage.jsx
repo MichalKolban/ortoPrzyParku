@@ -142,7 +142,7 @@ import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
 import SchoolingLayout from "@/components/Layouts/SchoolingLayout/SchoolingLayout";
 import { CourseTile } from "@/components/CourseTile/CourseTile";
 import { FormBuyCourse } from "@/components/FormBuyCourse/FormBuyCourse";
-import AnimatedImage from "@/components/AnimatedImage/AnimatedImage";
+import AnimatedImage from "@/components/FramerMotion/AnimatedImage";
 import Link from "next/link";
 
 const SzkoleniaPage = () => {

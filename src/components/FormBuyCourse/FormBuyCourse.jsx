@@ -3,21 +3,31 @@
 import styles from "./FormBuyCourse.module.css";
 
 import { useState } from "react";
+import { ShowInvoiceAnimation } from "../FramerMotion/ShowInvoiceAnimation";
 
 export const FormBuyCourse = () => {
+  // const [formData, setFormData] = useState({
+  //   firstName: "",
+  //   lastName: "",
+  //   email: "",
+  //   message: "",
+  //   category: "15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam",
+  // });
+
   const [formData, setFormData] = useState({
-    firstName: "",
-    lastName: "",
+    firstNameLastName: "",
     email: "",
+    category: "wybierz kurs",
+    doctorId: "",
     message: "",
-    category: "15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam",
+    needInvoice: false,
+    companyName: "",
+    taxId: "",
+    address: "",
+    honeytrap: "",
   });
 
   const [status, setStatus] = useState("idle");
-
-  // const handleChange = (e) => {
-  //   setFormData({ ...formData, [e.target.name]: e.target.value });
-  // };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -45,19 +55,6 @@ export const FormBuyCourse = () => {
       setStatus("error");
     }
   };
-
-  // const [formData, setFormData] = useState({
-  //   firstNameLastName: "",
-  //   email: "",
-  //   category: "15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam",
-  //   doctorId: "",
-  //   message: "",
-  //   needInvoice: false,
-  //   companyName: "",
-  //   taxId: "",
-  //   address: "",
-  //   honeytrap: "",
-  // });
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;
@@ -105,6 +102,7 @@ export const FormBuyCourse = () => {
             value={formData.category}
             onChange={handleChange}
           >
+            <option value=""></option>
             <option value="15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam">
               15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam
             </option>
@@ -132,63 +130,64 @@ export const FormBuyCourse = () => {
             />
             <label>Potrzebuję faktury</label>
           </div>
+          <ShowInvoiceAnimation param={formData.needInvoice}>
+            {formData.needInvoice && (
+              <div className={styles.invoiceWrapper}>
+                <label>Nazwa Firmy</label>
+                <input
+                  type="text"
+                  name="companyName"
+                  placeholder="Nazwa firmy"
+                  required={formData.needInvoice}
+                  className="form-input"
+                  value={formData.companyName}
+                  onChange={handleChange}
+                />
+                <label>NIP</label>
+                <input
+                  type="text"
+                  name="taxId"
+                  placeholder="NIP"
+                  required={formData.needInvoice}
+                  className="form-input"
+                  value={formData.taxId}
+                  onChange={handleChange}
+                />
+                <label>Adres Firmy</label>
+                <input
+                  type="text"
+                  name="address"
+                  placeholder="Adres firmy"
+                  required={formData.needInvoice}
+                  className="form-input"
+                  value={formData.address}
+                  onChange={handleChange}
+                />
 
-          {formData.needInvoice && (
-            <div className={styles.invoiceWrapper}>
-              <label>Nazwa Firmy</label>
-              <input
-                type="text"
-                name="companyName"
-                placeholder="Nazwa firmy"
-                required={formData.needInvoice}
-                className="form-input"
-                value={formData.companyName}
-                onChange={handleChange}
-              />
-              <label>NIP</label>
-              <input
-                type="text"
-                name="taxId"
-                placeholder="NIP"
-                required={formData.needInvoice}
-                className="form-input"
-                value={formData.taxId}
-                onChange={handleChange}
-              />
-              <label>Adres Firmy</label>
-              <input
-                type="text"
-                name="address"
-                placeholder="Adres firmy"
-                required={formData.needInvoice}
-                className="form-input"
-                value={formData.address}
-                onChange={handleChange}
-              />
-
-              <label>Kod pocztowy</label>
-              <input
-                type="numer"
-                name="zipcode"
-                placeholder="Kod pocztowy"
-                required={formData.needInvoice}
-                className="form-input"
-                value={formData.zipcode}
-                onChange={handleChange}
-              />
-              <label>Miejscowość</label>
-              <input
-                type="text"
-                name="city"
-                placeholder="Miejscowość"
-                required={formData.needInvoice}
-                className="form-input"
-                value={formData.city}
-                onChange={handleChange}
-              />
-            </div>
-          )}
-
+                <label>Kod pocztowy</label>
+                <input
+                  type="numer"
+                  name="zipcode"
+                  placeholder="Kod pocztowy"
+                  required={formData.needInvoice}
+                  className="form-input"
+                  value={formData.zipcode}
+                  onChange={handleChange}
+                />
+                <label>Miejscowość</label>
+                <input
+                  type="text"
+                  name="city"
+                  placeholder="Miejscowość"
+                  required={formData.needInvoice}
+                  className="form-input"
+                  value={formData.city}
+                  onChange={handleChange}
+                />
+              </div>
+            )}
+            {/* </motion.div> */}
+          </ShowInvoiceAnimation>
           <textarea
             name="message"
             placeholder="Twoja wiadomość"
@@ -208,7 +207,7 @@ export const FormBuyCourse = () => {
           />
 
           <button type="submit" className={styles.formBtn}>
-            Wyślij
+            Przejdź do płatności
           </button>
         </form>
         {status === "success" && (

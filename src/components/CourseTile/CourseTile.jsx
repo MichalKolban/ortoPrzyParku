@@ -52,6 +52,14 @@ export const CourseTile = ({ data }) => {
           >
             <button className={styles.btn}>Zapisz się na kurs</button>
           </a>
+
+          <Link
+            className={styles.btn}
+            href={"https://buy.stripe.com/test_3cs4jcf18dU67Uk6oq"}
+          >
+            Stripe
+          </Link>
+
           <button
             className={`${styles.btn} ${styles.btnShowMore}`}
             onClick={() => setShowInfo(!showInfo)}
