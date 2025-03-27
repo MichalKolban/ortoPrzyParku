@@ -186,7 +186,6 @@ export const FormBuyCourse = () => {
                 />
               </div>
             )}
-            {/* </motion.div> */}
           </ShowInvoiceAnimation>
           <textarea
             name="message"

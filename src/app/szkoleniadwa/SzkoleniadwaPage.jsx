@@ -222,9 +222,18 @@ const SzkoleniaPage = () => {
             <div className={styles.redLine3}></div>
           </div>
 
-          <CourseTile data={march2025} />
-          <CourseTile data={april2025} />
-          <CourseTile data={june2025} />
+          <CourseTile
+            data={march2025}
+            stripeLink={"https://buy.stripe.com/test_3cs4jcf18dU67Uk6oq"}
+          />
+          <CourseTile
+            data={april2025}
+            stripeLink={"https://buy.stripe.com/test_3cs4jcf18dU67Uk6oq"}
+          />
+          <CourseTile
+            data={june2025}
+            stripeLink={"https://buy.stripe.com/test_bIY2b43iq8zM0rS7sv"}
+          />
         </div>
 
         {/* <Link href={"https://buy.stripe.com/test_28o02W6uC03g5MceUU"}>

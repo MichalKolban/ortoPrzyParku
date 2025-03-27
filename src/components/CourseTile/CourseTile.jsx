@@ -6,7 +6,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export const CourseTile = ({ data }) => {
+export const CourseTile = ({ data, stripeLink }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
@@ -53,10 +53,7 @@ export const CourseTile = ({ data }) => {
             <button className={styles.btn}>Zapisz się na kurs</button>
           </a>
 
-          <Link
-            className={styles.btn}
-            href={"https://buy.stripe.com/test_3cs4jcf18dU67Uk6oq"}
-          >
+          <Link className={styles.btn} href={stripeLink}>
             Stripe
           </Link>
 
