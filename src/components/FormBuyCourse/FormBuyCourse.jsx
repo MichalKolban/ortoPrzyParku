@@ -225,6 +225,7 @@
 import styles from "./FormBuyCourse.module.css";
 import { useState, useEffect } from "react";
 import { ShowInvoiceAnimation } from "../FramerMotion/ShowInvoiceAnimation";
+import Link from "next/link";
 
 export const FormBuyCourse = () => {
   const [formData, setFormData] = useState({
@@ -382,20 +383,21 @@ export const FormBuyCourse = () => {
             </span>
           )}
         </div>
-
-        <button
-          type="submit"
-          style={{
-            padding: "10px",
-            backgroundColor: "blue",
-            color: "white",
-            border: "none",
-            borderRadius: "4px",
-            cursor: "pointer",
-          }}
-        >
-          Przejdź do płatności
-        </button>
+        <Link href={"/after"}>
+          <button
+            type="submit"
+            style={{
+              padding: "10px",
+              backgroundColor: "blue",
+              color: "white",
+              border: "none",
+              borderRadius: "4px",
+              cursor: "pointer",
+            }}
+          >
+            Przejdź do płatności
+          </button>
+        </Link>
       </form>
       {status === "success" && (
         <p style={{ color: "green", marginTop: "10px" }}>Wiadomość wysłana!</p>
