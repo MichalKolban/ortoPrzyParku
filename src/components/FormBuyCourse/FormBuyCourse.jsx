@@ -220,14 +220,203 @@
 //   );
 // };
 
+// "use client";
+
+// import styles from "./FormBuyCourse.module.css";
+// import { useState, useEffect } from "react";
+// import { ShowInvoiceAnimation } from "../FramerMotion/ShowInvoiceAnimation";
+// import Link from "next/link";
+
+// export const FormBuyCourse = () => {
+//   const [formData, setFormData] = useState({
+//     firstNameLastName: "",
+//     email: "",
+//     category: "wybierz kurs",
+//     doctorId: "",
+//     message: "",
+//     needInvoice: false,
+//     companyName: "",
+//     taxId: "",
+//     address: "",
+//     honeytrap: "",
+//     acceptTerms: false,
+//   });
+
+//   const [status, setStatus] = useState("idle");
+//   const [showTooltip, setShowTooltip] = useState(false);
+
+//   useEffect(() => {
+//     if (showTooltip) {
+//       const timer = setTimeout(() => setShowTooltip(false), 5000);
+//       return () => clearTimeout(timer);
+//     }
+//   }, [showTooltip]);
+
+//   const handleSubmit = async (e) => {
+//     e.preventDefault();
+
+//     if (!formData.acceptTerms) {
+//       setShowTooltip(true);
+//       return;
+//     }
+
+//     console.log("wszystko sie udalo teraz stripe");
+//   };
+
+//   const handleChange = (e) => {
+//     const { name, value, type, checked } = e.target;
+//     setFormData((prev) => ({
+//       ...prev,
+//       [name]: type === "checkbox" ? checked : value,
+//     }));
+
+//     if (name === "acceptTerms") {
+//       setShowTooltip(false);
+//     }
+//   };
+
+//   return (
+//     <div style={{ padding: "20px", maxWidth: "500px", margin: "0 auto" }}>
+//       <h2
+//         style={{ fontSize: "20px", fontWeight: "bold", marginBottom: "10px" }}
+//       >
+//         Spotkajmy się na szkoleniu
+//       </h2>
+//       <form
+//         onSubmit={handleSubmit}
+//         style={{ display: "flex", flexDirection: "column", gap: "10px" }}
+//       >
+//         <label>Imię i Nazwisko</label>
+//         <input
+//           type="text"
+//           name="firstNameLastName"
+//           placeholder="Imię i Nazwisko"
+//           required
+//           value={formData.firstNameLastName}
+//           onChange={handleChange}
+//           style={{
+//             padding: "8px",
+//             border: "1px solid #ccc",
+//             borderRadius: "4px",
+//           }}
+//         />
+
+//         <label>E-mail</label>
+//         <input
+//           type="email"
+//           name="email"
+//           placeholder="Email"
+//           required
+//           value={formData.email}
+//           onChange={handleChange}
+//           style={{
+//             padding: "8px",
+//             border: "1px solid #ccc",
+//             borderRadius: "4px",
+//           }}
+//         />
+
+//         <label>Wybierz kurs</label>
+//         <select
+//           name="category"
+//           value={formData.category}
+//           onChange={handleChange}
+//           style={{
+//             padding: "8px",
+//             border: "1px solid #ccc",
+//             borderRadius: "4px",
+//           }}
+//         >
+//           <option value=""></option>
+//           <option value="15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam">
+//             15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam
+//           </option>
+//           <option value="4-5.04.2025 - Mikroimplanty jak zacząć">
+//             4-5.04.2025 - Mikroimplanty jak zacząć
+//           </option>
+//         </select>
+
+//         <label>Numer wykonywania zawodu</label>
+//         <input
+//           type="number"
+//           name="doctorId"
+//           placeholder="Numer prawa wykonywania zawodu"
+//           required
+//           value={formData.doctorId}
+//           onChange={handleChange}
+//           style={{
+//             padding: "8px",
+//             border: "1px solid #ccc",
+//             borderRadius: "4px",
+//           }}
+//         />
+
+//         <div
+//           style={{
+//             position: "relative",
+//             display: "flex",
+//             alignItems: "center",
+//             gap: "8px",
+//           }}
+//         >
+//           <input
+//             type="checkbox"
+//             name="acceptTerms"
+//             checked={formData.acceptTerms}
+//             onChange={handleChange}
+//           />
+//           <label>Akceptuję regulamin</label>
+//           {showTooltip && (
+//             <span
+//               style={{
+//                 position: "absolute",
+//                 top: "-20px",
+//                 left: "0",
+//                 backgroundColor: "red",
+//                 color: "white",
+//                 fontSize: "12px",
+//                 padding: "4px 8px",
+//                 borderRadius: "4px",
+//               }}
+//             >
+//               Zaakceptuj regulamin
+//             </span>
+//           )}
+//         </div>
+//         <button
+//           type="submit"
+//           style={{
+//             padding: "10px",
+//             backgroundColor: "blue",
+//             color: "white",
+//             border: "none",
+//             borderRadius: "4px",
+//             cursor: "pointer",
+//           }}
+//         >
+//           Przejdź do płatności
+//         </button>
+//       </form>
+//       {status === "success" && (
+//         <p style={{ color: "green", marginTop: "10px" }}>Wiadomość wysłana!</p>
+//       )}
+//       {status === "error" && (
+//         <p style={{ color: "red", marginTop: "10px" }}>Błąd wysyłania.</p>
+//       )}
+//     </div>
+//   );
+// };
+
 "use client";
 
 import styles from "./FormBuyCourse.module.css";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+
 import { ShowInvoiceAnimation } from "../FramerMotion/ShowInvoiceAnimation";
-import Link from "next/link";
 
 export const FormBuyCourse = () => {
+  const router = useRouter();
   const [formData, setFormData] = useState({
     firstNameLastName: "",
     email: "",
@@ -242,12 +431,11 @@ export const FormBuyCourse = () => {
     acceptTerms: false,
   });
 
-  const [status, setStatus] = useState("idle");
   const [showTooltip, setShowTooltip] = useState(false);
 
   useEffect(() => {
     if (showTooltip) {
-      const timer = setTimeout(() => setShowTooltip(false), 5000);
+      const timer = setTimeout(() => setShowTooltip(false), 2000);
       return () => clearTimeout(timer);
     }
   }, [showTooltip]);
@@ -255,12 +443,19 @@ export const FormBuyCourse = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!formData.acceptTerms) {
+    if (
+      !formData.acceptTerms ||
+      !formData.firstNameLastName ||
+      !formData.email ||
+      !formData.doctorId ||
+      formData.category === "wybierz kurs"
+    ) {
       setShowTooltip(true);
       return;
     }
 
     console.log("wszystko sie udalo teraz stripe");
+    router.push("/after");
   };
 
   const handleChange = (e) => {
@@ -300,7 +495,6 @@ export const FormBuyCourse = () => {
             borderRadius: "4px",
           }}
         />
-
         <label>E-mail</label>
         <input
           type="email"
@@ -315,7 +509,6 @@ export const FormBuyCourse = () => {
             borderRadius: "4px",
           }}
         />
-
         <label>Wybierz kurs</label>
         <select
           name="category"
@@ -327,7 +520,7 @@ export const FormBuyCourse = () => {
             borderRadius: "4px",
           }}
         >
-          <option value=""></option>
+          <option value="wybierz kurs"></option>
           <option value="15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam">
             15.03.2025 - Alignery termoformowalne i drukowane - zrób to sam
           </option>
@@ -335,7 +528,6 @@ export const FormBuyCourse = () => {
             4-5.04.2025 - Mikroimplanty jak zacząć
           </option>
         </select>
-
         <label>Numer wykonywania zawodu</label>
         <input
           type="number"
@@ -350,7 +542,72 @@ export const FormBuyCourse = () => {
             borderRadius: "4px",
           }}
         />
+        <div className="flex items-center space-x-2">
+          <input
+            type="checkbox"
+            name="needInvoice"
+            checked={formData.needInvoice}
+            onChange={handleChange}
+          />
+          <label>Potrzebuję faktury</label>
+        </div>
+        <ShowInvoiceAnimation param={formData.needInvoice}>
+          {formData.needInvoice && (
+            <div className={styles.invoiceWrapper}>
+              <label>Nazwa Firmy</label>
+              <input
+                type="text"
+                name="companyName"
+                placeholder="Nazwa firmy"
+                required={formData.needInvoice}
+                className="form-input"
+                value={formData.companyName}
+                onChange={handleChange}
+              />
+              <label>NIP</label>
+              <input
+                type="text"
+                name="taxId"
+                placeholder="NIP"
+                required={formData.needInvoice}
+                className="form-input"
+                value={formData.taxId}
+                onChange={handleChange}
+              />
+              <label>Adres Firmy</label>
+              <input
+                type="text"
+                name="address"
+                placeholder="Adres firmy"
+                required={formData.needInvoice}
+                className="form-input"
+                value={formData.address}
+                onChange={handleChange}
+              />
 
+              <label>Kod pocztowy</label>
+              <input
+                type="numer"
+                name="zipcode"
+                placeholder="Kod pocztowy"
+                required={formData.needInvoice}
+                className="form-input"
+                value={formData.zipcode}
+                onChange={handleChange}
+              />
+              <label>Miejscowość</label>
+              <input
+                type="text"
+                name="city"
+                placeholder="Miejscowość"
+                required={formData.needInvoice}
+                className="form-input"
+                value={formData.city}
+                onChange={handleChange}
+              />
+            </div>
+          )}
+        </ShowInvoiceAnimation>
         <div
           style={{
             position: "relative",
@@ -379,32 +636,24 @@ export const FormBuyCourse = () => {
                 borderRadius: "4px",
               }}
             >
-              Zaakceptuj regulamin
+              Zaakceptuj regulamin i wypełnij wszystkie pola
             </span>
           )}
         </div>
-        <Link href={"/after"}>
-          <button
-            type="submit"
-            style={{
-              padding: "10px",
-              backgroundColor: "blue",
-              color: "white",
-              border: "none",
-              borderRadius: "4px",
-              cursor: "pointer",
-            }}
-          >
-            Przejdź do płatności
-          </button>
-        </Link>
+        <button
+          type="submit"
+          style={{
+            padding: "10px",
+            backgroundColor: "blue",
+            color: "white",
+            border: "none",
+            borderRadius: "4px",
+            cursor: "pointer",
+          }}
+        >
+          Przejdź do płatności
+        </button>
       </form>
-      {status === "success" && (
-        <p style={{ color: "green", marginTop: "10px" }}>Wiadomość wysłana!</p>
-      )}
-      {status === "error" && (
-        <p style={{ color: "red", marginTop: "10px" }}>Błąd wysyłania.</p>
-      )}
     </div>
   );
 };
