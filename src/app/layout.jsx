@@ -15,6 +15,13 @@ const montserrat = Montserrat({
 export default function RootLayout({ children }) {
   return (
     <html lang="pl" className={montserrat.variable}>
+      <head>
+        <script
+          id="cookieyes"
+          type="text/javascript"
+          src="https://cdn-cookieyes.com/client_data/5264d6c436a6b181596975cb/script.js"
+        ></script>
+      </head>
       <body>
         <Analytics />
         <SpeedInsights />
