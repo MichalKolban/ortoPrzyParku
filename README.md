@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.2.34 - cookieYes added
+
+    dodany consent box od CookieYes
+
 ### ver 0.2.19 - Fix zespol page, changes for course tile
 
     Przywrócenie widoku dla zespołu, poprawki dla kafelek z kursami, tekst dla calej strony wyrownany do lewej

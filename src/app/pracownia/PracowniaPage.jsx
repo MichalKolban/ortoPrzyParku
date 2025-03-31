@@ -246,7 +246,7 @@ const PracowniaOrtodontycznaPage = () => {
                 kontaktu
               </p>
               <Link
-                href={"/"}
+                href={"/kontakt"}
                 className={`${styles.btn} ${styles.descriptionBtn}`}
               >
                 <div>Kontakt</div>
