@@ -60,6 +60,10 @@
   font-size: 13px;
   margin: 10px auto;
 
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    margin: 10px auto 40px auto;
+  }
+
   @media screen and (min-width: 901px) {
     max-width: 500px;
     padding: 0 25px;
@@ -127,5 +131,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+}
+
+.backgroundWhiteStomatology {
+  @media screen and (max-width: 600px) and (orientation: portrait) {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
