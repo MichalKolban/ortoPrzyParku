@@ -78,30 +78,28 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
-        <div className={styles.backgroundWhiteStomatology}>
-          <div className={styles.imageWrapper}>
-            <Image
-              src={endodoncjaImg}
-              width={240}
-              height={300}
-              alt="endodoncja"
-            />
+        <div className={styles.imageWrapper}>
+          <Image
+            src={endodoncjaImg}
+            width={240}
+            height={300}
+            alt="endodoncja"
+          />
+        </div>
+
+        <div className={styles.textBox}>
+          <div id="endodoncja" className={styles.title}>
+            Endodoncja
           </div>
 
-          <div className={styles.textBox}>
-            <div id="endodoncja" className={styles.title}>
-              Endodoncja
-            </div>
-
-            <div className={styles.textContent}>
-              Leczenie endodontyczne polega na eliminacji stanu zapalnego i
-              zakażenia z wnętrza zęba. Polega na oczyszczeniu wnętrza komory,
-              kanałów, a następnie ich dezynfekcji i wypełnieniu. W naszym
-              gabinecie leczenie prowadzone jest zawsze z użyciem mikroskopu.
-              Mikroskop wykorzystywany jest podczas pierwotnego jak i powtórnego
-              leczenia kanałowego. W trakcie leczenia wykonywane są także
-              zdjęcia rentgenowskie.
-            </div>
+          <div className={styles.textContent}>
+            Leczenie endodontyczne polega na eliminacji stanu zapalnego i
+            zakażenia z wnętrza zęba. Polega na oczyszczeniu wnętrza komory,
+            kanałów, a następnie ich dezynfekcji i wypełnieniu. W naszym
+            gabinecie leczenie prowadzone jest zawsze z użyciem mikroskopu.
+            Mikroskop wykorzystywany jest podczas pierwotnego jak i powtórnego
+            leczenia kanałowego. W trakcie leczenia wykonywane są także zdjęcia
+            rentgenowskie.
           </div>
         </div>
       </Section>
@@ -132,30 +130,28 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
-        <div className={styles.backgroundWhiteStomatology}>
-          <div className={styles.imageWrapper}>
-            <Image
-              src={implantologiaImg}
-              width={240}
-              height={300}
-              alt="implantologia"
-            />
+        <div className={styles.imageWrapper}>
+          <Image
+            src={implantologiaImg}
+            width={240}
+            height={300}
+            alt="implantologia"
+          />
+        </div>
+        <div>
+          <div id="implantologia" className={styles.title}>
+            Implantologia
           </div>
-          <div>
-            <div id="implantologia" className={styles.title}>
-              Implantologia
-            </div>
-            <div className={styles.textContent}>
-              Za pomocą implantów można odbudować: pojedyncze braki zębowe,
-              kilka zębów lub braki w całych łukach zębowych, można też wzmocnić
-              stabilność protez. Kwalifikacja do implantacji stomatologicznej
-              obejmuje: badanie stomatologiczne z oceną stanu jamy ustnej i
-              stawów skroniowo-żuchwowych oraz diagnostykę radiologiczną. Dzięki
-              tym badaniom lekarz może przedstawić Pacjentowi możliwe warianty
-              leczenia i ustalenie precyzyjnego indywidualnego planu leczenia
-              wraz z kosztorysem. Podczas rozmowy przedstawiamy Pacjentowi plan
-              leczenia i szczegóły dotyczące jego etapów.
-            </div>
+          <div className={styles.textContent}>
+            Za pomocą implantów można odbudować: pojedyncze braki zębowe, kilka
+            zębów lub braki w całych łukach zębowych, można też wzmocnić
+            stabilność protez. Kwalifikacja do implantacji stomatologicznej
+            obejmuje: badanie stomatologiczne z oceną stanu jamy ustnej i stawów
+            skroniowo-żuchwowych oraz diagnostykę radiologiczną. Dzięki tym
+            badaniom lekarz może przedstawić Pacjentowi możliwe warianty
+            leczenia i ustalenie precyzyjnego indywidualnego planu leczenia wraz
+            z kosztorysem. Podczas rozmowy przedstawiamy Pacjentowi plan
+            leczenia i szczegóły dotyczące jego etapów.
           </div>
         </div>
       </Section>
@@ -186,26 +182,24 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
-        <div className={styles.backgroundWhiteStomatology}>
-          <div className={styles.imageWrapper}>
-            <Image
-              src={periodontologiaImg}
-              width={300}
-              height={200}
-              alt="periodontologia"
-            />
-          </div>
-          <div>
-            <div className={styles.title}>Periodontologia</div>
-            <div className={styles.textContent}>
-              Dziedzina stomatologii, która zajmuje się leczeniem chorób dziąseł
-              oraz tkanek przyzębia. Kondycja dziąseł i przyzębia ma istotny
-              wpływ na zdrowie jamy ustnej, oraz całego organizmu. Nieleczony
-              stan zapalny dziąseł może doprowadzić co choroby przyzębia tzw.
-              paradontozy i wcześniejszej utraty zębów. Wykonujemy zabiegi
-              profesjonalnego oczyszczania i usuwania stanów zapalnych –
-              kiretaże, jak i zabiegi regeneracyjne, czyli przeszczepy tkanek.
-            </div>
+        <div className={styles.imageWrapper}>
+          <Image
+            src={periodontologiaImg}
+            width={300}
+            height={200}
+            alt="periodontologia"
+          />
+        </div>
+        <div>
+          <div className={styles.title}>Periodontologia</div>
+          <div className={styles.textContent}>
+            Dziedzina stomatologii, która zajmuje się leczeniem chorób dziąseł
+            oraz tkanek przyzębia. Kondycja dziąseł i przyzębia ma istotny wpływ
+            na zdrowie jamy ustnej, oraz całego organizmu. Nieleczony stan
+            zapalny dziąseł może doprowadzić co choroby przyzębia tzw.
+            paradontozy i wcześniejszej utraty zębów. Wykonujemy zabiegi
+            profesjonalnego oczyszczania i usuwania stanów zapalnych – kiretaże,
+            jak i zabiegi regeneracyjne, czyli przeszczepy tkanek.
           </div>
         </div>
       </Section>
@@ -234,44 +228,42 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
-        <div className={styles.backgroundWhiteStomatology}>
-          <div className={styles.imageWrapper}>
-            <Image
-              src={higienizacjaImg}
-              width={240}
-              height={300}
-              alt="higienizacja i profilaktyka"
-            />
+        <div className={styles.imageWrapper}>
+          <Image
+            src={higienizacjaImg}
+            width={240}
+            height={300}
+            alt="higienizacja i profilaktyka"
+          />
+        </div>
+        <div>
+          <div id="higienizacja" className={styles.title}>
+            Higienizacja i profilaktyka
           </div>
-          <div>
-            <div id="higienizacja" className={styles.title}>
-              Higienizacja i profilaktyka
-            </div>
-            <div className={styles.textContent}>
-              Regularne badania kontrolne oraz zabiegi higienizacji mają wpływ
-              na ogólny stan zdrowia organizmu i estetykę uśmiechu. Chcąc
-              zachować pełnię zdrowych zębów, zalecamy raz na pół roku odbyć
-              wizytę kontrolną w gabinecie stomatologicznym. Wykwalifikowane
-              higienistki podczas wizyt higienizacyjnych omówią podstawowe
-              czynności związane z dbaniem o jamę ustną i udzielą indywidualnych
-              porad dotyczących doboru odpowiednich produktów pielęgnacyjnych.
-              Do zabiegów profilaktycznych wykorzystujemy sprzęt stomatologiczny
-              najwyższej klasy. Dzięki temu nasza praca realizowana jest
-              sprawnie i komfortowo.
-            </div>
-            <div className={styles.textContent}>
-              Instruktaż higieny jamy ustnej:
-            </div>
-            <div className={styles.textContent}>
-              Dobry stan zdrowia jamy ustnej jest ważny dla Twojego ogólnego
-              samopoczucia ale również pozwala na efektywne leczenie
-              ortodontyczne. Pacjenci przed leczeniem ortodontycznym w naszym
-              gabinecie są zobowiązani do odbycia wizyty instruktażowej przed
-              montażem aparatu ortodontycznego Podczas tej wizyty uczymy technik
-              mycia zębów przydatnych podczas leczenia ortodontycznego,
-              pokazujemy też jak stosować różne dodatkowe gadżety pozwalające
-              utrzymać idealną higienę jamy ustnej.
-            </div>
+          <div className={styles.textContent}>
+            Regularne badania kontrolne oraz zabiegi higienizacji mają wpływ na
+            ogólny stan zdrowia organizmu i estetykę uśmiechu. Chcąc zachować
+            pełnię zdrowych zębów, zalecamy raz na pół roku odbyć wizytę
+            kontrolną w gabinecie stomatologicznym. Wykwalifikowane higienistki
+            podczas wizyt higienizacyjnych omówią podstawowe czynności związane
+            z dbaniem o jamę ustną i udzielą indywidualnych porad dotyczących
+            doboru odpowiednich produktów pielęgnacyjnych. Do zabiegów
+            profilaktycznych wykorzystujemy sprzęt stomatologiczny najwyższej
+            klasy. Dzięki temu nasza praca realizowana jest sprawnie i
+            komfortowo.
+          </div>
+          <div className={styles.textContent}>
+            Instruktaż higieny jamy ustnej:
+          </div>
+          <div className={styles.textContent}>
+            Dobry stan zdrowia jamy ustnej jest ważny dla Twojego ogólnego
+            samopoczucia ale również pozwala na efektywne leczenie
+            ortodontyczne. Pacjenci przed leczeniem ortodontycznym w naszym
+            gabinecie są zobowiązani do odbycia wizyty instruktażowej przed
+            montażem aparatu ortodontycznego Podczas tej wizyty uczymy technik
+            mycia zębów przydatnych podczas leczenia ortodontycznego, pokazujemy
+            też jak stosować różne dodatkowe gadżety pozwalające utrzymać
+            idealną higienę jamy ustnej.
           </div>
         </div>
       </Section>
@@ -302,24 +294,22 @@ const StomatologiaPage = () => {
       </div>
 
       <Section backgroundClass={"white"}>
-        <div className={styles.backgroundWhiteStomatology}>
-          <div className={styles.imageWrapper}>
-            <Image
-              src={skanerWewnatrzustnyImg}
-              width={220}
-              height={300}
-              alt="skaner wewnatrzustny"
-            />
-          </div>
+        <div className={styles.imageWrapper}>
+          <Image
+            src={skanerWewnatrzustnyImg}
+            width={220}
+            height={300}
+            alt="skaner wewnatrzustny"
+          />
+        </div>
 
-          <div className={styles.textBox}>
-            <h3 className={styles.title}>Skaner wewnątrzustny</h3>
-            <div className={styles.textContent}>
-              Skaner wewnątrzustny jest urządzeniem cyfrowym używanym w
-              stomatologii. Pozwala na szybkie i trójwymiarowe zwizualizowanie
-              zębów w czasie rzeczywistym. Technologia skanowania eliminuje
-              konieczność pobierania wycisków.
-            </div>
+        <div className={styles.textBox}>
+          <h3 className={styles.title}>Skaner wewnątrzustny</h3>
+          <div className={styles.textContent}>
+            Skaner wewnątrzustny jest urządzeniem cyfrowym używanym w
+            stomatologii. Pozwala na szybkie i trójwymiarowe zwizualizowanie
+            zębów w czasie rzeczywistym. Technologia skanowania eliminuje
+            konieczność pobierania wycisków.
           </div>
         </div>
       </Section>

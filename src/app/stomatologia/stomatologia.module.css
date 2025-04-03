@@ -134,9 +134,9 @@
   }
 }
 
-.backgroundWhiteStomatology {
+/* .backgroundWhiteStomatology {
   @media screen and (max-width: 600px) and (orientation: portrait) {
     display: flex;
     flex-direction: column-reverse;
   }
-}
+} */
