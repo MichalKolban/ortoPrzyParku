@@ -69,7 +69,7 @@
 .specialWrapper {
   display: flex;
   justify-content: space-between;
-  max-width: 800px;
+  max-width: 780px;
   margin: 0 auto;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
