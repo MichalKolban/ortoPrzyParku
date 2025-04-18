@@ -59,9 +59,9 @@ const SzkoleniaPage = () => {
         <div className={style.schoolingSection}>
           <div className={style.schoolingTitle}>Szkolenia stacjonarne</div>
           <div className={style.courseBox}>
-            <CourseTileSingle data={april2025} soldout={true} />
-            <br></br>
             <CourseTileSingle data={june2025} />
+            <br></br>
+            <CourseTileSingle data={april2025} soldout={true} ended={true} />
             <br></br>
             <CourseTileSingle data={march2025} ended={true} />
           </div>
