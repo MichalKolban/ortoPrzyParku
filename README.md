@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.2.43 - minor css changes
+
+    od cookieYes do teraz głównie zmiany CSS / poprawki
+
 ## ver 0.2.34 - cookieYes added
 
     dodany consent box od CookieYes
