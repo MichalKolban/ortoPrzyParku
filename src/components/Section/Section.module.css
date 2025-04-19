@@ -24,13 +24,6 @@
   }
 }
 
-.backgroundWhiteStomatology {
-  @media screen and (max-width: 600px) and (orientation: portrait) {
-    flex-direction: column-reverse;
-    /* flex-direction: column; */
-  }
-}
-
 .backgroundGray {
   width: 100vw;
   color: #333;

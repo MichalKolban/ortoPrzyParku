@@ -44,10 +44,11 @@ const Home = () => {
           </div>
           <div className={styles.xmastree}>
             <Image
+              title="Ortodoncja"
               src="/photos/mainPhoto.jpg"
               width={420}
               height={260}
-              alt="ortodoncja"
+              alt="Ortodoncja"
             />
           </div>
         </div>
@@ -81,7 +82,13 @@ const Home = () => {
               </p>
             </div>
             <div className={styles.xmastree}>
-              <Image src={gabinetImg} width={380} height={260} alt="gabinet" />
+              <Image
+                title="Gabinet"
+                src={gabinetImg}
+                width={380}
+                height={260}
+                alt="Gabinet"
+              />
             </div>
           </div>
         </div>
