@@ -30,7 +30,7 @@ export const OrtoServices = () => {
       <div className={styles.title}>Zakres usług</div>
       <div className={styles.insideWrapper}>
         <OrtoServiceSingle
-          href={"/ortodoncja"}
+          href={"/ortodoncja#ortodoncja"}
           mainPhoto={ortodoncjaIcon}
           altName={"ortodoncja"}
         >
@@ -72,7 +72,7 @@ export const OrtoServices = () => {
           Protetyka
         </OrtoServiceSingle>
         <OrtoServiceSingle
-          href={"/stomatologia#implanty"}
+          href={"/stomatologia#implantologia"}
           mainPhoto={implantyIcon}
           altName={"implanty"}
         >

@@ -72,7 +72,9 @@ const OrtodoncjaPage = () => {
       </div>
       <Section backgroundClass={"white"}>
         <div>
-          <div className={styles.title}>Czym jest ortodoncja ?</div>
+          <div id="ortodoncja" className={styles.title}>
+            Czym jest ortodoncja ?
+          </div>
           <div className={styles.textContent}>
             Ortodoncja jest dziedziną stomatologii, która zajmuje się
             zapobieganiem oraz leczeniem wad zgryzu. W naszym gabinecie polega
