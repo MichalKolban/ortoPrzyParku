@@ -246,7 +246,7 @@
 }
 
 .menuLink:hover {
-  @media screen and (min-width: 901px) and (max-width: 1300px) {
+  @media screen and (min-width: 901px) {
     border-bottom: 1px solid #333;
   }
 }
@@ -380,6 +380,7 @@
 
 .mobileMenuLink {
   display: none;
+
   @media screen and (max-width: 600px) and (orientation: portrait) {
     display: flex;
   }
