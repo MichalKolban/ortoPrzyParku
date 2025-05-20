@@ -86,6 +86,7 @@
 
   @media screen and (min-width: 901px) {
     margin: 0;
+    margin-top: 20px;
   }
 }
 

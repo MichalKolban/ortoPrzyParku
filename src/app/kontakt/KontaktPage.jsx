@@ -2,20 +2,9 @@ import Image from "next/image";
 import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
 import { OrtoBanner } from "../../components/OrtoBanner/OrtoBanner";
 
-import Head from "next/head";
-
-import Map from "../../components/GoogleMap/Map";
-
-// const Map = dynamic(() => import("../components/Map/Map"));
-
-// import phoneIcon from "../../../public/icons/socialPhone.png";
-// import mailIcon from "../../../public/icons/socialMail.png";
-// import facebookIcon from "../../../public/icons/socialFacebook.png";
-// import instagramIcon from "../../../public/icons/socialInstagram.png";
-
 import styles from "./kontakt.module.css";
-import Link from "next/link";
 import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
+import GoogleMap from "@/components/GoogleMap/GoogleMap";
 
 const KontaktPage = () => {
   const phoneIcon = "/icons/socialPhone.png";
@@ -107,7 +96,7 @@ const KontaktPage = () => {
               </div>
             </div>
             <div className={styles.mapWrapper}>
-              <Map location={"Szczecin"} zoom={"15"} />
+              <GoogleMap linkSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.800928142798!2d14.559519090011674!3d53.43626760093319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47aa0c75a7f191e3%3A0x7379a0ebe69bc9b9!2sOrtodoncja%20Przy%20Parku!5e0!3m2!1spl!2spl!4v1747738940837!5m2!1spl!2spl" />
             </div>
             <a
               href="https://www.google.pl/maps/dir//Ortodoncja+Przy+Parku,+Jana+Kazimierza+21%2F1U,+71-620+Szczecin/@53.4362709,14.5618151,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47aa0c75a7f191e3:0x7379a0ebe69bc9b9!2m2!1d14.56439!2d53.4362677!3e0?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
@@ -150,7 +139,7 @@ const KontaktPage = () => {
               </div>
             </div>
             <div className={styles.mapWrapper}>
-              <Map location={"Mysliborz"} zoom={"14"} />
+              <GoogleMap linkSrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2405.5930937515764!2d14.858059976592026!3d52.919752272168694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47074758f8224eaf%3A0x523b5e78964a111f!2sIndywidualna%20praktyka%20stomatologiczna%2C%20Ortodoncja%20przy%20parku!5e0!3m2!1spl!2spl!4v1747738366074!5m2!1spl!2spl" />
             </div>
             <a
               href="https://www.google.com/maps/dir//Indywidualna+praktyka+stomatologiczna,+Ortodoncja+przy+parku,+1-go+Maja+8,+74-300+My%C5%9Blib%C3%B3rz,+Polska/@52.919731,14.860387,19z/data=!4m9!4m8!1m0!1m5!1m1!1s0x47074758f8224eaf:0x523b5e78964a111f!2m2!1d14.8606349!2d52.9197523!3e0?hl=pl-PL&entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D"
@@ -202,5 +191,3 @@ const KontaktPage = () => {
 };
 
 export default KontaktPage;
-
-// AIzaSyBr0TEck37jN1E3KY3F01WitXL0ulEUooA
