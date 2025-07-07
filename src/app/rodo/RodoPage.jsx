@@ -141,6 +141,12 @@ const RodoPage = () => {
             Informacja dotycząca przetwarzania danych lekarza dentysty
             odbywającego staż podyplomowy
           </button>
+          <button
+            className={styles.btn}
+            onClick={() => scrollToSection("monitoring")}
+          >
+            Informacja dla osób objętych monitoringiem wizyjnym
+          </button>
         </div>
 
         <div id="pacjent" className={styles.documentWrapper}>
@@ -1357,6 +1363,132 @@ const RodoPage = () => {
               nadzorczego - Prezesa Urzędu Ochrony Danych Osobowych, w przypadku
               gdy przetwarzanie Pani/Pana danych osobowych narusza przepisy
               dotyczące ochrony danych osobowych
+            </li>
+          </ol>
+        </div>
+
+        <div id="monitoring" className={styles.documentWrapper}>
+          <h3 className={styles.documentTitle}>
+            INFORMACJA DLA OSÓB OBJĘTYCH MONITORINGIEM WIZYJNYM
+          </h3>
+          <div className={styles.documentHeading}>
+            Zgodnie z art. 13 ust. 1 i 2 rozporządzenia Parlamentu Europejskiego
+            i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony
+            osób fizycznych w związku z przetwarzaniem danych osobowych i w
+            sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy
+            95/46/WE (ogólne rozporządzenie o ochronie danych) – Dz.Urz. UE.L Nr
+            74 z 2021 r., str. 35 [RODO] informujemy, że:
+          </div>
+          <ol className={styles.orderedList}>
+            <li className={styles.listItem}>
+              Administratorem Pani/Pana danych osobowych jest Katarzyna Zaleska
+              prowadząca działalność pod firmą: Ortodoncja Przy Parku dr n. med.
+              Katarzyna Zaleska, stałe miejsce wykonywania działalności: 71-620
+              Szczecin, ul. Jana Kazimierza 21, lok. U1, NIP: 5991966627, Regon:
+              811961364.
+            </li>
+            <li className={styles.listItem}>
+              Administrator Danych Osobowych [dalej: Administrator] nie powołał
+              Inspektora Ochrony Danych. Kontakt z Administratorem jest możliwy
+              pod adresem korespondencyjnym:  Ortodoncja Przy Parku dr n. med.
+              Katarzyna Zaleska, stałe miejsce wykonywania działalności: 71-620
+              Szczecin, ul. Jana Kazimierza 21, lok. U1, bądź za pomocą adresu
+              e-mail:  kasiazal@ortodoncjaprzyparku.pl Osoby zainteresowane
+              przyjmowane są po wcześniejszym ustaleniu terminu.
+            </li>
+            <li className={styles.listItem}>
+              Przetwarzaniu w ramach monitoringu wizyjnego dane obejmują
+              wizerunek.
+            </li>
+            <li className={styles.listItem}>
+              Dane z monitoringu wizyjnego przetwarzane są w szczególności w
+              celu:
+              <ol className={styles.insideList}>
+                <li className={styles.listItem}>
+                  zapewnienie porządku i bezpieczeństwa pacjentom oraz
+                  personelowi na terenie obiektu Administratora,
+                </li>
+                <li className={styles.listItem}>
+                  ograniczenia zachowań niepożądanych, destrukcyjnych,
+                  zagrażających zdrowiu i życiu pacjentów, personelu
+                  Administratora, osób przebywających w obiekcie oraz w jego
+                  bezpośrednim otoczeniu,
+                </li>
+                <li className={styles.listItem}>
+                  wspomaganie kontroli dostępu,
+                </li>
+                <li className={styles.listItem}>ochrony mienia,</li>
+                <li className={styles.listItem}>ochrony przeciwpożarowa.</li>
+              </ol>
+            </li>
+            <li className={styles.listItem}>
+              Monitoring prowadzony jest zgodnie z obwiązującymi w tym zakresie
+              przepisami prawa, w szczególności z zachowaniem zasady
+              poszanowania intymności i godności pacjenta.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe przetwarzane będą na podstawie art. 6 ust.
+              1 lit. e) i f) RODO, ustawy z dnia 15 kwietnia 2011 r. o
+              działalności leczniczej.
+            </li>
+            <li className={styles.listItem}>
+              W odniesieniu do przedstawiciela ustawowego/opiekuna Pacjenta
+              będącego osobą małoletnią, całkowicie ubezwłasnowolnioną lub
+              niezdolną do świadomego wyrażania zgody przetwarzane będą dane
+              osobowe przedstawiciela ustawowego/opiekuna.
+            </li>
+            <li className={styles.listItem}>
+              Wobec Pani/Pana danych osobowych nie będą podejmowane
+              zautomatyzowane decyzje (decyzje bez istotnego udziału człowieka),
+              w tym Pana/Pani dane osobowe nie będą podlegały profilowaniu.
+            </li>
+            <li className={styles.listItem}>
+              Odbiorcami Pani/Pana danych osobowych mogą być: (i) osoby
+              zatrudnione lub współpracujące z Administratorem, upoważnione do
+              przetwarzania danych z monitoringu (ii) podmioty, którym zostały
+              powierzone dane osobowe w ramach umowy powierzenia przez
+              Administratora, (iii) organy państwa i inne podmioty uprawnione na
+              podstawie przepisów prawa do uzyskania tych danych, w
+              szczególności prokuratura, sądy, organy ścigania.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe nie będą przekazywane do państw trzecich.
+            </li>
+            <li className={styles.listItem}>
+              Pani/Pana dane osobowe będą przechowywane przez okres nie dłuższy
+              niż 90 dni. Zapis realizowany jest w ramach nadpisu, tj. nowa
+              treść jest nadpisywana na wcześniejszym zapisie po zapełnieniu
+              wolnej przestrzeni dyskowej – podany czas archiwizacji jest zatem
+              maksymalnym i w rzeczywistości może być krótszy z uwagi na warunki
+              techniczne.
+            </li>
+            <li className={styles.listItem}>
+              Utrwalone na pisemny wniosek osoby zainteresowanej dane
+              przechowywane są praz okres 3 miesięcy, po tym terminie w
+              przypadku braku wniosku uprawnionego organu, zarejestrowane.
+            </li>
+            <li className={styles.listItem}>
+              Posiada Pani/Pan prawo dostępu do danych osobowych Pani/Pana
+              dotyczących, ich sprostowania, usunięcia lub ograniczenia
+              przetwarzania oraz prawo do wniesienia sprzeciwu wobec
+              przetwarzania, a także prawo do przenoszenia danych. Uprawnienia
+              powyższe oraz prawo sprzeciwu wobec przetwarzania danych osobowych
+              mogą zostać ograniczone z uwagi na cel w jakim dane te są
+              przetwarzane tj. realizacja świadczeń zdrowotnych, przetwarzanie w
+              wykonaniu obowiązku prawnego. Prawo dostępu do danych może zostać
+              ograniczone w uzasadnionych przypadkach, w szczególności w celu
+              ochrony danych osobowych innych osób.  Ma Pani/Pan nadto prawo do
+              wniesienia sprzeciwu wobec przetwarzania Pani/Pana danych opartego
+              na art. 6 ust. 1 lit f) RODO z przyczyn związanych z Pani/Pana
+              szczególną sytuacją, tj. gdy wobec interesów Administratora
+              nadrzędny charakter mają Pani/Pana interesy lub podstawowe prawa i
+              wolności, wymagające ochrony danych osobowych.
+            </li>
+            <li className={styles.listItem}>
+              Przysługuje Pani/Panu prawo wniesienia skargi do organu
+              nadzorczego - Prezesa Urzędu Ochrony Danych Osobowych, w przypadku
+              gdy przetwarzanie Pani/Pana danych osobowych narusza przepisy
+              dotyczące ochrony danych osobowych.
             </li>
           </ol>
         </div>

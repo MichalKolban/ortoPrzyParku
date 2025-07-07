@@ -143,6 +143,14 @@ export const Footer = () => {
           >
             Materiały do pobrania
           </Link>
+
+          <Link
+            className={`${styles.singleLink} ${styles.ortoLink}`}
+            href={"/documents/regulamin_monitoringu_wizyjnego.pdf"}
+            target="_blank"
+          >
+            Regulamin Monitoringu
+          </Link>
           {/* </div> */}
         </div>
       </div>
