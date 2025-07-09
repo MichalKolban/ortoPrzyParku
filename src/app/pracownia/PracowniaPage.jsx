@@ -11,6 +11,8 @@ import uslugiOrtoPhoto from "../../../public/photos/pracowaniaUslugiPhoto.png";
 import wspolpracaOrtoPhoto from "../../../public/photos/wspolpracaPracowania.png";
 // import companyLogoIcon from "../../../public/icons/logoSmallIcon.png";
 
+import pracowaniLogo from "../../../public/logo_pracownia.jpg";
+
 import shapeLogo from "../../../public/icons/3shapeLogo.png";
 import onyxCephLogo from "../../../public/icons/onyxCephLogo.png";
 
@@ -40,9 +42,9 @@ const PracowniaOrtodontycznaPage = () => {
           </div>
           <div className={styles.ortoMainPhotoWrapper}>
             <Image
-              src={ortoMainPhoto}
-              width={420}
-              height={280}
+              src={pracowaniLogo}
+              width={240}
+              height={240}
               alt="pracownia"
             />
           </div>
