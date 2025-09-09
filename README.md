@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.2.50 - changes some images, remove one laboratory worker
+
+    usuniety pracownik laboratorium / inne mniejsze poprawki
+
 ## ver 0.2.43 - minor css changes
 
     od cookieYes do teraz głównie zmiany CSS / poprawki
