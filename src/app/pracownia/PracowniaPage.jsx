@@ -38,6 +38,10 @@ const PracowniaOrtodontycznaPage = () => {
               laboratorium. Takie rozwiązanie daje nam możliwość bezpośredniego
               kontaktu z lekarzami prowadzącymi leczenie ortodontyczne oraz
               szybszą realizacje prac.
+              <p className={styles.titleSmall}>Co nas wyróżnia?</p>
+              Mentoring lekarza specjalisty – dzięki ścisłej współpracy i opiece
+              doświadczonego eksperta możemy zapewnić najwyższy standard usług
+              oraz indywidualne podejście do każdego pacjenta.
             </p>
           </div>
           <div className={styles.ortoMainPhotoWrapper}>

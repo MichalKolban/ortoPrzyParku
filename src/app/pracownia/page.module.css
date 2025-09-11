@@ -171,6 +171,13 @@
   }
 }
 
+.titleSmall {
+  color: var(--darkBlue);
+  margin-top: 16px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
 .grayWrapper {
   display: flex;
   justify-content: space-between;

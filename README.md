@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.2.51 - changes in text on laboritory page
+
+    zmiana tekstu na stronie pracowni laboratorium
+
 ## ver 0.2.50 - changes some images, remove one laboratory worker
 
     usuniety pracownik laboratorium / inne mniejsze poprawki
