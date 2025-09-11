@@ -41,7 +41,7 @@ const PracowniaOrtodontycznaPage = () => {
               <p className={styles.titleSmall}>Co nas wyróżnia?</p>
               Mentoring lekarza specjalisty – dzięki ścisłej współpracy i opiece
               doświadczonego eksperta możemy zapewnić najwyższy standard usług
-              oraz indywidualne podejście do każdego pacjenta.
+              oraz indywidualne podejście do każdego przypadku.
             </p>
           </div>
           <div className={styles.ortoMainPhotoWrapper}>
