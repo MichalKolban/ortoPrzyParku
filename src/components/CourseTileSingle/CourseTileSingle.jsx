@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import Link from "next/link";
 
-export const CourseTileSingle = ({ data, soldout, ended }) => {
+export const CourseTileSingle = ({ data, newCourse, soldout, ended }) => {
   const [showInfo, setShowInfo] = useState(false);
 
   return (
@@ -15,8 +15,9 @@ export const CourseTileSingle = ({ data, soldout, ended }) => {
         <h4 className={styles.title}>{data.title}</h4>
         <div className={styles.emptyBox}>
           {soldout && <div className={styles.soldout}>Brak wolnych miejsc</div>}
+          {newCourse && <div className={styles.newCourse}>Nowy kurs</div>}
         </div>
-        <p className={styles.mainElement}>
+        <p className={`${styles.mainElement} ${styles.courseTypeWrapper}`}>
           Typ kursu :
           <span className={styles.courseType}>{data.courseType}</span>
         </p>

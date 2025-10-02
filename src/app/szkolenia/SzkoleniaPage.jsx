@@ -10,6 +10,9 @@ import szkolenieImg from "../../../public/photos/team/KatarzynaZaleskaSzkolenie.
 import march2025 from "../../data/courseMarch2025.json";
 import april2025 from "../../data/courseApril2025.json";
 import june2025 from "../../data/courseJune2025.json";
+import october2025 from "../../data/courseOctober2025.json";
+import november2025 from "../../data/courseNovember2025.json";
+import december2025 from "../../data/courseDecember2025.json";
 
 import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
 
@@ -59,10 +62,11 @@ const SzkoleniaPage = () => {
         <div className={style.schoolingSection}>
           <div className={style.schoolingTitle}>Szkolenia stacjonarne</div>
           <div className={style.courseBox}>
-            <CourseTileSingle data={june2025} />
-            <br></br>
+            <CourseTileSingle data={october2025} newCourse={true} />
+            <CourseTileSingle data={november2025} newCourse={true} />
+            <CourseTileSingle data={december2025} newCourse={true} />
+            <CourseTileSingle data={june2025} soldout={true} ended={true} />
             <CourseTileSingle data={april2025} soldout={true} ended={true} />
-            <br></br>
             <CourseTileSingle data={march2025} ended={true} />
           </div>
         </div>

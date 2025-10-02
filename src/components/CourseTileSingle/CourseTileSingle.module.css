@@ -1,6 +1,6 @@
 .box {
   /* border: 2px solid orange; */
-  padding: 20px;
+  padding: 10px;
   /* background-color: pink; */
   width: 90vw;
   display: flex;
@@ -18,6 +18,7 @@
   position: relative;
   height: 100%;
   min-height: 510px;
+  min-width: 300px;
 }
 
 .title {
@@ -73,12 +74,17 @@
 .mainElement {
   padding: 6px;
   font-size: 13px;
+  margin: auto 10px;
 }
 
 .courseType {
   font-size: 14px;
   padding-left: 10px;
   line-height: 22px;
+}
+
+.courseTypeWrapper {
+  min-height: 60px;
 }
 
 .host {
@@ -119,6 +125,18 @@
   margin-bottom: 20px;
 }
 
+.newCourse {
+  margin: 0 auto;
+  border: 1px solid #77be2b;
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: white;
+  background-color: #77be2b;
+  width: fit-content;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
 .ended {
   width: 100%;
   height: 100%;
@@ -142,4 +160,8 @@
 .emptyBox {
   height: 40px;
   width: 100%;
+}
+
+.longInfo {
+  padding: 20px;
 }

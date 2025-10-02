@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.2.53 - new courses added to page (minor visual changes)
+
+    dodane zostały 3 nowe kursy, kilka zmian css, glowna zmiana w pozycjonowaniu 3 elementow w rzedzie z kursami
+
 ## ver 0.2.51 - changes in text on laboritory page
 
     zmiana tekstu na stronie pracowni laboratorium
