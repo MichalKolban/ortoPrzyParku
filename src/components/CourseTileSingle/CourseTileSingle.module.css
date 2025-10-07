@@ -165,3 +165,7 @@
 .longInfo {
   padding: 20px;
 }
+
+.sectionWrapper {
+  display: flex;
+}

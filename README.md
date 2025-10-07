@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.2.55 - added stamp "szkolenie wpisane do BUR"
+
+    każdy nowy kurs zawiera stempel apropo szkolenia wpisanego do BUR
+
 ## ver 0.2.54 - new october course sold out
 
     kurs w paździeniku został wyprzedany

@@ -5,6 +5,10 @@ import { useState } from "react";
 
 import Link from "next/link";
 
+import Image from "next/image";
+
+const szkolenieImg = "/icons/szkolenieBur.png";
+
 export const CourseTileSingle = ({ data, newCourse, soldout, ended }) => {
   const [showInfo, setShowInfo] = useState(false);
 
@@ -24,12 +28,25 @@ export const CourseTileSingle = ({ data, newCourse, soldout, ended }) => {
         <p className={styles.mainElement}>
           Prowadzący : <span className={styles.host}>{data.host}</span>
         </p>
-        <p className={styles.mainElement}>
-          Termin : <span className={styles.date}>{data.date}</span>
-        </p>
-        <p className={styles.mainElement}>
-          Inwestycja : <span className={styles.date}>{data.price}</span>
-        </p>
+        <div className={styles.sectionWrapper}>
+          <div className={styles.sectionText}>
+            <p className={styles.mainElement}>
+              Termin : <span className={styles.date}>{data.date}</span>
+            </p>
+            <p className={styles.mainElement}>
+              Inwestycja : <span className={styles.date}>{data.price}</span>
+            </p>
+          </div>
+          {!ended && (
+            <Image
+              title="szkolenie BUR"
+              src={szkolenieImg}
+              width={74}
+              height={68}
+              alt="szkolenie BUR"
+            />
+          )}
+        </div>
       </div>
 
       {showInfo && (
