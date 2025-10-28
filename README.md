@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.2.57 - minor changes, swipe pdf of current courses
+
+    podmiana plików pdf dla kursu listopad i grudzień, drobne literówki, podmiana zdjęcia zespołu na stronie głównej
+
 ## ver 0.2.56 - october course ended
 
     kurs w pańdzierniku zakończony

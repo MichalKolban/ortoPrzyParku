@@ -25,7 +25,7 @@ const SzkoleniaPage = () => {
           <h2 className={style.title}>Szkolenia</h2>
           <div className={style.doctorWrapper}>
             <h2 className={style.mainTitle}>
-              Lekarz Stomatolog, Specjalista ortodona
+              Lekarz Stomatolog, Specjalista ortodonta
             </h2>
             <div className={style.doctorBox}>
               <div className={style.imageWrapper}>

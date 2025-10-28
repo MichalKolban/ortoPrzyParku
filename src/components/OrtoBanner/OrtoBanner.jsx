@@ -16,7 +16,7 @@ export const OrtoBanner = () => {
             Miejsce, w którym zatroszczymy się o Twój uśmiech.
           </div>
           <Link className={styles.btn} href={"tel:501199124"}>
-            Umow się na wizytę
+            Umów się na wizytę
           </Link>
         </div>
       </div>
