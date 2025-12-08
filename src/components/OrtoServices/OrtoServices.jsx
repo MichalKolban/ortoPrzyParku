@@ -93,6 +93,7 @@ export const OrtoServices = () => {
           src={arroRightIcon}
           width={12}
           height={17}
+          alt="arrow icon"
         ></Image>
       </Link>
     </div>

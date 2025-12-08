@@ -19,7 +19,7 @@ export const NotificationSection = () => {
     <div className={styles.wrapper}>
       <Link className={styles.banner} href={"tel:501199124"} target="_blank">
         {/* <div className={styles.banner}> */}
-        <Image src={phoneIcon} width={35} height={35} />
+        <Image src={phoneIcon} width={35} height={35} alt="phone icon" />
         <div className={styles.box}>
           <p className={styles.title}>Rejestracja</p>
           <p className={styles.firstRow}>501 199 124</p>
@@ -35,7 +35,7 @@ export const NotificationSection = () => {
         target="_blank"
       >
         {/* <div className={styles.banner}> */}
-        <Image src={calendarIcon} width={40} height={35} />
+        <Image src={calendarIcon} width={40} height={35} alt="calendar icon" />
         <div className={styles.box}>
           <p className={styles.title}>E-mail</p>
           <p className={styles.firstRow}>kasiazal@ortodoncjaprzyparku.pl</p>
@@ -44,7 +44,7 @@ export const NotificationSection = () => {
         {/* </div> */}
       </Link>
       <div className={styles.banner}>
-        <Image src={clockIcon} width={45} height={38} />
+        <Image src={clockIcon} width={45} height={38} alt="clock icon" />
         <div className={styles.box}>
           <div className={`${styles.title} ${styles.titleHours}`}>
             Godziny Pracy
