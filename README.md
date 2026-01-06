@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.1 - szkolenia page ver 1
+
+    na potrzeby klienta zmieniamy jedna z sekcji podstrony "szkolenia" która od teraz linkuje do zewnętrznej platformy
+
 ## ver 0.3.0 - next updated
 
     next js zauktualizowany do najnowszej wersji, dodanie brakujacych altow do ikonek
