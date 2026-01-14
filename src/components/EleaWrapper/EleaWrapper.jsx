@@ -1,27 +1,3 @@
-// import { EleaCourseTile } from "../EleaCourseTile/EleaCourseTile";
-// import style from "./EleaWrapper.module.css";
-
-// export const EleaWrapper = ({ eleaData }) => {
-//   return (
-//     <div>
-//       {eleaData.length > 0 ? (
-//         <div className={style.courseBox}>
-//           {eleaData.map((item, idx) => (
-//             <EleaCourseTile key={idx} item={item} />
-//           ))}
-//         </div>
-//       ) : (
-//         <div className={style.loadingState}>
-//           <p>Ładowanie kursów...</p>
-//           <div className={style.spinnerContainer}>
-//             <div className={style.spinner}></div>
-//           </div>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
 import { useEffect, useState } from "react";
 import { EleaCourseTile } from "../EleaCourseTile/EleaCourseTile";
 import style from "./EleaWrapper.module.css";
@@ -34,7 +10,8 @@ export const EleaWrapper = () => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const res = await fetch("/api/elea"); // Twój endpoint
+        // fetch do nowego serverless endpointu
+        const res = await fetch("/api/scraper"); 
         const data = await res.json();
 
         if (res.ok && data.results?.length > 0) {

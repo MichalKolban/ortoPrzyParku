@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.3 - szkolenia page pupeteer and chromium version to lunch on vercel
+
+    próba odpalenia scrapera na produkcji, pupeteer działał tylko lokalnie
+
 ## ver 0.3.2 - szkolenia page pupeteer test version
 
     podstona szkolenia za pomoca pupeteera pobiera dane dotyczące kursów

@@ -1,16 +1,14 @@
+import chromium from "chrome-aws-lambda";
 import puppeteer from "puppeteer-core";
-import chromium from "@sparticuz/chromium";
 
-export const runtime = "nodejs";
-
-export async function GET() {
+export default async function handler(req, res) {
   let browser = null;
 
   try {
     browser = await puppeteer.launch({
       args: chromium.args,
       defaultViewport: chromium.defaultViewport,
-      executablePath: await chromium.executablePath(),
+      executablePath: await chromium.executablePath,
       headless: chromium.headless,
     });
 
@@ -27,11 +25,9 @@ export async function GET() {
       links.map(async (url) => {
         const p = await browser.newPage();
         await p.goto(url, { waitUntil: "networkidle0" });
-
         const meta = await p.evaluate(() => {
           const getMeta = (property) =>
             document.querySelector(`meta[property='${property}']`)?.content || "";
-
           return {
             title: getMeta("og:title"),
             url: getMeta("og:url") || window.location.href,
@@ -39,19 +35,15 @@ export async function GET() {
             image: getMeta("og:image"),
           };
         });
-
         await p.close();
         return { url, ...meta };
       })
     );
 
-    return Response.json({ results });
+    res.status(200).json({ results });
   } catch (err) {
     console.error(err);
-    return Response.json(
-      { error: "Nie udało się pobrać kursów" },
-      { status: 500 }
-    );
+    res.status(500).json({ error: "Nie udało się pobrać kursów" });
   } finally {
     if (browser) await browser.close();
   }
