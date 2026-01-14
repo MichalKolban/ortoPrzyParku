@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.5 - szkolenia page added external server from github actions
+
+    uzyte github actions do pobierania danych i przetrzymywania ich w projekcie elea w pliku json - jest on aktualizowany codziennie o 6 rano
+
 ## ver 0.3.4 - szkolenia page modification vercel.json for chromium fix
 
     info w logach strona vercel/logs Na produkcji (Vercel) serverless funkcje nie mają całego node_modules w normalnej formie, więc chromium nie może znaleźć swojego folderu bin.

@@ -12,14 +12,14 @@ import { EleaWrapper } from "@/components/EleaWrapper/EleaWrapper";
 const SzkoleniaPage = () => {
   const [eleaData, setEleaData] = useState([]);
 
-  useEffect(() => {
-    fetch("/api/elea")
-      .then((res) => res.json())
-      .then((data) => {
-        setEleaData(data.results || []);
-      })
-      .catch((err) => console.error("Błąd fetch:", err));
-  }, []);
+  // useEffect(() => {
+  //   fetch("/api/github-actions")
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       setEleaData(data.results || []);
+  //     })
+  //     .catch((err) => console.error("Błąd fetch:", err));
+  // }, []);
 
   return (
     <CustomLayout>
@@ -66,7 +66,8 @@ const SzkoleniaPage = () => {
 
         <div className={style.schoolingSection}>
           <h2 className={style.schoolingTitle}>Szkolenia z Elea</h2>
-          <EleaWrapper eleaData={eleaData} />
+          {/* <EleaWrapper eleaData={eleaData} /> */}
+          <EleaWrapper />
         </div>
       </div>
     </CustomLayout>
