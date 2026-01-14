@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.4 - szkolenia page modification vercel.json for chromium fix
+
+    info w logach strona vercel/logs Na produkcji (Vercel) serverless funkcje nie mają całego node_modules w normalnej formie, więc chromium nie może znaleźć swojego folderu bin.
+
 ## ver 0.3.3 - szkolenia page pupeteer and chromium version to lunch on vercel
 
     próba odpalenia scrapera na produkcji, pupeteer działał tylko lokalnie
