@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.2 - szkolenia page pupeteer test version
+
+    podstona szkolenia za pomoca pupeteera pobiera dane dotyczące kursów
+
 ## ver 0.3.1 - szkolenia page ver 1
 
     na potrzeby klienta zmieniamy jedna z sekcji podstrony "szkolenia" która od teraz linkuje do zewnętrznej platformy
