@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.7 - added hover on registration button in navigation
+
+    dodany hover na przycisk rejestracji w nawigacji
+
 ## ver 0.3.6 - fix title for courses
 
     pokazuje sie przedrostek "Course" w nazwie tekstu - trzeba go usunac - dalsza faza testow

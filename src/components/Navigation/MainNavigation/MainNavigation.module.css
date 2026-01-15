@@ -292,6 +292,7 @@
 .desktopRegistrationName {
   color: #1180c3;
   cursor: default;
+  transition: 0.3s;
 
   @media screen and (min-width: 901px) and (max-width: 1300px) {
     display: none;
@@ -307,6 +308,14 @@
   align-items: center;
   justify-content: center;
   color: white;
+  transition: 0.3s;
+  border: 2px solid #3493cc;
+}
+
+.desktopRegistrationPhone:hover {
+  color: #1180c3;
+  background-color: #fff;
+  border: 2px solid #3493cc;
 }
 
 .menuLinkExpand {
