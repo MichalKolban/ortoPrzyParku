@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.6 - fix title for courses
+
+    pokazuje sie przedrostek "Course" w nazwie tekstu - trzeba go usunac - dalsza faza testow
+
 ## ver 0.3.5 - szkolenia page added external server from github actions
 
     uzyte github actions do pobierania danych i przetrzymywania ich w projekcie elea w pliku json - jest on aktualizowany codziennie o 6 rano
