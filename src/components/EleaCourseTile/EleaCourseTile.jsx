@@ -27,7 +27,12 @@ export const EleaCourseTile = ({ item, idx }) => {
           {item.description || "Brak opisu"}
         </p>
         <p className={styles.courseButton}>
-          <a href={item.url} target="_blank" rel="noreferrer">
+          <a
+            className={styles.ahrefBtn}
+            href={item.url}
+            target="_blank"
+            rel="noreferrer"
+          >
             Link do kursu
           </a>
         </p>

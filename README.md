@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.8 - fix course btn styles
+
+    poprawa styli dla przycisku dla poszczególnego kursu
+
 ## ver 0.3.7 - added hover on registration button in navigation
 
     dodany hover na przycisk rejestracji w nawigacji
