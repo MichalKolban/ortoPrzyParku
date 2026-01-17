@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.4.0 - fix schooling page layout
+
+    zmieniony design strony - szczególnie dot sekcji kursów
+
 ## ver 0.3.9 - fix cache problem with revalidate new data
 
     problem z cachowaniem danych, next domyślnie cachuje dane, dlatego nie zostały one rewalidowane

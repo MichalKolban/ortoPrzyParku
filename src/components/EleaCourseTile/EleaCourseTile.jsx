@@ -19,23 +19,26 @@ export const EleaCourseTile = ({ item, idx }) => {
             />
           </div>
         )}
-        <h3 className={styles.courseTitle}>
-          {slicedTitle || "Kurs Ortodoncji przy Parku"}
-        </h3>
+        <div className={styles.textWrapper}>
+          <h3 className={styles.courseTitle}>
+            {slicedTitle || "Kurs Ortodoncji przy Parku"}
+          </h3>
 
-        <p className={styles.courseDescription}>
-          {item.description || "Brak opisu"}
-        </p>
-        <p className={styles.courseButton}>
-          <a
-            className={styles.ahrefBtn}
-            href={item.url}
-            target="_blank"
-            rel="noreferrer"
-          >
-            Link do kursu
-          </a>
-        </p>
+          <p className={styles.courseDescription}>
+            {item.description || "Brak opisu"}
+          </p>
+
+          <p className={styles.courseButton}>
+            <a
+              className={styles.ahrefBtn}
+              href={item.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Link do kursu
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );
