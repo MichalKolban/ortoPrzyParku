@@ -11,7 +11,7 @@ export const EleaWrapper = () => {
     const fetchCourses = async () => {
       try {
         // fetch do nowego serverless endpointu
-        const res = await fetch("/api/github-actions");
+        const res = await fetch("/api/github-actions", { cache: "no-store" });
         const data = await res.json();
 
         if (res.ok && data.results?.length > 0) {

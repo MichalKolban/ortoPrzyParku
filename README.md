@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.3.9 - fix cache problem with revalidate new data
+
+    problem z cachowaniem danych, next domyślnie cachuje dane, dlatego nie zostały one rewalidowane
+
 ## ver 0.3.8 - fix course btn styles
 
     poprawa styli dla przycisku dla poszczególnego kursu
