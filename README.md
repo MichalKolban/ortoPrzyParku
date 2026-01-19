@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.4.1 - new schooling page page
+
+    dodana nowa sekcja, ktora pobiera dane z github actions
+
 ## ver 0.4.0 - fix schooling page layout
 
     zmieniony design strony - szczególnie dot sekcji kursów
