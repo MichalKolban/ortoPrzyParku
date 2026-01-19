@@ -10,7 +10,7 @@ npm run dev
 
 ## CHANGE LOG
 
-## ver 0.4.1 - new schooling page page
+## ver 0.4.1 - new schooling page github actions
 
     dodana nowa sekcja, ktora pobiera dane z github actions
 
