@@ -1,8 +1,6 @@
 import styles from "./EleaCourseTile.module.css";
 
 export const EleaCourseTile = ({ item, idx }) => {
-  console.log("item", item);
-
   const slicedTitle = item.title.startsWith("Course")
     ? item.title.slice(6)
     : item.title;
@@ -23,6 +21,7 @@ export const EleaCourseTile = ({ item, idx }) => {
           <h3 className={styles.courseTitle}>
             {slicedTitle || "Kurs Ortodoncji przy Parku"}
           </h3>
+          <h4 className={styles.courseDate}>{item.courseDateRaw}</h4>
 
           <p className={styles.courseDescription}>
             {item.description || "Brak opisu"}

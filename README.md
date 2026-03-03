@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.4.2 - new schooling page github actions
+
+    zmieniony skrypt, teraz pobiera dane tylko z jednej sekcji "wszystkie kursy" oraz dodatkowo wyświetla datę
+
 ## ver 0.4.1 - new schooling page github actions
 
     dodana nowa sekcja, ktora pobiera dane z github actions
