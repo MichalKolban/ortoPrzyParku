@@ -2,9 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-// import mainLogo from "../../../../public/logo.png";
-// import mainLogo from "";
-// import iconMenu from "../../../../public/icons/menu-96.png";
 import styles from "./MainNavigation.module.css";
 
 import { useState } from "react";

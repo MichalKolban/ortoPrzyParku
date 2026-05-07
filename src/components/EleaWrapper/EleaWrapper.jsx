@@ -56,9 +56,14 @@ export const EleaWrapper = () => {
 
   return (
     <div className={style.courseBox}>
-      {eleaData.map((item, idx) => (
-        <EleaCourseTile key={idx} item={item} />
-      ))}
+      {eleaData.length < 1 ? (
+        <p className={style.emptyMessage}>
+          Brak zaplanowanych szkoleń
+          <span>Zapraszamy wkrótce 👋</span>
+        </p>
+      ) : (
+        eleaData.map((item, idx) => <EleaCourseTile key={idx} item={item} />)
+      )}
     </div>
   );
 };

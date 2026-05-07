@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## vet 0.4.3 - minor fixes
+
+    dodane odpowiednie style dla nawigacji dla szerokich ekranow, dodanie plakietki o braku kursow w przypadku kiedy nie sa prowadzone zadne szkolenia na stronie szkolen
+
 ## ver 0.4.2 - new schooling page github actions
 
     zmieniony skrypt, teraz pobiera dane tylko z jednej sekcji "wszystkie kursy" oraz dodatkowo wyświetla datę
