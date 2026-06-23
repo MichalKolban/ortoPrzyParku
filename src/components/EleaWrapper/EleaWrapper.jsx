@@ -14,7 +14,7 @@ export const EleaWrapper = () => {
         const res = await fetch("/api/github-actions", { cache: "no-store" });
         const data = await res.json();
 
-        if (res.ok && data.results?.length > 0) {
+        if (res.ok && Array.isArray(data.results)) {
           setEleaData(data.results);
           setError("");
         } else if (data.error) {
@@ -58,8 +58,11 @@ export const EleaWrapper = () => {
     <div className={style.courseBox}>
       {eleaData.length < 1 ? (
         <p className={style.emptyMessage}>
-          Brak zaplanowanych szkoleń
-          <span>Zapraszamy wkrótce 👋</span>
+          Obecnie brak zaplanowanych kursów.
+          <span>
+            Pracujemy nad nową ofertą szkoleniową. Zajrzyj do nas wkrótce
+            — nowe terminy pojawiają się regularnie!
+          </span>
         </p>
       ) : (
         eleaData.map((item, idx) => <EleaCourseTile key={idx} item={item} />)
