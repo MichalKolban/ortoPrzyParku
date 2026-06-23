@@ -61,7 +61,7 @@ export const EleaWrapper = () => {
           Obecnie brak zaplanowanych kursów.
           <span>
             Pracujemy nad nową ofertą szkoleniową. Zajrzyj do nas wkrótce
-            — nowe terminy pojawiają się regularnie!
+            - nowe terminy pojawiają się regularnie!
           </span>
         </p>
       ) : (

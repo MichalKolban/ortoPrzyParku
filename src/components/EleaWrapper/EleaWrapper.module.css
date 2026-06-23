@@ -54,25 +54,24 @@
   align-items: center;
   justify-content: center;
 
-  padding: 64px 32px;
-  margin: 32px 0;
-
-  /* border: 1px dashed #d6d6d6; */
-  border-radius: 16px;
-
-  background: #fafafa;
+  padding: 48px 32px;
+  margin: 32px auto;
+  max-width: 520px;
 
   font-size: 20px;
   font-weight: 600;
   color: #2d2d2d;
+  letter-spacing: -0.01em;
+  line-height: 1.4;
 
   text-align: center;
 
   span {
-    margin-top: 8px;
+    margin-top: 12px;
 
     font-size: 15px;
     font-weight: 400;
-    color: #777;
+    color: #666;
+    line-height: 1.6;
   }
 }
