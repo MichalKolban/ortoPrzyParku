@@ -10,7 +10,15 @@ npm run dev
 
 ## CHANGE LOG
 
-## vet 0.4.3 - minor fixes
+## ver 0.4.6 - staff removed
+
+    usuniete osoby z zespolu - Monika M. oraz Ruslan V.
+
+## ver 0.4.4 & 0.4.5 - elea fix
+
+    naprawa odpowiedniego oznaczenia w elea w przypadku braku danych do wyświetlenia
+
+## ver 0.4.3 - minor fixes
 
     dodane odpowiednie style dla nawigacji dla szerokich ekranow, dodanie plakietki o braku kursow w przypadku kiedy nie sa prowadzone zadne szkolenia na stronie szkolen
 

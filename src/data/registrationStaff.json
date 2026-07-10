@@ -2,14 +2,6 @@
   "registration": [
     {
       "id": 1,
-      "name": "Monika Mazur",
-      "icon": "/photos/team/monikaMazurIcon.png",
-      "photo": "/photos/team/monikaMazur.jpg",
-      "title": "REJESTRACJA",
-      "description": "Pierwsza osoba, z którą macie Państwo kontakt po wejściu do naszego Gabinetu. Ustala z Państwem terminy wizyt, rozmawia przez telefon oraz odpowiada na maile. Dba o to, aby nasi Pacjenci od samego wejścia czuli komfortowo. Dba o rzetelną współpracę pomiędzy zespołem pracowni ortodontycznej a rejestracją. Jest osobą pomocną i bardzo empatyczną. Interesuje się gotowaniem. Lubi wycieczki po górach."
-    },
-    {
-      "id": 2,
       "name": "Katarzyna Staszewska",
       "icon": "/photos/team/katarzynaStaszewskaIcon.png",
       "photo": "/photos/team/katarzynaStaszewska.jpg",

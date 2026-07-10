@@ -1,0 +1,19 @@
+const removed = [
+{
+      "id": 1,
+      "name": "Monika Mazur",
+      "icon": "/photos/team/monikaMazurIcon.png",
+      "photo": "/photos/team/monikaMazur.jpg",
+      "title": "REJESTRACJA",
+      "description": "Pierwsza osoba, z którą macie Państwo kontakt po wejściu do naszego Gabinetu. Ustala z Państwem terminy wizyt, rozmawia przez telefon oraz odpowiada na maile. Dba o to, aby nasi Pacjenci od samego wejścia czuli komfortowo. Dba o rzetelną współpracę pomiędzy zespołem pracowni ortodontycznej a rejestracją. Jest osobą pomocną i bardzo empatyczną. Interesuje się gotowaniem. Lubi wycieczki po górach."
+    },
+
+    {
+      "id": 8,
+      "name": "Ruslan Viarshytski",
+      "icon": "/photos/team/ruslanViarhytskiIcon.png",
+      "photo": "/photos/team/ruslanViarhytski.jpg",
+      "title": "HIGIENISTA STOMATOLOGICZNY",
+      "description": "Absolwent Białoruskiego Państwowego Uniwersytetu Medycznego – specjalizacja lekarz dentysta. W 2022r zakończył staż zdając egzamin z wyróżnieniem. Od tamtej pory uczestniczy w licznych kursach i szkoleniach umożliwiających poszerzanie wiedzy i praktyczne doskonalenie swoich umiejętności. Stomatologia to dla niego nie tylko praca, ale również największa pasja. Jego celem jest przełamanie stereotypu wizyt w gabinecie stomatologicznym, dlatego zawsze stara się uczynić zabieg jak najbardziej komfortowym i przyjemnym dla Pacjenta. Obecnie w trakcie nostryfikacji dyplomu. Wolne chwile poświęca na podróże."
+    }
+]
