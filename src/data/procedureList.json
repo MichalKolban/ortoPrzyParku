@@ -204,13 +204,13 @@
         {
           "id": 1,
           "name": "Tomografia CBCT z opisem (szczęka, żuchwa, stawy skoniowo-zuchwowe)",
-          "price": 330
+          "price": 430
         },
-        { "id": 2, "name": "Tomografia CBCT (szczęka-żuchwa)", "price": 330 },
+        { "id": 2, "name": "Tomografia CBCT (szczęka-żuchwa)", "price": 430 },
         {
           "id": 3,
           "name": "Tomografia CBCT (stawów żuchowow-skroniowych)",
-          "price": 330
+          "price": 430
         },
         { "id": 4, "name": "Zdjęcie pantomograficzne", "price": 110 },
         { "id": 5, "name": "Zdjęcie cefalometryczne", "price": 110 },

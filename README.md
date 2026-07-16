@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.4.7 - minor changes
+
+    kilka drobnych zmian, dodanie drugiego adresu email oraz zmiana cennika 
+
 ## ver 0.4.6 - staff removed
 
     usuniete osoby z zespolu - Monika M. oraz Ruslan V.

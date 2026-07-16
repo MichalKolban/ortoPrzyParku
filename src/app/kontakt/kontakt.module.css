@@ -128,6 +128,14 @@
   }
 }
 
+.secondEmail {
+  margin-top: 30px;
+
+  @media screen and (min-width: 901px) {
+    margin-top: 30px;
+  }
+}
+
 .contactBoxWrapper {
   display: flex;
   justify-content: space-around;

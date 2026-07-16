@@ -64,6 +64,22 @@ export const Footer = () => {
             kasiazal@ortodoncjaprzyparku.pl
           </Link>
           <Link
+            className={`${styles.singleLink} ${styles.footerMail}`}
+            href={"mailto:pracownia@ortodoncjaprzyparku.pl"}
+            target="_blank"
+          >
+            <span className={`${styles.iconSmall} ${styles.hideIcon}`}>
+              <Image
+                className={styles.linkIcon}
+                src={iconMail}
+                width={25}
+                height={25}
+                alt="Email icon"
+              />
+            </span>
+            pracownia@ortodoncjaprzyparku.pl
+          </Link>
+          <Link
             className={styles.singleLink}
             href={"https://www.facebook.com/OrtodoncjaPrzyParku"}
             target="_blank"

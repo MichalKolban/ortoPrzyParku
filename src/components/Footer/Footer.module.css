@@ -132,6 +132,11 @@
     /* width: 340px; */
     width: 50%;
   }
+
+  @media screen and (min-width: 1301px) {
+    max-width: 220px;
+    padding: 0 10px;
+  }
 }
 
 .iconSmall {
@@ -195,7 +200,7 @@
   min-width: 280px;
   font-weight: 500;
   font-size: 13px;
-  height: 150px;
+  min-height: 150px;
   margin: auto 0;
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
@@ -227,6 +232,17 @@
     font-weight: 500;
     /* height: 180px; */
     padding: 0 20px;
+  }
+
+  @media screen and (min-width: 1301px) {
+    min-height: unset;
+    justify-content: center;
+    gap: 15px;
+    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
+    flex-shrink: 0;
+    padding: 0 20px 0 10px;
   }
 
   /* @media screen and (min-width: 901px) and (max-width: 1680px) {

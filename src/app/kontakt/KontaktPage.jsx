@@ -59,6 +59,24 @@ const KontaktPage = () => {
                   Skontaktuj się z nami
                 </button>
               </a>
+              <p className={`${styles.data} ${styles.secondEmail}`}>
+                pracownia@ortodoncjaprzyparku.pl
+              </p>
+              <a
+                href={"mailto:pracownia@ortodoncjaprzyparku.pl"}
+                target="_blank"
+              >
+                <button className={styles.btn}>
+                  <Image
+                    className={styles.iconBtn}
+                    src={mailIcon}
+                    width={20}
+                    height={18}
+                    alt="email"
+                  />
+                  Napisz do pracowni
+                </button>
+              </a>
             </div>
           </div>
         </div>
