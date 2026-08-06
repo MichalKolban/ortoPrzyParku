@@ -6,8 +6,8 @@
       "icon": "/icons/diagnostykaOrto.png",
       "dimensions": [60, 50],
       "items": [
-        { "id": 1, "name": "Wizyta kontrolna", "price": 220 },
-        { "id": 2, "name": "Wizyta kontrolna dr Zaleska", "price": 330 },
+        { "id": 1, "name": "Wizyta konsultacyjna", "price": 220 },
+        { "id": 2, "name": "Wizyta konsultacyjna dr Zaleska", "price": 330 },
         {
           "id": 3,
           "name": "Przygotowanie planu leczenia ortodontycznego (zebranie danych i omówienie planu leczenia)",
