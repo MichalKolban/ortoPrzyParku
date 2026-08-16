@@ -27,9 +27,9 @@ export const Modal = ({ isOpen, onClose, photo, name, title, description }) => {
           {photo && (
             <Image
               src={photo}
-              layout="fill"
-              objectFit="cover"
-              objectPosition="top"
+              fill
+              unoptimized
+              style={{ objectFit: "cover", objectPosition: "top" }}
               alt={name}
             />
           )}
