@@ -163,7 +163,10 @@ const PracowniaOrtodontycznaPage = () => {
           </div>
         </Reveal>
 
-        <Reveal as="div" className={styles.sectionWrapper}>
+        <Reveal
+          as="div"
+          className={`${styles.sectionWrapper} ${styles.reverseRow}`}
+        >
           <div className={styles.btnTextBox}>
             <div className={styles.textBox}>
               <p className={styles.description}>
@@ -277,7 +280,7 @@ const PracowniaOrtodontycznaPage = () => {
         <Gallery />
 
         <Reveal as="div" className={styles.grayWrapper}>
-          <div className={styles.grayInnerWrapper}>
+          <div className={`${styles.grayInnerWrapper} ${styles.reverseRow}`}>
             <div className={`${styles.textBox} ${styles.workWithUs}`}>
               <h2 className={styles.title}>Współpraca</h2>
               <p className={styles.description}>
