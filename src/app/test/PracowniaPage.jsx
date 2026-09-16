@@ -213,7 +213,7 @@ const PracowniaOrtodontycznaPage = () => {
         </Reveal>
 
         <Reveal as="div" className={styles.grayWrapper}>
-          <div className={styles.grayInnerWrapper}>
+          <div className={`${styles.grayInnerWrapper} ${styles.uslugiRow}`}>
             <div className={styles.textBox}>
               <h2 className={styles.title}>Usługi</h2>
               <p className={styles.description}>
@@ -234,7 +234,7 @@ const PracowniaOrtodontycznaPage = () => {
                   delay={2 * 0.06}
                   distance={12}
                   duration={0.4}
-                  className={`${styles.serviceCard} ${styles.serviceCardWide}`}
+                  className={styles.serviceCard}
                 >
                   <span className={styles.serviceLabel}>Szyny</span>
                   <ul className={styles.equipmentList}>
@@ -245,17 +245,17 @@ const PracowniaOrtodontycznaPage = () => {
                     <LogoListElement>szyna do deprogramacji</LogoListElement>
                   </ul>
                 </Reveal>
-                <Reveal as="div" delay={0 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
+                <Reveal as="div" delay={3 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
                   <span className={styles.serviceLabel}>
                     Alignery In-Office lub GRAPHY
                   </span>
                 </Reveal>
-                <Reveal as="div" delay={1 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
+                <Reveal as="div" delay={4 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
                   <span className={styles.serviceLabel}>
                     Prace drukowane z żywicy
                   </span>
                 </Reveal>
-                <Reveal as="div" delay={0 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
+                <Reveal as="div" delay={5 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
                   <span className={styles.serviceLabel}>
                     Prace drukowane z metalu
                   </span>
@@ -285,12 +285,19 @@ const PracowniaOrtodontycznaPage = () => {
                 indywidualnych lekarzy. Aby dowiedzieć się więcej zachęcamy do
                 kontaktu
               </p>
-              <Link
-                href={"/kontakt"}
-                className={`${styles.btn} ${styles.descriptionBtn}`}
-              >
-                <div>Kontakt</div>
-              </Link>
+              <div className={styles.workWithUsButtons}>
+                <Link href={"/kontakt"} className={styles.btn}>
+                  <div>Kontakt</div>
+                </Link>
+                <Link
+                  id="kartaPracy"
+                  href={"/documents/pracowniaKartaPracy.pdf"}
+                  target="_blank"
+                  className={styles.btn}
+                >
+                  <div>Pobierz kartę pracowni</div>
+                </Link>
+              </div>
             </div>
 
             <div className={styles.ortoMainPhotoWrapper}>
@@ -303,17 +310,6 @@ const PracowniaOrtodontycznaPage = () => {
               />
             </div>
           </div>
-        </Reveal>
-
-        <Reveal as="div">
-          <Link
-            id="kartaPracy"
-            href={"/documents/pracowniaKartaPracy.pdf"}
-            target="_blank"
-            className={styles.btn}
-          >
-            <div>Pobierz kartę pracowni</div>
-          </Link>
         </Reveal>
       </div>
     </CustomLayout>
