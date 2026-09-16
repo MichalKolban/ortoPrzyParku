@@ -11,6 +11,7 @@ import { OrtoBanner } from "../components/OrtoBanner/OrtoBanner";
 import { OrtoServices } from "../components/OrtoServices/OrtoServices";
 
 import { NotificationSection } from "@/components/NotificationSection/NotificationSection";
+import { Reveal } from "@/components/Reveal/Reveal";
 
 import styles from "./page.module.css";
 import Image from "next/image";
@@ -52,7 +53,7 @@ const Home = () => {
             />
           </div>
         </div>
-        <div className={styles.sectionWrapper}>
+        <Reveal as="div" className={styles.sectionWrapper}>
           <div className={styles.descriptionBox}>
             <h2 className={styles.title}>O nas</h2>
             <p className={styles.description}>
@@ -66,8 +67,8 @@ const Home = () => {
             </p>
           </div>
           <OrtoServices />
-        </div>
-        <div className={styles.grayWrapper}>
+        </Reveal>
+        <Reveal as="div" className={styles.grayWrapper}>
           <div className={styles.grayInnerWrapper}>
             <div className={styles.description}>
               <h2 className={styles.title}>Gabinet</h2>
@@ -91,10 +92,16 @@ const Home = () => {
               />
             </div>
           </div>
-        </div>
-        <OrtoBanner />
-        <OfficeSixIcons />
-        <PhotosLinkRow />
+        </Reveal>
+        <Reveal as="div">
+          <OrtoBanner />
+        </Reveal>
+        <Reveal as="div">
+          <OfficeSixIcons />
+        </Reveal>
+        <Reveal as="div">
+          <PhotosLinkRow />
+        </Reveal>
       </div>
     </CustomLayout>
   );

@@ -1,0 +1,144 @@
+{
+  "gallery": [
+    {
+      "id": 1,
+      "name": "Aparat zdejmowany czynnościowy",
+      "photo": "/photos/gallery/aparatKlammta01-compressed.webp"
+    },
+    {
+      "id": 2,
+      "name": "Aparat zdejmowany czynnościowy",
+      "photo": "/photos/gallery/aparatKlammta02-compressed.webp"
+    },
+    {
+      "id": 3,
+      "name": "Aparat Podniebienny Oparty Na Mikroimplantach Do Dystalizacji I Intruzji",
+      "photo": "/photos/gallery/aparatPodniebiennyOpartyNaMikroimplantachDoDystalizacjiIIntruzji-compressed.webp"
+    },
+    {
+      "id": 4,
+      "name": "Aparat RPE Konstukcja SLM",
+      "photo": "/photos/gallery/aparatRPEkonstukcjaSLM-compressed.webp"
+    },
+    {
+      "id": 5,
+      "name": "Beneslider",
+      "photo": "/photos/gallery/beneslider01-compressed.webp"
+    },
+    {
+      "id": 6,
+      "name": "Beneslider",
+      "photo": "/photos/gallery/beneslider02-compressed.webp"
+    },
+    {
+      "id": 7,
+      "name": "Dwuczęściowa szyna deprogramacyjna - górna",
+      "photo": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjna01-compressed.webp"
+    },
+    {
+      "id": 8,
+      "name": "Dwuczęściowa szyna deprogramacyjna - dolna",
+      "photo": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjna02-compressed.webp"
+    },
+    {
+      "id": 9,
+      "name": "Dystalslider Mezjalslider",
+      "photo": "/photos/gallery/dystalsliderMezjalslider01-compressed.webp"
+    },
+    {
+      "id": 10,
+      "name": "Expander",
+      "photo": "/photos/gallery/expander01-compressed.webp"
+    },
+    {
+      "id": 11,
+      "name": "Graphy - nakładki z pamięcią kształtu",
+      "photo": "/photos/gallery/graphy01-compressed.webp"
+    },
+    {
+      "id": 12,
+      "name": "Graphy - nakładki z pamięcią kształtu",
+      "photo": "/photos/gallery/graphy02-compressed.webp"
+    },
+    {
+      "id": 13,
+      "name": "Hybryd Hyrax",
+      "photo": "/photos/gallery/hybrydHyrax01-compressed.webp"
+    },
+    {
+      "id": 14,
+      "name": "Hybryd Hyrax",
+      "photo": "/photos/gallery/hybrydHyrax02-compressed.webp"
+    },
+    {
+      "id": 15,
+      "name": "Hyrax Na Szynach",
+      "photo": "/photos/gallery/hyraxNaSzynach01-compressed.webp"
+    },
+    {
+      "id": 16,
+      "name": "InOffice - nakładki termoformowalne",
+      "photo": "/photos/gallery/inOffice01-compressed.webp"
+    },
+    {
+      "id": 17,
+      "name": "InOffice - nakładki termoformowalne",
+      "photo": "/photos/gallery/inOffice02-compressed.webp"
+    },
+    {
+      "id": 18,
+      "name": "Lip Bumper",
+      "photo": "/photos/gallery/lipBumper01-compressed.webp"
+    },
+    {
+      "id": 19,
+      "name": "Luk Jezykowy",
+      "photo": "/photos/gallery/lukJezykowy01-compressed.webp"
+    },
+    {
+      "id": 20,
+      "name": "Marco Rosa",
+      "photo": "/photos/gallery/marcoRosa01-compressed.webp"
+    },
+    {
+      "id": 21,
+      "name": "Marco Rosa z zaczepami do maski",
+      "photo": "/photos/gallery/marcoRosa02-compressed.webp"
+    },
+    {
+      "id": 22,
+      "name": "Marco Rosa",
+      "photo": "/photos/gallery/marcoRosa03-compressed.webp"
+    },
+    {
+      "id": 23,
+      "name": "Marpe na 4 śrubach z haczykami do maski",
+      "photo": "/photos/gallery/marpe01-compressed.webp"
+    },
+    {
+      "id": 24,
+      "name": "Marpe na 4 śrubach",
+      "photo": "/photos/gallery/marpe02-compressed.webp"
+    },
+    {
+      "id": 25,
+      "name": "Quad Helix",
+      "photo": "/photos/gallery/quadHelix01-compressed.webp"
+    },
+    {
+      "id": 26,
+      "name": "Szyna Deprogramacyjna",
+      "photo": "/photos/gallery/szynaDeprogramacyjna01-compressed.webp"
+    },
+    {
+      "id": 27,
+      "name": "Szyna Deprogramacyjna",
+      "photo": "/photos/gallery/szynaDeprogramacyjna02-compressed.webp"
+    },
+    {
+      "id": 28,
+      "name": "Transfery Ortodontyczne",
+      "photo": "/photos/gallery/transferyOrtodontyczne01-compressed.webp"
+    }
+  ]
+}
