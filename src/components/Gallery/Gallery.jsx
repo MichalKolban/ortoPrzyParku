@@ -8,7 +8,11 @@ import { GalleryElement } from "../GalleryElement/GalleryElement";
 import { GalleryLightbox } from "../GalleryLightbox/GalleryLightbox";
 import { Reveal } from "../Reveal/Reveal";
 
-export const Gallery = () => {
+export const Gallery = ({
+  id = "gallery",
+  title = "Galeria Aparatów",
+  captionPosition = "overlay",
+}) => {
   const photos = data.gallery;
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -21,8 +25,8 @@ export const Gallery = () => {
     setActiveIndex((prev) => (prev + 1) % photos.length);
 
   return (
-    <div id="gallery" className={styles.galleryWrapper}>
-      <div className={styles.mainTitle}>Galeria Aparatów</div>
+    <div id={id} className={styles.galleryWrapper}>
+      <div className={styles.mainTitle}>{title}</div>
       <div className={styles.wrapper}>
         {photos.map((element, index) => {
           return (
@@ -36,6 +40,7 @@ export const Gallery = () => {
                 imgSrc={element.photo}
                 name={element.name}
                 onClick={() => setActiveIndex(index)}
+                captionPosition={captionPosition}
               />
             </Reveal>
           );

@@ -10,9 +10,53 @@ const ZoomIcon = () => (
   </svg>
 );
 
-export const GalleryElement = ({ imgSrc, name, onClick }) => {
+export const GalleryElement = ({
+  imgSrc,
+  name,
+  onClick,
+  captionPosition = "overlay",
+}) => {
   const isLong = name.length > 45;
   const isVeryLong = name.length > 65;
+
+  if (captionPosition === "below" || captionPosition === "below-blue") {
+    const base =
+      captionPosition === "below-blue"
+        ? styles.captionBelowBlue
+        : styles.captionBelow;
+    const longMod =
+      captionPosition === "below-blue"
+        ? styles.captionBelowBlueLong
+        : styles.captionBelowLong;
+    const veryLongMod =
+      captionPosition === "below-blue"
+        ? styles.captionBelowBlueVeryLong
+        : styles.captionBelowVeryLong;
+
+    const captionBelowClass = isVeryLong
+      ? `${base} ${veryLongMod}`
+      : isLong
+        ? `${base} ${longMod}`
+        : base;
+
+    return (
+      <button type="button" className={styles.wrapperBelow} onClick={onClick}>
+        <div className={styles.imageBox}>
+          <Image
+            src={imgSrc}
+            width={340}
+            height={255}
+            alt={name}
+            className={styles.image}
+          />
+          <div className={styles.zoomIcon} aria-hidden="true">
+            <ZoomIcon />
+          </div>
+        </div>
+        <div className={captionBelowClass}>{name}</div>
+      </button>
+    );
+  }
 
   const captionClass = isVeryLong
     ? `${styles.caption} ${styles.captionVeryLong}`
