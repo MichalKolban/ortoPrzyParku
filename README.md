@@ -10,6 +10,13 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.4.8 - closure notice popup
+
+    nowy komponent `components/Popup` renderowany w `app/layout.jsx` - komunikat o nieczynnym gabinecie (09.10.2026, Szczecin i Mysliborz):
+    - pokazuje sie raz na 6h, wspolnie dla wszystkich podstron (znacznik czasu w localStorage pod kluczem `closureNoticeLastShown`)
+    - zamykanie przyciskiem X, przyciskiem "Zamknij", klawiszem Esc lub klikniecim poza oknem
+    - po zakonczeniu akcji wystarczy usunac `<Popup />` z `app/layout.jsx` lub zmienic tresc w `Popup.jsx`
+
 ## ver 0.4.7 - minor changes
 
     kilka drobnych zmian, dodanie drugiego adresu email oraz zmiana cennika 
