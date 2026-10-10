@@ -2,7 +2,7 @@ import "./globals.css";
 import { Footer } from "@/components/Footer/Footer";
 import { Navigation } from "@/components/Navigation/MainNavigation/MainNavigation";
 import { Montserrat } from "next/font/google";
-import { Popup } from "@/components/Popup/Popup";
+// import { Popup } from "@/components/Popup/Popup";
 import { MySign } from "@/components/MySign/MySign";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
       <body>
         <Analytics />
         <SpeedInsights />
-        <Popup />
+        {/* <Popup /> */}
         <main className="mainWrapper">{children}</main>
       </body>
     </html>

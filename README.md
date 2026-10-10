@@ -10,6 +10,10 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.4.9 - closure notice popup disabled
+
+    popup z informacja o nieczynnym gabinecie wylaczony (zakomentowany `<Popup />` oraz jego import w `app/layout.jsx`), komponent `components/Popup` zostaje w kodzie - aby wlaczyc ponownie wystarczy odkomentowac obie linie
+
 ## ver 0.4.8 - closure notice popup
 
     nowy komponent `components/Popup` renderowany w `app/layout.jsx` - komunikat o nieczynnym gabinecie (09.10.2026, Szczecin i Mysliborz):
