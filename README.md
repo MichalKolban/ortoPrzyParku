@@ -10,6 +10,12 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.5.0 - services tiles hover effect
+
+    efekt hover dla kafelkow w sekcji "Zakres usług" na stronie glownej (`OrtoServiceSingle.module.css`):
+    - kafelek unosi sie, dostaje niebieski cien, ramke i tlo, ikona sie powieksza, podpis zmienia kolor
+    - hover tylko na urzadzeniach z myszka (`@media (hover: hover)`), focus-visible dla klawiatury, wylaczone animacje przy `prefers-reduced-motion`
+
 ## ver 0.4.9 - closure notice popup disabled
 
     popup z informacja o nieczynnym gabinecie wylaczony (zakomentowany `<Popup />` oraz jego import w `app/layout.jsx`), komponent `components/Popup` zostaje w kodzie - aby wlaczyc ponownie wystarczy odkomentowac obie linie
