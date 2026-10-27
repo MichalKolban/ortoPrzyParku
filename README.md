@@ -10,6 +10,21 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.5.1 - mobile menu animation & gallery updates
+
+    ulepszenia menu mobilnego (`Navigation/MainNavigation`):
+    - animacja otwierania/zamykania zmieniona z `right: -100vw` na `transform: translateX(100%)` (GPU-accelerated, brak layout reflow)
+    - czas animacji skrócony z 1.2s do 0.35s z easingiem cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    - naprawiony bug: literówka w nazwie klasy zamknięcia (`menuOverlayClose` vs `manuOverlayClose`) powodowała brak animacji zamknięcia
+    - dodane staggerowane wejście linków (fade + slide od dołu, opóźnienie 50ms między linkami)
+    - font linków w menu mobilnym zwiększony z 13px do 16px
+
+    zmiany w galerii aparatów (`data/gallery.json`):
+    - usunięte zdjęcia `dwuczesciowaSzynaDeprogramacyjna01` i `dwuczesciowaSzynaDeprogramacyjna02`
+    - dodane nowe zdjęcia: `dwuczesciowaSzynaDeprogramacyjna` i `aparatDrukowanyDolny`
+    - kolejność galerii posortowana alfabetycznie
+    - tytuł galerii na stronie /test zmieniony na "Galeria Aparatów"
+
 ## ver 0.5.0 - services tiles hover effect
 
     efekt hover dla kafelkow w sekcji "Zakres usług" na stronie glownej (`OrtoServiceSingle.module.css`):

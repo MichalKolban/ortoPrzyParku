@@ -277,18 +277,10 @@ const PracowniaOrtodontycznaPage = () => {
           </div>
         </Reveal>
 
-        <Gallery />
-
         <Gallery
           id="gallery-caption-below"
-          title="Galeria Aparatów - podpis pod zdjęciem"
+          title="Galeria Aparatów"
           captionPosition="below"
-        />
-
-        <Gallery
-          id="gallery-caption-below-blue"
-          title="Galeria Aparatów - podpis pod zdjęciem (niebieski)"
-          captionPosition="below-blue"
         />
 
         <Reveal as="div" className={styles.grayWrapper}>

@@ -2,43 +2,43 @@
   "gallery": [
     {
       "id": 1,
-      "name": "Aparat zdejmowany czynnościowy",
-      "photo": "/photos/gallery/aparatKlammta01-compressed.webp"
+      "name": "Aparat drukowany dolny",
+      "photo": "/photos/gallery/aparatDrukowanyDolny-compressed.webp"
     },
     {
       "id": 2,
-      "name": "Aparat zdejmowany czynnościowy",
-      "photo": "/photos/gallery/aparatKlammta02-compressed.webp"
-    },
-    {
-      "id": 3,
       "name": "Aparat Podniebienny Oparty Na Mikroimplantach Do Dystalizacji I Intruzji",
       "photo": "/photos/gallery/aparatPodniebiennyOpartyNaMikroimplantachDoDystalizacjiIIntruzji-compressed.webp"
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Aparat RPE Konstukcja SLM",
       "photo": "/photos/gallery/aparatRPEkonstukcjaSLM-compressed.webp"
     },
     {
+      "id": 4,
+      "name": "Aparat zdejmowany czynnościowy",
+      "photo": "/photos/gallery/aparatKlammta01-compressed.webp"
+    },
+    {
       "id": 5,
-      "name": "Beneslider",
-      "photo": "/photos/gallery/beneslider01-compressed.webp"
+      "name": "Aparat zdejmowany czynnościowy",
+      "photo": "/photos/gallery/aparatKlammta02-compressed.webp"
     },
     {
       "id": 6,
       "name": "Beneslider",
-      "photo": "/photos/gallery/beneslider02-compressed.webp"
+      "photo": "/photos/gallery/beneslider01-compressed.webp"
     },
     {
       "id": 7,
-      "name": "Dwuczęściowa szyna deprogramacyjna - górna",
-      "photo": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjna01-compressed.webp"
+      "name": "Beneslider",
+      "photo": "/photos/gallery/beneslider02-compressed.webp"
     },
     {
       "id": 8,
-      "name": "Dwuczęściowa szyna deprogramacyjna - dolna",
-      "photo": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjna02-compressed.webp"
+      "name": "Dwuczęściowa szyna deprogramacyjna",
+      "photo": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjna-compressed.webp"
     },
     {
       "id": 9,

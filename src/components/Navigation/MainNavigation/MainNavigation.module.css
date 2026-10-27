@@ -102,11 +102,12 @@
     text-align: center;
     gap: 15px;
     top: 64px;
-    right: -100vw;
+    right: 0;
+    transform: translateX(100%);
     width: 100vw;
     height: calc(100vh - 64px);
     background-color: #3493cc;
-    transition: right 1.2s ease;
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     overflow-y: auto;
     padding-bottom: 150px;
   }
@@ -119,11 +120,12 @@
     gap: 15px;
     position: fixed;
     top: 80px;
-    right: -200vw;
+    right: 0;
+    transform: translateX(100%);
     width: 100vw;
     height: calc(100vh - 80px);
     background-color: #3493cc;
-    transition: right 1.2s ease;
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   }
 
   @media screen and (min-width: 601px) and (max-width: 900px) and (orientation: landscape) {
@@ -134,10 +136,11 @@
     gap: 15px;
     position: fixed;
     top: 62px;
-    right: -200vw;
+    right: 0;
+    transform: translateX(100%);
     width: 100vw;
     height: calc(100vh - 62px);
-    transition: right 1.2s ease;
+    transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     padding-top: 90px;
   }
 
@@ -161,8 +164,7 @@
 }
 
 .menuOverlayOpen {
-  right: 0;
-  opacity: 1;
+  transform: translateX(0) !important;
 
   @media screen and (min-width: 601px) and (max-width: 900px) {
     padding-bottom: 20px;
@@ -170,8 +172,8 @@
   }
 }
 
-.menuOverlayClose {
-  opacity: 0;
+.manuOverlayClose {
+  transform: translateX(100%);
 }
 
 .menuLink {
@@ -190,9 +192,8 @@
 
   @media screen and (max-width: 600px) and (orientation: portrait) {
     border: 1px solid white;
-    padding: 10px 0;
     width: 260px;
-    font-size: 13px;
+    font-size: 16px;
     margin: 0 auto;
     border-radius: 25px;
     color: white;
@@ -201,9 +202,9 @@
 
   @media screen and (min-width: 601px) and (max-width: 900px) {
     border: 1px solid white;
-    padding: 15px 0;
-    width: 300px;
+    padding: 18px 0;
     width: 270px;
+    font-size: 16px;
     margin: 0 auto;
     border-radius: 13px;
     color: white;
@@ -374,4 +375,31 @@
   @media screen and (min-width: 601px) and (max-width: 900px) {
     display: flex;
   }
+}
+
+@keyframes linkFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menuOverlayOpen > * {
+    animation: linkFadeIn 0.25s ease both;
+  }
+  .menuOverlayOpen > *:nth-child(1)  { animation-delay: 0.10s; }
+  .menuOverlayOpen > *:nth-child(2)  { animation-delay: 0.15s; }
+  .menuOverlayOpen > *:nth-child(3)  { animation-delay: 0.20s; }
+  .menuOverlayOpen > *:nth-child(4)  { animation-delay: 0.25s; }
+  .menuOverlayOpen > *:nth-child(5)  { animation-delay: 0.30s; }
+  .menuOverlayOpen > *:nth-child(6)  { animation-delay: 0.35s; }
+  .menuOverlayOpen > *:nth-child(7)  { animation-delay: 0.40s; }
+  .menuOverlayOpen > *:nth-child(8)  { animation-delay: 0.45s; }
+  .menuOverlayOpen > *:nth-child(9)  { animation-delay: 0.50s; }
+  .menuOverlayOpen > *:nth-child(10) { animation-delay: 0.55s; }
 }
