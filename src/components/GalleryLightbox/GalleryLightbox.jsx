@@ -19,7 +19,7 @@ export const GalleryLightbox = ({
 
   useEffect(() => {
     requestedIndexRef.current = activeIndex;
-    const targetSrc = photos[activeIndex].photo;
+    const targetSrc = photos[activeIndex].photoLightbox ?? photos[activeIndex].photo;
 
     const applyIfStillRequested = () => {
       if (requestedIndexRef.current === activeIndex) {
@@ -88,7 +88,7 @@ export const GalleryLightbox = ({
       <div className={styles.contentBox} onClick={(e) => e.stopPropagation()}>
         <div className={styles.imageWrapper}>
           <Image
-            src={active.photo}
+            src={active.photoLightbox ?? active.photo}
             width={1600}
             height={1200}
             unoptimized

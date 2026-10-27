@@ -41,6 +41,12 @@
       "photo": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjna-compressed.webp"
     },
     {
+      "id": 29,
+      "name": "Dwuczęściowa szyna deprogramacyjna",
+      "photo": "/photos/gallery/notShown/dwuczesciowaSzynaDeprogramacyjna02-compressed.webp",
+      "photoLightbox": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjnaHorizontal-compressed.webp"
+    },
+    {
       "id": 9,
       "name": "Dystalslider Mezjalslider",
       "photo": "/photos/gallery/dystalsliderMezjalslider01-compressed.webp"
