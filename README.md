@@ -22,6 +22,7 @@ npm run dev
     zmiany w galerii aparatów (`data/gallery.json`):
     - usunięte zdjęcia `dwuczesciowaSzynaDeprogramacyjna01` i `dwuczesciowaSzynaDeprogramacyjna02`
     - dodane nowe zdjęcia: `dwuczesciowaSzynaDeprogramacyjna` i `aparatDrukowanyDolny`
+    - usunięte zdjęcie `szynaDeprogramacyjna01`
     - kolejność galerii posortowana alfabetycznie
     - tytuł galerii na stronie /test zmieniony na "Galeria Aparatów"
 
