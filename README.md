@@ -10,6 +10,14 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.5.4 - fix page flickering on load
+
+    naprawa migotania strony po dodaniu animacji Reveal:
+    - komponent `Reveal` używał surowego stringa CSS `transform: "translateY(...)"` w `initial`/`whileInView`
+    - framer-motion zarządza transformami wewnętrznie przez zmienne CSS (`--motion-translateY`), a surowy string omijał ten system
+    - zmiana na natywną właściwość framer-motion `y: offset` / `y: 0` eliminuje niezgodność SSR/hydration
+    - teraz serwer i klient generują identyczne style inline → brak podwójnego renderowania → brak migotania
+
 ## ver 0.5.3 - /pracownia finalized, /test removed
 
     podstrona /pracownia zaktualizowana treścią z /test:
