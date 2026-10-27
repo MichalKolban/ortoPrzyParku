@@ -10,6 +10,35 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.5.3 - /pracownia finalized, /test removed
+
+    podstrona /pracownia zaktualizowana treścią z /test:
+    - sekcja usług zmieniona z listy `<ol>` na karty `serviceCard` ze stagger animacją
+    - sekcja trzecia i współpraca: dodany `reverseRow` i `photoImage`
+    - galeria zmieniona z `BracesGallery` na `Gallery` z `captionPosition="below"`
+    - sekcja współpraca: oba przyciski (Kontakt + Pobierz kartę) w jednym bloku `workWithUsButtons`
+    - do `page.module.css` dodane brakujące klasy: `photoImage`, `servicesList`, `serviceCard`, `serviceLabel`, `uslugiRow`, `reverseRow`, `workWithUsButtons`
+    - katalog `src/app/test/` usunięty
+
+## ver 0.5.2 - scroll, reveal animations & gallery fixes
+
+    scroll przy nawigacji między podstronami:
+    - usunięty `scroll-behavior: smooth` z `html, body` w `globals.css` — przejścia między podstronami są teraz natychmiastowe bez animowanego przewijania do góry
+
+    animacje Reveal dodane do wszystkich głównych podstron:
+    - `/pracownia` — 6 sekcji + stagger 8 logo oprogramowania
+    - `/ortodoncja` — 8 sekcji (każdy `Section` + tła)
+    - `/stomatologia` — 10 sekcji naprzemiennych szary/biały
+    - `/kontakt` — 3 bloki z opóźnieniami (dane kontaktowe, mapy, social media)
+    - `/zespol` — 5 sekcji + stagger kart pracowników
+    - `/szkolenia` — 2 sekcje (bio doktor + Elea)
+
+    galeria aparatów (`data/gallery.json`):
+    - zdjęcie nr 8 (`dwuczesciowaSzynaDeprogramacyjna`) usunięte
+    - zdjęcie nr 9 (id 29) — nowa miniaturka `dwuczesciowaSzynaDeprogramacyjnaMiniaturka`, lightbox bez zmian
+    - dla zdjęcia nr 9 dodany wyjątek `objectPosition: top` — miniaturka wyświetlana od górnej krawędzi
+    - mechanizm `objectPosition` dodany do `GalleryElement` jako opcjonalne pole w JSON
+
 ## ver 0.5.1 - mobile menu animation & gallery updates
 
     ulepszenia menu mobilnego (`Navigation/MainNavigation`):

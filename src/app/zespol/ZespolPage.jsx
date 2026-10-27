@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { DoctorBadge } from "../../components/DoctorBadge/DoctorBadge";
 import { DoctorBedgeMain } from "../../components/DoctorBadgeMain/DoctorBadgeMain";
+import { Reveal } from "../../components/Reveal/Reveal";
 
 import styles from "./zespol.module.css";
 import doctorsJSON from "../../data/doctorsList.json";
@@ -26,61 +27,64 @@ const ZespolPage = () => {
   return (
     <CustomLayout>
       <DoctorBedgeMain />
-      <div className={styles.outerWrapper}>
+      <Reveal as="div" className={styles.outerWrapper}>
         <div className={styles.sectionTitle}>Zespół Lekarski</div>
         <div className={styles.innerWrapper}>
-          {doctors.map((doctor) => {
+          {doctors.map((doctor, index) => {
             return (
-              <DoctorBadge
-                key={doctor.id}
-                name={doctor.name}
-                icon={doctor.icon}
-                photo={doctor.photo}
-                title={doctor.title}
-                description={doctor.description}
-              />
+              <Reveal key={doctor.id} delay={index * 0.06} distance={16} duration={0.5}>
+                <DoctorBadge
+                  name={doctor.name}
+                  icon={doctor.icon}
+                  photo={doctor.photo}
+                  title={doctor.title}
+                  description={doctor.description}
+                />
+              </Reveal>
             );
           })}
         </div>
-      </div>
+      </Reveal>
 
-      <div className={styles.outerWrapper}>
+      <Reveal as="div" className={styles.outerWrapper}>
         <div className={styles.sectionTitle}>Administracja</div>
         <div className={styles.innerWrapper}>
-          {administration.map((administration) => {
+          {administration.map((person, index) => {
             return (
-              <DoctorBadge
-                key={administration.id}
-                name={administration.name}
-                icon={administration.icon}
-                photo={administration.photo}
-                title={administration.title}
-                description={administration.description}
-              />
+              <Reveal key={person.id} delay={index * 0.06} distance={16} duration={0.5}>
+                <DoctorBadge
+                  name={person.name}
+                  icon={person.icon}
+                  photo={person.photo}
+                  title={person.title}
+                  description={person.description}
+                />
+              </Reveal>
             );
           })}
         </div>
-      </div>
+      </Reveal>
 
-      <div className={styles.outerWrapper}>
+      <Reveal as="div" className={styles.outerWrapper}>
         <div className={styles.sectionTitle}>Higienistki</div>
         <div className={styles.innerWrapper}>
-          {hygieneStaff.map((person) => {
+          {hygieneStaff.map((person, index) => {
             return (
-              <DoctorBadge
-                key={person.id}
-                name={person.name}
-                icon={person.icon}
-                photo={person.photo}
-                title={person.title}
-                description={person.description}
-              />
+              <Reveal key={person.id} delay={index * 0.06} distance={16} duration={0.5}>
+                <DoctorBadge
+                  name={person.name}
+                  icon={person.icon}
+                  photo={person.photo}
+                  title={person.title}
+                  description={person.description}
+                />
+              </Reveal>
             );
           })}
         </div>
-      </div>
+      </Reveal>
 
-      <div className={styles.specialWrapper}>
+      <Reveal as="div" className={styles.specialWrapper}>
         <div className={styles.specialInnerWrapper}>
           <div
             className={`${styles.sectionTitle} ${styles.sectionTitleSpecial}`}
@@ -88,16 +92,17 @@ const ZespolPage = () => {
             Rejestracja
           </div>
           <div className={styles.innerWrapper}>
-            {registrationStaff.map((person) => {
+            {registrationStaff.map((person, index) => {
               return (
-                <DoctorBadge
-                  key={person.id}
-                  name={person.name}
-                  icon={person.icon}
-                  photo={person.photo}
-                  title={person.title}
-                  description={person.description}
-                />
+                <Reveal key={person.id} delay={index * 0.06} distance={16} duration={0.5}>
+                  <DoctorBadge
+                    name={person.name}
+                    icon={person.icon}
+                    photo={person.photo}
+                    title={person.title}
+                    description={person.description}
+                  />
+                </Reveal>
               );
             })}
           </div>
@@ -116,26 +121,26 @@ const ZespolPage = () => {
             description={radiologyStaff[0].description}
           />
         </div>
-      </div>
+      </Reveal>
 
-      <div className={styles.outerWrapper}>
+      <Reveal as="div" className={styles.outerWrapper}>
         <div className={styles.sectionTitle}>Laboratorium Ortodontyczne</div>
         <div className={styles.innerWrapper}>
-          {laboratoryStaff.map((person) => {
+          {laboratoryStaff.map((person, index) => {
             return (
-              <DoctorBadge
-                key={person.id}
-                name={person.name}
-                icon={person.icon}
-                photo={person.photo}
-                title={person.title}
-                description={person.description}
-              />
+              <Reveal key={person.id} delay={index * 0.06} distance={16} duration={0.5}>
+                <DoctorBadge
+                  name={person.name}
+                  icon={person.icon}
+                  photo={person.photo}
+                  title={person.title}
+                  description={person.description}
+                />
+              </Reveal>
             );
           })}
         </div>
-      </div>
-      {/* </div> */}
+      </Reveal>
     </CustomLayout>
   );
 };

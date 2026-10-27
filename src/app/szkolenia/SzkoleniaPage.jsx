@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import style from "./szkolenia.module.css";
 import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
+import { Reveal } from "../../components/Reveal/Reveal";
 import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
 
 import szkolenieImg from "../../../public/photos/team/KatarzynaZaleskaSzkolenie.png";
@@ -14,7 +15,7 @@ const SzkoleniaPage = () => {
     <CustomLayout>
       <div className={style.pageWrapper}>
         <EmptySpaceUnderNavigation />
-        <div className={style.grayWrapper}>
+        <Reveal as="div" className={style.grayWrapper}>
           <h2 className={style.title}>Szkolenia</h2>
           <div className={style.doctorWrapper}>
             <h2 className={style.mainTitle}>
@@ -57,12 +58,12 @@ const SzkoleniaPage = () => {
               </div>
             </div>
           </div>
-        </div>
+        </Reveal>
 
-        <div className={style.schoolingSection}>
+        <Reveal as="div" className={style.schoolingSection}>
           <h2 className={style.schoolingTitle}>Szkolenia z Elea</h2>
           <EleaWrapper />
-        </div>
+        </Reveal>
       </div>
     </CustomLayout>
   );

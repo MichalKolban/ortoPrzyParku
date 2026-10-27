@@ -3,7 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { BracesGallery } from "../../components/BracesGallery/BracesGallery";
+import { Gallery } from "../../components/Gallery/Gallery";
 import { LogoListElement } from "../../components/LogoListElement/LogoListElement";
+import { Reveal } from "../../components/Reveal/Reveal";
 
 import ortoMainPhoto from "../../../public/photos/pracowaniaOrtodontyczna.png";
 import pracowniaOrtoPhoto from "../../../public/photos/pracowniaOrtoPhoto.png";
@@ -30,7 +32,10 @@ const PracowniaOrtodontycznaPage = () => {
   return (
     <CustomLayout>
       <div>
-        <div className={`${styles.sectionWrapper} ${styles.firstSection}`}>
+        <Reveal
+          as="div"
+          className={`${styles.sectionWrapper} ${styles.firstSection}`}
+        >
           <div className={styles.textBox}>
             <h2 className={styles.title}>Pracowania ortodontyczna</h2>
             <p className={styles.description}>
@@ -38,7 +43,9 @@ const PracowniaOrtodontycznaPage = () => {
               laboratorium. Takie rozwiązanie daje nam możliwość bezpośredniego
               kontaktu z lekarzami prowadzącymi leczenie ortodontyczne oraz
               szybszą realizacje prac.
-              <p className={styles.titleSmall}>Co nas wyróżnia?</p>
+            </p>
+            <p className={styles.titleSmall}>Co nas wyróżnia?</p>
+            <p className={styles.description}>
               Mentoring lekarza specjalisty – dzięki ścisłej współpracy i opiece
               doświadczonego eksperta możemy zapewnić najwyższy standard usług
               oraz indywidualne podejście do każdego przypadku.
@@ -52,9 +59,9 @@ const PracowniaOrtodontycznaPage = () => {
               alt="pracownia"
             />
           </div>
-        </div>
+        </Reveal>
 
-        <div className={styles.grayWrapper}>
+        <Reveal as="div" className={styles.grayWrapper}>
           <div
             className={`${styles.grayInnerWrapper} ${styles.equipmentWrapper}`}
           >
@@ -93,70 +100,38 @@ const PracowniaOrtodontycznaPage = () => {
               </ul>
             </div>
             <div className={styles.logoBox}>
-              <div className={styles.logoSmallBox}>
+              <Reveal as="div" delay={0 * 0.06} distance={12} duration={0.4} className={styles.logoSmallBox}>
                 <Image src={shapeLogo} width={280} height={60} alt="3shape" />
-              </div>
-              <div className={styles.logoSmallBox}>
-                <Image
-                  src={onyxCephLogo}
-                  width={280}
-                  height={60}
-                  alt="onyxCeph"
-                />
-              </div>
-              <div className={styles.logoSmallBox}>
-                <Image
-                  src={meshmixerLogo}
-                  width={200}
-                  height={60}
-                  alt="meshmixer"
-                />
-              </div>
-              <div className={styles.logoSmallBox}>
-                <Image
-                  src={blenderLogo}
-                  width={260}
-                  height={80}
-                  alt="blender"
-                />
-              </div>
-              <div className={styles.logoSmallBox}>
-                <Image
-                  src={oneTwoThreeDesignLogo}
-                  width={80}
-                  height={80}
-                  alt="123Design"
-                />
-              </div>
-              <div className={styles.logoSmallBox}>
-                <Image
-                  src={threeDBuilderLogo}
-                  width={80}
-                  height={80}
-                  alt="threeBuilder"
-                />
-              </div>
-              <div className={styles.logoSmallBox}>
-                <Image
-                  src={meshLabLogo}
-                  width={200}
-                  height={80}
-                  alt="meshLab"
-                />
-              </div>
-              <div className={styles.logoSmallBox}>
-                <Image
-                  src={threeDToolLogo}
-                  width={220}
-                  height={60}
-                  alt="3D-Tool"
-                />
-              </div>
+              </Reveal>
+              <Reveal as="div" delay={1 * 0.06} distance={12} duration={0.4} className={styles.logoSmallBox}>
+                <Image src={onyxCephLogo} width={280} height={60} alt="onyxCeph" />
+              </Reveal>
+              <Reveal as="div" delay={0 * 0.06} distance={12} duration={0.4} className={styles.logoSmallBox}>
+                <Image src={meshmixerLogo} width={200} height={60} alt="meshmixer" />
+              </Reveal>
+              <Reveal as="div" delay={1 * 0.06} distance={12} duration={0.4} className={styles.logoSmallBox}>
+                <Image src={blenderLogo} width={260} height={80} alt="blender" />
+              </Reveal>
+              <Reveal as="div" delay={0 * 0.06} distance={12} duration={0.4} className={styles.logoSmallBox}>
+                <Image src={oneTwoThreeDesignLogo} width={80} height={80} alt="123Design" />
+              </Reveal>
+              <Reveal as="div" delay={1 * 0.06} distance={12} duration={0.4} className={styles.logoSmallBox}>
+                <Image src={threeDBuilderLogo} width={80} height={80} alt="threeBuilder" />
+              </Reveal>
+              <Reveal as="div" delay={0 * 0.06} distance={12} duration={0.4} className={styles.logoSmallBox}>
+                <Image src={meshLabLogo} width={200} height={80} alt="meshLab" />
+              </Reveal>
+              <Reveal as="div" delay={1 * 0.06} distance={12} duration={0.4} className={styles.logoSmallBox}>
+                <Image src={threeDToolLogo} width={220} height={60} alt="3D-Tool" />
+              </Reveal>
             </div>
           </div>
-        </div>
+        </Reveal>
 
-        <div className={styles.sectionWrapper}>
+        <Reveal
+          as="div"
+          className={`${styles.sectionWrapper} ${styles.reverseRow}`}
+        >
           <div className={styles.btnTextBox}>
             <div className={styles.textBox}>
               <p className={styles.description}>
@@ -200,34 +175,60 @@ const PracowniaOrtodontycznaPage = () => {
               width={340}
               height={400}
               alt="pracownia"
+              className={styles.photoImage}
             />
           </div>
-        </div>
+        </Reveal>
 
-        <div className={styles.grayWrapper}>
-          <div className={styles.grayInnerWrapper}>
+        <Reveal as="div" className={styles.grayWrapper}>
+          <div className={`${styles.grayInnerWrapper} ${styles.uslugiRow}`}>
             <div className={styles.textBox}>
               <h2 className={styles.title}>Usługi</h2>
               <p className={styles.description}>
                 Świadczymy kompleksowe usługi techniki dentystycznej w zakresie
                 ortodoncji.
               </p>
-              <ol className={styles.orderedList}>
-                Nasze usługi:
-                <li className={styles.orderedListElement}>Diagnostyka</li>
-                <li>Aparaty ortodontyczne</li>
-                <li>Szyny</li>
-                <ul className={styles.equipmentList}>
-                  <LogoListElement>szyna do wybielania</LogoListElement>
-                  <LogoListElement>szyna z set-upem</LogoListElement>
-                  <LogoListElement>szyna relaksacyjna</LogoListElement>
-                  <LogoListElement>szyna retencyjna</LogoListElement>
-                  <LogoListElement>szyna do deprogramacji</LogoListElement>
-                </ul>
-                <li>Alignery In-Office lub GRAPHY</li>
-                <li>Prace drukowane z żywicy</li>
-                <li>Prace drukowane z metalu</li>
-              </ol>
+              <div className={styles.servicesList}>
+                <Reveal as="div" delay={0 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
+                  <span className={styles.serviceLabel}>Diagnostyka</span>
+                </Reveal>
+                <Reveal as="div" delay={1 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
+                  <span className={styles.serviceLabel}>
+                    Aparaty ortodontyczne
+                  </span>
+                </Reveal>
+                <Reveal
+                  as="div"
+                  delay={2 * 0.06}
+                  distance={12}
+                  duration={0.4}
+                  className={styles.serviceCard}
+                >
+                  <span className={styles.serviceLabel}>Szyny</span>
+                  <ul className={styles.equipmentList}>
+                    <LogoListElement>szyna do wybielania</LogoListElement>
+                    <LogoListElement>szyna z set-upem</LogoListElement>
+                    <LogoListElement>szyna relaksacyjna</LogoListElement>
+                    <LogoListElement>szyna retencyjna</LogoListElement>
+                    <LogoListElement>szyna do deprogramacji</LogoListElement>
+                  </ul>
+                </Reveal>
+                <Reveal as="div" delay={3 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
+                  <span className={styles.serviceLabel}>
+                    Alignery In-Office lub GRAPHY
+                  </span>
+                </Reveal>
+                <Reveal as="div" delay={4 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
+                  <span className={styles.serviceLabel}>
+                    Prace drukowane z żywicy
+                  </span>
+                </Reveal>
+                <Reveal as="div" delay={5 * 0.06} distance={12} duration={0.4} className={styles.serviceCard}>
+                  <span className={styles.serviceLabel}>
+                    Prace drukowane z metalu
+                  </span>
+                </Reveal>
+              </div>
             </div>
             <div className={styles.ortoMainPhotoWrapper}>
               <Image
@@ -235,15 +236,20 @@ const PracowniaOrtodontycznaPage = () => {
                 width={340}
                 height={400}
                 alt="usługi"
+                className={styles.photoImage}
               />
             </div>
           </div>
-        </div>
+        </Reveal>
 
-        <BracesGallery />
+        <Gallery
+          id="gallery-caption-below"
+          title="Galeria Aparatów"
+          captionPosition="below"
+        />
 
-        <div className={styles.grayWrapper}>
-          <div className={styles.grayInnerWrapper}>
+        <Reveal as="div" className={styles.grayWrapper}>
+          <div className={`${styles.grayInnerWrapper} ${styles.reverseRow}`}>
             <div className={`${styles.textBox} ${styles.workWithUs}`}>
               <h2 className={styles.title}>Współpraca</h2>
               <p className={styles.description}>
@@ -251,12 +257,19 @@ const PracowniaOrtodontycznaPage = () => {
                 indywidualnych lekarzy. Aby dowiedzieć się więcej zachęcamy do
                 kontaktu
               </p>
-              <Link
-                href={"/kontakt"}
-                className={`${styles.btn} ${styles.descriptionBtn}`}
-              >
-                <div>Kontakt</div>
-              </Link>
+              <div className={styles.workWithUsButtons}>
+                <Link href={"/kontakt"} className={styles.btn}>
+                  <div>Kontakt</div>
+                </Link>
+                <Link
+                  id="kartaPracy"
+                  href={"/documents/pracowniaKartaPracy.pdf"}
+                  target="_blank"
+                  className={styles.btn}
+                >
+                  <div>Pobierz kartę pracowni</div>
+                </Link>
+              </div>
             </div>
 
             <div className={styles.ortoMainPhotoWrapper}>
@@ -265,21 +278,11 @@ const PracowniaOrtodontycznaPage = () => {
                 width={350}
                 height={200}
                 alt="współpraca"
+                className={styles.photoImage}
               />
             </div>
           </div>
-        </div>
-
-        <div>
-          <Link
-            id="kartaPracy"
-            href={"/documents/pracowniaKartaPracy.pdf"}
-            target="_blank"
-            className={styles.btn}
-          >
-            <div>Pobierz kartę pracowni</div>
-          </Link>
-        </div>
+        </Reveal>
       </div>
     </CustomLayout>
   );

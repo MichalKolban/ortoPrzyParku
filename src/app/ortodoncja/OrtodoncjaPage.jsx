@@ -5,6 +5,7 @@ import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavig
 import { Section } from "../../components/Section/Section";
 import { LogoListElement } from "../../components/LogoListElement/LogoListElement";
 import { PhotosLinkRow } from "../../components/PhotosLinkRow/PhotosLinkRow";
+import { Reveal } from "../../components/Reveal/Reveal";
 
 import { useEffect } from "react";
 
@@ -48,7 +49,7 @@ const OrtodoncjaPage = () => {
   return (
     <CustomLayout>
       <EmptySpaceUnderNavigation />
-      <div className={styles.background}>
+      <Reveal as="div" className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
             <h3 className={styles.title}>Ortodoncja przy Parku</h3>
@@ -69,40 +70,42 @@ const OrtodoncjaPage = () => {
             />
           </div>
         </Section>
-      </div>
-      <Section backgroundClass={"white"}>
-        <div>
-          <div id="ortodoncja" className={styles.title}>
-            Czym jest ortodoncja ?
+      </Reveal>
+      <Reveal as="div">
+        <Section backgroundClass={"white"}>
+          <div>
+            <div id="ortodoncja" className={styles.title}>
+              Czym jest ortodoncja ?
+            </div>
+            <div className={styles.textContent}>
+              Ortodoncja jest dziedziną stomatologii, która zajmuje się
+              zapobieganiem oraz leczeniem wad zgryzu. W naszym gabinecie polega
+              ono na holistycznym podejściu do pacjenta. Dokładamy wszelkich
+              starań aby przeprowadzone leczenie ortodontyczne gwarantowało nie
+              tylko ładny i estetyczny uśmiech, ale również zapobiegało rozwojowi
+              wad zgryzu, wymowy, problemów z oddychaniem a także próchnicy,
+              chorobom przyzębia oraz zaburzeniom w stawie skroniowo-żuchwowym.
+            </div>
+            <div className={styles.textContent}>
+              Ortodoncja stanowi jeden z głównych filarów naszego gabinetu. Nasz
+              zespół ma pod opieką zarówno dzieci, młodzież i dorosłych. W
+              Ortodoncji Przy Parku bardzo starannie planujemy Twój indywidualny
+              proces leczenia ortodontycznego. Podczas konsultacji omawiamy Twoje
+              oczekiwania względem leczenia, wstępnie omawiamy możliwości i
+              metody, które można wykorzystać w leczeniu. Indywidualny plan
+              leczenia w naszym gabinecie powstaje na podstawie wnikliwie
+              przeprowadzonej diagnostyki, na którą składają się: wywiad medyczny
+              i stomatologiczny, badanie kliniczne, analiza zdjęć rentgenowskich,
+              analiza fotografii twarzy i zdjęć wewnątrzustnych oraz ocena modeli
+              diagnostycznych.
+            </div>
           </div>
-          <div className={styles.textContent}>
-            Ortodoncja jest dziedziną stomatologii, która zajmuje się
-            zapobieganiem oraz leczeniem wad zgryzu. W naszym gabinecie polega
-            ono na holistycznym podejściu do pacjenta. Dokładamy wszelkich
-            starań aby przeprowadzone leczenie ortodontyczne gwarantowało nie
-            tylko ładny i estetyczny uśmiech, ale również zapobiegało rozwojowi
-            wad zgryzu, wymowy, problemów z oddychaniem a także próchnicy,
-            chorobom przyzębia oraz zaburzeniom w stawie skroniowo-żuchwowym.
+          <div className={styles.imageWrapper}>
+            <Image src={nakladkiImg} width={300} height={360} alt="nakładki" />
           </div>
-          <div className={styles.textContent}>
-            Ortodoncja stanowi jeden z głównych filarów naszego gabinetu. Nasz
-            zespół ma pod opieką zarówno dzieci, młodzież i dorosłych. W
-            Ortodoncji Przy Parku bardzo starannie planujemy Twój indywidualny
-            proces leczenia ortodontycznego. Podczas konsultacji omawiamy Twoje
-            oczekiwania względem leczenia, wstępnie omawiamy możliwości i
-            metody, które można wykorzystać w leczeniu. Indywidualny plan
-            leczenia w naszym gabinecie powstaje na podstawie wnikliwie
-            przeprowadzonej diagnostyki, na którą składają się: wywiad medyczny
-            i stomatologiczny, badanie kliniczne, analiza zdjęć rentgenowskich,
-            analiza fotografii twarzy i zdjęć wewnątrzustnych oraz ocena modeli
-            diagnostycznych.
-          </div>
-        </div>
-        <div className={styles.imageWrapper}>
-          <Image src={nakladkiImg} width={300} height={360} alt="nakładki" />
-        </div>
-      </Section>
-      <div className={styles.background}>
+        </Section>
+      </Reveal>
+      <Reveal as="div" className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div className={styles.textBox}>
             <h3 id="skany3d" className={styles.title}>
@@ -127,72 +130,78 @@ const OrtodoncjaPage = () => {
             />
           </div>
         </Section>
-      </div>
-      <Section backgroundClass={"white"} reverse={true}>
-        <div className={styles.textBox}>
-          <h3 className={styles.title}>Nowoczesny sprzęt</h3>
-          <div className={styles.textContent}>
-            Technologia skanowania eliminuje konieczność pobierania wycisków.
-            Skan pozwala nam na zdiagnozowanie problemu, wykonanie symulacji
-            efektu leczenia oraz wirtualne projektowanie aparatów.
+      </Reveal>
+      <Reveal as="div">
+        <Section backgroundClass={"white"} reverse={true}>
+          <div className={styles.textBox}>
+            <h3 className={styles.title}>Nowoczesny sprzęt</h3>
+            <div className={styles.textContent}>
+              Technologia skanowania eliminuje konieczność pobierania wycisków.
+              Skan pozwala nam na zdiagnozowanie problemu, wykonanie symulacji
+              efektu leczenia oraz wirtualne projektowanie aparatów.
+            </div>
           </div>
-        </div>
-        <div className={styles.imageWrapper}>
-          <Image
-            src={skanowanieImg}
-            width={300}
-            height={180}
-            alt="ortodoncja przy parku"
-          />
-        </div>
-      </Section>
-      <Section backgroundClass={"white"}>
-        <div className={styles.textBox}>
-          <h3 className={styles.title}>Trudne przypadki</h3>
-          <div className={styles.textContent}>
-            Specjalizujemy się w leczeniu zaburzeń stawów skroniowo-żuchwowych
-            oraz trudnych wad zgryzu. Problemy układu narządu żucia są bardzo
-            złożone, dlatego stosujemy holistyczne podejście do pacjenta, które
-            umożliwia prawidłową diagnostykę oraz dobór indywidualnego programu
-            terapeutycznego. Nie stronimy od leczenia trudnych wad zgryzu.
-            Leczenie ortodontyczno-chirurgiczne dotyczy korekty dysproporcji
-            struktur kostnych w obrębie czaszki. Nasz gabinet ściśle
-            współpracuje z chirurgami szczękowo-twarzowymi z terenu całej
-            Polski. Kompleksowym leczeniem pacjenta zajmuje się zespół, który
-            obejmuje lekarza ortodontę, chirurga szczękowo-twarzowego,
-            fizjoterapeutę oraz logopedę.
+          <div className={styles.imageWrapper}>
+            <Image
+              src={skanowanieImg}
+              width={300}
+              height={180}
+              alt="ortodoncja przy parku"
+            />
           </div>
-        </div>
-        <div className={styles.imageWrapper}>
-          <Image
-            src={szczekaImg}
-            width={300}
-            height={180}
-            alt="ortodoncja przy parku"
-          />
-        </div>
-      </Section>
-      <Section backgroundClass={"white"} reverse={true}>
-        <div className={styles.textBox}>
-          <h3 className={styles.title}>Higiena jamy ustnej</h3>
-          <div className={styles.textContent}>
-            Zwracamy dużą uwagę na higienę jamy ustnej w trakcie leczenia
-            ortodontycznego. Pomagają w tym nasze higienistki stomatologiczne,
-            którzy przygotowują i przedstawiają pacjentowi specjalny protokół
-            dbania o higienę podczas noszenia aparatu.
+        </Section>
+      </Reveal>
+      <Reveal as="div">
+        <Section backgroundClass={"white"}>
+          <div className={styles.textBox}>
+            <h3 className={styles.title}>Trudne przypadki</h3>
+            <div className={styles.textContent}>
+              Specjalizujemy się w leczeniu zaburzeń stawów skroniowo-żuchwowych
+              oraz trudnych wad zgryzu. Problemy układu narządu żucia są bardzo
+              złożone, dlatego stosujemy holistyczne podejście do pacjenta, które
+              umożliwia prawidłową diagnostykę oraz dobór indywidualnego programu
+              terapeutycznego. Nie stronimy od leczenia trudnych wad zgryzu.
+              Leczenie ortodontyczno-chirurgiczne dotyczy korekty dysproporcji
+              struktur kostnych w obrębie czaszki. Nasz gabinet ściśle
+              współpracuje z chirurgami szczękowo-twarzowymi z terenu całej
+              Polski. Kompleksowym leczeniem pacjenta zajmuje się zespół, który
+              obejmuje lekarza ortodontę, chirurga szczękowo-twarzowego,
+              fizjoterapeutę oraz logopedę.
+            </div>
           </div>
-        </div>
-        <div className={styles.imageWrapper}>
-          <Image
-            src={higienaImg}
-            width={300}
-            height={180}
-            alt="ortodoncja przy parku"
-          />
-        </div>
-      </Section>
+          <div className={styles.imageWrapper}>
+            <Image
+              src={szczekaImg}
+              width={300}
+              height={180}
+              alt="ortodoncja przy parku"
+            />
+          </div>
+        </Section>
+      </Reveal>
+      <Reveal as="div">
+        <Section backgroundClass={"white"} reverse={true}>
+          <div className={styles.textBox}>
+            <h3 className={styles.title}>Higiena jamy ustnej</h3>
+            <div className={styles.textContent}>
+              Zwracamy dużą uwagę na higienę jamy ustnej w trakcie leczenia
+              ortodontycznego. Pomagają w tym nasze higienistki stomatologiczne,
+              którzy przygotowują i przedstawiają pacjentowi specjalny protokół
+              dbania o higienę podczas noszenia aparatu.
+            </div>
+          </div>
+          <div className={styles.imageWrapper}>
+            <Image
+              src={higienaImg}
+              width={300}
+              height={180}
+              alt="ortodoncja przy parku"
+            />
+          </div>
+        </Section>
+      </Reveal>
       <OrtoBanner />
-      <div className={styles.background}>
+      <Reveal as="div" className={styles.background}>
         <Section backgroundClass={"gray"}>
           <div id="invasilign" className={styles.textColumn}>
             <h3 className={styles.bigTitle}>Zakres Usług Ortodontycznych</h3>
@@ -230,7 +239,7 @@ const OrtodoncjaPage = () => {
               <LogoListElement>Nakładki Graphy</LogoListElement>
               <li className={styles.textContent}>
                 Direct printing memory shape aligner. Nowoczesna metoda leczenia
-                alignerami, w której stosuje o innowacyjny  materiał utrzymujący
+                alignerami, w której stosuje o innowacyjny  materiał utrzymujący
                 pamięć kształtu. Nakładki aktywują się w jamie ustnej pacjenta i
                 dopasowują się do kształtu zębów.
               </li>
@@ -278,7 +287,7 @@ const OrtodoncjaPage = () => {
             </div>
           </div>
         </Section>
-      </div>
+      </Reveal>
 
       <PhotosLinkRow />
     </CustomLayout>

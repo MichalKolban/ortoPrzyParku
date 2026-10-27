@@ -36,15 +36,11 @@
       "photo": "/photos/gallery/beneslider02-compressed.webp"
     },
     {
-      "id": 8,
-      "name": "Dwuczęściowa szyna deprogramacyjna",
-      "photo": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjna-compressed.webp"
-    },
-    {
       "id": 29,
       "name": "Dwuczęściowa szyna deprogramacyjna",
-      "photo": "/photos/gallery/notShown/dwuczesciowaSzynaDeprogramacyjna02-compressed.webp",
-      "photoLightbox": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjnaHorizontal-compressed.webp"
+      "photo": "/photos/gallery/notShown/dwuczesciowaSzynaDeprogramacyjnaMiniaturka-compressed.webp",
+      "photoLightbox": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjnaHorizontal-compressed.webp",
+      "objectPosition": "top"
     },
     {
       "id": 9,

@@ -41,6 +41,7 @@ export const Gallery = ({
                 name={element.name}
                 onClick={() => setActiveIndex(index)}
                 captionPosition={captionPosition}
+                objectPosition={element.objectPosition}
               />
             </Reveal>
           );

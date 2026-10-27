@@ -15,6 +15,7 @@ export const GalleryElement = ({
   name,
   onClick,
   captionPosition = "overlay",
+  objectPosition,
 }) => {
   const isLong = name.length > 45;
   const isVeryLong = name.length > 65;
@@ -48,6 +49,7 @@ export const GalleryElement = ({
             height={255}
             alt={name}
             className={styles.image}
+            style={objectPosition ? { objectPosition } : undefined}
           />
           <div className={styles.zoomIcon} aria-hidden="true">
             <ZoomIcon />

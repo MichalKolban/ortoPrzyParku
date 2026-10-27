@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { EmptySpaceUnderNavigation } from "../../components/EmptySpaceUnderNavigation/EmptySpaceUnderNavigation";
 import { OrtoBanner } from "../../components/OrtoBanner/OrtoBanner";
+import { Reveal } from "../../components/Reveal/Reveal";
 
 import styles from "./kontakt.module.css";
 import CustomLayout from "@/components/Layouts/CustomLayout/CustomLayout";
@@ -18,7 +19,7 @@ const KontaktPage = () => {
       <OrtoBanner />
 
       <div className={styles.contactWrapper}>
-        <div className={styles.mainInfo}>
+        <Reveal as="div" className={styles.mainInfo}>
           <h3 className={styles.mainTitle}>Dane kontaktowe</h3>
           <div className={styles.contactBoxWrapper}>
             <div className={styles.contactBox}>
@@ -79,8 +80,8 @@ const KontaktPage = () => {
               </a>
             </div>
           </div>
-        </div>
-        <div className={styles.columnWrapper}>
+        </Reveal>
+        <Reveal as="div" className={styles.columnWrapper} delay={0.1}>
           <div className={styles.cityMapBox}>
             <div className={styles.cityWrapper}>
               <div className={styles.cityTitle}>Szczecin</div>
@@ -166,9 +167,9 @@ const KontaktPage = () => {
               <button className={styles.btn}>Zobacz na mapie</button>
             </a>
           </div>
-        </div>
+        </Reveal>
 
-        <div className={styles.mainInfo}>
+        <Reveal as="div" className={styles.mainInfo} delay={0.15}>
           <h3 className={styles.mainTitle}>Social media</h3>
           <div className={styles.socialBox}>
             <a
@@ -202,7 +203,7 @@ const KontaktPage = () => {
               </button>
             </a>
           </div>
-        </div>
+        </Reveal>
       </div>
     </CustomLayout>
   );
