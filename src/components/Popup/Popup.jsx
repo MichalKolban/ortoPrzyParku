@@ -4,8 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import styles from "./Popup.module.css";
 
-const STORAGE_KEY = "closureNoticeLastShown";
-const INTERVAL_MS = 6 * 60 * 60 * 1000;
+const STORAGE_KEY = "closureNotice_20261109";
+const INTERVAL_MS = 15 * 60 * 1000;
 const FADE_MS = 300;
 
 export const Popup = () => {
@@ -93,17 +93,25 @@ export const Popup = () => {
         </h2>
 
         <p id="closure-notice-text" className={styles.text}>
-          Drodzy Pacjenci, w piątek
+          Drodzy Pacjenci, z przyczyn od nas niezależnych dzisiaj tj.
         </p>
-        <p className={styles.date}>09.10.2026</p>
+        <p className={styles.date}>09.11.2026</p>
         <p className={styles.text}>
-          nasz Gabinet w Szczecinie oraz Myśliborzu będzie nieczynny. Za
-          utrudnienia przepraszamy.
+          nasz gabinet w Szczecinie jest nieczynny. Za niedogodności
+          przepraszamy.
         </p>
-
-        <button className={styles.confirmButton} onClick={handleClose}>
-          Zamknij
-        </button>
+        <p className={styles.text} style={{ marginTop: "12px" }}>
+          W sprawach pilnych prosimy o kontakt telefoniczny z naszą
+          rejestracją:
+        </p>
+        <div className={styles.actions}>
+          <a href="tel:501199124" className={styles.phone}>
+            501-199-124
+          </a>
+          <button className={styles.confirmButton} onClick={handleClose}>
+            Zamknij
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -95,8 +95,34 @@
   letter-spacing: 0.02em;
 }
 
+.phone {
+  margin: 10px 0;
+  padding: 10px 20px;
+  display: inline-block;
+  color: var(--darkBlue);
+  background-color: rgba(17, 128, 195, 0.1);
+  border-radius: 12px;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.phone:hover {
+  background-color: rgba(17, 128, 195, 0.2);
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 16px;
+}
+
 .confirmButton {
-  margin-top: 26px;
+  margin-top: 0;
   padding: 13px 36px;
   border: none;
   border-radius: 12px;
