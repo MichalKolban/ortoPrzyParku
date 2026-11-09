@@ -5,7 +5,6 @@ import Image from "next/image";
 import styles from "./Popup.module.css";
 
 const STORAGE_KEY = "closureNotice_20261109";
-const INTERVAL_MS = 15 * 60 * 1000;
 const FADE_MS = 300;
 
 export const Popup = () => {
@@ -15,17 +14,9 @@ export const Popup = () => {
   const closeBtnRef = useRef(null);
 
   useEffect(() => {
-    let lastShown = 0;
     try {
-      lastShown = Number(localStorage.getItem(STORAGE_KEY)) || 0;
-    } catch {}
-
-    if (Date.now() - lastShown < INTERVAL_MS) return;
-
-    // Zapis od razu przy wyświetleniu - dzięki temu inne strony/karty
-    // nie pokażą popupu przez kolejne 6h.
-    try {
-      localStorage.setItem(STORAGE_KEY, String(Date.now()));
+      if (sessionStorage.getItem(STORAGE_KEY)) return;
+      sessionStorage.setItem(STORAGE_KEY, "1");
     } catch {}
 
     setIsOpen(true);

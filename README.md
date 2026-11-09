@@ -10,6 +10,14 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.5.5 - closure notice popup (09.11.2026, Szczecin)
+
+    popup z informacja o nieczynnym gabinecie w Szczecinie (09.11.2026):
+    - tresc: "z przyczyn od nas niezaleznych dzisiaj tj. 09.11.2026r nasz gabinet w Szczecinie jest nieczynny"
+    - numer telefonu rejestracji (501-199-124) wyeksponowany jako klikalny link tel: z tlem analogicznym do wyroznienia daty
+    - popup pokazuje sie raz na sesje przegladarki (sessionStorage pod kluczem `closureNotice_20261109`)
+    - aby wylaczyc: zakomentowac `<Popup />` oraz jego import w `app/layout.jsx`
+
 ## ver 0.5.4 - fix page flickering on load
 
     naprawa migotania strony po dodaniu animacji Reveal:
