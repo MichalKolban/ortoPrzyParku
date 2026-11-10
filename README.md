@@ -10,6 +10,18 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.5.6 - /cennik highlight animation & mobile fix
+
+    animacja po kliknięciu w link na stronie /cennik (`PriceListPicker`):
+    - po zakończeniu smooth-scroll kafelek docelowy "pulsuje" pierścieniem w kolorze własnego tła
+    - kolor pierścienia odczytywany w runtime przez `getComputedStyle` → czerwony kafelek = czerwony pierścień itd.
+    - animacja realizowana przez Web Animations API (bez osobnej klasy CSS)
+    - obsługa `scrollend` event z fallbackiem `setTimeout(700ms)` dla starszych przeglądarek
+
+    fix przesłonięcia pierwszego boxa przez nawigację na mobilce (`PriceListPicker.module.css`):
+    - na mobile portrait (≤600px) `.priceListWrapper` miał `margin: 0 auto` → nawigacja (fixed, ~64px) zasłaniała pierwszy box
+    - zmienione na `margin: 90px auto 0 auto` (spójne z breakpointem tabletowym)
+
 ## ver 0.5.5 - closure notice popup (09.11.2026, Szczecin)
 
     popup z informacja o nieczynnym gabinecie w Szczecinie (09.11.2026):

@@ -8,10 +8,29 @@ export const PriceListPicker = () => {
       const yPosition =
         element.getBoundingClientRect().top + window.pageYOffset + yOffset;
 
-      window.scrollTo({
-        top: yPosition,
-        behavior: "smooth",
-      });
+      window.scrollTo({ top: yPosition, behavior: "smooth" });
+
+      const addHighlight = () => {
+        const bg = window.getComputedStyle(element).backgroundColor;
+        const rgb = bg.match(/\d+/g);
+        if (!rgb) return;
+        const [r, g, b] = rgb;
+        const base = "-10px 10px 7px 0px rgba(0,0,0,0.25)";
+        element.animate(
+          [
+            { boxShadow: `${base}, 0 0 0 0px rgba(${r},${g},${b},0)` },
+            { boxShadow: `${base}, 0 0 0 5px rgba(${r},${g},${b},0.5)` },
+            { boxShadow: `${base}, 0 0 0 10px rgba(${r},${g},${b},0)` },
+          ],
+          { duration: 1400, easing: "ease-out" }
+        );
+      };
+
+      if ("onscrollend" in window) {
+        window.addEventListener("scrollend", addHighlight, { once: true });
+      } else {
+        setTimeout(addHighlight, 700);
+      }
     }
   };
 
