@@ -3,6 +3,7 @@
 import Image from "next/image";
 
 import { PriceTile } from "../PriceTile/PriceTile";
+import { Reveal } from "../Reveal/Reveal";
 
 import styles from "./PriceListDisplay.module.css";
 
@@ -34,26 +35,26 @@ export const PriceListDisplay = () => {
         <h2 className={styles.titleSection}>Ortodoncja</h2>
         <div className={styles.innerWrapper}>
           <div className={styles.column}>
-            {ortodocnjaFirstColumn.map((element) => {
-              return (
+            {ortodocnjaFirstColumn.map((element, index) => (
+              <Reveal key={element.id} distance={20} duration={0.5} delay={index * 0.08}>
                 <PriceTile
-                  key={element.id}
                   title={element.category}
                   iconImg={element.icon}
                   itemsArr={element.items}
                 />
-              );
-            })}
+              </Reveal>
+            ))}
           </div>
 
           <div className={styles.column}>
-            {ortodoncjaSecondColumn.map((element) => (
-              <PriceTile
-                key={element.id}
-                title={element.category}
-                iconImg={element.icon}
-                itemsArr={element.items}
-              />
+            {ortodoncjaSecondColumn.map((element, index) => (
+              <Reveal key={element.id} distance={20} duration={0.5} delay={index * 0.08}>
+                <PriceTile
+                  title={element.category}
+                  iconImg={element.icon}
+                  itemsArr={element.items}
+                />
+              </Reveal>
             ))}
           </div>
         </div>
@@ -62,16 +63,15 @@ export const PriceListDisplay = () => {
         <h2 className={styles.titleSection}>Stomatologia</h2>
         <div className={styles.innerWrapper}>
           <div className={styles.column}>
-            {stomatologiaFirstColumn.map((element) => {
-              return (
+            {stomatologiaFirstColumn.map((element, index) => (
+              <Reveal key={element.id} distance={20} duration={0.5} delay={index * 0.08}>
                 <PriceTile
-                  key={element.id}
                   title={element.category}
                   iconImg={element.icon}
                   itemsArr={element.items}
                 />
-              );
-            })}
+              </Reveal>
+            ))}
 
             <a href="#" className={styles.backToStart}>
               <Image
@@ -85,13 +85,14 @@ export const PriceListDisplay = () => {
           </div>
 
           <div className={styles.column}>
-            {stomatologiaSecondColumn.map((element) => (
-              <PriceTile
-                key={element.id}
-                title={element.category}
-                iconImg={element.icon}
-                itemsArr={element.items}
-              />
+            {stomatologiaSecondColumn.map((element, index) => (
+              <Reveal key={element.id} distance={20} duration={0.5} delay={index * 0.08}>
+                <PriceTile
+                  title={element.category}
+                  iconImg={element.icon}
+                  itemsArr={element.items}
+                />
+              </Reveal>
             ))}
 
             <a href="#" className={styles.backToStartMobile}>

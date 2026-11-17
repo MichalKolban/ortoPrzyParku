@@ -36,71 +36,69 @@
       "photo": "/photos/gallery/beneslider02-compressed.webp"
     },
     {
-      "id": 29,
-      "name": "Dwuczęściowa szyna deprogramacyjna",
-      "photo": "/photos/gallery/notShown/dwuczesciowaSzynaDeprogramacyjnaMiniaturka-compressed.webp",
-      "photoLightbox": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjnaHorizontal-compressed.webp",
-      "objectPosition": "top"
-    },
-    {
-      "id": 9,
+      "id": 8,
       "name": "Dystalslider Mezjalslider",
       "photo": "/photos/gallery/dystalsliderMezjalslider01-compressed.webp"
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Expander",
       "photo": "/photos/gallery/expander01-compressed.webp"
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Graphy - nakładki z pamięcią kształtu",
       "photo": "/photos/gallery/graphy01-compressed.webp"
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Graphy - nakładki z pamięcią kształtu",
       "photo": "/photos/gallery/graphy02-compressed.webp"
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "Hybryd Hyrax",
       "photo": "/photos/gallery/hybrydHyrax01-compressed.webp"
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "Hybryd Hyrax",
       "photo": "/photos/gallery/hybrydHyrax02-compressed.webp"
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Hyrax Na Szynach",
       "photo": "/photos/gallery/hyraxNaSzynach01-compressed.webp"
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "InOffice - nakładki termoformowalne",
       "photo": "/photos/gallery/inOffice01-compressed.webp"
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "InOffice - nakładki termoformowalne",
       "photo": "/photos/gallery/inOffice02-compressed.webp"
     },
     {
-      "id": 18,
+      "id": 17,
       "name": "Lip Bumper",
       "photo": "/photos/gallery/lipBumper01-compressed.webp"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Luk Jezykowy",
       "photo": "/photos/gallery/lukJezykowy01-compressed.webp"
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Marco Rosa",
       "photo": "/photos/gallery/marcoRosa01-compressed.webp"
+    },
+    {
+      "id": 20,
+      "name": "Marco Rosa",
+      "photo": "/photos/gallery/marcoRosa03-compressed.webp"
     },
     {
       "id": 21,
@@ -109,8 +107,8 @@
     },
     {
       "id": 22,
-      "name": "Marco Rosa",
-      "photo": "/photos/gallery/marcoRosa03-compressed.webp"
+      "name": "Marpe na 4 śrubach",
+      "photo": "/photos/gallery/marpe02-compressed.webp"
     },
     {
       "id": 23,
@@ -119,13 +117,15 @@
     },
     {
       "id": 24,
-      "name": "Marpe na 4 śrubach",
-      "photo": "/photos/gallery/marpe02-compressed.webp"
+      "name": "Quad Helix",
+      "photo": "/photos/gallery/quadHelix01-compressed.webp"
     },
     {
       "id": 25,
-      "name": "Quad Helix",
-      "photo": "/photos/gallery/quadHelix01-compressed.webp"
+      "name": "Dwuczęściowa szyna deprogramacyjna",
+      "photo": "/photos/gallery/notShown/dwuczesciowaSzynaDeprogramacyjnaMiniaturka-compressed.webp",
+      "photoLightbox": "/photos/gallery/dwuczesciowaSzynaDeprogramacyjnaHorizontal-compressed.webp",
+      "objectPosition": "top"
     },
     {
       "id": 26,
@@ -133,9 +133,14 @@
       "photo": "/photos/gallery/szynaDeprogramacyjna02-compressed.webp"
     },
     {
+      "id": 27,
+      "name": "Szyna deprogramacyjna dolna",
+      "photo": "/photos/gallery/szynaDeprogramacyjnaDolna-compressed.webp"
+    },
+    {
       "id": 28,
       "name": "Transfery Ortodontyczne",
-      "photo": "/photos/gallery/transferyOrtodontyczne01-compressed.webp"
+      "photo": "/photos/gallery/transferyOrtodontyczne-compressed.webp"
     }
   ]
 }

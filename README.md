@@ -10,6 +10,14 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.5.7 - gallery updates
+
+    zmiany w galerii aparatów (`data/gallery.json`):
+    - dodane dwa nowe zdjęcia: `szynaDeprogramacyjnaDolna` (opis: "Szyna deprogramacyjna dolna") oraz `transferyOrtodontyczne` (opis: "Transfery Ortodontyczne")
+    - usunięte zdjęcie `transferyOrtodontyczne01`
+    - galeria posortowana alfabetycznie; trzy wpisy szyn deprogramacyjnych (Dwuczęściowa, Szyna Deprogramacyjna, Szyna deprogramacyjna dolna) zgrupowane razem pod literą S
+    - id przenumerowane kolejno 1–28 (bez dziur)
+
 ## ver 0.5.6 - /cennik highlight animation & mobile fix
 
     animacja po kliknięciu w link na stronie /cennik (`PriceListPicker`):
