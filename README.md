@@ -10,13 +10,27 @@ npm run dev
 
 ## CHANGE LOG
 
-## ver 0.5.7 - gallery updates
+## ver 0.5.8 - next & react update
+
+    aktualizacja zależności:
+    - next: 16.0.7 → 16.4.6
+    - react / react-dom: 18.3.1 → 19.3.1
+    - eslint-config-next: 15.0.3 → 16.4.6
+    - eslint: ^8 → ^10
+    - @next/env: ^15.2.1 → 16.4.6 (naprawa błędu Vercel: Can't resolve '@vercel/turbopack-next/internal/font/google/font')
+
+## ver 0.5.7 - gallery updates & cennik tile animations
 
     zmiany w galerii aparatów (`data/gallery.json`):
     - dodane dwa nowe zdjęcia: `szynaDeprogramacyjnaDolna` (opis: "Szyna deprogramacyjna dolna") oraz `transferyOrtodontyczne` (opis: "Transfery Ortodontyczne")
     - usunięte zdjęcie `transferyOrtodontyczne01`
     - galeria posortowana alfabetycznie; trzy wpisy szyn deprogramacyjnych (Dwuczęściowa, Szyna Deprogramacyjna, Szyna deprogramacyjna dolna) zgrupowane razem pod literą S
     - id przenumerowane kolejno 1–28 (bez dziur)
+
+    animacje kafelków na stronie /cennik (`PriceListDisplay`):
+    - każdy `PriceTile` opakowany w komponent `Reveal` (fade-in + slide z dołu, identycznie jak zdjęcia w galerii)
+    - opóźnienie narastające `index * 0.08s` per kafelek w każdej kolumnie
+    - dotyczy obu sekcji: Ortodoncja i Stomatologia
 
 ## ver 0.5.6 - /cennik highlight animation & mobile fix
 
