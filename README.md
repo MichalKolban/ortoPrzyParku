@@ -10,6 +10,11 @@ npm run dev
 
 ## CHANGE LOG
 
+## ver 0.5.9 - gallery order update
+
+    zmiana kolejności w galerii aparatów (`data/gallery.json`):
+    - InOffice - nakładki termoformowalne oraz Graphy - nakładki z pamięcią kształtu ustawione obok siebie (kolejno po sobie w siatce)
+
 ## ver 0.5.8 - next & react update
 
     aktualizacja zależności:

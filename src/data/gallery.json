@@ -46,6 +46,16 @@
       "photo": "/photos/gallery/expander01-compressed.webp"
     },
     {
+      "id": 15,
+      "name": "InOffice - nakładki termoformowalne",
+      "photo": "/photos/gallery/inOffice01-compressed.webp"
+    },
+    {
+      "id": 16,
+      "name": "InOffice - nakładki termoformowalne",
+      "photo": "/photos/gallery/inOffice02-compressed.webp"
+    },
+    {
       "id": 10,
       "name": "Graphy - nakładki z pamięcią kształtu",
       "photo": "/photos/gallery/graphy01-compressed.webp"
@@ -69,16 +79,6 @@
       "id": 14,
       "name": "Hyrax Na Szynach",
       "photo": "/photos/gallery/hyraxNaSzynach01-compressed.webp"
-    },
-    {
-      "id": 15,
-      "name": "InOffice - nakładki termoformowalne",
-      "photo": "/photos/gallery/inOffice01-compressed.webp"
-    },
-    {
-      "id": 16,
-      "name": "InOffice - nakładki termoformowalne",
-      "photo": "/photos/gallery/inOffice02-compressed.webp"
     },
     {
       "id": 17,
